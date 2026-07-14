@@ -1,0 +1,1 @@
+DỮ LIỆU THỬ NGHIỆM: Hình học đoạn đường trong V0.1.0 chỉ dùng để kiểm thử giao diện và thuật toán gần nhất; chưa được dùng làm căn cứ nghiệp vụ thẩm định giá.
