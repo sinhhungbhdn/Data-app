@@ -1,26 +1,23 @@
-# Bảo Tín – Tra cứu giá đất & hệ số điều chỉnh
+# Bảo Tín – Tra cứu giá đất V0.2.0
 
-Bản nháp V0.1.2 dùng để kiểm thử luồng nghiệp vụ trước khi nhập toàn bộ dữ liệu của Quyết định 03/2026/QĐ-UBND.
+Bản nháp V0.2.0 tập trung vào một luồng duy nhất:
 
-## Thay đổi V0.1.2
+1. Sao chép tọa độ, đường dẫn hoặc toàn bộ nội dung ghim Google Maps.
+2. Dán vào ô tra cứu.
+3. Ứng dụng tự bóc tọa độ, nhận diện tên đường, chọn đoạn gần nhất và trả hệ số.
+4. Chỉ mở mục “Điều chỉnh trường hợp đặc biệt” khi giả định mặc định không phù hợp.
 
-- `CHAY_UNG_DUNG.bat` mở trực tiếp ứng dụng, không còn phụ thuộc localhost hay Python.
-- Có `CHAY_LOCALHOST_TUY_CHON.bat` cho trường hợp cần chạy máy chủ cục bộ.
-- Bản đồ chạy chế độ nhẹ: tắt hiệu ứng, giới hạn vùng/độ phóng đại và giảm số ô nền lưu đệm.
-- Một ô duy nhất nhận tọa độ, đường dẫn Google Maps hoặc toàn bộ nội dung ghim đã sao chép.
-- Ứng dụng tự bóc tọa độ, nhận diện tên đường nếu có, lọc các đoạn phù hợp rồi chọn đoạn gần nhất theo hình học mẫu.
-- Nếu chỉ dán địa chỉ mà chưa có tọa độ, ứng dụng chỉ lọc theo tên đường; người dùng phải bổ sung tọa độ để chốt đúng đoạn.
+## Giả định mặc định
 
-## Cách dùng khuyến nghị
+- Loại đất: đất ở.
+- Vị trí: tiếp giáp đường chính.
+- Hệ số quy hoạch: 1,00 khi không có HSSD dự án được phê duyệt.
+- Yếu tố khác: 1,00 khi chưa có căn cứ xác định trường hợp đặc biệt.
 
-1. Trên Google Maps, bấm vào vị trí cần tra cứu.
-2. Sao chép dòng tọa độ màu xanh, ví dụ `10.926532, 106.798422`, hoặc sao chép đường dẫn Google Maps có chứa tọa độ.
-3. Dán vào ô “Tọa độ hoặc thông tin ghim Google Maps”.
-4. Bấm “Tự lọc”.
-5. Kiểm tra tuyến, đoạn và xác nhận điều kiện pháp lý.
+## Bản đồ
 
-Tọa độ là dữ liệu đầu vào ưu tiên. Địa chỉ hoặc tên địa điểm chỉ dùng để hỗ trợ lọc vì Google Maps có thể gắn địa chỉ hành chính hoặc tên địa điểm không trùng nguyên văn tên tuyến trong quyết định.
+Bản đồ không tải khi mở ứng dụng. Chỉ sau khi có tọa độ và người dùng bấm “Hiện bản đồ”, ứng dụng mới tải khung Google Maps để kiểm tra trực quan. Cách này tránh lag và không phụ thuộc Leaflet hoặc localhost.
 
 ## Phạm vi dữ liệu
 
-Bản đầu chỉ nhập một số dòng tiêu biểu của Phụ lục I.1, Bảng 1 – Phường Biên Hòa. Hình học polyline trên bản đồ là dữ liệu minh họa, chưa được kiểm duyệt địa lý và không được dùng làm căn cứ nghiệp vụ.
+Dữ liệu mẫu mới gồm một phần Phụ lục I.1, Bảng 1 – Phường Biên Hòa. Hình học tuyến là dữ liệu minh họa, chưa được kiểm duyệt địa lý.
