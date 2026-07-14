@@ -1,6 +1,6 @@
 # Bảo Tín – Tra cứu giá đất & hệ số điều chỉnh
 
-Bản nháp V0.1.0 dùng để kiểm thử luồng nghiệp vụ trước khi nhập toàn bộ dữ liệu của Quyết định 03/2026/QĐ-UBND.
+Bản nháp V0.1.1 dùng để kiểm thử luồng nghiệp vụ trước khi nhập toàn bộ dữ liệu của Quyết định 03/2026/QĐ-UBND.
 
 ## Phạm vi bản đầu
 
@@ -9,7 +9,9 @@ Bản nháp V0.1.0 dùng để kiểm thử luồng nghiệp vụ trước khi n
 - Gợi ý đoạn gần nhất theo lớp hình học mẫu.
 - Tra cứu thủ công tuyến/đoạn đường.
 - Chọn loại đất, quan hệ đường chính/đường nhánh, bề rộng, khoảng cách.
-- Tính hệ số tổng hợp từ hệ số thị trường, quy hoạch và yếu tố khác.
+- Tự tính hệ số quy hoạch theo HSSD của dự án và tự quy đổi hệ số yếu tố khác theo điều kiện đã xác nhận.
+- Sửa lỗi Leaflet CSS làm nền bản đồ vỡ ô, tải giật.
+- Chặn tọa độ nằm ngoài vùng dữ liệu mẫu để tránh tải sai khu vực.
 - Hiển thị căn cứ phụ lục, bảng, trang PDF và mã dữ liệu.
 - Sao chép kết quả và in phiếu.
 
@@ -19,7 +21,7 @@ Bản đầu chỉ nhập một số dòng tiêu biểu của Phụ lục I.1, B
 
 ## Chạy thử
 
-Mở `index.html` bằng trình duyệt có kết nối Internet. Ứng dụng dùng Leaflet và nền bản đồ OpenStreetMap qua CDN.
+Ưu tiên bấm `CHAY_UNG_DUNG.bat`; hoặc mở `index.html` bằng trình duyệt có kết nối Internet. Ứng dụng dùng Leaflet và nền bản đồ OpenStreetMap qua CDN.
 
 ## Nguyên tắc mở rộng
 
