@@ -9,15 +9,17 @@ Bản nháp V0.1.2 dùng để kiểm thử luồng nghiệp vụ trước khi n
 - Bản đồ chạy chế độ nhẹ: tắt hiệu ứng, giới hạn vùng/độ phóng đại và giảm số ô nền lưu đệm.
 - Một ô duy nhất nhận tọa độ, đường dẫn Google Maps hoặc toàn bộ nội dung ghim đã sao chép.
 - Ứng dụng tự bóc tọa độ, nhận diện tên đường nếu có, lọc các đoạn phù hợp rồi chọn đoạn gần nhất theo hình học mẫu.
-- Nếu chỉ dán địa chỉ mà chưa có tọa độ, ứng dụng vẫn lọc theo tên đường và yêu cầu bổ sung tọa độ để chốt đoạn.
+- Nếu chỉ dán địa chỉ mà chưa có tọa độ, ứng dụng chỉ lọc theo tên đường; người dùng phải bổ sung tọa độ để chốt đúng đoạn.
 
 ## Cách dùng khuyến nghị
 
 1. Trên Google Maps, bấm vào vị trí cần tra cứu.
-2. Sao chép dòng tọa độ màu xanh, ví dụ `10.926532, 106.798422`, hoặc sao chép đường dẫn Google Maps.
+2. Sao chép dòng tọa độ màu xanh, ví dụ `10.926532, 106.798422`, hoặc sao chép đường dẫn Google Maps có chứa tọa độ.
 3. Dán vào ô “Tọa độ hoặc thông tin ghim Google Maps”.
 4. Bấm “Tự lọc”.
 5. Kiểm tra tuyến, đoạn và xác nhận điều kiện pháp lý.
+
+Tọa độ là dữ liệu đầu vào ưu tiên. Địa chỉ hoặc tên địa điểm chỉ dùng để hỗ trợ lọc vì Google Maps có thể gắn địa chỉ hành chính hoặc tên địa điểm không trùng nguyên văn tên tuyến trong quyết định.
 
 ## Phạm vi dữ liệu
 
