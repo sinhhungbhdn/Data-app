@@ -6,8 +6,9 @@
   <meta name="description" content="Bản nháp tra cứu vị trí đất và hệ số điều chỉnh giá đất Bảo Tín" />
   <title>Bảo Tín | Tra cứu giá đất</title>
   <link rel="preconnect" href="https://unpkg.com" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhFwGZKbRzG2nGUvP7dJknJmJgA=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhFwGZKbRzG2nGUvP7DkW5d8E=" crossorigin="" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="patch-v0.1.1.css" />
 </head>
 <body>
   <header class="app-header">
@@ -24,7 +25,7 @@
     </div>
     <div class="header-actions">
       <button class="icon-button" id="printBtn" type="button" title="In phiếu kết quả">In phiếu</button>
-      <span class="version-badge">V0.1.0</span>
+      <span class="version-badge">V0.1.1</span>
     </div>
   </header>
 
@@ -235,11 +236,12 @@
 
   <footer class="app-footer">
     <span>CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ VÀ THẨM ĐỊNH GIÁ BẢO TÍN</span>
-    <span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.1.0</span>
+    <span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.1.1</span>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="data/segments.js"></script>
   <script src="app.js"></script>
+  <script src="patch-v0.1.1.js"></script>
 </body>
 </html>
