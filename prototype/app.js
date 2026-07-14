@@ -70,3 +70,21 @@
   $('manualTab').onclick=()=>document.querySelector('.search-panel').scrollIntoView({behavior:'smooth'});
   const modal=$('legalModal');$('legalTab').onclick=()=>modal.classList.remove('hidden');modal.querySelector('[data-close-modal]').onclick=()=>modal.classList.add('hidden');modal.onclick=e=>{if(e.target===modal)modal.classList.add('hidden')};
 })();
+
+(() => {
+  const addStylesheet = href => {
+    if (document.querySelector(`link[href="${href}"]`)) return;
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = href;
+    document.head.appendChild(link);
+  };
+
+  addStylesheet('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+  addStylesheet('patch-v0.1.1.css');
+
+  const patch = document.createElement('script');
+  patch.src = 'patch-v0.1.1.js';
+  patch.defer = true;
+  document.body.appendChild(patch);
+})();
