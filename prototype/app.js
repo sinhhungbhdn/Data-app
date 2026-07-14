@@ -35,6 +35,8 @@
     .replace(/\s+/g, ' ')
     .trim();
 
+  const insidePrototypeArea = point => point[0] >= 10.80 && point[0] <= 11.10 && point[1] >= 106.65 && point[1] <= 107.00;
+
   function setMessage(text, type = 'info') {
     $('searchMessage').textContent = text;
     $('searchMessage').dataset.type = type;
@@ -221,6 +223,14 @@
     if (!raw) {
       setMessage('Hãy dán tọa độ, đường dẫn hoặc thông tin ghim Google Maps.', 'error');
       setConfidence('low', 'Chưa tra cứu');
+      updateMapPreview();
+      renderResult();
+      return;
+    }
+
+    if (currentPoint && !insidePrototypeArea(currentPoint)) {
+      setMessage('Tọa độ nằm ngoài vùng dữ liệu mẫu Phường Biên Hòa. Ứng dụng không tự chọn đoạn để tránh trả sai.', 'error');
+      setConfidence('low', 'Ngoài vùng mẫu');
       updateMapPreview();
       renderResult();
       return;
