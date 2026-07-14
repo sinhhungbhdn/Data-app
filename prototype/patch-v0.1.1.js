@@ -1,6 +1,9 @@
 (() => {
   'use strict';
 
+  if (window.__BAO_TIN_PATCH_011_LOADED__) return;
+  window.__BAO_TIN_PATCH_011_LOADED__ = true;
+
   const $ = id => document.getElementById(id);
   const versionBadge = document.querySelector('.version-badge');
   const footerVersion = document.querySelector('.app-footer span:last-child');
