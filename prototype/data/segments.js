@@ -1,5 +1,5 @@
 /*
- * Dữ liệu thử nghiệm V0.1.0.
+ * Dữ liệu thử nghiệm V0.1.1.
  * Nội dung tuyến/đoạn/hệ số được nhập mẫu từ Phụ lục I.1, Bảng 1 – Phường Biên Hòa.
  * Hình học polyline chỉ phục vụ kiểm thử giao diện và thuật toán gần nhất; chưa kiểm duyệt địa lý.
  */
