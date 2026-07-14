@@ -14,219 +14,62 @@
   <header class="app-header">
     <div class="brand-lockup" aria-label="Bảo Tín">
       <div class="brand-mark" aria-hidden="true">BT</div>
-      <div>
-        <div class="brand-name">BẢO TÍN</div>
-        <div class="brand-slogan">GIÁ TRỊ THỰC – DỰNG NIỀM TIN</div>
-      </div>
+      <div><div class="brand-name">BẢO TÍN</div><div class="brand-slogan">GIÁ TRỊ THỰC – DỰNG NIỀM TIN</div></div>
     </div>
-    <div class="app-title-wrap">
-      <h1>TRA CỨU GIÁ ĐẤT &amp; HỆ SỐ ĐIỀU CHỈNH</h1>
-      <div class="app-subtitle">Bản đồ nghiệp vụ thẩm định giá</div>
-    </div>
-    <div class="header-actions">
-      <button class="icon-button" id="printBtn" type="button" title="In phiếu kết quả">In phiếu</button>
-      <span class="version-badge">V0.1.2</span>
-    </div>
+    <div class="app-title-wrap"><h1>TRA CỨU GIÁ ĐẤT &amp; HỆ SỐ ĐIỀU CHỈNH</h1><div class="app-subtitle">Bản đồ nghiệp vụ thẩm định giá</div></div>
+    <div class="header-actions"><button class="icon-button" id="printBtn" type="button" title="In phiếu kết quả">In phiếu</button><span class="version-badge">V0.1.2</span></div>
   </header>
 
   <nav class="app-nav" aria-label="Điều hướng chính">
-    <button class="nav-item active" type="button">Tra cứu bản đồ</button>
-    <button class="nav-item" type="button" id="manualTab">Tra cứu thủ công</button>
-    <button class="nav-item" type="button" id="legalTab">Căn cứ pháp lý</button>
-    <button class="nav-item disabled" type="button" disabled>Quản trị dữ liệu</button>
+    <button class="nav-item active" type="button">Tra cứu bản đồ</button><button class="nav-item" type="button" id="manualTab">Tra cứu thủ công</button><button class="nav-item" type="button" id="legalTab">Căn cứ pháp lý</button><button class="nav-item disabled" type="button" disabled>Quản trị dữ liệu</button>
   </nav>
 
-  <div class="draft-warning" role="status">
-    <strong>BẢN NHÁP NGHIỆP VỤ:</strong> Dữ liệu đoạn đường và hình học trên bản đồ đang ở chế độ minh họa, chưa được kiểm duyệt để dùng làm căn cứ phát hành chứng thư.
-  </div>
+  <div class="draft-warning" role="status"><strong>BẢN NHÁP NGHIỆP VỤ:</strong> Dữ liệu đoạn đường và hình học trên bản đồ đang ở chế độ minh họa, chưa được kiểm duyệt để dùng làm căn cứ phát hành chứng thư.</div>
 
   <main class="workspace">
     <aside class="panel search-panel" aria-label="Điều kiện tra cứu">
-      <div class="panel-heading">
-        <span class="step-number">1</span>
-        <div>
-          <h2>Xác định vị trí</h2>
-          <p>Dán tọa độ Google Maps hoặc bấm trực tiếp trên bản đồ.</p>
-        </div>
-      </div>
-
-      <label class="field-label" for="coordinateInput">Tọa độ vĩ độ, kinh độ</label>
-      <div class="inline-field">
-        <input id="coordinateInput" type="text" inputmode="decimal" value="10.9562, 106.8310" placeholder="Ví dụ: 10.9562, 106.8310" />
-        <button class="primary-button" id="locateBtn" type="button">Tìm</button>
-      </div>
-      <div class="mini-actions">
-        <button class="text-button" id="gpsBtn" type="button">Dùng vị trí hiện tại</button>
-        <button class="text-button" id="clearPinBtn" type="button">Xóa ghim</button>
-      </div>
+      <div class="panel-heading"><span class="step-number">1</span><div><h2>Xác định vị trí</h2><p>Dán tọa độ, đường dẫn hoặc thông tin ghim Google Maps.</p></div></div>
+      <label class="field-label" for="coordinateInput">Tọa độ hoặc thông tin ghim Google Maps</label>
+      <div class="inline-field"><input id="coordinateInput" type="text" inputmode="decimal" value="10.9562, 106.8310" placeholder="Dán tọa độ, đường dẫn hoặc thông tin ghim Google Maps" /><button class="primary-button" id="locateBtn" type="button">Tự lọc</button></div>
+      <div class="mini-actions"><button class="text-button" id="gpsBtn" type="button">Dùng vị trí hiện tại</button><button class="text-button" id="clearPinBtn" type="button">Xóa ghim</button></div>
       <div class="input-message" id="coordinateMessage" aria-live="polite"></div>
-
       <div class="separator"></div>
 
-      <div class="panel-heading compact">
-        <span class="step-number">2</span>
-        <div>
-          <h2>Điều kiện pháp lý</h2>
-          <p>Chọn hoặc xác nhận thông tin do hệ thống gợi ý.</p>
-        </div>
-      </div>
-
-      <label class="field-label" for="communeSelect">Xã/phường</label>
-      <select id="communeSelect">
-        <option value="Phường Biên Hòa">Phường Biên Hòa</option>
-      </select>
-
-      <label class="field-label" for="landTypeSelect">Loại đất</label>
-      <select id="landTypeSelect">
-        <option value="residential">Đất ở</option>
-        <option value="commercial">Đất thương mại, dịch vụ</option>
-        <option value="production">Đất cơ sở sản xuất phi nông nghiệp / khoáng sản</option>
-      </select>
-
-      <label class="field-label" for="roadSelect">Tuyến, đoạn đường</label>
-      <select id="roadSelect"></select>
-
-      <label class="field-label" for="accessTypeSelect">Quan hệ với đường chính</label>
-      <select id="accessTypeSelect">
-        <option value="main">Thửa đất tiếp giáp đường chính</option>
-        <option value="direct">Đường nhánh đấu nối trực tiếp</option>
-        <option value="indirect">Đường nhánh không đấu nối trực tiếp nhưng thông ra</option>
-      </select>
+      <div class="panel-heading compact"><span class="step-number">2</span><div><h2>Điều kiện pháp lý</h2><p>Chọn hoặc xác nhận thông tin do hệ thống gợi ý.</p></div></div>
+      <label class="field-label" for="communeSelect">Xã/phường</label><select id="communeSelect"><option value="Phường Biên Hòa">Phường Biên Hòa</option></select>
+      <label class="field-label" for="landTypeSelect">Loại đất</label><select id="landTypeSelect"><option value="residential">Đất ở</option><option value="commercial">Đất thương mại, dịch vụ</option><option value="production">Đất cơ sở sản xuất phi nông nghiệp / khoáng sản</option></select>
+      <label class="field-label" for="roadSelect">Tuyến, đoạn đường</label><select id="roadSelect"></select>
+      <label class="field-label" for="accessTypeSelect">Quan hệ với đường chính</label><select id="accessTypeSelect"><option value="main">Thửa đất tiếp giáp đường chính</option><option value="direct">Đường nhánh đấu nối trực tiếp</option><option value="indirect">Đường nhánh không đấu nối trực tiếp nhưng thông ra</option></select>
 
       <div id="branchConditions" class="branch-conditions hidden">
-        <div class="two-column-fields">
-          <div>
-            <label class="field-label" for="surfaceSelect">Mặt đường</label>
-            <select id="surfaceSelect">
-              <option value="paved">Nhựa / bê tông xi măng</option>
-              <option value="unpaved">Đất / đá / sỏi / cấp phối</option>
-            </select>
-          </div>
-          <div>
-            <label class="field-label" for="widthSelect">Bề rộng</label>
-            <select id="widthSelect">
-              <option value="gte5">Từ 5 m trở lên</option>
-              <option value="3to5">Từ 3 m đến dưới 5 m</option>
-              <option value="lt3">Dưới 3 m</option>
-            </select>
-          </div>
-        </div>
-        <label class="field-label" for="distanceInput">Khoảng cách đến đường chính (m)</label>
-        <input id="distanceInput" type="number" min="0" step="1" value="120" />
+        <div class="two-column-fields"><div><label class="field-label" for="surfaceSelect">Mặt đường</label><select id="surfaceSelect"><option value="paved">Nhựa / bê tông xi măng</option><option value="unpaved">Đất / đá / sỏi / cấp phối</option></select></div><div><label class="field-label" for="widthSelect">Bề rộng</label><select id="widthSelect"><option value="gte5">Từ 5 m trở lên</option><option value="3to5">Từ 3 m đến dưới 5 m</option><option value="lt3">Dưới 3 m</option></select></div></div>
+        <label class="field-label" for="distanceInput">Khoảng cách đến đường chính (m)</label><input id="distanceInput" type="number" min="0" step="1" value="120" />
       </div>
 
-      <div class="two-column-fields">
-        <div>
-          <label class="field-label" for="planningFactor">Hệ số quy hoạch</label>
-          <select id="planningFactor">
-            <option value="1">1,00</option>
-            <option value="1.05">1,05</option>
-            <option value="1.1">1,10</option>
-            <option value="1.15">1,15</option>
-          </select>
-        </div>
-        <div>
-          <label class="field-label" for="otherFactor">Yếu tố khác</label>
-          <select id="otherFactor">
-            <option value="1">1,00</option>
-            <option value="1.05">1,05</option>
-            <option value="0.95">0,95</option>
-            <option value="0.9">0,90</option>
-          </select>
-        </div>
-      </div>
-
+      <div class="two-column-fields"><div><label class="field-label" for="planningFactor">Hệ số quy hoạch</label><select id="planningFactor"><option value="1">1,00</option><option value="1.05">1,05</option><option value="1.1">1,10</option><option value="1.15">1,15</option></select></div><div><label class="field-label" for="otherFactor">Yếu tố khác</label><select id="otherFactor"><option value="1">1,00</option><option value="1.05">1,05</option><option value="0.95">0,95</option><option value="0.9">0,90</option></select></div></div>
       <button class="secondary-button full-width" id="confirmBtn" type="button">Xác nhận đoạn và điều kiện</button>
     </aside>
 
     <section class="map-panel" aria-label="Bản đồ tra cứu">
-      <div class="map-toolbar">
-        <div>
-          <strong>Bản đồ vị trí</strong>
-          <span id="mapHint">Bấm lên bản đồ để đặt ghim.</span>
-        </div>
-        <div class="legend" aria-label="Chú giải">
-          <span><i class="legend-dot pin"></i>Vị trí tra cứu</span>
-          <span><i class="legend-line selected"></i>Đoạn đang chọn</span>
-          <span><i class="legend-line draft"></i>Dữ liệu nháp</span>
-        </div>
-      </div>
+      <div class="map-toolbar"><div><strong>Bản đồ vị trí</strong><span id="mapHint">Chế độ nhẹ: ưu tiên dán tọa độ, bản đồ dùng để kiểm tra.</span></div><div class="legend" aria-label="Chú giải"><span><i class="legend-dot pin"></i>Vị trí tra cứu</span><span><i class="legend-line selected"></i>Đoạn đang chọn</span><span><i class="legend-line draft"></i>Dữ liệu nháp</span></div></div>
       <div id="map" role="application" aria-label="Bản đồ chọn vị trí"></div>
-      <div class="map-footer">
-        <span id="selectedCoordinate">Tọa độ: 10.956200, 106.831000</span>
-        <a id="googleMapsLink" href="https://www.google.com/maps?q=10.9562,106.8310" target="_blank" rel="noopener">Mở trên Google Maps</a>
-      </div>
+      <div class="map-footer"><span id="selectedCoordinate">Tọa độ: 10.956200, 106.831000</span><a id="googleMapsLink" href="https://www.google.com/maps?q=10.9562,106.8310" target="_blank" rel="noopener">Mở trên Google Maps</a></div>
     </section>
 
     <aside class="panel result-panel" aria-label="Kết quả tra cứu">
-      <div class="panel-heading">
-        <span class="step-number gold">3</span>
-        <div>
-          <h2>Kết quả dự kiến</h2>
-          <p>Kiểm tra lại trước khi sử dụng nghiệp vụ.</p>
-        </div>
-      </div>
-
-      <div class="confidence-card" id="confidenceCard">
-        <div>
-          <span class="status-label">Độ tin cậy</span>
-          <strong id="confidenceText">Trung bình</strong>
-        </div>
-        <span class="status-pill draft" id="reviewStatus">Chưa kiểm duyệt</span>
-      </div>
-
-      <dl class="result-list">
-        <div><dt>Địa bàn</dt><dd id="resultCommune">Phường Biên Hòa</dd></div>
-        <div><dt>Tuyến đường</dt><dd id="resultRoad">—</dd></div>
-        <div><dt>Đoạn đường</dt><dd id="resultSegment">—</dd></div>
-        <div><dt>Quan hệ vị trí</dt><dd id="resultAccess">Tiếp giáp đường chính</dd></div>
-        <div><dt>Loại đất</dt><dd id="resultLandType">Đất ở</dd></div>
-      </dl>
-
-      <div class="factor-grid">
-        <div class="factor-card primary"><span>Hệ số biến động thị trường</span><strong id="marketFactor">1,26</strong></div>
-        <div class="factor-card"><span>Hệ số quy hoạch</span><strong id="planningFactorResult">1,00</strong></div>
-        <div class="factor-card"><span>Yếu tố khác</span><strong id="otherFactorResult">1,00</strong></div>
-        <div class="factor-card total"><span>Hệ số tổng hợp</span><strong id="totalFactor">1,26</strong></div>
-      </div>
-
-      <div class="formula-box">
-        <div class="formula-title">Công thức đang áp dụng</div>
-        <div class="formula">Giá đất áp dụng = Giá bảng × <strong id="formulaMarket">1,26</strong> × <strong id="formulaPlanning">1,00</strong> × <strong id="formulaOther">1,00</strong></div>
-      </div>
-
-      <div class="legal-source">
-        <h3>Căn cứ nguồn</h3>
-        <p id="legalSourceText">Quyết định 03/2026/QĐ-UBND – Phụ lục I.1, Bảng 1.</p>
-        <div class="source-meta"><span id="sourcePage">Trang PDF: —</span><span id="sourceRecord">Mã dữ liệu: —</span></div>
-      </div>
-
-      <div class="result-actions">
-        <button class="primary-button full-width" id="copyBtn" type="button">Sao chép kết quả</button>
-        <button class="text-button full-width" id="resetBtn" type="button">Làm mới tra cứu</button>
-      </div>
-      <div class="copy-message" id="copyMessage" aria-live="polite"></div>
+      <div class="panel-heading"><span class="step-number gold">3</span><div><h2>Kết quả dự kiến</h2><p>Kiểm tra lại trước khi sử dụng nghiệp vụ.</p></div></div>
+      <div class="confidence-card" id="confidenceCard"><div><span class="status-label">Độ tin cậy</span><strong id="confidenceText">Trung bình</strong></div><span class="status-pill draft" id="reviewStatus">Chưa kiểm duyệt</span></div>
+      <dl class="result-list"><div><dt>Địa bàn</dt><dd id="resultCommune">Phường Biên Hòa</dd></div><div><dt>Tuyến đường</dt><dd id="resultRoad">—</dd></div><div><dt>Đoạn đường</dt><dd id="resultSegment">—</dd></div><div><dt>Quan hệ vị trí</dt><dd id="resultAccess">Tiếp giáp đường chính</dd></div><div><dt>Loại đất</dt><dd id="resultLandType">Đất ở</dd></div></dl>
+      <div class="factor-grid"><div class="factor-card primary"><span>Hệ số biến động thị trường</span><strong id="marketFactor">1,26</strong></div><div class="factor-card"><span>Hệ số quy hoạch</span><strong id="planningFactorResult">1,00</strong></div><div class="factor-card"><span>Yếu tố khác</span><strong id="otherFactorResult">1,00</strong></div><div class="factor-card total"><span>Hệ số tổng hợp</span><strong id="totalFactor">1,26</strong></div></div>
+      <div class="formula-box"><div class="formula-title">Công thức đang áp dụng</div><div class="formula">Giá đất áp dụng = Giá bảng × <strong id="formulaMarket">1,26</strong> × <strong id="formulaPlanning">1,00</strong> × <strong id="formulaOther">1,00</strong></div></div>
+      <div class="legal-source"><h3>Căn cứ nguồn</h3><p id="legalSourceText">Quyết định 03/2026/QĐ-UBND – Phụ lục I.1, Bảng 1.</p><div class="source-meta"><span id="sourcePage">Trang PDF: —</span><span id="sourceRecord">Mã dữ liệu: —</span></div></div>
+      <div class="result-actions"><button class="primary-button full-width" id="copyBtn" type="button">Sao chép kết quả</button><button class="text-button full-width" id="resetBtn" type="button">Làm mới tra cứu</button></div><div class="copy-message" id="copyMessage" aria-live="polite"></div>
     </aside>
   </main>
 
-  <section class="modal hidden" id="legalModal" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle">
-    <div class="modal-card">
-      <button class="modal-close" data-close-modal type="button" aria-label="Đóng">×</button>
-      <h2 id="legalModalTitle">Căn cứ pháp lý bản nháp</h2>
-      <p><strong>Quyết định số 03/2026/QĐ-UBND ngày 11/5/2026</strong> quy định hệ số điều chỉnh giá đất trên địa bàn thành phố Đồng Nai năm 2026.</p>
-      <p>Bản nháp hiện mới tích hợp một phần Phụ lục I.1 – Bảng 1, Phường Biên Hòa. Dữ liệu hình học đoạn đường trên bản đồ là dữ liệu minh họa để kiểm thử luồng tra cứu.</p>
-      <p>Mọi kết quả phải được đối chiếu với PDF gốc, xác nhận mốc đầu – mốc cuối và trạng thái kiểm duyệt trước khi dùng trong hồ sơ thẩm định giá.</p>
-    </div>
-  </section>
+  <section class="modal hidden" id="legalModal" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle"><div class="modal-card"><button class="modal-close" data-close-modal type="button" aria-label="Đóng">×</button><h2 id="legalModalTitle">Căn cứ pháp lý bản nháp</h2><p><strong>Quyết định số 03/2026/QĐ-UBND ngày 11/5/2026</strong> quy định hệ số điều chỉnh giá đất trên địa bàn thành phố Đồng Nai năm 2026.</p><p>Bản nháp hiện mới tích hợp một phần Phụ lục I.1 – Bảng 1, Phường Biên Hòa. Dữ liệu hình học đoạn đường trên bản đồ là dữ liệu minh họa để kiểm thử luồng tra cứu.</p><p>Mọi kết quả phải được đối chiếu với PDF gốc, xác nhận mốc đầu – mốc cuối và trạng thái kiểm duyệt trước khi dùng trong hồ sơ thẩm định giá.</p></div></section>
 
-  <footer class="app-footer">
-    <span>CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ VÀ THẨM ĐỊNH GIÁ BẢO TÍN</span>
-    <span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.1.2</span>
-  </footer>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="data/segments.js"></script>
-  <script src="app.js"></script>
-  <script src="patch-v0.1.1.js"></script>
+  <footer class="app-footer"><span>CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ VÀ THẨM ĐỊNH GIÁ BẢO TÍN</span><span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.1.2</span></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script src="data/segments.js"></script><script src="app.js"></script><script src="patch-v0.1.1.js"></script>
 </body>
 </html>
