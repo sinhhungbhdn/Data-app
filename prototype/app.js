@@ -208,6 +208,13 @@
     currentRaw = raw;
     selected = null;
     currentDistance = null;
+    mapLoaded = false;
+    $('mapFrame').src = '';
+    $('mapFrame').classList.add('hidden');
+    $('mapPlaceholder').classList.remove('hidden');
+    $('mapPlaceholder').querySelector('strong').textContent = 'Chưa tải bản đồ';
+    $('mapPlaceholder').querySelector('span').textContent = 'Bấm “Hiện bản đồ” khi cần kiểm tra.';
+    $('toggleMapBtn').textContent = 'Hiện bản đồ';
     currentPoint = extractCoordinate(raw);
     const roadCandidates = roadMatches(raw);
 
