@@ -2,6 +2,11 @@
   'use strict';
 
   const $ = id => document.getElementById(id);
+  const versionBadge = document.querySelector('.version-badge');
+  const footerVersion = document.querySelector('.app-footer span:last-child');
+  if (versionBadge) versionBadge.textContent = 'V0.1.1';
+  if (footerVersion) footerVersion.textContent = 'Phát triển bởi Nguyễn Mạnh Cường · Version: V0.1.1';
+
   const planningSelect = $('planningFactor');
   const otherSelect = $('otherFactor');
   const locateButton = $('locateBtn');
