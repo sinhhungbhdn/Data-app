@@ -3,166 +3,102 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Bảo Tín - Bản thử nghiệm dữ liệu tra cứu hệ số điều chỉnh giá đất">
-  <title>Bảo Tín | Thử nghiệm dữ liệu giá đất</title>
-  <link rel="stylesheet" href="styles-v0.4.0.css">
+  <meta name="description" content="Bảo Tín - Tra cứu toàn bộ dữ liệu Quyết định 03/2026/QĐ-UBND">
+  <title>Bảo Tín | Tra cứu hệ số giá đất</title>
+  <link rel="stylesheet" href="styles-v0.5.0.css">
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">
-      <div class="brand-mark">BT</div>
-      <div><strong>BẢO TÍN</strong><small>GIÁ TRỊ THỰC - DỰNG NIỀM TIN</small></div>
-    </div>
-    <div class="title-block">
-      <h1>THỬ NGHIỆM DỮ LIỆU GIÁ ĐẤT</h1>
-      <p>Đối chiếu vị trí với Quyết định 03/2026/QĐ-UBND</p>
-    </div>
-    <span class="version">V0.4.0</span>
+    <div class="brand"><div class="brand-mark">BT</div><div><strong>BẢO TÍN</strong><small>GIÁ TRỊ THỰC - DỰNG NIỀM TIN</small></div></div>
+    <div class="title-block"><h1>TRA CỨU HỆ SỐ ĐIỀU CHỈNH GIÁ ĐẤT</h1><p>Dữ liệu Quyết định 03/2026/QĐ-UBND · toàn bộ 95 địa bàn</p></div>
+    <span class="version">V0.5.0</span>
   </header>
 
   <main class="shell">
     <section class="notice">
-      <strong>Phạm vi bản thử nghiệm:</strong> đã nhập đầy đủ 107 dòng Phụ lục I.1 - Bảng 1 - Phường Biên Hòa. Chưa có file bảng giá đất Nhà nước nên app chưa trả đơn giá Nhà nước chính thức.
+      <strong>Bản kiểm thử dữ liệu toàn thành phố:</strong> dữ liệu được tách theo địa bàn và chỉ tải phần đang tra cứu. Google Maps chỉ để mở vị trí; app không tự xác định tuyến, bề rộng hoặc khoảng cách. Các dòng điều kiện phức tạp sẽ yêu cầu chọn đúng nguyên văn thay vì tự đoán.
     </section>
 
     <section class="status-grid">
-      <article class="status-card ok">
-        <span>Hệ số QĐ 03</span>
-        <strong id="factorDataCount">107 dòng</strong>
-        <small>Phường Biên Hòa - PDF trang 11-21</small>
-      </article>
-      <article class="status-card ok">
-        <span>Đoạn đường chuẩn</span>
-        <strong id="segmentDataCount">15 đoạn</strong>
-        <small>TT liên tục và đủ 3 cột hệ số</small>
-      </article>
-      <article class="status-card pending">
-        <span>Bảng giá Nhà nước</span>
-        <strong>0 dòng</strong>
-        <small>Chưa có file nguồn để nhập chính xác</small>
-      </article>
+      <article class="status-card ok"><span>Dòng dữ liệu QĐ 03</span><strong id="rowCount">—</strong><small>Phụ lục I.1 và I.2</small></article>
+      <article class="status-card ok"><span>Địa bàn / bảng</span><strong id="areaCount">—</strong><small id="tableCount">—</small></article>
+      <article class="status-card warn"><span>Tự dò điều kiện hoàn chỉnh</span><strong id="autoCount">—</strong><small>Dòng phức tạp vẫn cho chọn nguyên văn</small></article>
+      <article class="status-card pending"><span>Bảng giá Nhà nước NQ 28</span><strong>Chưa có</strong><small>Chưa tính được đơn giá chính thức</small></article>
     </section>
 
     <section class="card location-card">
-      <div class="card-head">
-        <div class="step">1</div>
-        <div><h2>Nạp vị trí từ Google Maps</h2><p>Dán tọa độ, địa chỉ, tên địa điểm hoặc đường dẫn Google Maps.</p></div>
-      </div>
-      <textarea id="mapInput" rows="3" placeholder="Ví dụ: 10.936041, 106.811617 hoặc Hẻm 863, Bùi Hữu Nghĩa, Biên Hòa"></textarea>
-      <div class="actions">
-        <button class="primary" id="loadLocationBtn" type="button">Nạp vị trí</button>
-        <button class="secondary" id="openMapBtn" type="button" disabled>Mở Google Maps</button>
-        <button class="link-button" id="clearLocationBtn" type="button">Xóa</button>
-      </div>
+      <div class="card-head"><div class="step">1</div><div><h2>Nạp vị trí từ Google Maps</h2><p>Dán tọa độ, địa chỉ, tên địa điểm hoặc liên kết Google Maps.</p></div></div>
+      <textarea id="mapInput" rows="3" placeholder="Ví dụ: 10.936041, 106.811617 hoặc Nghĩa trang Sùng Chính Phước Kiến"></textarea>
+      <div class="actions"><button class="primary" id="loadLocationBtn" type="button">Nạp vị trí</button><button class="secondary" id="openMapBtn" type="button" disabled>Mở Google Maps</button><button class="link-button" id="clearLocationBtn" type="button">Xóa</button></div>
       <div class="location-summary" id="locationSummary">Chưa nạp vị trí.</div>
     </section>
 
     <section class="card">
-      <div class="card-head">
-        <div class="step gold">2</div>
-        <div><h2>Chọn tuyến và điều kiện thực tế</h2><p>Khoảng cách chỉ dùng khi chọn đường đấu nối hoặc đường thông ra tuyến chính.</p></div>
-      </div>
-
+      <div class="card-head"><div class="step gold">2</div><div><h2>Chọn địa bàn và tuyến pháp lý</h2><p>Tìm theo tên đường, điểm đầu, điểm cuối hoặc mốc như “nghĩa trang”.</p></div><span class="badge" id="loadedAreaBadge">Chưa tải</span></div>
       <div class="form-grid">
-        <div class="field">
-          <label for="roadSelect">Tuyến trong Quyết định</label>
-          <select id="roadSelect"></select>
-        </div>
-        <div class="field span-2">
-          <label for="segmentSelect">Đoạn đường</label>
-          <select id="segmentSelect"></select>
-        </div>
-        <div class="field">
-          <label for="landTypeSelect">Loại đất</label>
-          <select id="landTypeSelect">
-            <option value="residential">Đất ở</option>
-            <option value="commercial">Đất thương mại, dịch vụ</option>
-            <option value="production">Đất cơ sở sản xuất phi nông nghiệp / khoáng sản</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="relationSelect">Quan hệ với tuyến chính</label>
-          <select id="relationSelect">
-            <option value="main">Tiếp giáp trực tiếp tuyến chính</option>
-            <option value="direct">Đường đấu nối trực tiếp ra tuyến chính</option>
-            <option value="indirect">Đường không đấu nối trực tiếp nhưng thông ra tuyến chính</option>
-          </select>
-        </div>
-        <div class="field branch-only hidden">
-          <label>Hiện trạng mặt đường</label>
-          <div class="fixed-value">Nhựa / bê tông xi măng</div>
-        </div>
-        <div class="field branch-only hidden">
-          <label for="widthSelect">Bề rộng đường</label>
-          <select id="widthSelect">
-            <option value="">- Chọn bề rộng -</option>
-            <option value="gte5">Từ 5 m trở lên</option>
-            <option value="3to5">Từ 3 m đến dưới 5 m</option>
-            <option value="lt3">Dưới 3 m</option>
-          </select>
-        </div>
-        <div class="field branch-only hidden">
-          <label for="distanceInput">Khoảng cách đến tuyến chính (m)</label>
-          <input id="distanceInput" type="number" min="0" step="1" inputmode="numeric" placeholder="Ví dụ: 197">
-        </div>
+        <div class="field"><label for="areaSelect">Xã/phường</label><select id="areaSelect"></select></div>
+        <div class="field"><label for="sectionSelect">Nhóm đất</label><select id="sectionSelect"><option value="I1">Đất phi nông nghiệp</option><option value="I2">Đất nông nghiệp</option></select></div>
+        <div class="field" id="landTypeField"><label for="landTypeSelect">Loại đất phi nông nghiệp</label><select id="landTypeSelect"><option value="residential">Đất ở</option><option value="commercial">Đất thương mại, dịch vụ</option><option value="production">Đất cơ sở SX phi nông nghiệp / khoáng sản</option></select></div>
+        <div class="field span-3"><label for="routeSearch">Lọc tuyến/đoạn</label><input id="routeSearch" type="search" placeholder="Gõ tên đường, mốc đầu/cuối, nghĩa trang, cầu, quốc lộ..."></div>
+        <div class="field span-3"><label for="baseSelect">Dòng tuyến hoặc đoạn gốc trong Quyết định</label><select id="baseSelect" size="7"></select><small id="baseCountText">Chưa có dữ liệu.</small></div>
       </div>
+    </section>
 
-      <details class="test-price">
-        <summary>Kiểm thử công thức với một mức giá bảng giả định</summary>
-        <div class="field test-price-field">
-          <label for="testPriceInput">Giá bảng kiểm thử (đồng/m²)</label>
-          <input id="testPriceInput" type="number" min="0" step="1" inputmode="numeric" placeholder="Không phải giá pháp lý chính thức">
-          <small>Chỉ dùng thử công thức vì chưa có file bảng giá đất Nhà nước.</small>
-        </div>
-      </details>
-
-      <div class="actions">
-        <button class="primary" id="matchBtn" type="button">Đối chiếu dữ liệu</button>
-        <button class="secondary" id="addCompareBtn" type="button" disabled>Thêm vào so sánh</button>
+    <section class="card">
+      <div class="card-head"><div class="step gold">3</div><div><h2>Nhập điều kiện thực tế</h2><p>Chọn quan hệ với tuyến, hiện trạng mặt đường, bề rộng và khoảng cách đã xác định ngoài thực địa/Google Maps.</p></div></div>
+      <div class="form-grid">
+        <div class="field"><label for="relationSelect">Quan hệ với tuyến/đoạn đã chọn</label><select id="relationSelect"><option value="main">Thuộc trực tiếp dòng tuyến/đoạn này</option><option value="direct">Đường đấu nối trực tiếp ra tuyến</option><option value="indirect">Đường không đấu nối trực tiếp nhưng thông ra tuyến</option></select></div>
+        <div class="field branch-only hidden"><label for="surfaceSelect">Hiện trạng mặt đường</label><select id="surfaceSelect"><option value="p">Nhựa / bê tông xi măng</option><option value="n">Đường đất / đá / cấp phối / chưa đầu tư</option><option value="x">Không xác định / xem nguyên văn</option></select></div>
+        <div class="field branch-only hidden"><label for="widthInput">Bề rộng đường thực tế (m)</label><input id="widthInput" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ví dụ: 3.5"></div>
+        <div class="field branch-only hidden"><label for="distanceInput">Khoảng cách đến tuyến chính (m)</label><input id="distanceInput" type="number" min="0" step="1" inputmode="numeric" placeholder="Ví dụ: 197"></div>
+        <div class="field"><label for="fsiInput">Hệ số sử dụng đất theo quy hoạch (lần)</label><input id="fsiInput" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Bỏ trống = hệ số 1,00"></div>
+        <div class="field span-2"><label for="influenceSelect">Yếu tố ảnh hưởng khác – Phụ lục III</label><select id="influenceSelect"></select></div>
+        <div class="field span-2"><label for="statePriceInput">Giá đất theo NQ 28 nhập thủ công để tính thử (đồng/m²)</label><input id="statePriceInput" type="number" min="0" step="1" inputmode="numeric" placeholder="Không phải dữ liệu tự lấy từ app"></div>
       </div>
+      <div class="actions"><button class="primary" id="matchBtn" type="button">Dò dòng phù hợp</button><button class="secondary" id="resetConditionBtn" type="button">Xóa điều kiện</button></div>
       <div class="form-message" id="formMessage"></div>
     </section>
 
-    <section class="card result-card">
-      <div class="card-head">
-        <div class="step gold">3</div>
-        <div><h2>Kết quả đối chiếu</h2><p>App xác định đúng TT và hệ số từ bộ dữ liệu đã nhập.</p></div>
-        <span class="badge" id="resultStatus">Chưa đối chiếu</span>
-      </div>
-
-      <div class="result-grid">
-        <div><span>Tuyến</span><strong id="resultRoad">-</strong></div>
-        <div><span>Đoạn</span><strong id="resultSegment">-</strong></div>
-        <div><span>Điều kiện áp dụng</span><strong id="resultCondition">-</strong></div>
-        <div><span>Dòng áp dụng</span><strong id="resultTt">-</strong></div>
-        <div class="highlight"><span>Hệ số biến động thị trường</span><strong id="resultFactor">-</strong></div>
-        <div><span>Nguồn pháp lý</span><strong id="resultSource">-</strong></div>
-        <div class="pending-result"><span>Giá đất theo bảng giá Nhà nước</span><strong>Chưa có dữ liệu nguồn</strong></div>
-        <div><span>Giá sau điều chỉnh thử nghiệm</span><strong id="resultTestPrice">-</strong></div>
-      </div>
+    <section class="card candidate-card hidden" id="candidateCard">
+      <div class="card-head"><div class="step gold">4</div><div><h2>Các dòng có khả năng áp dụng</h2><p id="candidateNote">Chọn đúng dòng theo nguyên văn Quyết định.</p></div><span class="badge" id="candidateCount">0 dòng</span></div>
+      <div id="candidateList" class="candidate-list"></div>
     </section>
 
-    <section class="card comparison-card">
-      <div class="card-head">
-        <div class="step gold">4</div>
-        <div><h2>So sánh tối đa 3 phương án</h2><p>Ví dụ: Bùi Hữu Nghĩa và Nguyễn Thị Tồn.</p></div>
-        <span class="badge" id="compareCount">0/3</span>
+    <section class="card result-card">
+      <div class="card-head"><div class="step gold">5</div><div><h2>Kết quả đã chọn</h2><p>Hiển thị TT, hệ số, các hệ số bổ sung và nguồn PDF.</p></div><span class="badge" id="resultStatus">Chưa có kết quả</span></div>
+      <div class="result-grid">
+        <div><span>Địa bàn</span><strong id="resultArea">—</strong></div>
+        <div><span>Nhóm / loại đất</span><strong id="resultLand">—</strong></div>
+        <div><span>Tuyến</span><strong id="resultRoad">—</strong></div>
+        <div><span>Đoạn / phạm vi</span><strong id="resultSegment">—</strong></div>
+        <div><span>Điều kiện áp dụng</span><strong id="resultCondition">—</strong></div>
+        <div><span>Dòng nguồn</span><strong id="resultTt">—</strong></div>
+        <div class="highlight"><span>HS biến động thị trường</span><strong id="marketFactor">—</strong></div>
+        <div><span>HS quy hoạch</span><strong id="planningFactor">—</strong></div>
+        <div><span>HS yếu tố ảnh hưởng</span><strong id="influenceFactor">—</strong></div>
+        <div class="highlight"><span>Hệ số kết hợp</span><strong id="combinedFactor">—</strong></div>
+        <div><span>Nguồn pháp lý</span><strong id="resultSource">—</strong></div>
+        <div class="pending-result"><span>Giá đất theo bảng giá Nhà nước</span><strong id="statePriceStatus">Chưa có bộ dữ liệu NQ 28</strong></div>
+        <div class="wide"><span>Giá tính thử từ số nhập thủ công</span><strong id="adjustedPrice">—</strong></div>
       </div>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>#</th><th>Tuyến - đoạn</th><th>Điều kiện</th><th>TT</th><th>Hệ số</th><th>Nguồn</th><th></th></tr></thead>
-          <tbody id="compareBody"><tr><td colspan="7" class="empty">Chưa có phương án so sánh.</td></tr></tbody>
-        </table>
-      </div>
+      <div class="result-warning" id="resultWarning"></div>
+    </section>
+
+    <section class="card data-check-card">
+      <details>
+        <summary>Thông tin kiểm tra bộ dữ liệu</summary>
+        <div class="data-check-grid">
+          <div><span>Dòng I.1</span><strong id="i1Count">—</strong></div><div><span>Dòng I.2</span><strong id="i2Count">—</strong></div><div><span>Dòng điều kiện hoàn chỉnh</span><strong id="completeCount">—</strong></div><div><span>Dòng cần xác nhận thêm</span><strong id="manualCount">—</strong></div>
+        </div>
+        <p>TT trùng hoặc đánh lại số trong chính PDF được giữ nguyên và được phân biệt bằng trang PDF + thứ tự dòng nội bộ. Một ô hệ số bị watermark chồng chữ được đánh dấu riêng trong dữ liệu, không che giấu việc hiệu chỉnh.</p>
+      </details>
     </section>
   </main>
 
-  <footer>
-    <span>CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ VÀ THẨM ĐỊNH GIÁ BẢO TÍN</span>
-    <span>Phát triển bởi Nguyễn Mạnh Cường - Version: V0.4.0</span>
-  </footer>
+  <footer><span>CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ VÀ THẨM ĐỊNH GIÁ BẢO TÍN</span><span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.5.0</span></footer>
 
-  <script src="data/qd03-bienhoa-full.js"></script>
+  <script src="data/v0.5/manifest.js"></script>
+  <script src="data/v0.5/appendix-rules.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
