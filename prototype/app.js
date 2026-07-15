@@ -1,63 +1,239 @@
 (() => {
   'use strict';
-  const segments = window.BAO_TIN_SEGMENTS || [];
+
+  const data = window.BAO_TIN_QD03_DATA || { manifest: {}, rows: [] };
+  const rows = data.rows || [];
+  const baseRows = rows.filter(row => row.relation === 'main');
   const $ = id => document.getElementById(id);
-  const KEY = 'baoTinLand.savedLocations.v0.3.3';
-  const ALIASES = {
-    'Đường Bùi Hữu Nghĩa': ['ĐT16','ĐT 16','Tỉnh lộ 16','Tỉnh lộ 16B'],
-    'Đường Nguyễn Ái Quốc': ['QL1K','Quốc lộ 1K'],
-    'Đường Nguyễn Tri Phương': [], 'Đường Nguyễn Văn Lung': [],
-    'Đường Trần Văn Ơn': [], 'Đường Hoàng Minh Chánh': []
+  const relationLabels = {
+    main: 'Tiếp giáp trực tiếp tuyến chính',
+    direct: 'Đường đấu nối trực tiếp ra tuyến chính',
+    indirect: 'Đường không đấu nối trực tiếp nhưng thông ra tuyến chính'
   };
-  let raw='', coord=null, address='', mapLoaded=false;
-  let slots=Array.from({length:3},()=>({road:'',segmentId:''}));
-  let saved=loadSaved();
-  const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
-  const norm=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase().replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim();
-  const fmt=v=>Number(v).toLocaleString('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2});
-  const roads=()=>[...new Set(segments.map(s=>s.road))].sort((a,b)=>a.localeCompare(b,'vi'));
-  const segs=r=>segments.filter(s=>s.road===r);
-  const seg=id=>segments.find(s=>s.id===id)||null;
-  function extractCoord(text){
-    let t=String(text||''); try{t=decodeURIComponent(t)}catch(_){ }
-    for(const p of [/@(-?\d{1,3}(?:\.\d+)?),\s*(-?\d{1,3}(?:\.\d+)?)/i,/[?&](?:q|query|ll|center|destination)=(-?\d{1,3}(?:\.\d+)?)(?:,|%2C|\s)(-?\d{1,3}(?:\.\d+)?)/i,/\((-?\d{1,3}(?:\.\d+)?),\s*(-?\d{1,3}(?:\.\d+)?)\)/i,/(-?\d{1,3}\.\d{4,})\s*[,;\s]\s*(-?\d{1,3}\.\d{4,})/i]){
-      const m=t.match(p); if(!m)continue; let a=Number(m[1]),b=Number(m[2]); if(Math.abs(a)>90&&Math.abs(b)<=90)[a,b]=[b,a]; if(Math.abs(a)<=90&&Math.abs(b)<=180)return[a,b];
-    } return null;
+  const landLabels = {
+    residential: 'Đất ở',
+    commercial: 'Đất thương mại, dịch vụ',
+    production: 'Đất cơ sở sản xuất phi nông nghiệp / khoáng sản'
+  };
+  const offsetMap = {
+    direct: { A: 1, B: 2, C: 3 },
+    indirect: { A: 4, B: 5, C: 6 }
+  };
+
+  let locationQuery = '';
+  let currentResult = null;
+  let comparisons = [];
+
+  const fmtFactor = value => Number(value).toLocaleString('vi-VN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const fmtMoney = value => Number(value).toLocaleString('vi-VN', { maximumFractionDigits: 0 }) + ' đồng/m²';
+  const escapeHtml = value => String(value ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+
+  function uniqueRoads() {
+    return [...new Set(baseRows.map(row => row.road))].sort((a,b) => a.localeCompare(b, 'vi'));
   }
-  function extractAddress(text){
-    const o=String(text||'').trim(); if(!o)return'';
-    try{const u=new URL(o); const q=u.searchParams.get('q')||u.searchParams.get('query')||u.searchParams.get('destination')||u.searchParams.get('daddr'); if(q&&!extractCoord(q))return decodeURIComponent(q.replace(/\+/g,' ')); const m=u.pathname.match(/\/place\/([^/]+)/i); if(m)return decodeURIComponent(m[1].replace(/\+/g,' '));}catch(_){ }
-    const s=o.replace(/@-?\d{1,3}(?:\.\d+)?,\s*-?\d{1,3}(?:\.\d+)?[^\s]*/gi,' ').replace(/\(?-?\d{1,3}\.\d{4,}\s*[,;]\s*-?\d{1,3}\.\d{4,}\)?/gi,' ').trim();
-    return /^https?:\/\//i.test(s)?'':s.replace(/\s+/g,' ');
+
+  function baseByTt(tt) {
+    return baseRows.find(row => row.tt === Number(tt)) || null;
   }
-  const query=()=>coord?`${coord[0]},${coord[1]}`:(address||raw);
-  function msg(t,type='info'){$('searchMessage').textContent=t;$('searchMessage').dataset.type=type}
-  function resetMap(){mapLoaded=false;$('mapFrame').src='';$('mapFrame').classList.add('hidden');$('mapPlaceholder').classList.remove('hidden');$('mapPlaceholder').querySelector('strong').textContent='Chưa tải bản đồ';$('mapPlaceholder').querySelector('span').textContent='Bấm “Hiện bản đồ” khi cần xem.';$('toggleMapBtn').textContent='Hiện bản đồ'}
-  function updateLocation(){const ok=!!query();$('toggleMapBtn').disabled=!ok;$('openGoogleBtn').disabled=!ok;$('saveLocationBtn').disabled=!ok;$('resultInput').textContent=raw||'—';$('resultCoordinate').textContent=coord?`${coord[0].toFixed(6)}, ${coord[1].toFixed(6)}`:'Không có trong nội dung dán';$('resultAddress').textContent=address||'Không có trong nội dung dán';$('mapQueryText').textContent=ok?`Vị trí: ${query()}`:'Vị trí: —';$('locationStatus').className=`status-pill ${ok?'high':'low'}`;$('locationStatus').textContent=ok?'Đã nạp':'Chưa nạp'}
-  function suggest(text){const n=norm(text);return roads().filter(r=>[r,r.replace(/^Đường\s+/i,''),...(ALIASES[r]||[])].some(x=>{const z=norm(x);return z.length>=4&&n.includes(z)}))}
-  function loadLocation(value=$('googlePasteInput').value){raw=String(value||'').trim();coord=extractCoord(raw);address=extractAddress(raw);resetMap();if(!raw){msg('Hãy dán tọa độ, địa chỉ hoặc link Google Maps.','error');updateLocation();return}suggest(raw).slice(0,3).forEach((r,i)=>{const f=segs(r)[0];slots[i]={road:r,segmentId:f?.id||''}});msg(coord?'Đã nạp vị trí. Mở bản đồ rồi chọn 2–3 tuyến cần so sánh.':'Đã nạp địa chỉ/tên điểm. Bản đồ sẽ tìm theo nội dung này.','success');updateLocation();renderSlots()}
-  function showMap(){if(!query())return;if(!mapLoaded){$('mapFrame').src=`https://maps.google.com/maps?q=${encodeURIComponent(query())}&z=17&output=embed`;mapLoaded=true}$('mapFrame').classList.remove('hidden');$('mapPlaceholder').classList.add('hidden');$('toggleMapBtn').textContent='Ẩn bản đồ'}
-  function hideMap(){$('mapFrame').classList.add('hidden');$('mapPlaceholder').classList.remove('hidden');$('toggleMapBtn').textContent='Hiện bản đồ'}
-  function roadOptions(v){return ['<option value="">— Chọn tuyến —</option>',...roads().map(r=>`<option value="${esc(r)}"${r===v?' selected':''}>${esc(r)}</option>`)].join('')}
-  function segOptions(r,id){if(!r)return'<option value="">— Chọn tuyến trước —</option>';return segs(r).map(s=>`<option value="${esc(s.id)}"${s.id===id?' selected':''}>${esc(s.start)} → ${esc(s.end)}</option>`).join('')}
-  function card(s,i){const x=seg(s.segmentId),als=s.road&&(ALIASES[s.road]||[]).length?(ALIASES[s.road]||[]).join(' · '):'—',src=x?`${x.source.appendix}, ${x.source.table}, trang ${x.source.pdfPage}, ${x.source.record}`:'—';return `<article class="manual-route-card${x?' active':''}" data-slot="${i}"><div class="manual-route-head"><span class="route-number">${i+1}</span><strong>Phương án tuyến ${i+1}</strong><button class="text-button clear-route-btn" type="button" data-slot="${i}">Xóa tuyến</button></div><div class="manual-route-fields"><div><label>Tuyến trong Quyết định</label><select class="road-select" data-slot="${i}">${roadOptions(s.road)}</select></div><div><label>Đoạn đường</label><select class="segment-select" data-slot="${i}">${segOptions(s.road,s.segmentId)}</select></div></div><div class="manual-route-meta"><span><b>Tên khác:</b> ${esc(als)}</span><span><b>Nguồn:</b> ${esc(src)}</span></div><div class="manual-factor-grid"><div><span>HS biến động thị trường – đất ở</span><strong>${x?fmt(x.factors.residential):'—'}</strong></div><div><span>HS biến động thị trường – TMDV</span><strong>${x?fmt(x.factors.commercial):'—'}</strong></div><div><span>HS biến động thị trường – SXPNN</span><strong>${x?fmt(x.factors.production):'—'}</strong></div></div></article>`}
-  function renderSlots(){$('manualRouteGrid').innerHTML=slots.map(card).join('');$('selectedCount').textContent=`${slots.filter(s=>seg(s.segmentId)).length} tuyến`}
-  const chosen=()=>slots.map(s=>({slot:s,segment:seg(s.segmentId)})).filter(x=>x.segment);
-  function copy(){if(!query())return $('copyMessage').textContent='Chưa nạp vị trí.';const lines=['BẢO TÍN – KẾT QUẢ SO SÁNH TUYẾN NHÁP',`Vị trí: ${query()}`,...chosen().map((x,i)=>`${i+1}. ${x.segment.road}\n   Đoạn: ${x.segment.start} – ${x.segment.end}\n   Hệ số biến động thị trường: đất ở ${fmt(x.segment.factors.residential)}; TMDV ${fmt(x.segment.factors.commercial)}; SXPNN ${fmt(x.segment.factors.production)}\n   Nguồn: trang ${x.segment.source.pdfPage}, ${x.segment.source.record}`),'','Lưu ý: app chỉ đối chiếu tuyến/đoạn và hệ số đã nhập từ Quyết định; không tự đo khoảng cách.'];navigator.clipboard?.writeText(lines.join('\n')).then(()=>$('copyMessage').textContent='Đã sao chép kết quả.').catch(()=>$('copyMessage').textContent='Không thể sao chép tự động.')}
-  function loadSaved(){try{const x=JSON.parse(localStorage.getItem(KEY)||'[]');return Array.isArray(x)?x:[]}catch(_){return[]}}
-  const persist=()=>localStorage.setItem(KEY,JSON.stringify(saved));
-  function saveCurrent(){if(!query())return $('savedMessage').textContent='Chưa nạp vị trí.';const now=new Date(),rec={schema_version:'1.2',id:crypto?.randomUUID?.()||`loc-${Date.now()}`,label:$('locationLabelInput').value.trim()||`Điểm ${now.toLocaleString('vi-VN')}`,note:$('locationNoteInput').value.trim(),saved_at:now.toISOString(),raw_input:raw,latitude:coord?.[0]??null,longitude:coord?.[1]??null,address:address||null,routes:chosen().map(x=>({road:x.segment.road,segment_id:x.segment.id,start:x.segment.start,end:x.segment.end,factors:{...x.segment.factors},source:{...x.segment.source}})),market_data_status:'empty',market_samples:[]};saved.unshift(rec);persist();renderSaved();$('savedMessage').textContent=`Đã lưu “${rec.label}”.`;$('savedCard').open=true}
-  function renderSaved(){$('savedCount').textContent=`${saved.length} điểm`;$('savedTableBody').innerHTML=saved.length?saved.map(x=>`<tr><td><strong>${esc(x.label)}</strong></td><td>${esc(x.latitude!=null?`${Number(x.latitude).toFixed(6)}, ${Number(x.longitude).toFixed(6)}`:(x.address||x.raw_input||'—'))}</td><td>${x.routes?.length||0}</td><td>${esc(new Date(x.saved_at).toLocaleString('vi-VN'))}</td><td><button class="table-button load-saved-btn" data-id="${esc(x.id)}">Nạp lại</button><button class="table-button danger-button delete-saved-btn" data-id="${esc(x.id)}">Xóa</button></td></tr>`).join(''):'<tr><td colspan="5" class="empty-cell">Chưa có điểm đã lưu.</td></tr>'}
-  function reload(id){const x=saved.find(v=>v.id===id);if(!x)return;$('googlePasteInput').value=x.raw_input||x.address||'';loadLocation($('googlePasteInput').value);slots=Array.from({length:3},(_,i)=>x.routes?.[i]?{road:x.routes[i].road,segmentId:x.routes[i].segment_id}:{road:'',segmentId:''});renderSlots()}
-  function exportSaved(){const b=new Blob([JSON.stringify({exported_at:new Date().toISOString(),app_version:'V0.3.3',records:saved},null,2)],{type:'application/json;charset=utf-8'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=`Bao_Tin_Diem_Tra_Cuu_${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(u)}
-  $('googlePasteInput').addEventListener('paste',e=>{const t=e.clipboardData?.getData('text')||'';if(!t)return;e.preventDefault();$('googlePasteInput').value=t.trim().slice(0,2000);setTimeout(()=>loadLocation(t),20)});
-  $('loadLocationBtn').onclick=()=>loadLocation(); $('gpsBtn').onclick=()=>navigator.geolocation?.getCurrentPosition(p=>{const t=`${p.coords.latitude.toFixed(6)}, ${p.coords.longitude.toFixed(6)}`;$('googlePasteInput').value=t;loadLocation(t)},()=>msg('Không lấy được vị trí hiện tại.','error'));
-  $('clearBtn').onclick=()=>{$('googlePasteInput').value='';raw='';coord=null;address='';slots=Array.from({length:3},()=>({road:'',segmentId:''}));resetMap();updateLocation();renderSlots();msg('Đã xóa dữ liệu tra cứu.')};
-  $('toggleMapBtn').onclick=()=>$('mapFrame').classList.contains('hidden')?showMap():hideMap(); $('openGoogleBtn').onclick=()=>query()&&window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query())}`,'_blank','noopener');
-  $('manualRouteGrid').addEventListener('change',e=>{const i=Number(e.target.dataset.slot);if(!Number.isInteger(i)||!slots[i])return;if(e.target.classList.contains('road-select')){const r=e.target.value,f=segs(r)[0];slots[i]={road:r,segmentId:f?.id||''};renderSlots()}else if(e.target.classList.contains('segment-select')){slots[i].segmentId=e.target.value;renderSlots()}});
-  $('manualRouteGrid').addEventListener('click',e=>{const b=e.target.closest('.clear-route-btn');if(!b)return;slots[Number(b.dataset.slot)]={road:'',segmentId:''};renderSlots()});
-  $('copyBtn').onclick=copy; $('printBtn').onclick=()=>print(); $('saveLocationBtn').onclick=saveCurrent; $('exportSavedBtn').onclick=exportSaved; $('clearSavedBtn').onclick=()=>{if(saved.length&&confirm('Xóa toàn bộ điểm đã lưu?')){saved=[];persist();renderSaved()}};
-  $('savedTableBody').addEventListener('click',e=>{const l=e.target.closest('.load-saved-btn'),d=e.target.closest('.delete-saved-btn');if(l)reload(l.dataset.id);if(d){saved=saved.filter(x=>x.id!==d.dataset.id);persist();renderSaved()}});
-  const modal=$('legalModal');$('legalTab').onclick=()=>modal.classList.remove('hidden');modal.querySelector('[data-close-modal]').onclick=()=>modal.classList.add('hidden');modal.onclick=e=>{if(e.target===modal)modal.classList.add('hidden')};
-  resetMap();updateLocation();renderSlots();renderSaved();
+
+  function rowByTt(tt) {
+    return rows.find(row => row.tt === Number(tt)) || null;
+  }
+
+  function roadOptions() {
+    $('roadSelect').innerHTML = uniqueRoads().map(road => `<option value="${escapeHtml(road)}">${escapeHtml(road)}</option>`).join('');
+  }
+
+  function refreshSegments(preferredTt) {
+    const road = $('roadSelect').value;
+    const candidates = baseRows.filter(row => row.road === road);
+    $('segmentSelect').innerHTML = candidates.map(row =>
+      `<option value="${row.tt}"${Number(preferredTt) === row.tt ? ' selected' : ''}>TT ${row.tt}: ${escapeHtml(row.segmentStart)} → ${escapeHtml(row.segmentEnd)}</option>`
+    ).join('');
+  }
+
+  function toggleBranchFields() {
+    const branch = $('relationSelect').value !== 'main';
+    document.querySelectorAll('.branch-only').forEach(node => node.classList.toggle('hidden', !branch));
+  }
+
+  function classifyBucket(width, distance) {
+    const d = Number(distance);
+    if (!width) return { ok: false, message: 'Chưa chọn bề rộng đường.' };
+    if (!Number.isFinite(d) || d < 0) return { ok: false, message: 'Khoảng cách phải là số từ 0 trở lên.' };
+    if (width === 'gte5') {
+      return d <= 600
+        ? { ok: true, bucket: 'A', condition: 'Bề rộng từ 5 m trở lên, khoảng cách không quá 600 m' }
+        : { ok: true, bucket: 'B', condition: 'Bề rộng từ 5 m trở lên, khoảng cách trên 600 m' };
+    }
+    if (width === '3to5') {
+      if (d <= 400) return { ok: true, bucket: 'A', condition: 'Bề rộng từ 3 m đến dưới 5 m, khoảng cách không quá 400 m' };
+      if (d <= 600) return { ok: true, bucket: 'B', condition: 'Bề rộng từ 3 m đến dưới 5 m, khoảng cách trên 400 m đến 600 m' };
+      return { ok: true, bucket: 'C', condition: 'Bề rộng từ 3 m đến dưới 5 m, khoảng cách trên 600 m' };
+    }
+    return d <= 200
+      ? { ok: true, bucket: 'B', condition: 'Bề rộng dưới 3 m, khoảng cách không quá 200 m' }
+      : { ok: true, bucket: 'C', condition: 'Bề rộng dưới 3 m, khoảng cách trên 200 m' };
+  }
+
+  function matchData() {
+    const base = baseByTt($('segmentSelect').value);
+    const relation = $('relationSelect').value;
+    const landType = $('landTypeSelect').value;
+    if (!base) return fail('Chưa chọn đoạn đường hợp lệ.');
+
+    let matched = base;
+    let condition = relationLabels.main;
+    let bucket = null;
+    let distance = null;
+    let width = null;
+
+    if (relation !== 'main') {
+      width = $('widthSelect').value;
+      distance = Number($('distanceInput').value);
+      const classified = classifyBucket(width, distance);
+      if (!classified.ok) return fail(classified.message);
+      bucket = classified.bucket;
+      condition = `${relationLabels[relation]}; mặt đường nhựa/bê tông xi măng; ${classified.condition}`;
+      matched = rowByTt(base.tt + offsetMap[relation][bucket]);
+      if (!matched) return fail('Không tìm thấy dòng dữ liệu tương ứng trong bộ dữ liệu.');
+    }
+
+    const factor = matched.factors[landType];
+    const testPrice = Number($('testPriceInput').value);
+    currentResult = {
+      id: `${base.tt}-${relation}-${bucket || 'MAIN'}-${landType}`,
+      road: base.road,
+      start: base.segmentStart,
+      end: base.segmentEnd,
+      relation,
+      relationLabel: relationLabels[relation],
+      condition,
+      width,
+      distance: relation === 'main' ? null : distance,
+      bucket,
+      landType,
+      landLabel: landLabels[landType],
+      tt: matched.tt,
+      factor,
+      pdfPage: matched.pdfPage,
+      description: matched.description,
+      testPrice: Number.isFinite(testPrice) && testPrice > 0 ? testPrice : null,
+      adjustedTestPrice: Number.isFinite(testPrice) && testPrice > 0 ? testPrice * factor : null
+    };
+
+    renderResult();
+    $('addCompareBtn').disabled = false;
+    message(`Đã đối chiếu TT ${matched.tt} từ 107 dòng dữ liệu Phường Biên Hòa.`, 'success');
+  }
+
+  function fail(text) {
+    currentResult = null;
+    $('addCompareBtn').disabled = true;
+    $('resultStatus').textContent = 'Chưa đủ điều kiện';
+    $('resultStatus').style.background = '#fff0f0';
+    message(text, 'error');
+  }
+
+  function message(text, type='') {
+    $('formMessage').textContent = text;
+    $('formMessage').className = `form-message ${type}`;
+  }
+
+  function renderResult() {
+    if (!currentResult) return;
+    const r = currentResult;
+    $('resultStatus').textContent = 'Đã đối chiếu';
+    $('resultStatus').style.background = '#edf9f3';
+    $('resultRoad').textContent = r.road;
+    $('resultSegment').textContent = `${r.start} → ${r.end}`;
+    $('resultCondition').textContent = `${r.landLabel}; ${r.condition}`;
+    $('resultTt').textContent = `TT ${r.tt}`;
+    $('resultFactor').textContent = fmtFactor(r.factor);
+    $('resultSource').textContent = `QĐ 03/2026/QĐ-UBND - Phụ lục I.1 - Bảng 1 - PDF trang ${r.pdfPage}`;
+    $('resultTestPrice').textContent = r.adjustedTestPrice == null
+      ? 'Chưa nhập giá bảng kiểm thử'
+      : `${fmtMoney(r.testPrice)} × ${fmtFactor(r.factor)} = ${fmtMoney(r.adjustedTestPrice)}`;
+  }
+
+  function addComparison() {
+    if (!currentResult) return;
+    if (comparisons.some(item => item.id === currentResult.id && item.tt === currentResult.tt)) {
+      return message('Phương án này đã có trong bảng so sánh.', 'error');
+    }
+    if (comparisons.length >= 3) return message('Bảng so sánh chỉ nhận tối đa 3 phương án.', 'error');
+    comparisons.push({ ...currentResult });
+    renderComparisons();
+    message('Đã thêm phương án vào bảng so sánh.', 'success');
+  }
+
+  function renderComparisons() {
+    $('compareCount').textContent = `${comparisons.length}/3`;
+    if (!comparisons.length) {
+      $('compareBody').innerHTML = '<tr><td colspan="7" class="empty">Chưa có phương án so sánh.</td></tr>';
+      return;
+    }
+    $('compareBody').innerHTML = comparisons.map((r,index) => `<tr>
+      <td>${index+1}</td>
+      <td><strong>${escapeHtml(r.road)}</strong><br>${escapeHtml(r.start)} → ${escapeHtml(r.end)}</td>
+      <td>${escapeHtml(r.condition)}</td>
+      <td>TT ${r.tt}</td>
+      <td><strong>${fmtFactor(r.factor)}</strong></td>
+      <td>PDF trang ${r.pdfPage}</td>
+      <td><button class="remove-btn" type="button" data-remove="${index}">Xóa</button></td>
+    </tr>`).join('');
+  }
+
+  function parseCoordinate(text) {
+    const match = String(text).match(/(-?\d{1,3}\.\d{4,})\s*[,;\s]\s*(-?\d{1,3}\.\d{4,})/);
+    if (!match) return null;
+    let a=Number(match[1]), b=Number(match[2]);
+    if (Math.abs(a)>90 && Math.abs(b)<=90) [a,b]=[b,a];
+    return Math.abs(a)<=90 && Math.abs(b)<=180 ? [a,b] : null;
+  }
+
+  function loadLocation() {
+    const raw = $('mapInput').value.trim();
+    if (!raw) {
+      locationQuery='';
+      $('openMapBtn').disabled=true;
+      $('locationSummary').textContent='Hãy dán tọa độ, địa chỉ, tên điểm hoặc link Google Maps.';
+      return;
+    }
+    const point=parseCoordinate(raw);
+    locationQuery = point ? `${point[0]},${point[1]}` : raw;
+    $('openMapBtn').disabled=false;
+    $('locationSummary').textContent = point
+      ? `Đã nhận tọa độ: ${point[0].toFixed(6)}, ${point[1].toFixed(6)}. App không tự đo khoảng cách.`
+      : `Đã nhận địa chỉ/tên điểm: ${raw}. App không tự đo khoảng cách.`;
+  }
+
+  function clearLocation() {
+    $('mapInput').value=''; locationQuery=''; $('openMapBtn').disabled=true; $('locationSummary').textContent='Chưa nạp vị trí.';
+  }
+
+  function init() {
+    $('factorDataCount').textContent = `${data.manifest.rowCount || rows.length} dòng`;
+    $('segmentDataCount').textContent = `${data.manifest.standardSegmentCount || baseRows.length} đoạn`;
+    roadOptions();
+    refreshSegments();
+    toggleBranchFields();
+    renderComparisons();
+
+    $('roadSelect').addEventListener('change', () => { refreshSegments(); currentResult=null; $('addCompareBtn').disabled=true; });
+    $('relationSelect').addEventListener('change', () => { toggleBranchFields(); currentResult=null; $('addCompareBtn').disabled=true; });
+    $('loadLocationBtn').addEventListener('click', loadLocation);
+    $('openMapBtn').addEventListener('click', () => { if(locationQuery) window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(locationQuery)}`,'_blank','noopener'); });
+    $('clearLocationBtn').addEventListener('click', clearLocation);
+    $('matchBtn').addEventListener('click', matchData);
+    $('addCompareBtn').addEventListener('click', addComparison);
+    $('compareBody').addEventListener('click', event => {
+      const button=event.target.closest('[data-remove]');
+      if(!button) return;
+      comparisons.splice(Number(button.dataset.remove),1);
+      renderComparisons();
+    });
+  }
+
+  init();
 })();
