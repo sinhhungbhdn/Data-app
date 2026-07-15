@@ -1,15 +1,16 @@
 name: Extract legal source text
 
 on:
-  push:
+  pull_request:
     branches:
-      - agent/prototype-v0.1.0
+      - main
     paths:
       - '.github/workflows/extract-legal-source.yml'
       - '28_2025_NQ-HDND_687389.doc'
       - 'QD 03.2026-1-1500_compressed.pdf'
       - 'QD 03.2026-1501-3307_compressed.pdf'
       - 'tools/**'
+      - 'prototype/**'
   workflow_dispatch:
 
 permissions:
