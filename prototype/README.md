@@ -1,23 +1,11 @@
-# Bảo Tín – Tra cứu giá đất V0.3.2
+# Bảo Tín – Tra cứu giá đất V0.3.3
 
-V0.3.2 bỏ toàn bộ dịch vụ dò mạng đường và định tuyến trực tuyến để tránh treo, chậm và trả kết quả khó kiểm soát.
+Bản này giữ luồng đơn giản và bỏ hoàn toàn ô nhập khoảng cách vì app chưa tự đo được khoảng cách theo đường đi.
 
-## Luồng sử dụng
+- Dán tọa độ, địa chỉ hoặc link Google Maps.
+- Mở bản đồ để nhìn vị trí.
+- Chọn tối đa 3 tuyến và đoạn đường đã có trong dữ liệu Quyết định.
+- Xem hệ số biến động thị trường và nguồn PDF.
+- Lưu điểm tra cứu để dùng lại hoặc nối dữ liệu giá thị trường sau này.
 
-1. Dán tọa độ, địa chỉ hoặc link Google Maps.
-2. Mở bản đồ để nhìn đường/hẻm tiếp cận thực tế.
-3. Chọn tối đa 3 tuyến có trong dữ liệu Quyết định.
-4. Chọn đúng đoạn đường.
-5. Nhập khoảng cách đã đo thủ công trên Google Maps.
-6. Xem hệ số và nguồn PDF của từng phương án.
-7. Lưu điểm tra cứu để dùng lại hoặc nối dữ liệu giá thị trường sau này.
-
-## Nguyên tắc
-
-- Không tự dò đường gần nhất.
-- Không tự tính khoảng cách đường đi.
-- Không tự kết luận vị trí pháp lý.
-- Hệ số chỉ lấy từ dữ liệu Quyết định đã nhập trong app.
-- Dữ liệu hiện mới gồm một phần Phường Biên Hòa.
-
-Bản này ưu tiên tốc độ, ổn định và dễ kiểm tra thay vì tự động hóa quá mức.
+Dữ liệu hiện mới tích hợp một phần Phụ lục I.1, Bảng 1 – Phường Biên Hòa.
