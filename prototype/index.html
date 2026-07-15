@@ -6,6 +6,7 @@
   <meta name="description" content="Bản nháp tra cứu vị trí đất và hệ số điều chỉnh giá đất Bảo Tín">
   <title>Bảo Tín | Tra cứu giá đất</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="patch-v0.2.1.css">
 </head>
 <body>
   <header class="app-header">
@@ -22,7 +23,7 @@
     </div>
     <div class="header-actions">
       <button class="header-button" id="printBtn" type="button">In phiếu</button>
-      <span class="version-badge">V0.2.0</span>
+      <span class="version-badge">V0.2.1</span>
     </div>
   </header>
 
@@ -42,7 +43,7 @@
         <div class="search-title-row">
           <div>
             <h2 id="searchTitle">Dán thông tin Google Maps</h2>
-            <p>Dán tọa độ, đường dẫn hoặc toàn bộ nội dung ghim. Ứng dụng tự bóc dữ liệu và trả kết quả.</p>
+            <p>Dán tọa độ, đường dẫn hoặc toàn bộ nội dung ghim. Ứng dụng tự bóc dữ liệu và đối chiếu quy tắc của Quyết định.</p>
           </div>
           <span class="auto-pill">TỰ ĐỘNG</span>
         </div>
@@ -62,22 +63,24 @@
           <div class="step-badge gold">2</div>
           <div>
             <h2>Kết quả tự động</h2>
-            <p>Kết quả được lập theo dữ liệu mẫu và các giả định mặc định.</p>
+            <p>Kết quả chỉ được trả khi đủ điều kiện đối chiếu theo Quyết định.</p>
           </div>
           <span class="status-pill" id="confidenceText">Chưa tra cứu</span>
         </div>
 
         <div class="assumption-banner" id="assumptionBanner">
-          Mặc định: <strong>Đất ở · Tiếp giáp đường chính · Hệ số quy hoạch 1,00 · Yếu tố khác 1,00</strong>.
+          Chưa có kết quả xác định vị trí.
         </div>
 
         <dl class="result-list">
           <div><dt>Tọa độ</dt><dd id="resultCoordinate">—</dd></div>
           <div><dt>Địa bàn</dt><dd id="resultCommune">—</dd></div>
-          <div><dt>Tuyến đường</dt><dd id="resultRoad">—</dd></div>
+          <div><dt>Đường chính quy chiếu</dt><dd id="resultRoad">—</dd></div>
           <div><dt>Đoạn đường</dt><dd id="resultSegment">—</dd></div>
+          <div><dt>Khoảng cách hình học</dt><dd id="resultRoadDistance">—</dd></div>
+          <div><dt>Quan hệ vị trí</dt><dd id="resultAccess">—</dd></div>
+          <div><dt>Phân loại theo Quyết định</dt><dd id="resultDecisionClass">—</dd></div>
           <div><dt>Loại đất</dt><dd id="resultLandType">Đất ở</dd></div>
-          <div><dt>Quan hệ vị trí</dt><dd id="resultAccess">Tiếp giáp đường chính</dd></div>
         </dl>
 
         <div class="factor-grid">
@@ -125,8 +128,8 @@
 
     <details class="advanced-card" id="advancedCard">
       <summary>
-        <span><strong>Điều chỉnh trường hợp đặc biệt</strong><small>Chỉ mở khi loại đất, vị trí tiếp cận, quy hoạch hoặc yếu tố khác không phải mặc định.</small></span>
-        <span class="summary-action">Mở điều chỉnh</span>
+        <span><strong>Xác nhận điều kiện vị trí theo Quyết định</strong><small>Chỉ mở khi thửa không được xác định là tiếp giáp trực tiếp đường chính.</small></span>
+        <span class="summary-action">Mở xác nhận</span>
       </summary>
       <div class="advanced-grid">
         <div>
@@ -140,7 +143,8 @@
         <div>
           <label for="accessTypeSelect">Quan hệ với đường chính</label>
           <select id="accessTypeSelect">
-            <option value="main">Tiếp giáp đường chính</option>
+            <option value="auto">Chưa xác định — cần kiểm tra</option>
+            <option value="main">Thửa đất tiếp giáp đường chính</option>
             <option value="direct">Đường nhánh đấu nối trực tiếp</option>
             <option value="indirect">Đường nhánh không đấu nối trực tiếp nhưng thông ra</option>
           </select>
@@ -166,12 +170,31 @@
           </select>
         </div>
         <div id="branchWrap" class="hidden branch-grid">
-          <div><label for="surfaceSelect">Mặt đường</label><select id="surfaceSelect"><option value="paved">Nhựa / bê tông xi măng</option><option value="unpaved">Đất / đá / sỏi / cấp phối</option></select></div>
-          <div><label for="widthSelect">Bề rộng</label><select id="widthSelect"><option value="gte5">Từ 5 m trở lên</option><option value="3to5">Từ 3 m đến dưới 5 m</option><option value="lt3">Dưới 3 m</option></select></div>
-          <div><label for="distanceInput">Khoảng cách đến đường chính (m)</label><input id="distanceInput" type="number" min="0" step="1" value="0"></div>
+          <div>
+            <label for="surfaceSelect">Hiện trạng mặt đường</label>
+            <select id="surfaceSelect">
+              <option value="unknown">Chưa xác định</option>
+              <option value="paved">Nhựa / bê tông xi măng</option>
+              <option value="unpaved">Chưa đầu tư nhựa / bê tông xi măng</option>
+            </select>
+          </div>
+          <div>
+            <label for="widthSelect">Bề rộng đường</label>
+            <select id="widthSelect">
+              <option value="unknown">Chưa xác định</option>
+              <option value="gte5">Từ 5 m trở lên</option>
+              <option value="3to5">Từ 3 m đến dưới 5 m</option>
+              <option value="lt3">Dưới 3 m</option>
+            </select>
+          </div>
+          <div>
+            <label for="distanceInput">Khoảng cách áp dụng đến đường chính (m)</label>
+            <input id="distanceInput" type="number" min="0" step="1" value="">
+            <small class="field-help">App tự điền khoảng cách hình học để tham khảo; cần xác nhận khoảng cách áp dụng theo thực tế.</small>
+          </div>
         </div>
       </div>
-      <div class="advanced-note" id="advancedNote">Các trường hợp đặc biệt phải có hồ sơ hoặc dữ liệu GIS để xác nhận; ứng dụng không tự suy đoán khi thiếu căn cứ.</div>
+      <div class="advanced-note" id="advancedNote">Quy tắc mẫu Bảng 1: phân theo đấu nối trực tiếp/không trực tiếp, mặt đường, bề rộng và các ngưỡng 600 m, 400 m, 200 m.</div>
     </details>
   </main>
 
@@ -180,17 +203,18 @@
       <button class="modal-close" data-close-modal type="button" aria-label="Đóng">×</button>
       <h2 id="legalModalTitle">Căn cứ pháp lý bản nháp</h2>
       <p><strong>Quyết định số 03/2026/QĐ-UBND ngày 11/5/2026</strong> quy định hệ số điều chỉnh giá đất trên địa bàn thành phố Đồng Nai năm 2026.</p>
-      <p>Bản nháp mới tích hợp một phần Phụ lục I.1 – Bảng 1, Phường Biên Hòa. Hình học đoạn đường là dữ liệu minh họa để thử thuật toán.</p>
-      <p>Hệ số quy hoạch mặc định là 1,00 khi không có hệ số sử dụng đất được phê duyệt. Các yếu tố khác mặc định 1,00 khi chưa có căn cứ xác định trường hợp đặc biệt.</p>
+      <p>Thuật toán vị trí của bản này đối chiếu nhóm dòng đường chính, đường đấu nối trực tiếp và đường không đấu nối trực tiếp theo bề rộng, hiện trạng mặt đường và khoảng cách ghi tại Phụ lục I.1.</p>
+      <p>Khoảng cách hình học từ tọa độ tới tuyến chỉ là dữ liệu hỗ trợ. Khi áp dụng cho đường nhánh, người dùng phải xác nhận khoảng cách thực tế, kiểu đấu nối, bề rộng và hiện trạng mặt đường.</p>
     </div>
   </section>
 
   <footer class="app-footer">
     <span>CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ VÀ THẨM ĐỊNH GIÁ BẢO TÍN</span>
-    <span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.2.0</span>
+    <span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.2.1</span>
   </footer>
 
   <script src="data/segments.js"></script>
+  <script src="data/decision-rules.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
