@@ -1,0 +1,63 @@
+name: Extract legal source text
+
+on:
+  push:
+    branches:
+      - agent/prototype-v0.1.0
+    paths:
+      - '.github/workflows/extract-legal-source.yml'
+      - '28_2025_NQ-HDND_687389.doc'
+      - 'QD 03.2026-1-1500_compressed.pdf'
+      - 'QD 03.2026-1501-3307_compressed.pdf'
+      - 'tools/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install extractors
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y antiword poppler-utils
+
+      - name: Extract source documents
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p extracted
+          antiword '28_2025_NQ-HDND_687389.doc' > extracted/nq28.txt
+          pdftotext -layout 'QD 03.2026-1-1500_compressed.pdf' extracted/qd03-pages-1-1500.txt
+          pdftotext -layout 'QD 03.2026-1501-3307_compressed.pdf' extracted/qd03-pages-1501-3307.txt
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+          out = {}
+          for p in sorted(Path('extracted').glob('*.txt')):
+              raw = p.read_bytes()
+              text = raw.decode('utf-8', errors='replace')
+              lines = text.splitlines()
+              out[p.name] = {
+                  'bytes': len(raw),
+                  'lines': len(lines),
+                  'sha256': hashlib.sha256(raw).hexdigest(),
+                  'first_lines': lines[:120],
+                  'last_lines': lines[-120:],
+              }
+          Path('extracted/extraction-report.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
+          PY
+          ls -lh extracted
+
+      - name: Upload extracted text
+        uses: actions/upload-artifact@v4
+        with:
+          name: legal-source-text
+          path: extracted/
+          retention-days: 7
+          compression-level: 6
