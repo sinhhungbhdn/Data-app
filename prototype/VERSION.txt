@@ -1,2 +1,2 @@
 BẢO TÍN – TRA CỨU GIÁ ĐẤT
-Version: V0.2.1
+Version: V0.3.0
