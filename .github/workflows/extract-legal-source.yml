@@ -26,21 +26,26 @@ jobs:
       - name: Install extractors
         run: |
           sudo apt-get update
-          sudo apt-get install -y antiword poppler-utils
+          sudo apt-get install -y antiword poppler-utils libreoffice-writer fonts-dejavu-core
 
       - name: Extract source documents
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p extracted
-          antiword '28_2025_NQ-HDND_687389.doc' > extracted/nq28.txt
+          mkdir -p extracted converted
+          antiword '28_2025_NQ-HDND_687389.doc' > extracted/nq28-antiword.txt
+          libreoffice --headless --convert-to pdf --outdir converted '28_2025_NQ-HDND_687389.doc'
+          pdftotext -layout converted/28_2025_NQ-HDND_687389.pdf extracted/nq28-libreoffice.txt
           pdftotext -layout 'QD 03.2026-1-1500_compressed.pdf' extracted/qd03-pages-1-1500.txt
           pdftotext -layout 'QD 03.2026-1501-3307_compressed.pdf' extracted/qd03-pages-1501-3307.txt
+          pdfinfo converted/28_2025_NQ-HDND_687389.pdf > extracted/nq28-pdfinfo.txt
           python3 - <<'PY'
           from pathlib import Path
           import hashlib, json
           out = {}
-          for p in sorted(Path('extracted').glob('*.txt')):
+          for p in sorted(Path('extracted').glob('*')):
+              if not p.is_file():
+                  continue
               raw = p.read_bytes()
               text = raw.decode('utf-8', errors='replace')
               lines = text.splitlines()
@@ -48,17 +53,19 @@ jobs:
                   'bytes': len(raw),
                   'lines': len(lines),
                   'sha256': hashlib.sha256(raw).hexdigest(),
-                  'first_lines': lines[:120],
-                  'last_lines': lines[-120:],
+                  'first_lines': lines[:160],
+                  'last_lines': lines[-160:],
               }
           Path('extracted/extraction-report.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
           PY
-          ls -lh extracted
+          ls -lh extracted converted
 
       - name: Upload extracted text
         uses: actions/upload-artifact@v4
         with:
           name: legal-source-text
-          path: extracted/
+          path: |
+            extracted/
+            converted/28_2025_NQ-HDND_687389.pdf
           retention-days: 7
           compression-level: 6
