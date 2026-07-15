@@ -2,13 +2,16 @@
   'use strict';
 
   const segments = window.BAO_TIN_SEGMENTS || [];
+  const rules = window.BAO_TIN_DECISION_RULES || {};
   const $ = id => document.getElementById(id);
+
   const landLabels = {
     residential: 'Đất ở',
     commercial: 'Đất thương mại, dịch vụ',
     production: 'Đất cơ sở sản xuất phi nông nghiệp / khoáng sản'
   };
   const accessLabels = {
+    auto: 'Chưa xác định — cần kiểm tra',
     main: 'Tiếp giáp đường chính',
     direct: 'Đường nhánh đấu nối trực tiếp',
     indirect: 'Đường nhánh không đấu nối trực tiếp nhưng thông ra'
@@ -19,6 +22,8 @@
   let currentRaw = '';
   let currentDistance = null;
   let mapLoaded = false;
+  let autoAccess = 'auto';
+  let ruleResult = null;
 
   const fmt = value => Number(value).toLocaleString('vi-VN', {
     minimumFractionDigits: 2,
@@ -35,7 +40,9 @@
     .replace(/\s+/g, ' ')
     .trim();
 
-  const insidePrototypeArea = point => point[0] >= 10.80 && point[0] <= 11.10 && point[1] >= 106.65 && point[1] <= 107.00;
+  const insidePrototypeArea = point =>
+    point[0] >= 10.80 && point[0] <= 11.10 &&
+    point[1] >= 106.65 && point[1] <= 107.00;
 
   function setMessage(text, type = 'info') {
     $('searchMessage').textContent = text;
@@ -59,7 +66,6 @@
       let first = Number(match[1]);
       let second = Number(match[2]);
       if (!Number.isFinite(first) || !Number.isFinite(second)) continue;
-
       if (Math.abs(first) > 90 && Math.abs(second) <= 90) [first, second] = [second, first];
       if (Math.abs(first) <= 90 && Math.abs(second) <= 180) return [first, second];
     }
@@ -110,21 +116,90 @@
     return 1.15;
   }
 
-  function branchNote() {
-    const access = $('accessTypeSelect').value;
-    if (access === 'main') return accessLabels.main;
-    const surface = $('surfaceSelect').value === 'paved' ? 'nhựa/bê tông xi măng' : 'đất/đá/sỏi/cấp phối';
-    const width = { gte5: 'từ 5 m trở lên', '3to5': 'từ 3 m đến dưới 5 m', lt3: 'dưới 3 m' }[$('widthSelect').value];
-    const distance = Number($('distanceInput').value || 0).toLocaleString('vi-VN');
-    return `${accessLabels[access]}; mặt đường ${surface}; bề rộng ${width}; cách đường chính ${distance} m`;
+  function parseBaseRecord(segment) {
+    const match = String(segment?.source?.record || '').match(/(\d+)/);
+    return match ? Number(match[1]) : null;
   }
 
-  function assumptionsText() {
+  function decisionClassification() {
+    ruleResult = null;
+    if (!selected) return { complete: false, label: 'Chưa xác định tuyến/đoạn' };
+
+    const access = $('accessTypeSelect').value;
+    if (access === 'main') {
+      const baseRecord = parseBaseRecord(selected);
+      return {
+        complete: true,
+        access,
+        record: baseRecord,
+        label: 'Dòng đường chính',
+        condition: 'Thửa đất được xác nhận tiếp giáp trực tiếp đường chính'
+      };
+    }
+
+    if (access === 'auto') {
+      return {
+        complete: false,
+        access,
+        label: currentDistance == null
+          ? 'Chưa đủ dữ liệu xác định quan hệ vị trí'
+          : 'Cần xác nhận đường nhánh đấu nối trực tiếp hay không trực tiếp'
+      };
+    }
+
+    const classified = rules.classifyBranch?.({
+      surface: $('surfaceSelect').value,
+      width: $('widthSelect').value,
+      distance: $('distanceInput').value
+    });
+
+    if (!classified?.ok) {
+      return {
+        complete: false,
+        access,
+        label: classified?.message || 'Chưa đủ điều kiện đối chiếu quy tắc vị trí'
+      };
+    }
+
+    const baseRecord = parseBaseRecord(selected);
+    const offset = rules.branchPattern?.[access]?.recordOffsets?.[classified.bucket];
+    if (!Number.isFinite(baseRecord) || !Number.isFinite(offset)) {
+      return { complete: false, access, label: 'Không xác định được dòng dữ liệu nguồn' };
+    }
+
+    ruleResult = {
+      complete: true,
+      access,
+      bucket: classified.bucket,
+      record: baseRecord + offset,
+      condition: classified.condition,
+      label: `${accessLabels[access]} · Nhóm ${classified.bucket}`
+    };
+    return ruleResult;
+  }
+
+  function branchNote(classification) {
+    const access = $('accessTypeSelect').value;
+    if (access === 'main') return accessLabels.main;
+    if (access === 'auto') return accessLabels.auto;
+    if (!classification.complete) return `${accessLabels[access]} · ${classification.label}`;
+
+    const surface = $('surfaceSelect').value === 'paved'
+      ? 'nhựa/bê tông xi măng'
+      : 'chưa đầu tư nhựa/bê tông xi măng';
+    const width = { gte5: 'từ 5 m trở lên', '3to5': 'từ 3 m đến dưới 5 m', lt3: 'dưới 3 m' }[$('widthSelect').value];
+    const distance = Number($('distanceInput').value || 0).toLocaleString('vi-VN');
+    return `${accessLabels[access]}; mặt đường ${surface}; bề rộng ${width}; khoảng cách áp dụng ${distance} m`;
+  }
+
+  function assumptionsText(classification) {
     const type = landLabels[$('landTypeSelect').value];
-    const access = accessLabels[$('accessTypeSelect').value];
     const planning = fmt(planningFactor());
     const other = fmt(Number($('otherConditionSelect').value));
-    return `Đang áp dụng: ${type} · ${access} · Hệ số quy hoạch ${planning} · Yếu tố khác ${other}.`;
+    if (!classification.complete) {
+      return `<strong>Chưa đủ điều kiện xác định vị trí theo Quyết định.</strong> ${classification.label}.`;
+    }
+    return `Đang áp dụng: <strong>${type} · ${classification.label} · Hệ số quy hoạch ${planning} · Yếu tố khác ${other}</strong>.`;
   }
 
   function updateMapPreview() {
@@ -167,18 +242,24 @@
 
   function renderResult() {
     const type = $('landTypeSelect').value;
-    const market = selected ? Number(selected.factors[type]) : NaN;
+    const classification = decisionClassification();
+    const market = selected && classification.complete ? Number(selected.factors[type]) : NaN;
     const planning = planningFactor();
     const other = Number($('otherConditionSelect').value);
     const total = Number.isFinite(market) ? market * planning * other : NaN;
 
-    $('assumptionBanner').innerHTML = assumptionsText();
+    $('assumptionBanner').innerHTML = assumptionsText(classification);
+    $('assumptionBanner').classList.toggle('decision-warning', !classification.complete);
     $('resultCoordinate').textContent = currentPoint ? `${currentPoint[0].toFixed(6)}, ${currentPoint[1].toFixed(6)}` : 'Không bóc được tọa độ';
     $('resultCommune').textContent = selected?.commune || '—';
     $('resultRoad').textContent = selected?.road || '—';
     $('resultSegment').textContent = selected ? `${selected.start} – ${selected.end}` : '—';
+    $('resultRoadDistance').textContent = Number.isFinite(currentDistance)
+      ? `${Math.round(currentDistance).toLocaleString('vi-VN')} m (ước tính hình học)`
+      : '—';
+    $('resultAccess').textContent = selected ? branchNote(classification) : '—';
+    $('resultDecisionClass').textContent = classification.label;
     $('resultLandType').textContent = landLabels[type];
-    $('resultAccess').textContent = branchNote();
 
     $('marketFactor').textContent = Number.isFinite(market) ? fmt(market) : '—';
     $('planningFactorResult').textContent = fmt(planning);
@@ -188,10 +269,20 @@
     $('formulaPlanning').textContent = fmt(planning);
     $('formulaOther').textContent = fmt(other);
 
-    if (selected) {
-      $('legalSourceText').textContent = `Quyết định 03/2026/QĐ-UBND – ${selected.source.appendix}, ${selected.source.table}.`;
-      $('sourcePage').textContent = `Trang PDF: ${selected.source.pdfPage}`;
-      $('sourceRecord').textContent = `Mã: ${selected.id} / ${selected.source.record}`;
+    if (selected && classification.complete) {
+      const recordText = Number.isFinite(classification.record) ? `TT ${classification.record}` : selected.source.record;
+      $('legalSourceText').textContent =
+        `Quyết định 03/2026/QĐ-UBND – ${selected.source.appendix}, ${selected.source.table}; ${classification.condition}.`;
+      $('sourcePage').textContent =
+        classification.access === 'main'
+          ? `Trang PDF: ${selected.source.pdfPage}`
+          : `Trang PDF mở đầu đoạn: ${selected.source.pdfPage}`;
+      $('sourceRecord').textContent = `Mã: ${selected.id} / ${recordText}`;
+    } else if (selected) {
+      $('legalSourceText').textContent =
+        `Đã xác định đường chính dự kiến ${selected.road}, nhưng chưa đủ điều kiện chọn dòng vị trí theo Quyết định.`;
+      $('sourcePage').textContent = `Trang PDF mở đầu đoạn: ${selected.source.pdfPage}`;
+      $('sourceRecord').textContent = `Mã đoạn: ${selected.id}`;
     } else {
       $('legalSourceText').textContent = 'Chưa xác định được dòng dữ liệu nguồn.';
       $('sourcePage').textContent = 'Trang PDF: —';
@@ -205,11 +296,43 @@
     pill.textContent = text;
   }
 
+  function applyAutomaticAccess(roadMatched) {
+    const mainThreshold = Number(rules.geometryMainThresholdM || 20);
+    const candidateThreshold = Number(rules.geometryCandidateThresholdM || 200);
+
+    if (!Number.isFinite(currentDistance)) {
+      autoAccess = 'auto';
+    } else if (currentDistance <= mainThreshold) {
+      autoAccess = 'main';
+    } else {
+      autoAccess = 'auto';
+    }
+
+    $('accessTypeSelect').value = autoAccess;
+    $('branchWrap').classList.toggle('hidden', autoAccess === 'main');
+    if (Number.isFinite(currentDistance)) {
+      $('distanceInput').value = String(Math.round(currentDistance));
+      $('distanceInput').classList.add('auto-filled');
+    }
+
+    if (currentDistance > candidateThreshold && !roadMatched) {
+      selected = null;
+      autoAccess = 'auto';
+      $('accessTypeSelect').value = 'auto';
+      return false;
+    }
+
+    if (autoAccess !== 'main') $('advancedCard').open = true;
+    return true;
+  }
+
   function analyze(rawInput = $('googlePasteInput').value) {
     const raw = String(rawInput || '').trim();
     currentRaw = raw;
     selected = null;
     currentDistance = null;
+    autoAccess = 'auto';
+    ruleResult = null;
     mapLoaded = false;
     $('mapFrame').src = '';
     $('mapFrame').classList.add('hidden');
@@ -229,7 +352,7 @@
     }
 
     if (currentPoint && !insidePrototypeArea(currentPoint)) {
-      setMessage('Tọa độ nằm ngoài vùng dữ liệu mẫu Phường Biên Hòa. Ứng dụng không tự chọn đoạn để tránh trả sai.', 'error');
+      setMessage('Tọa độ nằm ngoài phạm vi dữ liệu mẫu. Ứng dụng không tự chọn đoạn để tránh trả sai.', 'error');
       setConfidence('low', 'Ngoài vùng mẫu');
       updateMapPreview();
       renderResult();
@@ -242,15 +365,33 @@
       if (result) {
         selected = result.segment;
         currentDistance = result.distance;
-        const roadMessage = roadCandidates.length
-          ? 'Đã nhận diện tên đường và lọc đoạn gần nhất trong cùng tuyến.'
-          : 'Không nhận diện được tên đường; đã chọn đoạn hình học gần nhất trong dữ liệu mẫu.';
-        setMessage(`${roadMessage} Khoảng cách hình học ước tính ${Math.round(result.distance).toLocaleString('vi-VN')} m.`, roadCandidates.length ? 'success' : 'warning');
-        setConfidence(roadCandidates.length ? 'high' : 'medium', roadCandidates.length ? 'Khá cao · nháp' : 'Cần xác nhận');
+        const accepted = applyAutomaticAccess(roadCandidates.length > 0);
+
+        if (!accepted) {
+          setMessage(
+            `Không nhận diện được tên đường và điểm cách lớp tuyến mẫu khoảng ${Math.round(result.distance).toLocaleString('vi-VN')} m. Không trả hệ số để tránh gán nhầm địa bàn hoặc đường chính.`,
+            'error'
+          );
+          setConfidence('low', 'Không đủ căn cứ');
+        } else if (autoAccess === 'main') {
+          const roadMessage = roadCandidates.length
+            ? 'Đã nhận diện tên đường và vị trí nằm sát lớp đường chính.'
+            : 'Vị trí nằm sát lớp đường chính dự kiến.';
+          setMessage(`${roadMessage} Khoảng cách hình học khoảng ${Math.round(result.distance).toLocaleString('vi-VN')} m.`, roadCandidates.length ? 'success' : 'warning');
+          setConfidence(roadCandidates.length ? 'high' : 'medium', roadCandidates.length ? 'Khá cao · nháp' : 'Cần kiểm tra');
+        } else {
+          setMessage(
+            `Đã xác định đường chính quy chiếu dự kiến ${selected.road}; khoảng cách hình học khoảng ${Math.round(result.distance).toLocaleString('vi-VN')} m. Cần xác nhận kiểu đấu nối, mặt đường, bề rộng và khoảng cách áp dụng để chọn đúng dòng Quyết định.`,
+            'warning'
+          );
+          setConfidence('medium', 'Cần xác nhận vị trí');
+        }
       }
     } else if (roadCandidates.length) {
       selected = roadCandidates[0];
-      setMessage(`Đã lọc được ${roadCandidates.length} đoạn theo tên đường, nhưng chưa có tọa độ để chốt đúng đoạn.`, 'warning');
+      $('accessTypeSelect').value = 'auto';
+      $('advancedCard').open = true;
+      setMessage(`Đã lọc được ${roadCandidates.length} đoạn theo tên đường, nhưng chưa có tọa độ để xác định khoảng cách và quan hệ vị trí.`, 'warning');
       setConfidence('medium', 'Thiếu tọa độ');
     } else {
       setMessage('Không bóc được tọa độ hoặc tên đường khớp dữ liệu mẫu. Hãy sao chép dòng tọa độ màu xanh trên Google Maps.', 'error');
@@ -266,16 +407,18 @@
       'BẢO TÍN – KẾT QUẢ TRA CỨU NHÁP',
       `Tọa độ: ${$('resultCoordinate').textContent}`,
       `Địa bàn: ${$('resultCommune').textContent}`,
-      `Tuyến đường: ${$('resultRoad').textContent}`,
+      `Đường chính quy chiếu: ${$('resultRoad').textContent}`,
       `Đoạn đường: ${$('resultSegment').textContent}`,
-      `Loại đất: ${$('resultLandType').textContent}`,
+      `Khoảng cách hình học: ${$('resultRoadDistance').textContent}`,
       `Quan hệ vị trí: ${$('resultAccess').textContent}`,
+      `Phân loại theo Quyết định: ${$('resultDecisionClass').textContent}`,
+      `Loại đất: ${$('resultLandType').textContent}`,
       `Hệ số biến động thị trường: ${$('marketFactor').textContent}`,
       `Hệ số quy hoạch: ${$('planningFactorResult').textContent}`,
       `Yếu tố khác: ${$('otherFactorResult').textContent}`,
       `Hệ số tổng hợp: ${$('totalFactor').textContent}`,
       `${$('legalSourceText').textContent} ${$('sourcePage').textContent}`,
-      'Lưu ý: dữ liệu hình học và kết quả đang ở trạng thái nháp.'
+      'Lưu ý: khoảng cách hình học chỉ để hỗ trợ; kết quả đường nhánh phải được xác nhận theo hiện trạng và Quyết định.'
     ];
     navigator.clipboard?.writeText(lines.join('\n'))
       .then(() => $('copyMessage').textContent = 'Đã sao chép kết quả.')
@@ -310,6 +453,13 @@
     currentRaw = '';
     currentPoint = null;
     selected = null;
+    currentDistance = null;
+    autoAccess = 'auto';
+    $('accessTypeSelect').value = 'auto';
+    $('distanceInput').value = '';
+    $('surfaceSelect').value = 'unknown';
+    $('widthSelect').value = 'unknown';
+    $('advancedCard').open = false;
     setMessage('Đã xóa dữ liệu tra cứu.', 'info');
     setConfidence('low', 'Chưa tra cứu');
     updateMapPreview();
@@ -328,7 +478,9 @@
 
   $('landTypeSelect').addEventListener('change', renderResult);
   $('accessTypeSelect').addEventListener('change', () => {
-    $('branchWrap').classList.toggle('hidden', $('accessTypeSelect').value === 'main');
+    const access = $('accessTypeSelect').value;
+    $('branchWrap').classList.toggle('hidden', access === 'main' || access === 'auto');
+    if (access === 'direct' || access === 'indirect') $('branchWrap').classList.remove('hidden');
     renderResult();
   });
   $('projectModeSelect').addEventListener('change', () => {
