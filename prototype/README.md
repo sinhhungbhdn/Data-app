@@ -1,15 +1,23 @@
-# Bảo Tín – Tra cứu giá đất V0.3.0
+# Bảo Tín – Tra cứu giá đất V0.3.1
 
-Bản V0.3.0 tập trung vào phạm vi thực tế trước mắt:
+## Luồng tra cứu mới
 
-- Dán tọa độ Google Maps.
-- Tìm tối đa 5 tuyến khác nhau gần vị trí trong dữ liệu hiện có.
-- Với mỗi tuyến, hiển thị đoạn gần nhất, khoảng cách thẳng ước tính, hệ số đất ở, thương mại dịch vụ và sản xuất phi nông nghiệp.
-- Hỗ trợ tên đồng nghĩa, ví dụ ĐT16 = Đường Bùi Hữu Nghĩa.
-- Cho phép nhập thêm khoảng cách theo đường đi đo từ Google Maps.
-- Lưu điểm tra cứu trên máy bằng localStorage.
-- Xuất các điểm đã lưu ra JSON; cấu trúc đã chừa sẵn trường để nối dữ liệu giá thị trường sau này.
+1. Dán tọa độ Google Maps.
+2. Ứng dụng tải mạng đường thực tế quanh vị trí.
+3. Xác định tối đa 3 đường/hẻm gần nhất, trong đó đường gần nhất được dùng làm đường tiếp cận.
+4. Đối chiếu tên và mã đường với dữ liệu tuyến trong Quyết định.
+5. Nếu đường tiếp cận chưa có tên riêng trong dữ liệu Quyết định, ứng dụng tìm tối đa 3 trục pháp lý gần nhất.
+6. Khoảng cách đến trục pháp lý được tính theo mạng đường bằng dịch vụ định tuyến; nếu dịch vụ không trả kết quả thì ghi rõ khoảng cách thẳng dự phòng.
+7. Hiển thị hệ số đất ở, thương mại dịch vụ, sản xuất phi nông nghiệp và trang PDF nguồn.
 
-## Lưu ý
+## Dịch vụ bản đồ
 
-Hình học tuyến hiện là dữ liệu mẫu chưa kiểm duyệt, vì vậy khoảng cách thẳng chỉ phục vụ kiểm thử giao diện và cấu trúc dữ liệu. Bản này chưa kết luận vị trí pháp lý và chưa tự thu thập giá thị trường trên mạng.
+- OpenStreetMap/Overpass: mạng đường và tên/mã đường.
+- OSRM: khoảng cách đi theo mạng đường.
+- Google Maps nhúng: kiểm tra trực quan.
+
+Bản này cần Internet để dò mạng đường. Kết quả phụ thuộc độ đầy đủ của dữ liệu bản đồ và dữ liệu Quyết định đã nhập trong app.
+
+## Dữ liệu pháp lý
+
+Hiện mới tích hợp một phần Phụ lục I.1, Bảng 1 – Phường Biên Hòa. Khi bổ sung toàn bộ dữ liệu, thuật toán không cần thay đổi cấu trúc.
