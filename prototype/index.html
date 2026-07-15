@@ -6,7 +6,7 @@
   <meta name="description" content="Bản nháp tra cứu vị trí đất và hệ số điều chỉnh giá đất Bảo Tín">
   <title>Bảo Tín | Tra cứu giá đất</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="patch-v0.3.0.css">
+  <link rel="stylesheet" href="patch-v0.3.1.css">
 </head>
 <body>
   <header class="app-header">
@@ -19,11 +19,11 @@
     </div>
     <div class="app-title-wrap">
       <h1>TRA CỨU GIÁ ĐẤT &amp; HỆ SỐ ĐIỀU CHỈNH</h1>
-      <div class="app-subtitle">So sánh các tuyến đường quanh vị trí tra cứu</div>
+      <div class="app-subtitle">Tìm đường thực tế trước – đối chiếu tuyến pháp lý sau</div>
     </div>
     <div class="header-actions">
       <button class="header-button" id="printBtn" type="button">In phiếu</button>
-      <span class="version-badge">V0.3.0</span>
+      <span class="version-badge">V0.3.1</span>
     </div>
   </header>
 
@@ -33,7 +33,7 @@
   </nav>
 
   <div class="draft-warning" role="status">
-    <strong>BẢN NHÁP NGHIỆP VỤ:</strong> khoảng cách hiện là khoảng cách thẳng đến hình học tuyến mẫu, chưa thay thế khoảng cách đi theo lối tiếp cận thực tế.
+    <strong>BẢN NHÁP NGHIỆP VỤ:</strong> mạng đường và khoảng cách đường đi lấy từ dịch vụ bản đồ trực tuyến; hệ số lấy từ dữ liệu Quyết định đã nhập mẫu. Luôn kiểm tra lại trước khi sử dụng.
   </div>
 
   <main class="page-shell">
@@ -43,13 +43,13 @@
         <div class="search-title-row">
           <div>
             <h2 id="searchTitle">Dán thông tin Google Maps</h2>
-            <p>Dán tọa độ, đường dẫn hoặc nội dung ghim. Ứng dụng tự tìm các tuyến gần nhất trong dữ liệu Quyết định.</p>
+            <p>Dán tọa độ hoặc đường dẫn. App tự dò đường/hẻm thực tế gần nhất, sau đó tìm tối đa 3 trục có trong dữ liệu Quyết định.</p>
           </div>
           <span class="auto-pill">TỰ ĐỘNG</span>
         </div>
         <textarea id="googlePasteInput" rows="3" spellcheck="false" placeholder="Ví dụ: 10.935953, 106.812990"></textarea>
         <div class="search-actions">
-          <button class="primary-button" id="analyzeBtn" type="button">Phân tích tự động</button>
+          <button class="primary-button" id="analyzeBtn" type="button">Dò đường &amp; hệ số</button>
           <button class="ghost-button" id="gpsBtn" type="button">Dùng vị trí hiện tại</button>
           <button class="text-button" id="clearBtn" type="button">Xóa</button>
         </div>
@@ -57,42 +57,48 @@
       </div>
     </section>
 
-    <section class="result-grid" aria-label="Tuyến đang xem và bản đồ">
+    <section class="result-grid" aria-label="Kết quả và bản đồ">
       <article class="result-card">
         <div class="section-heading">
           <div class="step-badge gold">2</div>
           <div>
-            <h2>Tuyến đang xem</h2>
-            <p>Bấm “Xem tuyến” trong bảng so sánh để đổi tuyến.</p>
+            <h2>Đường tiếp cận thực tế</h2>
+            <p>Được dò từ mạng đường quanh tọa độ, không lấy từ danh sách tên đường trong Quyết định.</p>
           </div>
           <span class="status-pill" id="confidenceText">Chưa tra cứu</span>
         </div>
 
-        <div class="assumption-banner" id="assumptionBanner">
-          Chưa có kết quả so sánh tuyến.
-        </div>
+        <div class="assumption-banner" id="assumptionBanner">Chưa có kết quả dò đường thực tế.</div>
 
         <dl class="result-list">
           <div><dt>Tọa độ</dt><dd id="resultCoordinate">—</dd></div>
-          <div><dt>Địa bàn dữ liệu</dt><dd id="resultCommune">—</dd></div>
-          <div><dt>Tuyến đường</dt><dd id="resultRoad">—</dd></div>
-          <div><dt>Tên khác</dt><dd id="resultAliases">—</dd></div>
-          <div><dt>Đoạn đường gần nhất</dt><dd id="resultSegment">—</dd></div>
-          <div><dt>Khoảng cách thẳng</dt><dd id="resultRoadDistance">—</dd></div>
-          <div><dt>Phạm vi kết luận</dt><dd>Chỉ so sánh tuyến và hệ số; chưa kết luận vị trí pháp lý.</dd></div>
+          <div><dt>Đường/hẻm gần nhất</dt><dd id="resultAccessRoad">—</dd></div>
+          <div><dt>Tên/mã trên bản đồ</dt><dd id="resultAccessAliases">—</dd></div>
+          <div><dt>Khoảng cách tới tim đường</dt><dd id="resultAccessDistance">—</dd></div>
+          <div><dt>Các đường gần tiếp theo</dt><dd id="resultNearbyRoads">—</dd></div>
+          <div><dt>Trạng thái trong QĐ</dt><dd id="resultLegalStatus">—</dd></div>
         </dl>
+
+        <div class="legal-source">
+          <h3>Trục pháp lý đang xem</h3>
+          <p id="selectedLegalRoad">Chưa chọn trục pháp lý.</p>
+          <div class="source-meta">
+            <span id="selectedRouteDistance">Khoảng cách đường đi: —</span>
+            <span id="selectedRouteMethod">Phương pháp: —</span>
+          </div>
+        </div>
 
         <div class="factor-grid">
           <div class="factor-card primary"><span>Hệ số đất ở</span><strong id="factorResidential">—</strong></div>
           <div class="factor-card"><span>Hệ số thương mại, dịch vụ</span><strong id="factorCommercial">—</strong></div>
           <div class="factor-card"><span>Hệ số SX phi nông nghiệp</span><strong id="factorProduction">—</strong></div>
-          <div class="factor-card total"><span>Khoảng cách thẳng</span><strong id="factorDistance">—</strong></div>
+          <div class="factor-card total"><span>Số trục tìm được</span><strong id="factorRouteCount">0</strong></div>
         </div>
 
         <div class="legal-source">
           <h3>Căn cứ nguồn</h3>
           <p id="legalSourceText">Chưa có kết quả.</p>
-          <div class="source-meta"><span id="sourcePage">Trang PDF: —</span><span id="sourceRecord">Mã dữ liệu: —</span></div>
+          <div class="source-meta"><span id="sourcePage">Trang PDF: —</span><span id="sourceRecord">Dữ liệu: —</span></div>
         </div>
 
         <div class="result-actions">
@@ -106,7 +112,7 @@
         <div class="map-card-head">
           <div>
             <h2>Bản đồ kiểm tra</h2>
-            <p>Chỉ tải sau khi nhận được tọa độ để giảm lag.</p>
+            <p>Chỉ tải sau khi có tọa độ.</p>
           </div>
           <button class="map-toggle" id="toggleMapBtn" type="button" disabled>Hiện bản đồ</button>
         </div>
@@ -124,22 +130,22 @@
       <div class="section-heading comparison-heading">
         <div class="step-badge gold">3</div>
         <div>
-          <h2 id="comparisonTitle">So sánh các tuyến gần vị trí</h2>
-          <p>Hiển thị tối đa 5 tuyến khác nhau. Có thể nhập thêm khoảng cách theo đường đi đo từ Google Maps.</p>
+          <h2 id="comparisonTitle">Các trục trong Quyết định gần vị trí</h2>
+          <p>Hiển thị tối đa 3 trục có dữ liệu hệ số và có thể tiếp cận từ đường/hẻm hiện tại.</p>
         </div>
         <span class="status-pill" id="routeCount">0 tuyến</span>
       </div>
       <div class="comparison-note">
-        <strong>Khoảng cách thẳng</strong> do app tính từ tọa độ tới hình học tuyến mẫu. <strong>Khoảng cách theo đường đi</strong> do người dùng nhập để lưu cùng hồ sơ tra cứu.
+        <strong>KC đường đi</strong> do dịch vụ định tuyến tính theo mạng đường thực tế. Khi không định tuyến được, app mới dùng khoảng cách thẳng và ghi rõ là dự phòng.
       </div>
       <div class="table-wrap">
         <table class="route-table">
           <thead>
             <tr>
               <th>#</th>
-              <th>Tuyến đường</th>
-              <th>Đoạn gần nhất</th>
-              <th>KC thẳng</th>
+              <th>Trục trong QĐ</th>
+              <th>Tên/mã trên bản đồ</th>
+              <th>Chuỗi tiếp cận</th>
               <th>KC đường đi</th>
               <th>HS đất ở</th>
               <th>HS TMDV</th>
@@ -149,7 +155,7 @@
             </tr>
           </thead>
           <tbody id="routeTableBody">
-            <tr><td colspan="10" class="empty-cell">Chưa có tọa độ để so sánh.</td></tr>
+            <tr><td colspan="10" class="empty-cell">Chưa có tọa độ để dò mạng đường.</td></tr>
           </tbody>
         </table>
       </div>
@@ -157,19 +163,13 @@
 
     <details class="saved-card" id="savedCard">
       <summary>
-        <span><strong>Lưu điểm tra cứu</strong><small>Lưu trên máy đang sử dụng để tái dùng và làm nền nối dữ liệu giá thị trường sau này.</small></span>
+        <span><strong>Lưu điểm tra cứu</strong><small>Lưu trên máy để tái sử dụng và gắn dữ liệu giá thị trường sau này.</small></span>
         <span class="summary-action" id="savedCount">0 điểm</span>
       </summary>
       <div class="saved-body">
         <div class="save-form">
-          <div>
-            <label for="locationLabelInput">Tên điểm</label>
-            <input id="locationLabelInput" type="text" maxlength="120" placeholder="Ví dụ: Hẻm 863 – Bùi Hữu Nghĩa">
-          </div>
-          <div>
-            <label for="locationNoteInput">Ghi chú</label>
-            <input id="locationNoteInput" type="text" maxlength="300" placeholder="Nguồn khảo sát, đặc điểm vị trí...">
-          </div>
+          <div><label for="locationLabelInput">Tên điểm</label><input id="locationLabelInput" type="text" maxlength="120" placeholder="Ví dụ: Hẻm 863 – Bùi Hữu Nghĩa"></div>
+          <div><label for="locationNoteInput">Ghi chú</label><input id="locationNoteInput" type="text" maxlength="300" placeholder="Nguồn khảo sát, đặc điểm vị trí..."></div>
           <div class="save-actions">
             <button class="primary-button" id="saveLocationBtn" type="button" disabled>Lưu điểm hiện tại</button>
             <button class="ghost-button" id="exportSavedBtn" type="button">Xuất JSON</button>
@@ -179,7 +179,7 @@
         <div class="copy-message" id="savedMessage" aria-live="polite"></div>
         <div class="table-wrap">
           <table class="saved-table">
-            <thead><tr><th>Tên điểm</th><th>Tọa độ</th><th>Tuyến đang xem</th><th>Số tuyến</th><th>Thời gian lưu</th><th></th></tr></thead>
+            <thead><tr><th>Tên điểm</th><th>Tọa độ</th><th>Đường tiếp cận</th><th>Trục đang xem</th><th>Thời gian lưu</th><th></th></tr></thead>
             <tbody id="savedTableBody"><tr><td colspan="6" class="empty-cell">Chưa có điểm đã lưu.</td></tr></tbody>
           </table>
         </div>
@@ -190,16 +190,16 @@
   <section class="modal hidden" id="legalModal" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle">
     <div class="modal-card">
       <button class="modal-close" data-close-modal type="button" aria-label="Đóng">×</button>
-      <h2 id="legalModalTitle">Căn cứ pháp lý bản nháp</h2>
-      <p><strong>Quyết định số 03/2026/QĐ-UBND ngày 11/5/2026</strong> quy định hệ số điều chỉnh giá đất trên địa bàn thành phố Đồng Nai năm 2026.</p>
-      <p>Bản V0.3.0 chỉ so sánh khoảng cách từ vị trí đến các tuyến đã có trong dữ liệu mẫu và hiển thị hệ số của từng tuyến/đoạn.</p>
-      <p>Khoảng cách hiển thị mặc định là khoảng cách thẳng đến hình học tuyến mẫu. Khoảng cách đi theo đường tiếp cận cần đo hoặc xác nhận riêng.</p>
+      <h2 id="legalModalTitle">Căn cứ và phạm vi bản nháp</h2>
+      <p><strong>Quyết định số 03/2026/QĐ-UBND ngày 11/5/2026</strong> là nguồn hệ số điều chỉnh trong dữ liệu mẫu.</p>
+      <p>Bản V0.3.1 dùng mạng đường OpenStreetMap để nhận diện đường/hẻm thực tế và dùng dịch vụ định tuyến OSRM để ước tính khoảng cách đi tới các trục đã có trong dữ liệu Quyết định.</p>
+      <p>Kết quả phụ thuộc mức độ đầy đủ của dữ liệu bản đồ. Trường hợp đường nhỏ, hẻm chưa được gắn tên hoặc không định tuyến được, app phải báo rõ và không tự khẳng định.</p>
     </div>
   </section>
 
   <footer class="app-footer">
     <span>CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ VÀ THẨM ĐỊNH GIÁ BẢO TÍN</span>
-    <span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.3.0</span>
+    <span>Phát triển bởi Nguyễn Mạnh Cường · Version: V0.3.1</span>
   </footer>
 
   <script src="data/segments.js"></script>
