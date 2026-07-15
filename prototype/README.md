@@ -16,7 +16,7 @@
 - OSRM: khoảng cách đi theo mạng đường.
 - Google Maps nhúng: kiểm tra trực quan.
 
-Bản này cần Internet để dò mạng đường. Kết quả phụ thuộc độ đầy đủ của dữ liệu bản đồ và dữ liệu Quyết định đã nhập trong app.
+Bản này cần Internet để dò mạng đường. Kết quả phụ thuộc độ đầy đủ của dữ liệu bản đồ và dữ liệu Quyết định đã nhập trong app. Các dịch vụ công cộng chỉ phù hợp kiểm thử bản nháp; bản triển khai chính thức cần cấu hình dịch vụ ổn định hoặc máy chủ riêng.
 
 ## Dữ liệu pháp lý
 
