@@ -1,29 +1,33 @@
-# Bảo Tín - Thử nghiệm dữ liệu giá đất V0.4.0
+# Bảo Tín – Tra cứu hệ số điều chỉnh giá đất V0.5.0
 
-Bản này chuyển trọng tâm sang kiểm thử dữ liệu pháp lý trước khi mở rộng ứng dụng.
+## Dữ liệu đã tích hợp
 
-## Dữ liệu đã nhập
+- Quyết định 03/2026/QĐ-UBND ngày 11/05/2026.
+- Toàn bộ 95 địa bàn trong Phụ lục I.1 và 95 địa bàn trong Phụ lục I.2.
+- 34.009 dòng dữ liệu trích từ 3.307 trang PDF.
+- Phụ lục II: hệ số điều chỉnh theo quy hoạch/hệ số sử dụng đất.
+- Phụ lục III: các yếu tố ảnh hưởng, gồm trường hợp gần nghĩa trang trong phạm vi 100 m với hệ số 0,95.
 
-- Quyết định 03/2026/QĐ-UBND.
-- Phụ lục I.1 - Bảng 1 - Phường Biên Hòa.
-- Đầy đủ TT 1 đến TT 107.
-- 15 đoạn đường chính chuẩn và 2 dòng đặc thù Cù Lao Tân Vạn.
-- 3 cột hệ số: đất ở, thương mại dịch vụ, sản xuất phi nông nghiệp/khoáng sản.
-- Nguồn PDF trang 11 đến 21 của file `QD 03.2026-1-1500_compressed.pdf`.
+## Cách tra cứu
 
-## Luồng thử nghiệm
+1. Dán tọa độ, địa chỉ, tên điểm hoặc liên kết Google Maps để mở vị trí kiểm tra.
+2. Chọn xã/phường và nhóm đất.
+3. Lọc tuyến/đoạn bằng tên đường hoặc mốc đầu – cuối.
+4. Chọn quan hệ với tuyến, hiện trạng đường, nhập bề rộng và khoảng cách.
+5. Ứng dụng tìm các dòng phù hợp. Dòng có điều kiện phức tạp được hiển thị để người dùng chọn nguyên văn; ứng dụng không tự đoán.
+6. Chọn hệ số quy hoạch và yếu tố ảnh hưởng khác để tính hệ số kết hợp.
 
-1. Dán tọa độ, địa chỉ, tên điểm hoặc link Google Maps.
-2. Chọn tuyến và đoạn đường trong Quyết định.
-3. Chọn tiếp giáp đường chính, đấu nối trực tiếp hoặc không trực tiếp.
-4. Nếu là đường nhánh, nhập bề rộng và khoảng cách.
-5. App tự xác định đúng TT, hệ số và trang PDF nguồn.
-6. Có thể thêm tối đa 3 phương án để so sánh.
+## Phạm vi và giới hạn
 
-## Bảng giá đất Nhà nước
+- Google Maps chỉ dùng để mở vị trí. Ứng dụng không tự xác định địa bàn, tuyến đường, bề rộng hoặc khoảng cách.
+- Bộ dữ liệu bảng giá đất theo Nghị quyết 28/2025/NQ-HĐND chưa có trong ứng dụng. Vì vậy ứng dụng chưa tự trả đơn giá đất Nhà nước.
+- Có thể nhập thủ công đơn giá theo Nghị quyết 28 để kiểm thử phép tính; số này không phải dữ liệu do ứng dụng cung cấp.
+- Dữ liệu được trích tự động và có lớp kiểm tra cấu trúc. Trước khi dùng trong hồ sơ pháp lý phải đối chiếu lại TT và trang PDF hiển thị trên kết quả.
 
-Hai file hiện có trên GitHub là Quyết định 03/2026 về hệ số điều chỉnh. Chưa có file chứa bảng giá đất Nhà nước, vì vậy V0.4.0 không tự tạo hoặc đoán đơn giá pháp lý. Mục giá kiểm thử chỉ dùng để kiểm tra công thức.
+## Chạy trên máy khác
 
-## Chạy ứng dụng
+Giải nén toàn bộ thư mục và mở `CHAY_UNG_DUNG.bat`. Dữ liệu QĐ 03 chạy offline; chỉ việc mở Google Maps cần Internet.
 
-Giải nén và bấm `CHAY_UNG_DUNG.bat`. Phần dữ liệu pháp lý hoạt động offline; nút mở Google Maps cần Internet.
+## Trình duyệt
+
+Các gói dữ liệu được nén để app nhẹ và tải nhanh. Mở bằng Microsoft Edge hoặc Google Chrome phiên bản mới.
