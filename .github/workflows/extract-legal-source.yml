@@ -26,39 +26,61 @@ jobs:
       - name: Install extractors
         run: |
           sudo apt-get update
-          sudo apt-get install -y antiword poppler-utils libreoffice-writer fonts-dejavu-core
+          sudo apt-get install -y antiword poppler-utils libreoffice-writer fonts-dejavu-core p7zip-full
+          python3 -m pip install --user olefile
 
       - name: Extract source documents
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p extracted converted
+          mkdir -p extracted/ole-streams converted
           antiword '28_2025_NQ-HDND_687389.doc' > extracted/nq28-antiword.txt
           libreoffice --headless --convert-to pdf --outdir converted '28_2025_NQ-HDND_687389.doc'
           pdftotext -layout converted/28_2025_NQ-HDND_687389.pdf extracted/nq28-libreoffice.txt
           pdftotext -layout 'QD 03.2026-1-1500_compressed.pdf' extracted/qd03-pages-1-1500.txt
           pdftotext -layout 'QD 03.2026-1501-3307_compressed.pdf' extracted/qd03-pages-1501-3307.txt
           pdfinfo converted/28_2025_NQ-HDND_687389.pdf > extracted/nq28-pdfinfo.txt
+          7z l '28_2025_NQ-HDND_687389.doc' > extracted/nq28-7z-list.txt || true
           python3 - <<'PY'
           from pathlib import Path
-          import hashlib, json
-          out = {}
+          import hashlib, json, re
+          import olefile
+
+          doc = Path('28_2025_NQ-HDND_687389.doc')
+          ole_report = {'file_bytes': doc.stat().st_size, 'is_ole': olefile.isOleFile(str(doc)), 'streams': []}
+          if ole_report['is_ole']:
+              with olefile.OleFileIO(str(doc)) as ole:
+                  for parts in ole.listdir(streams=True, storages=False):
+                      name = '/'.join(parts)
+                      data = ole.openstream(parts).read()
+                      safe = re.sub(r'[^A-Za-z0-9._-]+', '_', name).strip('_') or 'stream'
+                      out = Path('extracted/ole-streams') / safe
+                      out.write_bytes(data)
+                      ole_report['streams'].append({
+                          'name': name,
+                          'bytes': len(data),
+                          'sha256': hashlib.sha256(data).hexdigest(),
+                          'saved_as': str(out),
+                      })
+          Path('extracted/nq28-ole-report.json').write_text(json.dumps(ole_report, ensure_ascii=False, indent=2), encoding='utf-8')
+
+          report = {}
           for p in sorted(Path('extracted').glob('*')):
               if not p.is_file():
                   continue
               raw = p.read_bytes()
               text = raw.decode('utf-8', errors='replace')
               lines = text.splitlines()
-              out[p.name] = {
+              report[p.name] = {
                   'bytes': len(raw),
                   'lines': len(lines),
                   'sha256': hashlib.sha256(raw).hexdigest(),
                   'first_lines': lines[:160],
                   'last_lines': lines[-160:],
               }
-          Path('extracted/extraction-report.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
+          Path('extracted/extraction-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
           PY
-          ls -lh extracted converted
+          ls -lh extracted converted extracted/ole-streams
 
       - name: Upload extracted text
         uses: actions/upload-artifact@v4
