@@ -1,0 +1,24 @@
+{
+  "datasetId": "QD03-2026-I1-B1-BIENHOA",
+  "datasetVersion": "0.4.0",
+  "documentNumber": "03/2026/QĐ-UBND",
+  "documentDate": "2026-05-11",
+  "appendix": "Phụ lục I.1",
+  "table": "Bảng 1",
+  "commune": "Phường Biên Hòa",
+  "pdfFile": "QD 03.2026-1-1500_compressed.pdf",
+  "pdfPages": [11, 21],
+  "rowCount": 107,
+  "standardSegmentCount": 15,
+  "specialRowCount": 2,
+  "validation": {
+    "ttSequential": true,
+    "factorColumnsPresent": true,
+    "status": "extracted-and-checked"
+  },
+  "statePriceData": {
+    "status": "missing-source",
+    "rowCount": 0,
+    "message": "Chưa có file Bảng giá đất Nhà nước trong kho dữ liệu hiện tại."
+  }
+}
