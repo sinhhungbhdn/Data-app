@@ -1,23 +1,23 @@
-# Bảo Tín – Tra cứu giá đất V0.3.1
+# Bảo Tín – Tra cứu giá đất V0.3.2
 
-## Luồng tra cứu mới
+V0.3.2 bỏ toàn bộ dịch vụ dò mạng đường và định tuyến trực tuyến để tránh treo, chậm và trả kết quả khó kiểm soát.
 
-1. Dán tọa độ Google Maps.
-2. Ứng dụng tải mạng đường thực tế quanh vị trí.
-3. Xác định tối đa 3 đường/hẻm gần nhất, trong đó đường gần nhất được dùng làm đường tiếp cận.
-4. Đối chiếu tên và mã đường với dữ liệu tuyến trong Quyết định.
-5. Nếu đường tiếp cận chưa có tên riêng trong dữ liệu Quyết định, ứng dụng tìm tối đa 3 trục pháp lý gần nhất.
-6. Khoảng cách đến trục pháp lý được tính theo mạng đường bằng dịch vụ định tuyến; nếu dịch vụ không trả kết quả thì ghi rõ khoảng cách thẳng dự phòng.
-7. Hiển thị hệ số đất ở, thương mại dịch vụ, sản xuất phi nông nghiệp và trang PDF nguồn.
+## Luồng sử dụng
 
-## Dịch vụ bản đồ
+1. Dán tọa độ, địa chỉ hoặc link Google Maps.
+2. Mở bản đồ để nhìn đường/hẻm tiếp cận thực tế.
+3. Chọn tối đa 3 tuyến có trong dữ liệu Quyết định.
+4. Chọn đúng đoạn đường.
+5. Nhập khoảng cách đã đo thủ công trên Google Maps.
+6. Xem hệ số và nguồn PDF của từng phương án.
+7. Lưu điểm tra cứu để dùng lại hoặc nối dữ liệu giá thị trường sau này.
 
-- OpenStreetMap/Overpass: mạng đường và tên/mã đường.
-- OSRM: khoảng cách đi theo mạng đường.
-- Google Maps nhúng: kiểm tra trực quan.
+## Nguyên tắc
 
-Bản này cần Internet để dò mạng đường. Kết quả phụ thuộc độ đầy đủ của dữ liệu bản đồ và dữ liệu Quyết định đã nhập trong app. Các dịch vụ công cộng chỉ phù hợp kiểm thử bản nháp; bản triển khai chính thức cần cấu hình dịch vụ ổn định hoặc máy chủ riêng.
+- Không tự dò đường gần nhất.
+- Không tự tính khoảng cách đường đi.
+- Không tự kết luận vị trí pháp lý.
+- Hệ số chỉ lấy từ dữ liệu Quyết định đã nhập trong app.
+- Dữ liệu hiện mới gồm một phần Phường Biên Hòa.
 
-## Dữ liệu pháp lý
-
-Hiện mới tích hợp một phần Phụ lục I.1, Bảng 1 – Phường Biên Hòa. Khi bổ sung toàn bộ dữ liệu, thuật toán không cần thay đổi cấu trúc.
+Bản này ưu tiên tốc độ, ổn định và dễ kiểm tra thay vì tự động hóa quá mức.
