@@ -5,7 +5,7 @@ on:
     branches:
       - agent/sync-v1.2.7-full
     paths:
-      - sync/v1.2.7/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.7.zip
+      - Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.7.zip
 
 permissions:
   contents: write
@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          archive="sync/v1.2.7/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.7.zip"
+          archive="Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.7.zip"
           echo "0d1fbc25c71c31197ae9edb14ab67f89e8b5404e45d4ef9d98e82eeebb85fa6  $archive" | sha256sum -c -
           rm -rf /tmp/bt-land-v1.2.7
           mkdir -p /tmp/bt-land-v1.2.7
@@ -74,9 +74,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf sync/v1.2.7
+          rm -f Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.7.zip
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A prototype sync/v1.2.7
+          git add -A prototype Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.7.zip
           git commit -m "Sync complete V1.2.7 source and 95-area dataset [skip ci]"
           git push
