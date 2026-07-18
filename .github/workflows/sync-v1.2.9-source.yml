@@ -1,0 +1,64 @@
+name: Sync verified V1.2.9 source
+
+on:
+  push:
+    branches:
+      - agent/sync-v1.2.9-full
+    paths:
+      - 'sync/v1.2.9/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  unpack-verify-commit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild exact archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f sync/v1.2.9/READY
+          cat sync/v1.2.9/chunk-*.b64 | base64 --decode > /tmp/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.9.zip
+          echo "432c1e8e7edeae7354d1bda9d45c631de933fe0bcd5c5b1b2cacb847bdb659ad  /tmp/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.9.zip" | sha256sum -c -
+          rm -rf /tmp/bt-v129
+          mkdir -p /tmp/bt-v129
+          unzip -q /tmp/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.9.zip -d /tmp/bt-v129
+          test -d /tmp/bt-v129/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.9
+
+      - name: Verify complete app and full dataset
+        shell: bash
+        run: |
+          set -euo pipefail
+          src=/tmp/bt-v129/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.9
+          test "$(tr -d '\r\n' < "$src/VERSION.txt")" = V1.2.9
+          test -f "$src/index-v1.2.9.html"
+          test -f "$src/app-v1.2.9.js"
+          test -f "$src/styles-v1.2.9.css"
+          test -f "$src/CHAY_UNG_DUNG_V1.2.9.bat"
+          test -f "$src/TAO_SHORTCUT_DESKTOP_V1.2.9.bat"
+          test "$(find "$src/data/areas" -maxdepth 1 -type f -name 'area-*.js' | wc -l)" -eq 95
+          node --check "$src/app-v1.2.9.js"
+          node --check "$src/data/manifest-v1.2.9.js"
+          node "$src/tools/validate-v1.2.9.js"
+          node -e "const r=require('$src/FULL_DATA_TEST_V1.2.9.json'); if(r.rows!==34105||r.areas!==95||r.surfaceCorrections!==246||r.ambiguousStandardCases!==0||r.missingStandardCases!==0||r.hardcodedTtInApp||r.failures.length) process.exit(1)"
+
+      - name: Commit complete source tree
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf prototype
+          mkdir -p prototype
+          cp -a /tmp/bt-v129/Bao_Tin_Tra_Cuu_Gia_Dat_V1.2.9/. prototype/
+          rm -rf sync/v1.2.9
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A prototype sync/v1.2.9
+          git commit -m "Sync complete V1.2.9 app and 95-area dataset [skip ci]"
+          git push
