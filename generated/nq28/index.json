@@ -1,0 +1,19 @@
+{
+  "source": {
+    "file": "28_2025_NQ-HDND_687389.doc",
+    "bytes": 5396480,
+    "sha256": "439ac88903b454731fd37f6afd8db8b1f913035e5c8a8953fe438b125985790c"
+  },
+  "report": "extraction-report.json",
+  "preview": "raw-table-rows-preview.txt",
+  "chunks": [
+    {
+      "file": "raw-table-rows-0001.jsonl",
+      "first_global_row": 1,
+      "last_global_row": 4,
+      "row_count": 4,
+      "sha256": "dfd1697da8668f32e0dabda83fa141fa11da79dc7e82d161d16ddfd80816528f",
+      "bytes": 8258
+    }
+  ]
+}
