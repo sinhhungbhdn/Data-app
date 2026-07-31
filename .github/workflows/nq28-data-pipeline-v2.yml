@@ -18,9 +18,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-full-source:
+  build-and-parse-full-source:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 300
 
     steps:
       - name: Checkout trial branch
@@ -48,65 +48,88 @@ jobs:
             --area-start 1 \
             --area-end 95
           status=$?
-          echo "PIPELINE_EXIT=$status" >> "$GITHUB_ENV"
+          echo "SOURCE_PIPELINE_EXIT=$status" >> "$GITHUB_ENV"
           exit 0
 
-      - name: Show full-source validation report
+      - name: Parse auditable NQ28 legal rows for all 95 areas
+        shell: bash
+        run: |
+          set +e
+          rm -rf generated/nq28-v2/parsed generated/nq28-v2/review
+          python3 data-pipeline-v2/parse_nq28_area_rows.py \
+            --source-dir generated/nq28-v2/source \
+            --output generated/nq28-v2/parsed \
+            --area-start 1 \
+            --area-end 95
+          status=$?
+          echo "PARSE_PIPELINE_EXIT=$status" >> "$GITHUB_ENV"
+          exit 0
+
+      - name: Show full validation reports
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
 
-          path = Path('generated/nq28-v2/source/source-manifest.json')
-          if not path.is_file():
-              raise SystemExit('source-manifest.json was not produced')
+          source_path = Path('generated/nq28-v2/source/source-manifest.json')
+          parse_path = Path('generated/nq28-v2/parsed/parse-summary.json')
+          review_path = Path('generated/nq28-v2/review/needs-review.json')
+          for path in (source_path, parse_path, review_path):
+              if not path.is_file():
+                  raise SystemExit(f'{path} was not produced')
 
-          data = json.loads(path.read_text(encoding='utf-8'))
-          areas = data.get('areas', [])
-          requested = data.get('requestedRange', {})
-          validation = data.get('validation', {})
-          review = data.get('review', [])
-
+          source = json.loads(source_path.read_text(encoding='utf-8'))
+          parsed = json.loads(parse_path.read_text(encoding='utf-8'))
+          review = json.loads(review_path.read_text(encoding='utf-8'))
           summary = {
-              'source': data.get('source'),
-              'embedded': data.get('embedded'),
-              'pdf': data.get('pdf'),
-              'tsv': data.get('tsv'),
-              'requestedRange': requested,
-              'coverageBySequence': data.get('coverageBySequence'),
-              'validation': validation,
-              'areaCount': len(areas),
-              'reviewCount': len(review),
-              'reviewSample': review[:50],
-              'areas': areas,
+              'sourceValidation': source.get('validation'),
+              'sourceCoverageBySequence': source.get('coverageBySequence'),
+              'sourceAreaCount': len(source.get('areas', [])),
+              'parsedValidation': parsed.get('validation'),
+              'parsedAreaCount': parsed.get('areaCount'),
+              'recordCount': parsed.get('recordCount'),
+              'groupCount': parsed.get('groupCount'),
+              'reviewCount': review.get('count'),
+              'reviewSample': review.get('items', [])[:50],
+              'areaSummaries': parsed.get('areas', []),
           }
           print(json.dumps(summary, ensure_ascii=False, indent=2))
 
+          requested = source.get('requestedRange', {})
           if requested.get('start') != 1 or requested.get('end') != 95:
-              raise SystemExit('Requested range is not 1-95')
-          if len(areas) != 95:
-              raise SystemExit(f'Expected 95 area bundles, found {len(areas)}')
+              raise SystemExit('Source requested range is not 1-95')
+          if len(source.get('areas', [])) != 95:
+              raise SystemExit(f"Expected 95 source bundles, found {len(source.get('areas', []))}")
+          if parsed.get('areaCount') != 95:
+              raise SystemExit(f"Expected 95 parsed areas, found {parsed.get('areaCount')}")
           PY
-          du -h generated/nq28-v2/source/source-manifest.json generated/nq28-v2/source/areas/* | sort -h
+          du -h generated/nq28-v2/source/source-manifest.json \
+            generated/nq28-v2/parsed/parse-summary.json \
+            generated/nq28-v2/review/needs-review.json \
+            generated/nq28-v2/parsed/areas/* | sort -h
 
-      - name: Commit full source build to trial branch
+      - name: Commit full source and parsed legal data to trial branch
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/nq28-v2/source
+          git add generated/nq28-v2/source generated/nq28-v2/parsed generated/nq28-v2/review
           if git diff --cached --quiet; then
-            echo "No generated source changes."
+            echo "No generated legal-data changes."
             exit 0
           fi
-          git commit -m "Build NQ28 source areas 001-095 [skip ci]"
+          git commit -m "Parse NQ28 legal rows areas 001-095 [skip ci]"
           git pull --rebase origin data-pipeline-v2
           git push origin HEAD:data-pipeline-v2
 
       - name: Enforce full-build validation
         if: always()
         run: |
-          if [ "${PIPELINE_EXIT:-1}" -ne 0 ]; then
-            echo "NQ28 full source build requires review; see committed source-manifest.json"
-            exit "${PIPELINE_EXIT:-1}"
+          if [ "${SOURCE_PIPELINE_EXIT:-1}" -ne 0 ]; then
+            echo "NQ28 source build requires review; see source-manifest.json"
+            exit "${SOURCE_PIPELINE_EXIT:-1}"
+          fi
+          if [ "${PARSE_PIPELINE_EXIT:-1}" -ne 0 ]; then
+            echo "NQ28 row parse requires review; see parse-summary.json and needs-review.json"
+            exit "${PARSE_PIPELINE_EXIT:-1}"
           fi
