@@ -1,0 +1,22 @@
+{
+  "legacy_file_bytes": 356452,
+  "pack_bytes": 324481,
+  "pack_gzip_bytes": 9691,
+  "adapter_bytes": 824,
+  "rows_non_agricultural": 107,
+  "rows_agricultural": 107,
+  "groups_each": 17,
+  "exact_legacy_expansion": true,
+  "corrected_first_road": "Đường Bùi Hữu Nghĩa",
+  "unchanged_search_fields": [
+    "id",
+    "groupId",
+    "tt",
+    "nqTt",
+    "qdTt",
+    "relation",
+    "factors",
+    "conditions",
+    "surface"
+  ]
+}
