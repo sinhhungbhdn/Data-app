@@ -1,16 +1,8 @@
-name: Build NQ28 raw table data v2
+name: Build NQ28 legal data v2
 
 on:
   push:
-    branches:
-      - data-pipeline-v2
-    paths:
-      - ".github/workflows/nq28-data-pipeline-v2.yml"
-      - "data-pipeline-v2/**"
-      - "28_2025_NQ-HDND_687389.doc"
-  pull_request:
-    branches:
-      - main
+    branches: [data-pipeline-v2]
     paths:
       - ".github/workflows/nq28-data-pipeline-v2.yml"
       - "data-pipeline-v2/**"
@@ -23,44 +15,71 @@ permissions:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
-
+    timeout-minutes: 60
     steps:
-      - name: Checkout trial branch
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: data-pipeline-v2
           fetch-depth: 1
-
-      - name: Install conversion dependencies
+      - name: Install extractors
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends libreoffice-writer python3-pip
-          python3 -m pip install --disable-pip-version-check beautifulsoup4 lxml
-
-      - name: Extract table-preserving raw data
+          sudo apt-get install -y antiword python3-pip
+          python3 -m pip install --disable-pip-version-check olefile
+      - name: Extract embedded price document
         run: |
-          rm -rf .pipeline-work generated/nq28
-          python3 data-pipeline-v2/extract_nq28.py \
-            --source 28_2025_NQ-HDND_687389.doc \
-            --work .pipeline-work \
-            --output generated/nq28 \
-            --chunk-size 5000 \
-            --preview-rows 1500
-
-      - name: Show extraction report
+          rm -rf .pipeline-work generated/nq28-v2/source
+          mkdir -p .pipeline-work/embedded generated/nq28-v2/source
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json, re, zipfile
+          import olefile
+          src=Path('28_2025_NQ-HDND_687389.doc')
+          candidates=[]
+          with olefile.OleFileIO(str(src)) as ole:
+              for parts in ole.listdir(streams=True,storages=False):
+                  data=ole.openstream(parts).read()
+                  pos=data.find(b'PK\x03\x04')
+                  if pos>=0: candidates.append(data[pos:])
+          if not candidates: raise SystemExit('No embedded ZIP found')
+          z=Path('.pipeline-work/embedded.zip'); z.write_bytes(max(candidates,key=len))
+          with zipfile.ZipFile(z) as archive: archive.extractall('.pipeline-work/embedded')
+          docs=list(Path('.pipeline-work/embedded').rglob('*.doc'))
+          if not docs: raise SystemExit('No embedded DOC found')
+          doc=max(docs,key=lambda p:p.stat().st_size)
+          Path('.pipeline-work/embedded-doc-path.txt').write_text(str(doc),encoding='utf-8')
+          def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+          report={'outer_file':src.name,'outer_bytes':src.stat().st_size,'outer_sha256':sha(src),'embedded_file':doc.name,'embedded_bytes':doc.stat().st_size,'embedded_sha256':sha(doc)}
+          Path('generated/nq28-v2/source/source-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          DOC_PATH="$(cat .pipeline-work/embedded-doc-path.txt)"
+          antiword "$DOC_PATH" > generated/nq28-v2/source/bang-gia-antiword.txt
+      - name: Build area heading inventory
         run: |
-          cat generated/nq28/extraction-report.json
-          du -h generated/nq28/* | sort -h
-
-      - name: Commit generated data to trial branch
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json,re,unicodedata
+          areas=['Phường Biên Hòa','Phường Trấn Biên','Phường Tam Hiệp','Phường Long Bình','Phường Trảng Dài','Phường Hố Nai','Phường Long Hưng','Phường Tân Triều','Phường Phước Tân','Phường Tam Phước','Phường Long Thành','Xã Bình An','Xã An Phước','Xã Long Phước','Xã Phước Thái','Phường Nhơn Trạch','Xã Đại Phước','Xã Phước An','Phường Long Khánh','Phường Bảo Vinh','Phường Xuân Lập','Phường Hàng Gòn','Phường Bình Lộc','Phường Xuân Lộc','Xã Xuân Hòa','Xã Xuân Thành','Xã Xuân Bắc','Xã Xuân Phú','Xã Xuân Định','Xã Cẩm Mỹ','Xã Xuân Quế','Xã Xuân Đường','Xã Sông Ray','Xã Xuân Đông','Phường Trảng Bom','Xã An Viễn','Xã Bàu Hàm','Xã Bình Minh','Xã Hưng Thịnh','Phường Dầu Giây','Xã Gia Kiệm','Xã Thống Nhất','Xã Định Quán','Xã Phú Vinh','Xã La Ngà','Xã Phú Hòa','Xã Thanh Sơn','Phường Tân Phú','Xã Tà Lài','Xã Nam Cát Tiên','Xã Phú Lâm','Xã Đắk Lua','Phường Trị An','Xã Tân An','Xã Phú Lý','Phường Bình Phước','Phường Đồng Xoài','Phường Minh Hưng','Phường Chơn Thành','Xã Nha Bích','Phường Bình Long','Phường An Lộc','Phường Phước Bình','Phường Phước Long','Xã Thuận Lợi','Xã Tân Lợi','Xã Đồng Tâm','Phường Đồng Phú','Phường Lộc Ninh','Xã Lộc Thành','Xã Lộc Hưng','Xã Lộc Tấn','Xã Lộc Thạnh','Xã Lộc Quang','Phường Tân Khai','Xã Tân Hưng','Xã Tân Quan','Xã Minh Đức','Xã Phước Sơn','Xã Nghĩa Trung','Xã Bù Đăng','Xã Thọ Sơn','Xã Đắk Nhau','Xã Bom Bo','Xã Thiện Hưng','Xã Tân Tiến','Xã Hưng Phước','Xã Đắk Ơ','Xã Phú Nghĩa','Xã Đa Kia','Xã Bù Gia Mập','Xã Phú Riềng','Xã Phú Trung','Xã Long Hà','Xã Bình Tân']
+          def norm(s):
+              s=unicodedata.normalize('NFD',s); s=''.join(c for c in s if unicodedata.category(c)!='Mn'); s=s.replace('đ','d').replace('Đ','D').lower(); return re.sub(r'[^a-z0-9]+',' ',s).strip()
+          p=Path('generated/nq28-v2/source/bang-gia-antiword.txt'); lines=p.read_text(encoding='utf-8',errors='replace').splitlines(); nl=[norm(x) for x in lines]
+          found=[]; cursor=0
+          for no,name in enumerate(areas,1):
+              target=norm(name); hits=[i for i in range(cursor,len(lines)) if target in nl[i]][:5]
+              chosen=hits[0] if hits else None
+              if chosen is not None: cursor=chosen+1
+              found.append({'tableNo':no,'area':name,'line':None if chosen is None else chosen+1,'candidates':[x+1 for x in hits]})
+          valid=[x['line'] for x in found if x['line'] is not None]
+          report={'expected':95,'found':len(valid),'ordered':all(valid[i]<valid[i+1] for i in range(len(valid)-1)),'source_lines':len(lines),'areas':found}
+          Path('generated/nq28-v2/source/area-heading-inventory.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({k:report[k] for k in ('expected','found','ordered','source_lines')},ensure_ascii=False))
+          PY
+      - name: Commit validated source inventory
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/nq28
-          if git diff --cached --quiet; then
-            echo "No generated data changes."
-            exit 0
-          fi
-          git commit -m "Build NQ28 raw table data v2 [skip ci]"
+          git add generated/nq28-v2/source .github/workflows/nq28-data-pipeline-v2.yml
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Inventory embedded NQ28 legal source [skip ci]"
+          git pull --rebase origin data-pipeline-v2
           git push origin HEAD:data-pipeline-v2
