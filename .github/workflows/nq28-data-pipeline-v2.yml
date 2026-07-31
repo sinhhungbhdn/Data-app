@@ -18,9 +18,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-source-batch:
+  build-full-source:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
 
     steps:
       - name: Checkout trial branch
@@ -36,7 +36,7 @@ jobs:
             libreoffice-writer poppler-utils antiword p7zip-full python3-pip
           python3 -m pip install --disable-pip-version-check olefile
 
-      - name: Build coordinate-preserving source bundles for areas 001-010
+      - name: Build coordinate-preserving source bundles for all 95 areas
         shell: bash
         run: |
           set +e
@@ -46,35 +46,50 @@ jobs:
             --work .pipeline-work/nq28-source \
             --output generated/nq28-v2/source \
             --area-start 1 \
-            --area-end 10
+            --area-end 95
           status=$?
           echo "PIPELINE_EXIT=$status" >> "$GITHUB_ENV"
           exit 0
 
-      - name: Show source validation report
+      - name: Show full-source validation report
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
+
           path = Path('generated/nq28-v2/source/source-manifest.json')
           if not path.is_file():
               raise SystemExit('source-manifest.json was not produced')
+
           data = json.loads(path.read_text(encoding='utf-8'))
-          print(json.dumps({
-              'source': data['source'],
-              'embedded': data['embedded'],
-              'pdf': data['pdf'],
-              'tsv': data['tsv'],
-              'requestedRange': data['requestedRange'],
-              'coverageBySequence': data['coverageBySequence'],
-              'validation': data['validation'],
-              'review': data['review'][:30],
-              'areas': data['areas'],
-          }, ensure_ascii=False, indent=2))
+          areas = data.get('areas', [])
+          requested = data.get('requestedRange', {})
+          validation = data.get('validation', {})
+          review = data.get('review', [])
+
+          summary = {
+              'source': data.get('source'),
+              'embedded': data.get('embedded'),
+              'pdf': data.get('pdf'),
+              'tsv': data.get('tsv'),
+              'requestedRange': requested,
+              'coverageBySequence': data.get('coverageBySequence'),
+              'validation': validation,
+              'areaCount': len(areas),
+              'reviewCount': len(review),
+              'reviewSample': review[:50],
+              'areas': areas,
+          }
+          print(json.dumps(summary, ensure_ascii=False, indent=2))
+
+          if requested.get('start') != 1 or requested.get('end') != 95:
+              raise SystemExit('Requested range is not 1-95')
+          if len(areas) != 95:
+              raise SystemExit(f'Expected 95 area bundles, found {len(areas)}')
           PY
           du -h generated/nq28-v2/source/source-manifest.json generated/nq28-v2/source/areas/* | sort -h
 
-      - name: Commit source batch to trial branch
+      - name: Commit full source build to trial branch
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -84,14 +99,14 @@ jobs:
             echo "No generated source changes."
             exit 0
           fi
-          git commit -m "Build NQ28 source batch areas 001-010 [skip ci]"
+          git commit -m "Build NQ28 source areas 001-095 [skip ci]"
           git pull --rebase origin data-pipeline-v2
           git push origin HEAD:data-pipeline-v2
 
-      - name: Enforce batch validation
+      - name: Enforce full-build validation
         if: always()
         run: |
           if [ "${PIPELINE_EXIT:-1}" -ne 0 ]; then
-            echo "NQ28 source batch requires review; see committed source-manifest.json"
+            echo "NQ28 full source build requires review; see committed source-manifest.json"
             exit "${PIPELINE_EXIT:-1}"
           fi
