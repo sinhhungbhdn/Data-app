@@ -1,0 +1,34 @@
+{
+  "status": "blocked",
+  "scope": "next safe batch after area-001",
+  "branch": "data-pipeline-v2",
+  "main_modified": false,
+  "merge_performed": false,
+  "blocking_findings": [
+    {
+      "code": "MISSING_LEGACY_AREA_SOURCES",
+      "detail": "Repository contains the NQ28 DOC and two QD03 PDF source files, but no legacy app/runtime area files for areas 002-095. Without those files, ID preservation, runtime-contract comparison, and exact round-trip validation cannot be performed safely."
+    },
+    {
+      "code": "MISSING_BATCH_GENERATOR",
+      "detail": "The branch contains an area-001 packed runtime artifact and adapter, but no committed generator that can reproduce area-001 or generate subsequent areas from the legal sources. The existing extract_nq28.py only handles the failed outer-DOC table experiment."
+    },
+    {
+      "code": "UNVERIFIED_AREA001_PROVENANCE",
+      "detail": "area-001.pack.js expands exactly to a legacy structure according to its audit, but the repository does not contain the corresponding uncompressed legacy source or a reproducible build script, so the provenance cannot be independently revalidated before scaling."
+    }
+  ],
+  "safety_decision": "Do not generate areas 002-095 by inference or renumbering. This would risk changing saved-record IDs, legal mappings, search behavior, and the runtime field contract.",
+  "required_to_resume": [
+    "Commit or otherwise make available the current app data/runtime area files used by the existing search layer, including area 001 and areas 002-095.",
+    "Commit the reproducible area pack/build script used to produce area-001.pack.js, or rebuild it from source with documented deterministic rules.",
+    "Provide the current NQ28-QD03 mapping source or the exact legacy fields used for qdTt, relation, factors, conditions, and surface."
+  ],
+  "checks_not_run": [
+    "next-area row-count validation",
+    "saved-ID preservation comparison",
+    "NQ28-QD03 unique mapping validation",
+    "representative road-name regressions for areas 002-095",
+    "round-trip compatibility for areas 002-095"
+  ]
+}
