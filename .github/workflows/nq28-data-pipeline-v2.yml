@@ -8,6 +8,7 @@ on:
       - ".github/workflows/nq28-data-pipeline-v2.yml"
       - "data-pipeline-v2/**"
       - "28_2025_NQ-HDND_687389.doc"
+      - "source-data/nq28-excel-95-dia-ban/**"
   workflow_dispatch:
 
 permissions:
@@ -65,6 +66,20 @@ jobs:
           echo "PARSE_PIPELINE_EXIT=$status" >> "$GITHUB_ENV"
           exit 0
 
+      - name: Run fail-closed structural quality gate
+        shell: bash
+        run: |
+          set +e
+          python3 data-pipeline-v2/validate_nq28_quality.py \
+            --summary generated/nq28-v2/parsed/parse-summary.json \
+            --review generated/nq28-v2/review/needs-review.json \
+            --report generated/nq28-v2/review/quality-gate.json \
+            --expected-areas 95 \
+            --max-area-records 1200
+          status=$?
+          echo "QUALITY_GATE_EXIT=$status" >> "$GITHUB_ENV"
+          exit 0
+
       - name: Show full validation reports
         run: |
           python3 - <<'PY'
@@ -74,13 +89,15 @@ jobs:
           source_path = Path('generated/nq28-v2/source/source-manifest.json')
           parse_path = Path('generated/nq28-v2/parsed/parse-summary.json')
           review_path = Path('generated/nq28-v2/review/needs-review.json')
-          for path in (source_path, parse_path, review_path):
-              if not path.is_file():
-                  raise SystemExit(f'{path} was not produced')
+          gate_path = Path('generated/nq28-v2/review/quality-gate.json')
+          for path in (source_path, parse_path, review_path, gate_path):
+              if not path.is_file() or path.stat().st_size == 0:
+                  raise SystemExit(f'{path} was not produced or is empty')
 
           source = json.loads(source_path.read_text(encoding='utf-8'))
           parsed = json.loads(parse_path.read_text(encoding='utf-8'))
           review = json.loads(review_path.read_text(encoding='utf-8'))
+          gate = json.loads(gate_path.read_text(encoding='utf-8'))
           summary = {
               'sourceValidation': source.get('validation'),
               'sourceCoverageBySequence': source.get('coverageBySequence'),
@@ -90,6 +107,7 @@ jobs:
               'recordCount': parsed.get('recordCount'),
               'groupCount': parsed.get('groupCount'),
               'reviewCount': review.get('count'),
+              'qualityGate': gate,
               'reviewSample': review.get('items', [])[:50],
               'areaSummaries': parsed.get('areas', []),
           }
@@ -103,12 +121,8 @@ jobs:
           if parsed.get('areaCount') != 95:
               raise SystemExit(f"Expected 95 parsed areas, found {parsed.get('areaCount')}")
           PY
-          du -h generated/nq28-v2/source/source-manifest.json \
-            generated/nq28-v2/parsed/parse-summary.json \
-            generated/nq28-v2/review/needs-review.json \
-            generated/nq28-v2/parsed/areas/* | sort -h
 
-      - name: Commit full source and parsed legal data to trial branch
+      - name: Commit generated data and validation evidence to trial branch
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -118,7 +132,7 @@ jobs:
             echo "No generated legal-data changes."
             exit 0
           fi
-          git commit -m "Parse NQ28 legal rows areas 001-095 [skip ci]"
+          git commit -m "Validate NQ28 legal rows areas 001-095 [skip ci]"
           git pull --rebase origin data-pipeline-v2
           git push origin HEAD:data-pipeline-v2
 
@@ -132,4 +146,8 @@ jobs:
           if [ "${PARSE_PIPELINE_EXIT:-1}" -ne 0 ]; then
             echo "NQ28 row parse requires review; see parse-summary.json and needs-review.json"
             exit "${PARSE_PIPELINE_EXIT:-1}"
+          fi
+          if [ "${QUALITY_GATE_EXIT:-1}" -ne 0 ]; then
+            echo "NQ28 structural quality gate blocked app integration; see quality-gate.json"
+            exit "${QUALITY_GATE_EXIT:-1}"
           fi
