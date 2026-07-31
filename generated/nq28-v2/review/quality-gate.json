@@ -1,0 +1,570 @@
+{
+  "status": "blocked",
+  "expectedAreaCount": 95,
+  "actualAreaCount": 95,
+  "problemCount": 110,
+  "problems": [
+    {
+      "code": "zero_records",
+      "sequence": 4,
+      "area": "Phường Long Bình"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 7,
+      "area": "Phường Long Hưng"
+    },
+    {
+      "code": "record_count_outlier",
+      "sequence": 8,
+      "area": "Phường Tân Triều",
+      "recordCount": 2042,
+      "threshold": 1200
+    },
+    {
+      "code": "zero_records",
+      "sequence": 10,
+      "area": "Phường Tam Phước"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 11,
+      "area": "Phường Long Thành"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 11,
+      "area": "Phường Long Thành"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 12,
+      "area": "Xã Bình An"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 13,
+      "area": "Xã An Phước"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 14,
+      "area": "Xã Long Phước"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 15,
+      "area": "Xã Phước Thái"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 16,
+      "area": "Phường Nhơn Trạch"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 16,
+      "area": "Phường Nhơn Trạch"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 17,
+      "area": "Xã Đại Phước"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 18,
+      "area": "Xã Phước An"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 18,
+      "area": "Xã Phước An"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 19,
+      "area": "Phường Long Khánh"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 21,
+      "area": "Phường Xuân Lập"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 22,
+      "area": "Phường Hàng Gòn"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 23,
+      "area": "Phường Bình Lộc"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 24,
+      "area": "Phường Xuân Lộc"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 24,
+      "area": "Phường Xuân Lộc"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 25,
+      "area": "Xã Xuân Hòa"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 26,
+      "area": "Xã Xuân Thành"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 26,
+      "area": "Xã Xuân Thành"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 27,
+      "area": "Xã Xuân Bắc"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 28,
+      "area": "Xã Xuân Phú"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 28,
+      "area": "Xã Xuân Phú"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 29,
+      "area": "Xã Xuân Định"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 29,
+      "area": "Xã Xuân Định"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 30,
+      "area": "Xã Cẩm Mỹ"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 30,
+      "area": "Xã Cẩm Mỹ"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 31,
+      "area": "Xã Xuân Quế"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 32,
+      "area": "Xã Xuân Đường"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 33,
+      "area": "Xã Sông Ray"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 34,
+      "area": "Xã Xuân Đông"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 35,
+      "area": "Phường Trảng Bom"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 35,
+      "area": "Phường Trảng Bom"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 36,
+      "area": "Xã An Viễn"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 36,
+      "area": "Xã An Viễn"
+    },
+    {
+      "code": "record_count_outlier",
+      "sequence": 38,
+      "area": "Xã Bình Minh",
+      "recordCount": 4994,
+      "threshold": 1200
+    },
+    {
+      "code": "zero_records",
+      "sequence": 39,
+      "area": "Xã Hưng Thịnh"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 40,
+      "area": "Phường Dầu Giây"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 40,
+      "area": "Phường Dầu Giây"
+    },
+    {
+      "code": "record_count_outlier",
+      "sequence": 41,
+      "area": "Xã Gia Kiệm",
+      "recordCount": 1886,
+      "threshold": 1200
+    },
+    {
+      "code": "zero_records",
+      "sequence": 44,
+      "area": "Xã Phú Vinh"
+    },
+    {
+      "code": "record_count_outlier",
+      "sequence": 45,
+      "area": "Xã La Ngà",
+      "recordCount": 2585,
+      "threshold": 1200
+    },
+    {
+      "code": "zero_records",
+      "sequence": 46,
+      "area": "Xã Phú Hòa"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 47,
+      "area": "Xã Thanh Sơn"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 48,
+      "area": "Phường Tân Phú"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 48,
+      "area": "Phường Tân Phú"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 49,
+      "area": "Xã Tà Lài"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 50,
+      "area": "Xã Nam Cát Tiên"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 51,
+      "area": "Xã Phú Lâm"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 52,
+      "area": "Xã Đắk Lua"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 52,
+      "area": "Xã Đắk Lua"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 53,
+      "area": "Phường Trị An"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 53,
+      "area": "Phường Trị An"
+    },
+    {
+      "code": "record_count_outlier",
+      "sequence": 54,
+      "area": "Xã Tân An",
+      "recordCount": 4461,
+      "threshold": 1200
+    },
+    {
+      "code": "zero_records",
+      "sequence": 56,
+      "area": "Phường Bình Phước"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 56,
+      "area": "Phường Bình Phước"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 60,
+      "area": "Xã Nha Bích"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 61,
+      "area": "Phường Bình Long"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 61,
+      "area": "Phường Bình Long"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 62,
+      "area": "Phường An Lộc"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 62,
+      "area": "Phường An Lộc"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 63,
+      "area": "Phường Phước Bình"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 64,
+      "area": "Phường Phước Long"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 65,
+      "area": "Xã Thuận Lợi"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 65,
+      "area": "Xã Thuận Lợi"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 66,
+      "area": "Xã Tân Lợi"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 66,
+      "area": "Xã Tân Lợi"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 67,
+      "area": "Xã Đồng Tâm"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 68,
+      "area": "Phường Đồng Phú"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 68,
+      "area": "Phường Đồng Phú"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 69,
+      "area": "Phường Lộc Ninh"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 69,
+      "area": "Phường Lộc Ninh"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 70,
+      "area": "Xã Lộc Thành"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 71,
+      "area": "Xã Lộc Hưng"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 72,
+      "area": "Xã Lộc Tấn"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 72,
+      "area": "Xã Lộc Tấn"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 73,
+      "area": "Xã Lộc Thạnh"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 73,
+      "area": "Xã Lộc Thạnh"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 74,
+      "area": "Xã Lộc Quang"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 74,
+      "area": "Xã Lộc Quang"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 75,
+      "area": "Phường Tân Khai"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 75,
+      "area": "Phường Tân Khai"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 81,
+      "area": "Xã Bù Đăng"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 81,
+      "area": "Xã Bù Đăng"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 82,
+      "area": "Xã Thọ Sơn"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 82,
+      "area": "Xã Thọ Sơn"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 83,
+      "area": "Xã Đắk Nhau"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 83,
+      "area": "Xã Đắk Nhau"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 84,
+      "area": "Xã Bom Bo"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 85,
+      "area": "Xã Thiện Hưng"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 86,
+      "area": "Xã Tân Tiến"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 86,
+      "area": "Xã Tân Tiến"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 87,
+      "area": "Xã Hưng Phước"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 88,
+      "area": "Xã Đắk Ơ"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 88,
+      "area": "Xã Đắk Ơ"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 89,
+      "area": "Xã Phú Nghĩa"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 89,
+      "area": "Xã Phú Nghĩa"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 90,
+      "area": "Xã Đa Kia"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 90,
+      "area": "Xã Đa Kia"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 91,
+      "area": "Xã Bù Gia Mập"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 92,
+      "area": "Xã Phú Riềng"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 92,
+      "area": "Xã Phú Riềng"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 93,
+      "area": "Xã Phú Trung"
+    },
+    {
+      "code": "zero_records",
+      "sequence": 94,
+      "area": "Xã Long Hà"
+    },
+    {
+      "code": "missing_segment_stats",
+      "sequence": 94,
+      "area": "Xã Long Hà"
+    },
+    {
+      "code": "record_count_outlier",
+      "sequence": 95,
+      "area": "Xã Bình Tân",
+      "recordCount": 1820,
+      "threshold": 1200
+    }
+  ]
+}
