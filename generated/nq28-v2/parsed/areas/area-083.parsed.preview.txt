@@ -1,0 +1,1 @@
+TABLE=083 | AREA=Xã Đắk Nhau | RECORDS=0 | GROUPS=0 | REVIEW=0

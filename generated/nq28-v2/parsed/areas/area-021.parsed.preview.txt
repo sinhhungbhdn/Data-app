@@ -1,0 +1,1 @@
+TABLE=021 | AREA=Phường Xuân Lập | RECORDS=0 | GROUPS=0 | REVIEW=1

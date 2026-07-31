@@ -1,0 +1,1 @@
+TABLE=067 | AREA=Xã Đồng Tâm | RECORDS=0 | GROUPS=0 | REVIEW=2

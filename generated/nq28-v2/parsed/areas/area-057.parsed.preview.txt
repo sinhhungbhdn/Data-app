@@ -1,0 +1,257 @@
+TABLE=057 | AREA=Phường Đồng Xoài | RECORDS=256 | GROUPS=69 | REVIEW=270
+ID=NQ28-057-S04-TT0691-01 | SEC=agricultural | TT=691 | REL=main | PRICES=370,295,175 | ROAD=Các tuyến đường giao còn lại trên địa bàn phường đã được đầu tư mặt đường nhựa, bê tông xi măng rộng mặt đường dưới 4m | START=thông Toàn tuyến có bề | END= | FLAGS=
+ID=NQ28-057-S04-TT0692-01 | SEC=agricultural | TT=692 | REL=main | PRICES=370,295,175 | ROAD=Các tuyến đường giao còn lại trên địa bàn phường chưa được đầu tư mặt đường nhựa, bê tông xi măng có bề rộng mặt đường dưới 4m 57. Phường Đồng Xoài | START=thông Toàn tuyến Đoạn đường | END=Giá đất | FLAGS=
+ID=NQ28-057-S04-TT0001-01 | SEC=agricultural | TT=1 | REL=main | PRICES=640,380,39 | ROAD=Tên đường giao TT thông Giáp Đường Quốc lộ 14 Bình | START=Hết đoạn phân cách ranh phường (thửa Phước thửa đất bản đồ | END=trồng cây lâu năm có giải cứng đất số 61 và 800 số 19 tờ số 47) | FLAGS=
+ID=NQ28-057-S04-TT0002-01 | SEC=agricultural | TT=2 | REL=main | PRICES=640,380,39 | ROAD=Hết đoạn phân Đường Quốc lộ 14 (thửa thửa bản đồ | START=Hẻm vào có giải Tiểu học cách cứng Thành đất số 61 và diện (thửa đất số 19 tờ 64, tờ số 47) 75) | END=trường Tân và phía đối 800 đất số bản đồ số | FLAGS=
+ID=NQ28-057-S04-TT0003-01 | SEC=agricultural | TT=3 | REL=main | PRICES=420,250,39 | ROAD=Hẻm Tiểu Thành Đường Quốc lộ 14 diện 64, tờ 75) | START=Hết ranh vào trường Ủy ban học Tân xã Tân và phía đối (phía (thửa đất số đường bản đồ số dân cư Trang) | END=phía Tây nhân dân Thành cũ đối diện 530 vào khu Tuấn | FLAGS=
+ID=NQ28-057-S04-TT0004-01 | SEC=agricultural | TT=4 | REL=main | PRICES=420,250,39 | ROAD=Hết ranh Ủy ban xã Tân Đường Quốc lộ 14 (phía đường dân cư | START=phía Tây nhân dân Thành cũ Giáp ranh đối diện Bích vào khu Tuấn | END=xã Nha 530 | FLAGS=
+ID=NQ28-057-S04-TT0005-01 | SEC=agricultural | TT=5 | REL=main | PRICES=340,200,39 | ROAD=Trang) Đường Phan Bội Đường Châu | START=Đường Quốc lộ 14 Thắng | END=Tôn Đức 430 | FLAGS=
+ID=NQ28-057-S04-TT0006-01 | SEC=agricultural | TT=6 | REL=main | PRICES=340,200,39 | ROAD=Đường Phan Chu Đường Trinh | START=Đường Quốc lộ 14 Thắng | END=Tôn Đức 430 | FLAGS=
+ID=NQ28-057-S04-TT0007-01 | SEC=agricultural | TT=7 | REL=main | PRICES=340,200,39 | ROAD=Đường Trần Hữu Đường Độ | START=Đường Quốc lộ 14 Thắng | END=Tôn Đức 430 | FLAGS=
+ID=NQ28-057-S04-TT0008-01 | SEC=agricultural | TT=8 | REL=main | PRICES=340,200,39 | ROAD=Đường Phạm Đường | START=Quốc lộ 14 Đường | END=Tôn Đức 430 | FLAGS=
+ID=NQ28-057-S04-TT0009-01 | SEC=agricultural | TT=9 | REL=main | PRICES=340,200,39 | ROAD=Ngọc Thạch Đường Phạm Đường Ngọc Thạch Thắng | START=Thắng Tôn Đức Đường phía Nam | END=Vành đai 430 | FLAGS=
+ID=NQ28-057-S04-TT0010-01 | SEC=agricultural | TT=10 | REL=main | PRICES=340,200,39 | ROAD=Đường Hải Đường Thượng Lãn Ông | START=Quốc lộ 14 Đường | END=số 37 430 | FLAGS=
+ID=NQ28-057-S04-TT0011-01 | SEC=agricultural | TT=11 | REL=main | PRICES=340,200,39 | ROAD=Đường Hải Đường Thượng Lãn Ông | START=Đường số 37 Thắng | END=Tôn Đức 430 | FLAGS=
+ID=NQ28-057-S04-TT0012-01 | SEC=agricultural | TT=12 | REL=main | PRICES=340,200,39 | ROAD=Đường Tôn Đức Đường Thắng Châu | START=Phan Bội Đường | END=số 32 (N7) 430 | FLAGS=
+ID=NQ28-057-S04-TT0013-01 | SEC=agricultural | TT=13 | REL=main | PRICES=340,200,39 | ROAD=Đường Trần Huy Đường Liệu Châu | START=Phan Bội Đường Ngọc | END=Phạm 430 Thạch | FLAGS=
+ID=NQ28-057-S04-TT0014-01 | SEC=agricultural | TT=14 | REL=main | PRICES=340,200,39 | ROAD=Đường Trần Xuân Đường Soạn Châu | START=Phan Bội Đường Ngọc | END=Phạm 430 Thạch | FLAGS=
+ID=NQ28-057-S04-TT0015-01 | SEC=agricultural | TT=15 | REL=main | PRICES=340,200,39 | ROAD=Đường Phan Văn Đường Trị Châu | START=Phan Bội Đường Ngọc | END=Phạm 430 Thạch | FLAGS=
+ID=NQ28-057-S04-TT0016-01 | SEC=agricultural | TT=16 | REL=main | PRICES=340,200,39 | ROAD=Đường Đường Bùi Viện Châu | START=Phan Bội Đường Ngọc | END=Phạm 430 Thạch | FLAGS=
+ID=NQ28-057-S04-TT0017-01 | SEC=agricultural | TT=17 | REL=main | PRICES=340,200,39 | ROAD=Đường Ngô Đức Đường Kế Châu | START=Phan Bội Đường Ngọc | END=Phạm 430 Thạch | FLAGS=
+ID=NQ28-057-S04-TT0018-01 | SEC=agricultural | TT=18 | REL=main | PRICES=340,200,39 | ROAD=Đường Đặng Trần Côn Châu | START=Phan Bội Đường Ngọc | END=Phạm 430 Thạch | FLAGS=
+ID=NQ28-057-S04-TT0019-01 | SEC=agricultural | TT=19 | REL=main | PRICES=340,200,39 | ROAD=Đường Đường Nam Cao Ngọc | START=Phạm Đường Thạch Thượng | END=Hải 430 Lãn Ông | FLAGS=
+ID=NQ28-057-S04-TT0020-01 | SEC=agricultural | TT=20 | REL=main | PRICES=340,200,39 | ROAD=Đường Đường số 37 Thượng | START=Hải Đường Lãn Ông | END=số 32 (N7) 430 | FLAGS=
+ID=NQ28-057-S04-TT0021-01 | SEC=agricultural | TT=21 | REL=main | PRICES=340,200,39 | ROAD=Đường Dương Đường Khuê | START=Nam Cao Cuối đường | END=430 | FLAGS=
+ID=NQ28-057-S04-TT0022-01 | SEC=agricultural | TT=22 | REL=main | PRICES=340,200,39 | ROAD=Đường Trần Hữu Độ nối dài (giáp Đường trường chuyên Quang Trung) | START=Quốc lộ 14 Hết đường | END=430 | FLAGS=
+ID=NQ28-057-S04-TT0023-01 | SEC=agricultural | TT=23 | REL=main | PRICES=340,200,39 | ROAD=Đường nhựa ranh giữa phường Tiến Cầu Thành và phường Tân Phú (cũ) | START=Ngã ba Trần Hưng Suối Cốc phường (cũ) | END=đường Đạo - 430 Tân Phú | FLAGS=
+ID=NQ28-057-S04-TT0024-01 | SEC=agricultural | TT=24 | REL=main | PRICES=340,200,39 | ROAD=Đường Đường nhựa Tiến dân cư Thành - Tiến Hưng Minh | START=N6 khu Giáp ranh Quang Hưng Tiến | END=xã Tiến 430 (cũ) | FLAGS=
+ID=NQ28-057-S04-TT0025-01 | SEC=agricultural | TT=25 | REL=main | PRICES=260,155,39 | ROAD=Đường vào Trạm Đường xá K23 | START=Đường văn hóa Quốc lộ 14 đối diện chiếu | END=vào nhà ấp 2 (phía 330 vuông góc sang) | FLAGS=
+ID=NQ28-057-S04-TT0026-01 | SEC=agricultural | TT=26 | REL=main | PRICES=260,155,39 | ROAD=Đường vào Trạm Đường xá K23 văn hóa | START=vào nhà Cầu Quận ấp 2 | END=3 330 | FLAGS=
+ID=NQ28-057-S04-TT0027-01 | SEC=agricultural | TT=27 | REL=main | PRICES=260,155,39 | ROAD=Đường bên hông Đường | START=Quốc lộ 14 Cầu Bưng | END=Sê 330 | FLAGS=
+ID=NQ28-057-S04-TT0028-01 | SEC=agricultural | TT=28 | REL=main | PRICES=260,155,39 | ROAD=Trường Quân sự địa phương ấp 6 (Đường vào Bưng Sê) Đường bên hông Trường Quân Sự địa phương ấp 6 Cầu (Đường vào Bưng Sê) | START=Giáp ranh Bưng Sê Thuận | END=xã 330 Lợi | FLAGS=
+ID=NQ28-057-S04-TT0029-01 | SEC=agricultural | TT=29 | REL=main | PRICES=260,155,39 | ROAD=Đường nhựa Việt Đường Úc | START=Hết ranh văn hóa Quốc lộ 14 đối diện chiếu | END=đất nhà ấp 7 (phía 330 vuông góc sáng) | FLAGS=
+ID=NQ28-057-S04-TT0030-01 | SEC=agricultural | TT=30 | REL=main | PRICES=260,155,39 | ROAD=Đường nhựa Việt Giáp Úc văn hóa | START=ranh đất nhà Cuối đường ấp 7 | END=330 | FLAGS=
+ID=NQ28-057-S04-TT0031-01 | SEC=agricultural | TT=31 | REL=main | PRICES=260,155,39 | ROAD=Đường vào Trung Đường tâm Khuyến Nông Đường trục chính khu công nghiệp | START=Cổng Quốc lộ 14 Nghiệp Nghệ | END=Khu Nông Công 330 Cao | FLAGS=
+ID=NQ28-057-S04-TT0032-01 | SEC=agricultural | TT=32 | REL=main | PRICES=260,155,39 | ROAD=Đồng Xoài I, các tuyến đường trong khu công nghiệp đã được đầu tư mặt đường nhựa, Toàn bê tông xi măng chưa được quy Bảng giá đất các khu công nghiệp, cụm công nghiệp | START=tuyến | END=330 | FLAGS=
+ID=NQ28-057-S04-TT0033-01 | SEC=agricultural | TT=33 | REL=main | PRICES=260,155,39 | ROAD=Các tuyến đường trong Khu công nghiệp Đồng Xoài 1 chưa đầu tư mặt đường nhựa, bê tông xi măng chưa Toàn được quy định giá đất các khu | START=tuyến | END=330 | FLAGS=
+ID=NQ28-057-S04-TT0034-01 | SEC=agricultural | TT=34 | REL=main | PRICES=260,155,39 | ROAD=công nghiệp, cụm công nghiệp Khu quy hoạch Đường chợ Tân Thành | START=D1, N1 | END=330 | FLAGS=
+ID=NQ28-057-S04-TT0035-01 | SEC=agricultural | TT=35 | REL=main | PRICES=260,155,39 | ROAD=Các tuyến quy hoạch Khu quy hoạch trong chợ Tân Thành hoạch | START=đường còn lại khu quy chợ Tân | END=330 | FLAGS=
+ID=NQ28-057-S04-TT0036-01 | SEC=agricultural | TT=36 | REL=main | PRICES=260,155,39 | ROAD=Thành Đường quy hoạch Giáp | START=ranh phường Đường | END=vành đai 2 330 | FLAGS=
+ID=NQ28-057-S04-TT0037-01 | SEC=agricultural | TT=37 | REL=main | PRICES=260,155,39 | ROAD=số 39 (đoạn đường chưa được Tiến đầu tư thảm nhựa) Đường quy hoạch Đoạn số 21 (đoạn phường đường chưa được Thành đầu tư thảm nhựa) | START=Thành (cũ) 1 từ ranh Vành Tiến thông (cũ) | END=đai 2 (Chưa 330 tuyến) | FLAGS=
+ID=NQ28-057-S04-TT0038-01 | SEC=agricultural | TT=38 | REL=main | PRICES=260,155,39 | ROAD=Đường QH số 41 (đoạn đường chưa Đường được đầu tư thảm nhựa, đổ bê tông) Đường nối vòng | START=Ranh QH số 31 Bình Phước | END=phường 330 | FLAGS=
+ID=NQ28-057-S04-TT0039-01 | SEC=agricultural | TT=39 | REL=main | PRICES=260,155,39 | ROAD=quanh hồ Phước Hòa với Khu công nghiệp Đồng Xoài Đường I (đường QH số 31 chưa được đầu tư thảm nhựa, đổ bê | START=VĐ 1 Đường | END=VĐ 2 330 | FLAGS=
+ID=NQ28-057-S04-TT0040-01 | SEC=agricultural | TT=40 | REL=main | PRICES=260,155,39 | ROAD=tông) Đường QH D5 (đoạn đường chưa QL 14 được đầu tư thảm nhựa, đổ bê tông) Các tuyến đường | START=Đường | END=QH số 39 330 | FLAGS=
+ID=NQ28-057-S04-TT0041-01 | SEC=agricultural | TT=41 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0042-01 | SEC=agricultural | TT=42 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0043-01 | SEC=agricultural | TT=43 | REL=main | PRICES=260,155,39 | ROAD=nhựa, bê tông xi măng Các tuyến đường Hẻm giao thông đấu nối Tiểu trực tiếp ra đường Thành Quốc lộ 14 từ diện HLLG vào sâu đến 64, tờ 500m có bề rộng 75) | START=vào trường Hết ranh học Tân Ủy ban và phía đối xã Tân (thửa đất số (phía bản đồ số đường dân cư | END=phía Tây 330 nhân dân Thành cũ đối diện vào khu Tuấn | FLAGS=
+ID=NQ28-057-S04-TT0044-01 | SEC=agricultural | TT=44 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0045-01 | SEC=agricultural | TT=45 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0046-01 | SEC=agricultural | TT=46 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0047-01 | SEC=agricultural | TT=47 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0048-01 | SEC=agricultural | TT=48 | REL=main | PRICES=260,155,39 | ROAD=nhựa, bê tông xi măng Các tuyến đường Hết ranh giao thông đấu nối Ủy ban trực tiếp ra đường xã Tân Quốc lộ 14 từ (phía | START=phía Tây Giáp ranh nhân dân Bích Thành cũ đối diện | END=xã Nha 330 | FLAGS=
+ID=NQ28-057-S04-TT0049-01 | SEC=agricultural | TT=49 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0050-01 | SEC=agricultural | TT=50 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0051-01 | SEC=agricultural | TT=51 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0052-01 | SEC=agricultural | TT=52 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0053-01 | SEC=agricultural | TT=53 | REL=main | PRICES=340,200,39 | ROAD=nhựa, bê tông xi măng Các tuyến đường Giáp giao thông đấu nối Bình | START=ranh phường Hết đoạn Phước phân cách | END=có giải 430 cứng | FLAGS=
+ID=NQ28-057-S04-TT0054-01 | SEC=agricultural | TT=54 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0055-01 | SEC=agricultural | TT=55 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0056-01 | SEC=agricultural | TT=56 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0049-02 | SEC=agricultural | TT=49 | REL=direct | PRICES=340,200,39 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0050-02 | SEC=agricultural | TT=50 | REL=direct | PRICES=340,200,39 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0051-02 | SEC=agricultural | TT=51 | REL=direct | PRICES=260,155,39 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0052-02 | SEC=agricultural | TT=52 | REL=direct | PRICES=260,155,39 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0053-02 | SEC=agricultural | TT=53 | REL=direct | PRICES=340,200,39 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0054-02 | SEC=agricultural | TT=54 | REL=main | PRICES=340,200,39 | ROAD=nhựa, bê tông xi măng Các tuyến đường Hết đoạn giao thông đấu nối phân trực tiếp ra đường (thửa Quốc lộ 14 từ thửa HLLG vào sâu trên bản đồ 500m có bề rộng mặt đường dưới 4m đã được đầu tư mặt đường | START=có giải Hẻm vào cách cứng Tiểu học đất số 61 và Thành đất số 19 tờ diện (thửa số 47) 64, tờ 75) | END=trường 430 Tân và phía đối đất số bản đồ số | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0055-02 | SEC=agricultural | TT=55 | REL=direct | PRICES=260,155,39 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0056-02 | SEC=agricultural | TT=56 | REL=direct | PRICES=260,155,39 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-057-S04-TT0057-01 | SEC=agricultural | TT=57 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0058-01 | SEC=agricultural | TT=58 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0059-01 | SEC=agricultural | TT=59 | REL=main | PRICES=260,155,39 | ROAD=nhựa, bê tông xi măng Các tuyến đường Hẻm giao thông đấu nối Tiểu trực tiếp ra đường Thành Quốc lộ 14 từ diện HLLG vào sâu đến 64, tờ 500m có bề rộng 75) mặt đường dưới | START=vào trường Hết ranh học Tân Ủy ban và phía đối xã Tân (thửa đất số (phía bản đồ số đường dân cư Trang) | END=phía Tây 330 nhân dân Thành cũ đối diện vào khu Tuấn | FLAGS=
+ID=NQ28-057-S04-TT0060-01 | SEC=agricultural | TT=60 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0061-01 | SEC=agricultural | TT=61 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0062-01 | SEC=agricultural | TT=62 | REL=direct | PRICES=340,200,39 | FLAGS=
+ID=NQ28-057-S04-TT0063-01 | SEC=agricultural | TT=63 | REL=direct | PRICES=260,155,39 | FLAGS=
+ID=NQ28-057-S04-TT0064-01 | SEC=agricultural | TT=64 | REL=main | PRICES=260,155,39 | ROAD=nhựa, bê tông xi măng Các tuyến đường Hết ranh giao thông đấu nối Ủy ban trực tiếp ra đường xã Tân Quốc lộ 14 từ (phía HLLG vào sâu trên đường | START=phía Tây Giáp ranh nhân dân Bích Thành cũ đối diện vào khu | END=xã Nha 330 | FLAGS=
+ID=NQ28-057-S04-TT0065-01 | SEC=agricultural | TT=65 | REL=main | PRICES=340,200,39 | ROAD=500m có bề rộng mặt đường dưới 4m chưa được dân cư đầu tư mặt đường Trang) nhựa, bê tông xi măng Đường Trần Hưng Đạo (đoạn đường Giáp đã được đầu tư Bình thảm nhựa) | START=Tuấn ranh phường Đường Phước | END=Quốc lộ 14 430 | FLAGS=
+ID=NQ28-057-S04-TT0066-01 | SEC=agricultural | TT=66 | REL=main | PRICES=340,200,39 | ROAD=Đường Vành đai phía Nam (đoạn Giáp đường đã được Bình đầu tư thảm nhựa) | START=Đường ranh phường (Chưa Phước tuyến) | END=Vành đai 2 thông 430 | FLAGS=
+ID=NQ28-057-S04-TT0067-01 | SEC=agricultural | TT=67 | REL=main | PRICES=340,200,39 | ROAD=Đường quy hoạch số 34 (đoạn Đường đường đã được Thắng đầu tư thảm nhựa) | START=Tôn Đức Giáp ranh Bình Phước | END=phường 430 | FLAGS=
+ID=NQ28-057-S04-TT0068-01 | SEC=agricultural | TT=68 | REL=main | PRICES=340,200,39 | ROAD=Đường quy hoạch số 35 (đoạn Đường đường đã được phía đầu tư thảm nhựa) | START=Vành đai Giáp ranh Nam Bình Phước | END=phường 430 | FLAGS=
+ID=NQ28-057-S04-TT0069-01 | SEC=agricultural | TT=69 | REL=main | PRICES=340,200,39 | ROAD=Đường Trần Hưng Đạo (đoạn đường Giáp chưa được đầu tư Bình thảm nhựa) | START=ranh phường Đường Phước | END=Quốc lộ 14 430 | FLAGS=
+ID=NQ28-057-S04-TT0070-01 | SEC=agricultural | TT=70 | REL=main | PRICES=340,200,39 | ROAD=Đường Vành đai phía Nam (đoạn Giáp đường chưa được Bình đầu tư thâm nhựa) | START=Đường ranh phường (Chưa Phước tuyến) | END=Vành đai 2 thông 430 | FLAGS=
+ID=NQ28-057-S04-TT0071-01 | SEC=agricultural | TT=71 | REL=main | PRICES=340,200,39 | ROAD=Đường quy hoạch số 34 (đoạn Đường đường chưa được Thắng đầu tư thảm nhựa) | START=Tôn Đức Giáp ranh Bình Phước | END=phường 430 | FLAGS=
+ID=NQ28-057-S04-TT0072-01 | SEC=agricultural | TT=72 | REL=main | PRICES=340,200,39 | ROAD=Đường quy hoạch số 35 (đoạn Đường đường chưa được phía đầu tư thảm nhựa) Khu vực tờ bản đồ từ số 1 đến số | START=Vành đai Giáp ranh Nam Bình Phước | END=phường 430 | FLAGS=
+ID=NQ28-057-S04-TT0073-01 | SEC=agricultural | TT=73 | REL=main | PRICES=295,175,39 | ROAD=51 (Bản đồ địa chính phường Đồng Xoài) Các tuyến đường Toàn giao thông còn lại trên địa bàn phường đã được đầu tư mặt đường nhựa, bê tông xi măng có bề rộng | START=tuyến | END=370 | FLAGS=
+ID=NQ28-057-S04-TT0074-01 | SEC=agricultural | TT=74 | REL=main | PRICES=295,175,39 | ROAD=mặt đường từ 7m trở lên Các tuyến đường giao thông còn lại trên địa bàn phường chưa được đầu tư mặt Toàn đường nhựa, bê tông xi măng có bề rộng mặt đường từ 7m trở lên | START=tuyến | END=370 | FLAGS=
+ID=NQ28-057-S04-TT0075-01 | SEC=agricultural | TT=75 | REL=main | PRICES=295,175,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường đã được đầu tư mặt đường Toàn nhựa, bê tông xi măng có bề rộng mặt đường từ 4m đến dưới 7m | START=tuyến | END=370 | FLAGS=
+ID=NQ28-057-S04-TT0076-01 | SEC=agricultural | TT=76 | REL=main | PRICES=295,175,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường chưa được đầu tư mặt Toàn đường nhựa, bê tông xi măng có bề rộng mặt đường từ 4m đến dưới 7m | START=tuyến | END=370 | FLAGS=
+ID=NQ28-057-S04-TT0077-01 | SEC=agricultural | TT=77 | REL=main | PRICES=295,175,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường đã được đầu tư mặt đường Toàn nhựa, bê tông xi măng có bề rộng mặt đường dưới 4m | START=tuyến | END=370 | FLAGS=
+ID=NQ28-057-S04-TT0078-01 | SEC=agricultural | TT=78 | REL=main | PRICES=295,175,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường chưa được đầu tư mặt Toàn đường nhựa, bê tông xi măng có bề rộng mặt đường dưới 4m Khu vực các tờ bản đồ còn lại (Bản đồ địa chính phường Đồng Xoài) | START=tuyến | END=370 | FLAGS=
+ID=NQ28-057-S04-TT0079-01 | SEC=agricultural | TT=79 | REL=main | PRICES=220,130,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường đã được đầu tư mặt đường Toàn nhựa, bê tông xi măng có bề rộng mặt đường từ 7m trở lên | START=tuyến | END=280 | FLAGS=
+ID=NQ28-057-S04-TT0080-01 | SEC=agricultural | TT=80 | REL=main | PRICES=220,130,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường chưa được đầu tư mặt Toàn đường nhựa, bê tông xi măng có bề rộng mặt đường từ 7m trở lên | START=tuyến | END=280 | FLAGS=
+ID=NQ28-057-S04-TT0081-01 | SEC=agricultural | TT=81 | REL=main | PRICES=220,130,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường đã được đầu tư mặt đường Toàn nhựa, bê tông xi măng có bề rộng mặt đường từ 4m đến dưới 7m | START=tuyến | END=280 | FLAGS=
+ID=NQ28-057-S04-TT0082-01 | SEC=agricultural | TT=82 | REL=main | PRICES=220,130,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường chưa được đầu tư mặt Toàn đường nhựa, bê tông xi măng có bề rộng mặt đường từ 4m đến dưới 7m | START=tuyến | END=280 | FLAGS=
+ID=NQ28-057-S04-TT0083-01 | SEC=agricultural | TT=83 | REL=main | PRICES=220,130,39 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn phường đã được đầu tư mặt đường Toàn nhựa, bê tông xi măng có bề rộng | START=tuyến | END=280 | FLAGS=
+ID=NQ28-057-S04-TT0084-01 | SEC=agricultural | TT=84 | REL=main | PRICES=220,130,39 | ROAD=mặt đường dưới 4m Các tuyến đường Toàn giao thông còn lại trên địa bàn phường chưa được đầu tư mặt đường nhựa, bê tông xi măng có bề rộng mặt đường | START=tuyến | END=280 | FLAGS=
+ID=NQ28-057-S07-TT0048-01 | SEC=agricultural | TT=48 | REL=main | PRICES=1 | ROAD=Giáp ranh đất Nhà Văn Cuối đường 1.900 1.300 1.200 37 Đường vào Trung tâm Đường Quốc lộ 14 Cổng Khu Nông Nghiệp 1.900 1.300 1.200 38 Khu Dân Cư Trung Tâm Các tuyến đường trong 1.500 1.100 910 39 Khu Dân Cư Tuấn Trang Đường D1 2.200 1.600 1.300 40 Khu Dân Cư Tuấn Trang Đường N1, N2, D2 1.900 1.300 1.200 41 Khu dân cư Cán bộ sĩ quan, Quân sự tỉnh Đường số 1 2.000 1.400 1.200 42 Khu dân cư Cán bộ sĩ quan, Quân sự tỉnh Đường số 2 2.000 1.400 1.200 43 Khu dân cư Cán bộ sĩ quan, Quân sự tỉnh Đường số 3 3.400 2.400 2.100 44 Khu dân cư Cán bộ sĩ quan, Quân sự tỉnh Đường số 4 2.000 1.400 1.200 45 Khu dân cư Cán bộ sĩ quan, Quân sự tỉnh Đường số 6, số 7, số 8 2.000 1.400 1.200 46 Các tuyến đường trong Toàn tuyến 3.200 2.200 1.900 47 Đường trục chính khu khu công nghiệp đã được cụm công nghiệp Toàn tuyến 4.000 2.800 2.400 Các tuyến đường trong giá đai các khu công nghiệp, Toàn tuyến 3.200 2.200 1.900 49 Khu quy hoạch chợ Tân Đường D1, N1 9.600 6.700 5.800 50 Khu quy hoạch chợ Tân Các tuyến đường quy Thành 8.000 5.600 4.800 51 Các tuyến đường trong Toàn tuyến 1.400 1.000 860 52 | START=hóa ấp 7 Khuyến Nông Công Nghệ Cao Khuyến Nông Dân cư quân nhân quân nhân quân nhân quân nhân quân nhân Khu dân cư Việt công nghiệp Đồng đầu tư mặt Khu công nghiệp cụm công Thành Thành hoạch còn lại trong Khu dân cư Bộ | END=chuyên nghiệp chuyên nghiệp chuyên nghiệp chuyên nghiệp chuyên nghiệp Phương Xoài, các tuyến đường nhựa, bê Đồng Xoài 1 nghiệp khu quy hoạch chỉ huy bộ đội | FLAGS=
+ID=NQ28-057-S07-TT0057-01 | SEC=agricultural | TT=57 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0058-01 | SEC=agricultural | TT=58 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0059-01 | SEC=agricultural | TT=59 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0060-01 | SEC=agricultural | TT=60 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0061-01 | SEC=agricultural | TT=61 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0062-01 | SEC=agricultural | TT=62 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0063-01 | SEC=agricultural | TT=63 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0064-01 | SEC=agricultural | TT=64 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0065-01 | SEC=agricultural | TT=65 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0066-01 | SEC=agricultural | TT=66 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0067-01 | SEC=agricultural | TT=67 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0068-01 | SEC=agricultural | TT=68 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0070-01 | SEC=agricultural | TT=70 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0071-01 | SEC=agricultural | TT=71 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0072-01 | SEC=agricultural | TT=72 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0073-01 | SEC=agricultural | TT=73 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0074-01 | SEC=agricultural | TT=74 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0075-01 | SEC=agricultural | TT=75 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0076-01 | SEC=agricultural | TT=76 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0077-01 | SEC=agricultural | TT=77 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0078-01 | SEC=agricultural | TT=78 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0079-01 | SEC=agricultural | TT=79 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0080-01 | SEC=agricultural | TT=80 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0081-01 | SEC=agricultural | TT=81 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0082-01 | SEC=agricultural | TT=82 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0083-01 | SEC=agricultural | TT=83 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0084-01 | SEC=agricultural | TT=84 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0085-01 | SEC=agricultural | TT=85 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0086-01 | SEC=agricultural | TT=86 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0087-01 | SEC=agricultural | TT=87 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0088-01 | SEC=agricultural | TT=88 | REL=direct | PRICES=14 | FLAGS=
+ID=NQ28-057-S07-TT0264-01 | SEC=non-agricultural | TT=264 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0265-01 | SEC=non-agricultural | TT=265 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0266-01 | SEC=non-agricultural | TT=266 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0267-01 | SEC=non-agricultural | TT=267 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0268-01 | SEC=non-agricultural | TT=268 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0269-01 | SEC=non-agricultural | TT=269 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0270-01 | SEC=non-agricultural | TT=270 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0271-01 | SEC=non-agricultural | TT=271 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0272-01 | SEC=non-agricultural | TT=272 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0273-01 | SEC=non-agricultural | TT=273 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0274-01 | SEC=non-agricultural | TT=274 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0275-01 | SEC=non-agricultural | TT=275 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0276-01 | SEC=non-agricultural | TT=276 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0277-01 | SEC=non-agricultural | TT=277 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0278-01 | SEC=non-agricultural | TT=278 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0279-01 | SEC=non-agricultural | TT=279 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0280-01 | SEC=non-agricultural | TT=280 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0281-01 | SEC=non-agricultural | TT=281 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0282-01 | SEC=non-agricultural | TT=282 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0283-01 | SEC=non-agricultural | TT=283 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0284-01 | SEC=non-agricultural | TT=284 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0285-01 | SEC=non-agricultural | TT=285 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0286-01 | SEC=non-agricultural | TT=286 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0287-01 | SEC=non-agricultural | TT=287 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0288-01 | SEC=non-agricultural | TT=288 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0289-01 | SEC=non-agricultural | TT=289 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0290-01 | SEC=non-agricultural | TT=290 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0291-01 | SEC=non-agricultural | TT=291 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0292-01 | SEC=non-agricultural | TT=292 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0294-01 | SEC=non-agricultural | TT=294 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0295-01 | SEC=non-agricultural | TT=295 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0296-01 | SEC=non-agricultural | TT=296 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0297-01 | SEC=non-agricultural | TT=297 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0298-01 | SEC=non-agricultural | TT=298 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0299-01 | SEC=non-agricultural | TT=299 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0300-01 | SEC=non-agricultural | TT=300 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0301-01 | SEC=non-agricultural | TT=301 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0302-01 | SEC=non-agricultural | TT=302 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0303-01 | SEC=non-agricultural | TT=303 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0304-01 | SEC=non-agricultural | TT=304 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0305-01 | SEC=non-agricultural | TT=305 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0306-01 | SEC=non-agricultural | TT=306 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0307-01 | SEC=non-agricultural | TT=307 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0308-01 | SEC=non-agricultural | TT=308 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0309-01 | SEC=non-agricultural | TT=309 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0310-01 | SEC=non-agricultural | TT=310 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0359-01 | SEC=non-agricultural | TT=359 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0360-01 | SEC=non-agricultural | TT=360 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0361-01 | SEC=non-agricultural | TT=361 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0362-01 | SEC=non-agricultural | TT=362 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0363-01 | SEC=non-agricultural | TT=363 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0364-01 | SEC=non-agricultural | TT=364 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0365-01 | SEC=non-agricultural | TT=365 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0366-01 | SEC=non-agricultural | TT=366 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0367-01 | SEC=non-agricultural | TT=367 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0368-01 | SEC=non-agricultural | TT=368 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0369-01 | SEC=non-agricultural | TT=369 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0370-01 | SEC=non-agricultural | TT=370 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0371-01 | SEC=non-agricultural | TT=371 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0372-01 | SEC=non-agricultural | TT=372 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0373-01 | SEC=non-agricultural | TT=373 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0374-01 | SEC=non-agricultural | TT=374 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0375-01 | SEC=non-agricultural | TT=375 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0376-01 | SEC=non-agricultural | TT=376 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0377-01 | SEC=non-agricultural | TT=377 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0378-01 | SEC=non-agricultural | TT=378 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0379-01 | SEC=non-agricultural | TT=379 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0380-01 | SEC=non-agricultural | TT=380 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0381-01 | SEC=non-agricultural | TT=381 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0382-01 | SEC=non-agricultural | TT=382 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0383-01 | SEC=non-agricultural | TT=383 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0384-01 | SEC=non-agricultural | TT=384 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0385-01 | SEC=non-agricultural | TT=385 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0386-01 | SEC=non-agricultural | TT=386 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0387-01 | SEC=non-agricultural | TT=387 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0388-01 | SEC=non-agricultural | TT=388 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0389-01 | SEC=non-agricultural | TT=389 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0390-01 | SEC=non-agricultural | TT=390 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0391-01 | SEC=non-agricultural | TT=391 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0392-01 | SEC=non-agricultural | TT=392 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0393-01 | SEC=non-agricultural | TT=393 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0394-01 | SEC=non-agricultural | TT=394 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0395-01 | SEC=non-agricultural | TT=395 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0396-01 | SEC=non-agricultural | TT=396 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0397-01 | SEC=non-agricultural | TT=397 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0398-01 | SEC=non-agricultural | TT=398 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0399-01 | SEC=non-agricultural | TT=399 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0400-01 | SEC=non-agricultural | TT=400 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0401-01 | SEC=non-agricultural | TT=401 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0402-01 | SEC=non-agricultural | TT=402 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0403-01 | SEC=non-agricultural | TT=403 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0404-01 | SEC=non-agricultural | TT=404 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0405-01 | SEC=non-agricultural | TT=405 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0406-01 | SEC=non-agricultural | TT=406 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0407-01 | SEC=non-agricultural | TT=407 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0408-01 | SEC=non-agricultural | TT=408 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0409-01 | SEC=non-agricultural | TT=409 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0410-01 | SEC=non-agricultural | TT=410 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0411-01 | SEC=non-agricultural | TT=411 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0412-01 | SEC=non-agricultural | TT=412 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0413-01 | SEC=non-agricultural | TT=413 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0414-01 | SEC=non-agricultural | TT=414 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0415-01 | SEC=non-agricultural | TT=415 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0416-01 | SEC=non-agricultural | TT=416 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0417-01 | SEC=non-agricultural | TT=417 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0418-01 | SEC=non-agricultural | TT=418 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0419-01 | SEC=non-agricultural | TT=419 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0420-01 | SEC=non-agricultural | TT=420 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0421-01 | SEC=non-agricultural | TT=421 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0422-01 | SEC=non-agricultural | TT=422 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0423-01 | SEC=non-agricultural | TT=423 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0424-01 | SEC=non-agricultural | TT=424 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0425-01 | SEC=non-agricultural | TT=425 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0426-01 | SEC=non-agricultural | TT=426 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0427-01 | SEC=non-agricultural | TT=427 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0428-01 | SEC=non-agricultural | TT=428 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0429-01 | SEC=non-agricultural | TT=429 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0430-01 | SEC=non-agricultural | TT=430 | REL=direct | PRICES=14 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0614-01 | SEC=non-agricultural | TT=614 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0615-01 | SEC=non-agricultural | TT=615 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0616-01 | SEC=non-agricultural | TT=616 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0617-01 | SEC=non-agricultural | TT=617 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0618-01 | SEC=non-agricultural | TT=618 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0619-01 | SEC=non-agricultural | TT=619 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0621-01 | SEC=non-agricultural | TT=621 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0622-01 | SEC=non-agricultural | TT=622 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0623-01 | SEC=non-agricultural | TT=623 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0624-01 | SEC=non-agricultural | TT=624 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0625-01 | SEC=non-agricultural | TT=625 | REL=direct | PRICES=753 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN
+ID=NQ28-057-S07-TT0741-01 | SEC=non-agricultural | TT=741 | REL=direct | PRICES=16 | FLAGS=NON_AGRICULTURAL_PRICE_COLUMN_COUNT_1,CHILD_WITHOUT_PRECEDING_MAIN

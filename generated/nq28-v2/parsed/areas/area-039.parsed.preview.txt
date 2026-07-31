@@ -1,0 +1,1 @@
+TABLE=039 | AREA=Xã Hưng Thịnh | RECORDS=0 | GROUPS=0 | REVIEW=1

@@ -1,0 +1,1 @@
+TABLE=050 | AREA=Xã Nam Cát Tiên | RECORDS=0 | GROUPS=0 | REVIEW=1

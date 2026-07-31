@@ -1,0 +1,1 @@
+TABLE=010 | AREA=Phường Tam Phước | RECORDS=0 | GROUPS=0 | REVIEW=1

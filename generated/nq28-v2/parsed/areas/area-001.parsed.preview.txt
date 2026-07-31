@@ -1,0 +1,106 @@
+TABLE=001 | AREA=Phường Biên Hòa | RECORDS=105 | GROUPS=16 | REVIEW=3
+ID=NQ28-001-S05-TT0001-01 | SEC=non-agricultural | TT=1 | REL=main | PRICES= | ROAD=Phường Biên Hòa | START=Biên | END= | FLAGS=PRICE_MISSING,NON_AGRICULTURAL_PRICE_COLUMN_COUNT_0
+ID=NQ28-001-S05-TT0001-02 | SEC=non-agricultural | TT=1 | REL=main | PRICES=26100,18300,15700 | ROAD=Đường Bùi Hữu Nghĩa | START=Giáp ranh giới thành phố Hồ Chí Minh | END=Đường Nguyễn Tri Phương | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-001-S05-TT0002-01 | SEC=non-agricultural | TT=2 | REL=direct | PRICES=11800,8300,7100 | FLAGS=
+ID=NQ28-001-S05-TT0003-01 | SEC=non-agricultural | TT=3 | REL=direct | PRICES=5800,4100,3500 | FLAGS=
+ID=NQ28-001-S05-TT0004-01 | SEC=non-agricultural | TT=4 | REL=direct | PRICES=4100,2900,2500 | FLAGS=
+ID=NQ28-001-S05-TT0005-01 | SEC=non-agricultural | TT=5 | REL=indirect | PRICES=10600,7400,6400 | FLAGS=
+ID=NQ28-001-S05-TT0006-01 | SEC=non-agricultural | TT=6 | REL=indirect | PRICES=5200,3600,3100 | FLAGS=
+ID=NQ28-001-S05-TT0007-01 | SEC=non-agricultural | TT=7 | REL=indirect | PRICES=3700,2600,2200 | FLAGS=
+ID=NQ28-001-S05-TT0008-01 | SEC=non-agricultural | TT=8 | REL=direct | PRICES=30800,21600,18500 | FLAGS=
+ID=NQ28-001-S05-TT0009-01 | SEC=non-agricultural | TT=9 | REL=main | PRICES=13000,9100,7800 | ROAD=Nghĩa đoạn từ Đường Nguyễn Bửu Hòa (cũ) có hiện trạng là đường - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Tri Phương đến nhựa, bê tông giao thông ≤600m. cách đường giao | END=Công an phường xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0010-01 | SEC=non-agricultural | TT=10 | REL=direct | PRICES=8500,6000,5100 | FLAGS=
+ID=NQ28-001-S05-TT0011-01 | SEC=non-agricultural | TT=11 | REL=direct | PRICES=4600,3200,2800 | FLAGS=
+ID=NQ28-001-S05-TT0012-01 | SEC=non-agricultural | TT=12 | REL=indirect | PRICES=11700,8200,7000 | FLAGS=
+ID=NQ28-001-S05-TT0013-01 | SEC=non-agricultural | TT=13 | REL=indirect | PRICES=7700,5400,4600 | FLAGS=
+ID=NQ28-001-S05-TT0014-01 | SEC=non-agricultural | TT=14 | REL=indirect | PRICES=4100,2900,2500 | FLAGS=
+ID=NQ28-001-S05-TT0015-01 | SEC=non-agricultural | TT=15 | REL=direct | PRICES=27200,19000,16300 | FLAGS=
+ID=NQ28-001-S05-TT0016-01 | SEC=non-agricultural | TT=16 | REL=main | PRICES=11800,8300,7100 | ROAD=Nghĩa đoạn từ Công an phường Thị Tồn có hiện trạng là đường - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Bửu Hòa (cũ) nhựa, bê tông giao thông ≤600m. cách đường giao | END=đến Đường Nguyễn xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0017-01 | SEC=non-agricultural | TT=17 | REL=direct | PRICES=5800,4100,3500 | FLAGS=
+ID=NQ28-001-S05-TT0018-01 | SEC=non-agricultural | TT=18 | REL=direct | PRICES=4300,3000,2600 | FLAGS=
+ID=NQ28-001-S05-TT0019-01 | SEC=non-agricultural | TT=19 | REL=indirect | PRICES=10600,7400,6400 | FLAGS=
+ID=NQ28-001-S05-TT0020-01 | SEC=non-agricultural | TT=20 | REL=indirect | PRICES=5200,3600,3100 | FLAGS=
+ID=NQ28-001-S05-TT0021-01 | SEC=non-agricultural | TT=21 | REL=indirect | PRICES=3900,2700,2300 | FLAGS=
+ID=NQ28-001-S05-TT0022-01 | SEC=non-agricultural | TT=22 | REL=direct | PRICES=21300,14900,12800 | FLAGS=
+ID=NQ28-001-S05-TT0023-01 | SEC=non-agricultural | TT=23 | REL=main | PRICES=11800,8300,7100 | ROAD=Nghĩa đoạn từ Đường Nguyễn Đạt có hiện trạng là đường - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Thị Tồn đến Đường nhựa, bê tông xi măng: giao thông ≤600m. cách đường giao | END=Huỳnh Mẫn thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0024-01 | SEC=non-agricultural | TT=24 | REL=direct | PRICES=5400,3800,3200 | FLAGS=
+ID=NQ28-001-S05-TT0025-01 | SEC=non-agricultural | TT=25 | REL=direct | PRICES=3900,2700,2300 | FLAGS=
+ID=NQ28-001-S05-TT0026-01 | SEC=non-agricultural | TT=26 | REL=indirect | PRICES=10600,7400,6400 | FLAGS=
+ID=NQ28-001-S05-TT0027-01 | SEC=non-agricultural | TT=27 | REL=indirect | PRICES=4900,3400,2900 | FLAGS=
+ID=NQ28-001-S05-TT0028-01 | SEC=non-agricultural | TT=28 | REL=indirect | PRICES=3500,2500,2100 | FLAGS=
+ID=NQ28-001-S05-TT0029-01 | SEC=non-agricultural | TT=29 | REL=direct | PRICES=19000,13300,11400 | FLAGS=
+ID=NQ28-001-S05-TT0030-01 | SEC=non-agricultural | TT=30 | REL=main | PRICES=9500,6700,5700 | ROAD=Nghĩa đoạn từ Đường Huỳnh trạng là đường nhựa, bê tông - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Mẫn Đạt đến Cầu xi măng: giao thông ≤600m. cách đường giao | END=Rạch Sỏi có hiện thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0031-01 | SEC=non-agricultural | TT=31 | REL=direct | PRICES=5000,3500,3000 | FLAGS=
+ID=NQ28-001-S05-TT0032-01 | SEC=non-agricultural | TT=32 | REL=direct | PRICES=3600,2500,2200 | FLAGS=
+ID=NQ28-001-S05-TT0033-01 | SEC=non-agricultural | TT=33 | REL=indirect | PRICES=8600,6000,5200 | FLAGS=
+ID=NQ28-001-S05-TT0034-01 | SEC=non-agricultural | TT=34 | REL=indirect | PRICES=4500,3200,2700 | FLAGS=
+ID=NQ28-001-S05-TT0035-01 | SEC=non-agricultural | TT=35 | REL=indirect | PRICES=3200,2200,1900 | FLAGS=
+ID=NQ28-001-S05-TT0036-01 | SEC=non-agricultural | TT=36 | REL=main | PRICES=15400,10800,9200 | ROAD=- Có bề rộng <3m, cách đường Đường Bùi Hữu Nghĩa | START=giao thông > 200m. Cầu Rạch Sỏi | END=Cầu Ông Tiếp | FLAGS=
+ID=NQ28-001-S05-TT0037-01 | SEC=non-agricultural | TT=37 | REL=direct | PRICES=8300,5800,5000 | FLAGS=
+ID=NQ28-001-S05-TT0038-01 | SEC=non-agricultural | TT=38 | REL=direct | PRICES=4300,3000,2600 | FLAGS=
+ID=NQ28-001-S05-TT0039-01 | SEC=non-agricultural | TT=39 | REL=direct | PRICES=3200,2200,1900 | FLAGS=
+ID=NQ28-001-S05-TT0040-01 | SEC=non-agricultural | TT=40 | REL=indirect | PRICES=7500,5300,4500 | FLAGS=
+ID=NQ28-001-S05-TT0041-01 | SEC=non-agricultural | TT=41 | REL=indirect | PRICES=3900,2700,2300 | FLAGS=
+ID=NQ28-001-S05-TT0042-01 | SEC=non-agricultural | TT=42 | REL=indirect | PRICES=2900,2000,1700 | FLAGS=
+ID=NQ28-001-S05-TT0043-01 | SEC=non-agricultural | TT=43 | REL=direct | PRICES=26600,18600,16000 | FLAGS=
+ID=NQ28-001-S05-TT0044-01 | SEC=non-agricultural | TT=44 | REL=main | PRICES=12700,8900,7600 | ROAD=Tri Phương đoạn từ Cầu Ghềnh hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách đường | START=đến Đường Nguyễn bê tông xi măng: giao thông ≤600m. | END=Ái Quốc có | FLAGS=
+ID=NQ28-001-S05-TT0045-01 | SEC=non-agricultural | TT=45 | REL=direct | PRICES=6200,4300,3700 | FLAGS=
+ID=NQ28-001-S05-TT0046-01 | SEC=non-agricultural | TT=46 | REL=direct | PRICES=4400,3100,2600 | FLAGS=
+ID=NQ28-001-S05-TT0047-01 | SEC=non-agricultural | TT=47 | REL=indirect | PRICES=11400,8000,6800 | FLAGS=
+ID=NQ28-001-S05-TT0048-01 | SEC=non-agricultural | TT=48 | REL=indirect | PRICES=5600,3900,3400 | FLAGS=
+ID=NQ28-001-S05-TT0049-01 | SEC=non-agricultural | TT=49 | REL=indirect | PRICES=4000,2800,2400 | FLAGS=
+ID=NQ28-001-S05-TT0050-01 | SEC=non-agricultural | TT=50 | REL=direct | PRICES=20100,14100,12100 | FLAGS=
+ID=NQ28-001-S05-TT0051-01 | SEC=non-agricultural | TT=51 | REL=main | PRICES=9500,6700,5700 | ROAD=Văn Lung đoạn từ Đường hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Nguyễn Ái Quốc đến bê tông xi măng: giao thông ≤600m. cách đường giao | END=Mỏ đá Hóa An có thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0052-01 | SEC=non-agricultural | TT=52 | REL=direct | PRICES=5200,3600,3100 | FLAGS=
+ID=NQ28-001-S05-TT0053-01 | SEC=non-agricultural | TT=53 | REL=direct | PRICES=3100,2200,1900 | FLAGS=
+ID=NQ28-001-S05-TT0054-01 | SEC=non-agricultural | TT=54 | REL=indirect | PRICES=8600,6000,5200 | FLAGS=
+ID=NQ28-001-S05-TT0055-01 | SEC=non-agricultural | TT=55 | REL=indirect | PRICES=4700,3300,2800 | FLAGS=
+ID=NQ28-001-S05-TT0056-01 | SEC=non-agricultural | TT=56 | REL=indirect | PRICES=2800,2000,1700 | FLAGS=
+ID=NQ28-001-S05-TT0057-01 | SEC=non-agricultural | TT=57 | REL=main | PRICES=15400,10800,9200 | ROAD=Đường Trần Văn Ơn | START=Đường Bùi Hữu Nghĩa | END=Chạm tới giữa ranh thửa đất số 9, tờ BĐĐC số 124 và thửa đất số 8, tờ BĐĐC số 124) | FLAGS=
+ID=NQ28-001-S05-TT0058-01 | SEC=non-agricultural | TT=58 | REL=direct | PRICES=7800,5500,4700 | FLAGS=
+ID=NQ28-001-S05-TT0059-01 | SEC=non-agricultural | TT=59 | REL=direct | PRICES=4900,3400,2900 | FLAGS=
+ID=NQ28-001-S05-TT0060-01 | SEC=non-agricultural | TT=60 | REL=direct | PRICES=3700,2600,2200 | FLAGS=
+ID=NQ28-001-S05-TT0061-01 | SEC=non-agricultural | TT=61 | REL=indirect | PRICES=7000,4900,4200 | FLAGS=
+ID=NQ28-001-S05-TT0062-01 | SEC=non-agricultural | TT=62 | REL=indirect | PRICES=4400,3100,2600 | FLAGS=
+ID=NQ28-001-S05-TT0063-01 | SEC=non-agricultural | TT=63 | REL=indirect | PRICES=3300,2300,2000 | FLAGS=
+ID=NQ28-001-S05-TT0064-01 | SEC=non-agricultural | TT=64 | REL=main | PRICES=22300,15600,13400 | ROAD=- Có bề rộng <3m, cách đường Đường Nguyễn Ái Quốc | START=giao thông > 200m. Giáp ranh giới thành phố Hồ Chí Minh | END=Cầu Hóa An | FLAGS=
+ID=NQ28-001-S05-TT0065-01 | SEC=non-agricultural | TT=65 | REL=direct | PRICES=11200,7800,6700 | FLAGS=
+ID=NQ28-001-S05-TT0066-01 | SEC=non-agricultural | TT=66 | REL=direct | PRICES=5500,3900,3300 | FLAGS=
+ID=NQ28-001-S05-TT0067-01 | SEC=non-agricultural | TT=67 | REL=direct | PRICES=3900,2700,2300 | FLAGS=
+ID=NQ28-001-S05-TT0068-01 | SEC=non-agricultural | TT=68 | REL=indirect | PRICES=10100,7100,6100 | FLAGS=
+ID=NQ28-001-S05-TT0069-01 | SEC=non-agricultural | TT=69 | REL=indirect | PRICES=5000,3500,3000 | FLAGS=
+ID=NQ28-001-S05-TT0070-01 | SEC=non-agricultural | TT=70 | REL=indirect | PRICES=3500,2500,2100 | FLAGS=
+ID=NQ28-001-S05-TT0071-01 | SEC=non-agricultural | TT=71 | REL=direct | PRICES=20300,14200,12200 | FLAGS=
+ID=NQ28-001-S05-TT0072-01 | SEC=non-agricultural | TT=72 | REL=main | PRICES=11200,7800,6700 | ROAD=Minh Chánh đoạn từ Đường Nghĩa có hiện trạng là đường - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Nguyễn Ái Quốc đến nhựa, bê tông xi giao thông ≤600m. cách đường giao | END=Đường Bùi Hữu măng: thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0073-01 | SEC=non-agricultural | TT=73 | REL=direct | PRICES=5500,3900,3300 | FLAGS=
+ID=NQ28-001-S05-TT0074-01 | SEC=non-agricultural | TT=74 | REL=direct | PRICES=3700,2600,2200 | FLAGS=
+ID=NQ28-001-S05-TT0075-01 | SEC=non-agricultural | TT=75 | REL=indirect | PRICES=10100,7100,6100 | FLAGS=
+ID=NQ28-001-S05-TT0076-01 | SEC=non-agricultural | TT=76 | REL=indirect | PRICES=5000,3500,3000 | FLAGS=
+ID=NQ28-001-S05-TT0077-01 | SEC=non-agricultural | TT=77 | REL=indirect | PRICES=3300,2300,2000 | FLAGS=
+ID=NQ28-001-S05-TT0078-01 | SEC=non-agricultural | TT=78 | REL=main | PRICES=17300,12100,10400 | ROAD=Đường Hoàng Minh Chánh | START=Đường Nguyễn Ái Quốc | END=Nghĩa trang Sùng Chính Phước Kiến (dự án đường Hoàng Minh Chánh nối dài) | FLAGS=
+ID=NQ28-001-S05-TT0079-01 | SEC=non-agricultural | TT=79 | REL=direct | PRICES=9000,6300,5400 | FLAGS=
+ID=NQ28-001-S05-TT0080-01 | SEC=non-agricultural | TT=80 | REL=direct | PRICES=4900,3400,2900 | FLAGS=
+ID=NQ28-001-S05-TT0081-01 | SEC=non-agricultural | TT=81 | REL=direct | PRICES=2900,2000,1700 | FLAGS=
+ID=NQ28-001-S05-TT0082-01 | SEC=non-agricultural | TT=82 | REL=indirect | PRICES=8100,5700,4900 | FLAGS=
+ID=NQ28-001-S05-TT0083-01 | SEC=non-agricultural | TT=83 | REL=indirect | PRICES=4400,3100,2600 | FLAGS=
+ID=NQ28-001-S05-TT0084-01 | SEC=non-agricultural | TT=84 | REL=indirect | PRICES=2600,1800,1600 | FLAGS=
+ID=NQ28-001-S05-TT0085-01 | SEC=non-agricultural | TT=85 | REL=direct | PRICES=16500,11600,9900 | FLAGS=
+ID=NQ28-001-S05-TT0086-01 | SEC=non-agricultural | TT=86 | REL=main | PRICES=8900,6200,5300 | ROAD=Mẫn Đạt đoạn từ Đường Bùi BBCC cũ có hiện trạng là đường - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Hữu Nghĩa đến Giáp nhựa, bê tông giao thông ≤600m. cách đường giao | END=ranh mỏ đá xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0087-01 | SEC=non-agricultural | TT=87 | REL=direct | PRICES=4900,3400,2900 | FLAGS=
+ID=NQ28-001-S05-TT0088-01 | SEC=non-agricultural | TT=88 | REL=direct | PRICES=3300,2300,2000 | FLAGS=
+ID=NQ28-001-S05-TT0089-01 | SEC=non-agricultural | TT=89 | REL=indirect | PRICES=8000,5600,4800 | FLAGS=
+ID=NQ28-001-S05-TT0090-01 | SEC=non-agricultural | TT=90 | REL=indirect | PRICES=4400,3100,2600 | FLAGS=
+ID=NQ28-001-S05-TT0091-01 | SEC=non-agricultural | TT=91 | REL=indirect | PRICES=3000,2100,1800 | FLAGS=
+ID=NQ28-001-S05-TT0092-01 | SEC=non-agricultural | TT=92 | REL=direct | PRICES=15200,10600,9100 | FLAGS=
+ID=NQ28-001-S05-TT0093-01 | SEC=non-agricultural | TT=93 | REL=main | PRICES=7600,5300,4600 | ROAD=Diêu đoạn từ Đường Bùi Hữu Hồ Chí Minh có hiện trạng - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Nghĩa đến Giáp là đường nhựa, bê giao thông ≤600m. cách đường giao | END=ranh giới thành phố tông xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0094-01 | SEC=non-agricultural | TT=94 | REL=direct | PRICES=4900,3400,2900 | FLAGS=
+ID=NQ28-001-S05-TT0095-01 | SEC=non-agricultural | TT=95 | REL=direct | PRICES=3300,2300,2000 | FLAGS=
+ID=NQ28-001-S05-TT0096-01 | SEC=non-agricultural | TT=96 | REL=indirect | PRICES=6800,4800,4100 | FLAGS=
+ID=NQ28-001-S05-TT0097-01 | SEC=non-agricultural | TT=97 | REL=indirect | PRICES=4400,3100,2600 | FLAGS=
+ID=NQ28-001-S05-TT0098-01 | SEC=non-agricultural | TT=98 | REL=indirect | PRICES=3000,2100,1800 | FLAGS=
+ID=NQ28-001-S05-TT0099-01 | SEC=non-agricultural | TT=99 | REL=direct | PRICES=23100,16200,13900 | FLAGS=
+ID=NQ28-001-S05-TT0100-01 | SEC=non-agricultural | TT=100 | REL=main | PRICES=11200,7800,6700 | ROAD=Thị Tồn đoạn từ Đường Nguyễn Nghĩa có hiện trạng là đường - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=Ái Quốc đến Đường nhựa, bê tông xi giao thông ≤600m. cách đường giao | END=Bùi Hữu măng: thông ≤400m. | FLAGS=
+ID=NQ28-001-S05-TT0101-01 | SEC=non-agricultural | TT=101 | REL=direct | PRICES=5500,3900,3300 | FLAGS=
+ID=NQ28-001-S05-TT0102-01 | SEC=non-agricultural | TT=102 | REL=direct | PRICES=3900,2700,2300 | FLAGS=
+ID=NQ28-001-S05-TT0103-01 | SEC=non-agricultural | TT=103 | REL=indirect | PRICES=10100,7100,6100 | FLAGS=
+ID=NQ28-001-S05-TT0104-01 | SEC=non-agricultural | TT=104 | REL=indirect | PRICES=5000,3500,3000 | FLAGS=
