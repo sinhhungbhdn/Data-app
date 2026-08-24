@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "unit": "1000 VND/m2",
+  "principles": {
+    "physical_files_are_not_semantic_groups": true,
+    "appendix_heading_controls_schema": true,
+    "no_cross_appendix_fallback": true,
+    "no_cross_purpose_fallback": true,
+    "source_trace_required": true
+  },
+  "appendices": {
+    "I": {
+      "title": "BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP",
+      "mode": "multi_purpose",
+      "purposes": [
+        {"code": "CLN_HNK", "label": "Giá đất trồng cây lâu năm, đất trồng cây hằng năm"},
+        {"code": "RSX_NTS", "label": "Giá đất trồng rừng sản xuất và nuôi trồng thủy sản"}
+      ],
+      "lookup_keys": ["admin_unit", "road_or_condition", "start_point", "end_point"]
+    },
+    "II": {
+      "title": "BẢNG GIÁ CÁC LOẠI ĐẤT TẠI CÁC ĐẢO, CÙ LAO",
+      "mode": "multi_purpose",
+      "purposes": [
+        {"code": "NN", "label": "Giá đất nông nghiệp"},
+        {"code": "DAT_O", "label": "Giá đất ở"},
+        {"code": "TMDV", "label": "Giá đất thương mại, dịch vụ"},
+        {"code": "SXKD_PNN_KHONG_TMDV", "label": "Giá đất sản xuất, kinh doanh phi nông nghiệp không phải đất thương mại, dịch vụ"}
+      ],
+      "lookup_keys": ["island_or_islet", "admin_unit"]
+    },
+    "III": {
+      "title": "BẢNG GIÁ CÁC LOẠI ĐẤT PHI NÔNG NGHIỆP",
+      "mode": "multi_purpose",
+      "purposes": [
+        {"code": "DAT_O", "label": "Giá đất ở"},
+        {"code": "TMDV", "label": "Giá đất thương mại dịch vụ"},
+        {"code": "CS_SX_PNN_KHOANG_SAN", "label": "Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản"}
+      ],
+      "lookup_keys": ["admin_unit", "road_or_condition", "start_point", "end_point"]
+    },
+    "IV": {
+      "title": "BẢNG GIÁ ĐẤT CÁC KHU CÔNG NGHIỆP, CỤM CÔNG NGHIỆP",
+      "mode": "single_price",
+      "purposes": [],
+      "lookup_keys": ["zone_type", "zone_name", "admin_unit"],
+      "note": "Một dòng chỉ có một cột Giá đất; không được tự gán sang cột mục đích sử dụng khác."
+    },
+    "V": {
+      "title": "BẢNG GIÁ ĐẤT TRONG KHU CÔNG NGHỆ CAO CÔNG NGHỆ SINH HỌC ĐỒNG NAI",
+      "mode": "multi_purpose",
+      "purposes": [
+        {"code": "NN_KHAC", "label": "Giá đất nông nghiệp khác"},
+        {"code": "TMDV", "label": "Giá đất thương mại, dịch vụ"},
+        {"code": "SXKD_PNN_KHONG_TMDV", "label": "Giá đất sản xuất, kinh doanh phi nông nghiệp không phải đất thương mại, dịch vụ"}
+      ],
+      "lookup_keys": ["road"]
+    },
+    "VI": {
+      "title": "BẢNG GIÁ ĐẤT CÁC KHU TÁI ĐỊNH CƯ",
+      "mode": "single_price",
+      "purposes": [],
+      "lookup_keys": ["admin_unit", "resettlement_area", "road_or_segment"],
+      "note": "Các mức giá khác nhau là theo khu/đường/đoạn đường, không phải ba cột mục đích sử dụng đất."
+    },
+    "VII": {
+      "title": "CÁC TUYẾN ĐƯỜNG GIAO THÔNG CHÍNH",
+      "mode": "reference_only",
+      "purposes": [],
+      "lookup_keys": ["admin_unit", "road", "start_point", "end_point"],
+      "note": "Phụ lục tham chiếu tuyến đường, không phải bảng giá trực tiếp."
+    },
+    "VIII": {
+      "title": "GIÁ ĐẤT NÔNG NGHIỆP TỐI THIỂU VÀ TỐI ĐA",
+      "mode": "bounds_only",
+      "purposes": [
+        {"code": "CLN", "label": "Đất trồng cây lâu năm"},
+        {"code": "HNK", "label": "Đất trồng cây hằng năm"},
+        {"code": "NTS", "label": "Đất nuôi trồng thủy sản"},
+        {"code": "RSX", "label": "Đất rừng sản xuất"}
+      ],
+      "lookup_keys": ["admin_unit", "bound_type"],
+      "note": "Dùng kiểm tra giá tối thiểu/tối đa; không được thay thế giá dòng tra cứu thông thường."
+    }
+  },
+  "canonical_record_fields": [
+    "appendix", "source_file", "source_page", "source_tt", "admin_unit",
+    "zone_type", "zone_name", "resettlement_area", "island_or_islet",
+    "road_or_condition", "road_or_segment", "start_point", "end_point",
+    "purpose_code", "price_thousand_vnd_m2", "source_text"
+  ]
+}
