@@ -42,21 +42,21 @@ jobs:
             --source "source-data/nq28-pdf/1. Đất NN 1-2140.pdf" \
             --mode agricultural \
             --work .pipeline-work/named-v3/agri \
-            --output generated/named-v3/agri/source
+            --output generated/named-v3/agri/source || true
 
       - name: Parse file 1 agricultural rows
         run: |
           python3 data-pipeline-v2/parse_nq28_area_rows.py \
             --source-dir generated/named-v3/agri/source \
             --output generated/named-v3/agri/parsed \
-            --area-start 1 --area-end 95
+            --area-start 1 --area-end 95 || true
 
       - name: Parse file 2 island/cù lao rows
         run: |
           mkdir -p generated/named-v3/file2
           python3 data-pipeline-v3/parse_file2_islands.py \
             --source "source-data/nq28-pdf/2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf" \
-            --output generated/named-v3/file2/islands.json
+            --output generated/named-v3/file2/islands.json || true
 
       - name: Build file 2 non-agricultural area sources
         run: |
@@ -65,21 +65,21 @@ jobs:
             --source "source-data/nq28-pdf/2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf" \
             --mode non-agricultural \
             --work .pipeline-work/named-v3/nonagri \
-            --output generated/named-v3/nonagri/source
+            --output generated/named-v3/nonagri/source || true
 
       - name: Parse file 2 non-agricultural rows
         run: |
           python3 data-pipeline-v2/parse_nq28_area_rows.py \
             --source-dir generated/named-v3/nonagri/source \
             --output generated/named-v3/nonagri/parsed \
-            --area-start 1 --area-end 95
+            --area-start 1 --area-end 95 || true
 
       - name: Parse fixed named files 3 through 6
         run: |
           rm -rf generated/named-v3/small-groups
           python3 data-pipeline-v3/parse_named_small_groups.py \
             --source-dir source-data/nq28-pdf \
-            --output generated/named-v3/small-groups
+            --output generated/named-v3/small-groups || true
 
       - name: Build compact audit summary
         shell: bash
@@ -87,11 +87,23 @@ jobs:
           python3 - <<'PY'
           import json, gzip
           from pathlib import Path
+
+          def read_json(path):
+              p = Path(path)
+              if not p.exists():
+                  return {"_missing": str(p)}
+              try:
+                  return json.loads(p.read_text(encoding='utf-8'))
+              except Exception as exc:
+                  return {"_error": str(exc), "_path": str(p)}
+
           out = Path('generated/named-v3/audit-summary.json')
-          a = json.loads(Path('generated/named-v3/agri/parsed/parse-summary.json').read_text(encoding='utf-8'))
-          n = json.loads(Path('generated/named-v3/nonagri/parsed/parse-summary.json').read_text(encoding='utf-8'))
-          i = json.loads(Path('generated/named-v3/file2/islands.json').read_text(encoding='utf-8'))
-          s = json.loads(Path('generated/named-v3/small-groups/summary.json').read_text(encoding='utf-8'))
+          a = read_json('generated/named-v3/agri/parsed/parse-summary.json')
+          n = read_json('generated/named-v3/nonagri/parsed/parse-summary.json')
+          i = read_json('generated/named-v3/file2/islands.json')
+          s = read_json('generated/named-v3/small-groups/summary.json')
+          asrc = read_json('generated/named-v3/agri/source/source-manifest.json')
+          nsrc = read_json('generated/named-v3/nonagri/source/source-manifest.json')
           checks = []
           tam = Path('generated/named-v3/nonagri/parsed/areas/area-003.parsed.json.gz')
           if tam.exists():
@@ -109,14 +121,30 @@ jobs:
               'schema': 'nq28-named-file-audit-v3',
               'classificationAuthority': 'user-assigned split filename',
               'pageSuffixRole': 'bookmark_only',
-              'agricultural': {
-                  'areaCount': a.get('areaCount'), 'recordCount': a.get('recordCount'),
-                  'reviewCount': a.get('reviewCount'), 'missingAreas': a.get('missingAreas')
+              'agriculturalSource': {
+                  'areaHeadingCount': asrc.get('areaHeadingCount'),
+                  'areasWithSource': asrc.get('areasWithSource'),
+                  'missingAreas': asrc.get('missingAreas'),
+                  'review': asrc.get('review'),
+                  'error': asrc.get('_error') or asrc.get('_missing')
               },
-              'file2Islands': {'recordCount': i.get('count')},
-              'nonAgricultural': {
+              'agriculturalParsed': {
+                  'areaCount': a.get('areaCount'), 'recordCount': a.get('recordCount'),
+                  'reviewCount': a.get('reviewCount'), 'missingAreas': a.get('missingAreas'),
+                  'error': a.get('_error') or a.get('_missing')
+              },
+              'file2Islands': {'recordCount': i.get('count'), 'error': i.get('_error') or i.get('_missing')},
+              'nonAgriculturalSource': {
+                  'areaHeadingCount': nsrc.get('areaHeadingCount'),
+                  'areasWithSource': nsrc.get('areasWithSource'),
+                  'missingAreas': nsrc.get('missingAreas'),
+                  'review': nsrc.get('review'),
+                  'error': nsrc.get('_error') or nsrc.get('_missing')
+              },
+              'nonAgriculturalParsed': {
                   'areaCount': n.get('areaCount'), 'recordCount': n.get('recordCount'),
-                  'reviewCount': n.get('reviewCount'), 'missingAreas': n.get('missingAreas')
+                  'reviewCount': n.get('reviewCount'), 'missingAreas': n.get('missingAreas'),
+                  'error': n.get('_error') or n.get('_missing')
               },
               'smallGroups': s,
               'tamHiepDongKhoiChecks': checks,
@@ -129,10 +157,11 @@ jobs:
           PY
 
       - name: Commit generated fixed-source evidence
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/named-v3
+          git add generated/named-v3 || true
           if git diff --cached --quiet; then
             echo "No generated changes."
           else
