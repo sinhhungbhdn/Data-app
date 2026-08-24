@@ -1,0 +1,124 @@
+name: NQ28 named-file data pipeline v3
+
+on:
+  push:
+    branches:
+      - data-fix-by-named-files
+    paths:
+      - ".github/workflows/nq28-named-files-v3.yml"
+      - "data-pipeline-v3/**"
+      - "data-pipeline-v2/parse_nq28_area_rows.py"
+      - "data-pipeline-v2/build_nq28_area_sources.py"
+      - "source-data/nq28-pdf/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nq28-named-files-v3
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout named-file branch
+        uses: actions/checkout@v4
+        with:
+          ref: data-fix-by-named-files
+          fetch-depth: 20
+
+      - name: Install parser dependency
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends poppler-utils
+
+      - name: Build file 1 agricultural area sources
+        run: |
+          rm -rf .pipeline-work/named-v3/agri generated/named-v3/agri
+          python3 data-pipeline-v3/build_named_area_sources.py \
+            --source "source-data/nq28-pdf/1. Đất NN 1-2140.pdf" \
+            --mode agricultural \
+            --work .pipeline-work/named-v3/agri \
+            --output generated/named-v3/agri/source
+
+      - name: Parse file 1 agricultural rows
+        run: |
+          python3 data-pipeline-v2/parse_nq28_area_rows.py \
+            --source-dir generated/named-v3/agri/source \
+            --output generated/named-v3/agri/parsed \
+            --area-start 1 --area-end 95
+
+      - name: Build file 2 non-agricultural area sources
+        run: |
+          rm -rf .pipeline-work/named-v3/nonagri generated/named-v3/nonagri
+          python3 data-pipeline-v3/build_named_area_sources.py \
+            --source "source-data/nq28-pdf/2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf" \
+            --mode non-agricultural \
+            --work .pipeline-work/named-v3/nonagri \
+            --output generated/named-v3/nonagri/source
+
+      - name: Parse file 2 non-agricultural rows
+        run: |
+          python3 data-pipeline-v2/parse_nq28_area_rows.py \
+            --source-dir generated/named-v3/nonagri/source \
+            --output generated/named-v3/nonagri/parsed \
+            --area-start 1 --area-end 95
+
+      - name: Build compact audit summary
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, gzip
+          from pathlib import Path
+          out = Path('generated/named-v3/audit-summary.json')
+          a = json.loads(Path('generated/named-v3/agri/parsed/parse-summary.json').read_text(encoding='utf-8'))
+          n = json.loads(Path('generated/named-v3/nonagri/parsed/parse-summary.json').read_text(encoding='utf-8'))
+          checks = []
+          tam = Path('generated/named-v3/nonagri/parsed/areas/area-003.parsed.json.gz')
+          if tam.exists():
+              with gzip.open(tam, 'rt', encoding='utf-8') as f:
+                  data = json.load(f)
+              for r in data.get('records', []):
+                  text = ' '.join([r.get('road',''), r.get('start',''), r.get('end',''), r.get('rawText','')]).lower()
+                  if 'đồng khởi' in text and 'phạm văn khoai' in text:
+                      checks.append({
+                          'id': r.get('id'), 'tt': r.get('tt'), 'road': r.get('road'),
+                          'start': r.get('start'), 'end': r.get('end'), 'prices': r.get('prices'),
+                          'review': r.get('review')
+                      })
+          result = {
+              'schema': 'nq28-named-file-audit-v3',
+              'classificationAuthority': 'user-assigned split filename',
+              'pageSuffixRole': 'bookmark_only',
+              'agricultural': {
+                  'areaCount': a.get('areaCount'), 'recordCount': a.get('recordCount'),
+                  'reviewCount': a.get('reviewCount'), 'missingAreas': a.get('missingAreas')
+              },
+              'nonAgricultural': {
+                  'areaCount': n.get('areaCount'), 'recordCount': n.get('recordCount'),
+                  'reviewCount': n.get('reviewCount'), 'missingAreas': n.get('missingAreas')
+              },
+              'tamHiepDongKhoiChecks': checks,
+              'ttIsLookupKey': False,
+              'runtimeOrD1Modified': False
+          }
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          print(json.dumps(result, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit generated fixed-source evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/named-v3
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+          else
+            git commit -m "Build NQ28 data from fixed named split files [skip ci]"
+            git pull --rebase origin data-fix-by-named-files
+            git push origin HEAD:data-fix-by-named-files
+          fi
