@@ -2,10 +2,11 @@
 """Inventory Appendix I..VIII boundaries from the six split NQ28 PDFs.
 
 The split filenames are transport boundaries only. Appendix identity changes only
-at a legal appendix heading in source content. We validate a heading using nearby
-"Ban hành kèm theo Nghị quyết" / unit text, so the document TOC cannot change the
-active appendix. Boundaries are recorded at line level because one PDF page may
-contain the tail of one appendix and the start of the next.
+at a legal appendix heading in source content. A heading is accepted only when the
+current source line itself is a short standalone ``Phụ lục X`` line and the
+following lines contain the matching legal title plus the promulgation marker.
+This rejects TOC rows and prose such as ``Phụ lục I (hoặc Phụ lục III)``.
+Boundaries are line-level because one split-PDF page can contain two appendices.
 """
 
 from __future__ import annotations
@@ -80,42 +81,40 @@ def flatten_pages(raw: str) -> tuple[list[dict[str, Any]], int]:
 
 
 def detect_legal_heading(refs: list[dict[str, Any]], index: int) -> tuple[str, str] | None:
-    # Legal headings often wrap: "Phụ lục V" on one line and the title on the next.
-    head_text = " ".join(refs[j]["text"] for j in range(index, min(len(refs), index + 4)))
-    head_norm = normalize(head_text)
-    match = re.search(rf"\bphu luc\s+({ROMAN_RE.lower()})\b", head_norm)
+    """Return a legal appendix heading only for an actual standalone heading line."""
+    current = refs[index]
+    line_norm = current["norm"]
+
+    # Critical guard: do not search across multiple lines for the marker. The current
+    # line itself must be exactly "Phụ lục X" (punctuation is removed by normalize).
+    match = re.fullmatch(rf"phu luc\s+({ROMAN_RE.lower()})", line_norm)
     if not match:
         return None
     appendix = match.group(1).upper()
 
-    # Reject TOC entries. A real appendix heading is immediately followed by its
-    # promulgation line or the table unit/header. Look ahead across page breaks.
-    nearby = " ".join(refs[j]["text"] for j in range(index, min(len(refs), index + 28)))
+    # A genuine heading is followed very closely by its title and promulgation line.
+    # Eight non-empty source lines is enough for wrapped titles but too tight for TOC
+    # contamination elsewhere on the page.
+    nearby_refs = refs[index : min(len(refs), index + 8)]
+    nearby = " ".join(ref["text"] for ref in nearby_refs)
     nearby_norm = normalize(nearby)
-    legal_marker = (
-        "ban hanh kem theo nghi quyet" in nearby_norm
-        or "don vi tinh" in nearby_norm
-    )
-    if not legal_marker:
+    if "ban hanh kem theo nghi quyet" not in nearby_norm:
         return None
 
     expected_title = normalize(APPENDIX_TITLES[appendix])
-    # Allow OCR/line-wrap variation, but require either the canonical title start or
-    # one of the appendix-specific strong phrases in the nearby block.
-    title_ok = expected_title[:24] in nearby_norm
     strong = {
-        "I": "dat nong nghiep",
-        "II": "cac dao cu lao",
-        "III": "dat phi nong nghiep",
+        "I": "bang gia cac loai dat nong nghiep",
+        "II": "bang gia cac loai dat tai cac dao cu lao",
+        "III": "bang gia cac loai dat phi nong nghiep",
         "IV": "khu cong nghiep cum cong nghiep",
-        "V": "cong nghe cao cong nghe sinh hoc",
-        "VI": "khu tai dinh cu",
-        "VII": "tuyen duong giao thong chinh",
-        "VIII": "toi thieu va toi da",
+        "V": "cong nghe cao cong nghe sinh hoc dong nai",
+        "VI": "bang gia dat cac khu tai dinh cu",
+        "VII": "cac tuyen duong giao thong chinh",
+        "VIII": "gia dat nong nghiep toi thieu va toi da",
     }[appendix]
-    if not title_ok and strong not in nearby_norm:
+    if expected_title not in nearby_norm and strong not in nearby_norm:
         return None
-    return appendix, head_text
+    return appendix, nearby
 
 
 def ref_label(ref: dict[str, Any] | None) -> dict[str, Any] | None:
@@ -165,21 +164,19 @@ def main() -> int:
                 detected_at[idx] = found
 
         current = initial_appendix
+        counts: Counter[str] = Counter()
+        previous_order = ROMAN_ORDER.index(current)
         segment_start = 0
         segments: list[dict[str, Any]] = []
-        line_counts: Counter[str] = Counter()
-        previous_order = ROMAN_ORDER.index(current)
 
         def close_segment(end_index: int, trigger: str) -> None:
             nonlocal segment_start
             if end_index < segment_start:
                 return
-            start_ref = refs[segment_start]
-            end_ref = refs[end_index]
             segments.append({
                 "appendix": current,
-                "start": ref_label(start_ref),
-                "end": ref_label(end_ref),
+                "start": ref_label(refs[segment_start]),
+                "end": ref_label(refs[end_index]),
                 "nonemptyLineCount": end_index - segment_start + 1,
                 "trigger": trigger,
                 "excerpt": excerpt(refs, segment_start),
@@ -210,7 +207,7 @@ def main() -> int:
                     previous_order = new_order
                     segment_start = idx
                 global_heading_counts[appendix] += 1
-            line_counts[current] += 1
+            counts[current] += 1
             global_line_counts[current] += 1
 
         close_segment(len(refs) - 1, "end_of_file")
@@ -219,7 +216,7 @@ def main() -> int:
             "initialAppendix": initial_appendix,
             "pageCount": page_count,
             "nonemptyLineCount": len(refs),
-            "lineCountsByAppendix": dict(line_counts),
+            "lineCountsByAppendix": dict(counts),
             "headingEvents": heading_events,
             "segments": segments,
         })
@@ -230,10 +227,10 @@ def main() -> int:
         problems.append({"code": "missing_appendices", "appendices": missing})
 
     result = {
-        "schema": "nq28-pdf-appendix-line-inventory-v2",
+        "schema": "nq28-pdf-appendix-line-inventory-v3",
         "principles": [
             "split filename is not land-purpose semantics",
-            "TOC cannot change appendix identity",
+            "TOC and prose cross-references cannot change appendix identity",
             "appendix boundaries are line-level, not page-level",
             "overlap between split files remains explicit for later row deduplication",
         ],
@@ -245,9 +242,10 @@ def main() -> int:
         "problems": problems,
         "files": files,
     }
-    json_path = output / "pdf-appendix-inventory.json"
+    (output / "pdf-appendix-inventory.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     preview_path = output / "pdf-appendix-inventory.preview.txt"
-    json_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     with preview_path.open("w", encoding="utf-8", newline="\n") as f:
         f.write(
             f"COVERED={covered} | MISSING={missing} | PROBLEMS={len(problems)} | "
