@@ -1,1 +1,0 @@
-TABLE=011 | AREA=Phường Long Thành | SECTION=non-agricultural | SEGMENTS=0

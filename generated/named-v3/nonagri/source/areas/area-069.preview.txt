@@ -1,1 +1,0 @@
-TABLE=069 | AREA=Phường Lộc Ninh | SECTION=non-agricultural | SEGMENTS=0

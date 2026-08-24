@@ -1,1 +1,0 @@
-TABLE=040 | AREA=Phường Dầu Giây | SECTION=non-agricultural | SEGMENTS=0

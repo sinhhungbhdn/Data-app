@@ -1,1 +1,0 @@
-TABLE=016 | AREA=Phường Nhơn Trạch | SECTION=agricultural | SEGMENTS=0

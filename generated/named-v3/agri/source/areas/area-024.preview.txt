@@ -1,1 +1,0 @@
-TABLE=024 | AREA=Phường Xuân Lộc | SECTION=agricultural | SEGMENTS=0

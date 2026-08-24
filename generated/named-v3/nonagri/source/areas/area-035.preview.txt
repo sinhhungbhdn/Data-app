@@ -1,1 +1,0 @@
-TABLE=035 | AREA=Phường Trảng Bom | SECTION=non-agricultural | SEGMENTS=0

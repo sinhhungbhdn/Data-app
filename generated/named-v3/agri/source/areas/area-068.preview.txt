@@ -1,1 +1,0 @@
-TABLE=068 | AREA=Phường Đồng Phú | SECTION=agricultural | SEGMENTS=0
