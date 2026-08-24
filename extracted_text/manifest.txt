@@ -1,0 +1,17 @@
+SOURCE FILES:
+1. Đất NN 1-2140.pdf
+2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf
+3 Đất KCN - Cụm Công Nghiệp-4285-4289.pdf
+4. Đất Khu C.NGhệ - Tái Định Cư-4289-4304.pdf
+5. Các tuyến đường chính-4304-4390.pdf
+6. Đất NN tối thiểu- tối đa-4390-4396.pdf
+
+EXTRACTED FILE STATS:
+  110156 extracted_text/data1_dat_nn.txt
+  111406 extracted_text/data2_dat_dao_phi_nn.txt
+     210 extracted_text/data3_kcn_ccn.txt
+     669 extracted_text/data4_khu_cn_tdc.txt
+    4652 extracted_text/data5_tuyen_duong.txt
+     246 extracted_text/data6_nn_min_max.txt
+      15 extracted_text/manifest.txt
+  227354 total

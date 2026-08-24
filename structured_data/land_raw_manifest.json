@@ -1,0 +1,44 @@
+[
+  {
+    "source_pdf": "1. Đất NN 1-2140.pdf",
+    "text_file": "data1_dat_nn.txt",
+    "status": "ok",
+    "pages": 2141,
+    "nonempty_lines": 107160
+  },
+  {
+    "source_pdf": "2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf",
+    "text_file": "data2_dat_dao_phi_nn.txt",
+    "status": "ok",
+    "pages": 2147,
+    "nonempty_lines": 108607
+  },
+  {
+    "source_pdf": "3 Đất KCN - Cụm Công Nghiệp-4285-4289.pdf",
+    "text_file": "data3_kcn_ccn.txt",
+    "status": "ok",
+    "pages": 6,
+    "nonempty_lines": 204
+  },
+  {
+    "source_pdf": "4. Đất Khu C.NGhệ - Tái Định Cư-4289-4304.pdf",
+    "text_file": "data4_khu_cn_tdc.txt",
+    "status": "ok",
+    "pages": 17,
+    "nonempty_lines": 663
+  },
+  {
+    "source_pdf": "5. Các tuyến đường chính-4304-4390.pdf",
+    "text_file": "data5_tuyen_duong.txt",
+    "status": "ok",
+    "pages": 88,
+    "nonempty_lines": 4647
+  },
+  {
+    "source_pdf": "6. Đất NN tối thiểu- tối đa-4390-4396.pdf",
+    "text_file": "data6_nn_min_max.txt",
+    "status": "ok",
+    "pages": 8,
+    "nonempty_lines": 244
+  }
+]
