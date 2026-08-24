@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   extract:
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Install poppler
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
@@ -32,11 +34,31 @@ jobs:
           pdftotext -layout '6. Đất NN tối thiểu- tối đa-4390-4396.pdf' 'extracted_text/data6_nn_min_max.txt'
           {
             echo 'SOURCE FILES:'
-            for f in *.pdf; do printf '%s\n' "$f"; done
+            printf '%s\n' \
+              '1. Đất NN 1-2140.pdf' \
+              '2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf' \
+              '3 Đất KCN - Cụm Công Nghiệp-4285-4289.pdf' \
+              '4. Đất Khu C.NGhệ - Tái Định Cư-4289-4304.pdf' \
+              '5. Các tuyến đường chính-4304-4390.pdf' \
+              '6. Đất NN tối thiểu- tối đa-4390-4396.pdf'
             echo
             echo 'EXTRACTED FILE STATS:'
             wc -l extracted_text/*.txt
           } > extracted_text/manifest.txt
+
+      - name: Commit extracted text back to repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add extracted_text
+          if git diff --cached --quiet; then
+            echo 'No extracted-text changes.'
+          else
+            git commit -m 'Extract land-price PDFs to text for validation'
+            git push origin HEAD:main
+          fi
 
       - name: Upload extracted text
         uses: actions/upload-artifact@v4
