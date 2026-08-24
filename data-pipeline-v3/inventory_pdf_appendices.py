@@ -7,6 +7,8 @@ current source line itself is a short standalone ``Phụ lục X`` line and the
 following lines contain the matching legal title plus the promulgation marker.
 This rejects TOC rows and prose such as ``Phụ lục I (hoặc Phụ lục III)``.
 Boundaries are line-level because one split-PDF page can contain two appendices.
+The first split begins with document front matter and therefore has no carry-in
+appendix; subsequent splits may carry in the appendix cut by the split boundary.
 """
 
 from __future__ import annotations
@@ -23,8 +25,8 @@ from typing import Any
 
 
 SOURCES = [
-    # Initial appendix is only a carry-in for a split file that starts mid-appendix.
-    ("1. Đất NN 1-2140.pdf", "I"),
+    # File 1 starts with TOC/front matter. Others start on an overlapping data page.
+    ("1. Đất NN 1-2140.pdf", None),
     ("2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf", "II"),
     ("3 Đất KCN - Cụm Công Nghiệp-4285-4289.pdf", "III"),
     ("4. Đất Khu C.NGhệ - Tái Định Cư-4289-4304.pdf", "IV"),
@@ -44,6 +46,7 @@ APPENDIX_TITLES = {
 ROMAN_ORDER = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"]
 ROMAN_RE = "|".join(reversed(ROMAN_ORDER))
 SPACE_RE = re.compile(r"\s+")
+FRONT = "FRONT_MATTER"
 
 
 def normalize(text: str) -> str:
@@ -82,19 +85,12 @@ def flatten_pages(raw: str) -> tuple[list[dict[str, Any]], int]:
 
 def detect_legal_heading(refs: list[dict[str, Any]], index: int) -> tuple[str, str] | None:
     """Return a legal appendix heading only for an actual standalone heading line."""
-    current = refs[index]
-    line_norm = current["norm"]
-
-    # Critical guard: do not search across multiple lines for the marker. The current
-    # line itself must be exactly "Phụ lục X" (punctuation is removed by normalize).
+    line_norm = refs[index]["norm"]
     match = re.fullmatch(rf"phu luc\s+({ROMAN_RE.lower()})", line_norm)
     if not match:
         return None
     appendix = match.group(1).upper()
 
-    # A genuine heading is followed very closely by its title and promulgation line.
-    # Eight non-empty source lines is enough for wrapped titles but too tight for TOC
-    # contamination elsewhere on the page.
     nearby_refs = refs[index : min(len(refs), index + 8)]
     nearby = " ".join(ref["text"] for ref in nearby_refs)
     nearby_norm = normalize(nearby)
@@ -156,25 +152,27 @@ def main() -> int:
             problems.append({"code": "empty_pdf_text", "file": filename})
             continue
 
-        heading_events: list[dict[str, Any]] = []
         detected_at: dict[int, tuple[str, str]] = {}
         for idx in range(len(refs)):
             found = detect_legal_heading(refs, idx)
             if found:
                 detected_at[idx] = found
 
-        current = initial_appendix
-        counts: Counter[str] = Counter()
-        previous_order = ROMAN_ORDER.index(current)
+        current: str | None = initial_appendix
+        previous_order = ROMAN_ORDER.index(current) if current in ROMAN_ORDER else -1
         segment_start = 0
+        counts: Counter[str] = Counter()
+        heading_events: list[dict[str, Any]] = []
         segments: list[dict[str, Any]] = []
 
+        def current_label() -> str:
+            return current if current in ROMAN_ORDER else FRONT
+
         def close_segment(end_index: int, trigger: str) -> None:
-            nonlocal segment_start
             if end_index < segment_start:
                 return
             segments.append({
-                "appendix": current,
+                "appendix": current_label(),
                 "start": ref_label(refs[segment_start]),
                 "end": ref_label(refs[end_index]),
                 "nonemptyLineCount": end_index - segment_start + 1,
@@ -188,7 +186,7 @@ def main() -> int:
                 if appendix != current:
                     close_segment(idx - 1, "before_legal_heading")
                     new_order = ROMAN_ORDER.index(appendix)
-                    if new_order < previous_order:
+                    if current in ROMAN_ORDER and new_order < previous_order:
                         problems.append({
                             "code": "appendix_order_regression",
                             "file": filename,
@@ -197,7 +195,7 @@ def main() -> int:
                             "at": ref_label(ref),
                         })
                     heading_events.append({
-                        "from": current,
+                        "from": current_label(),
                         "to": appendix,
                         "at": ref_label(ref),
                         "headingText": heading_text,
@@ -207,8 +205,11 @@ def main() -> int:
                     previous_order = new_order
                     segment_start = idx
                 global_heading_counts[appendix] += 1
-            counts[current] += 1
-            global_line_counts[current] += 1
+
+            label = current_label()
+            counts[label] += 1
+            if label in ROMAN_ORDER:
+                global_line_counts[label] += 1
 
         close_segment(len(refs) - 1, "end_of_file")
         files.append({
@@ -227,12 +228,13 @@ def main() -> int:
         problems.append({"code": "missing_appendices", "appendices": missing})
 
     result = {
-        "schema": "nq28-pdf-appendix-line-inventory-v3",
+        "schema": "nq28-pdf-appendix-line-inventory-v4",
         "principles": [
             "split filename is not land-purpose semantics",
+            "front matter is excluded before the first real Appendix I heading",
             "TOC and prose cross-references cannot change appendix identity",
             "appendix boundaries are line-level, not page-level",
-            "overlap between split files remains explicit for later row deduplication",
+            "overlap between split files remains explicit for later global-page deduplication",
         ],
         "appendixTitles": APPENDIX_TITLES,
         "coveredAppendices": covered,
@@ -245,8 +247,7 @@ def main() -> int:
     (output / "pdf-appendix-inventory.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    preview_path = output / "pdf-appendix-inventory.preview.txt"
-    with preview_path.open("w", encoding="utf-8", newline="\n") as f:
+    with (output / "pdf-appendix-inventory.preview.txt").open("w", encoding="utf-8", newline="\n") as f:
         f.write(
             f"COVERED={covered} | MISSING={missing} | PROBLEMS={len(problems)} | "
             f"HEADING_COUNTS={dict(global_heading_counts)}\n"
