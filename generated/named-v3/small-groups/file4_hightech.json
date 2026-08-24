@@ -1,5 +1,5 @@
 {
-  "schema": "named-file4-hightech-v1",
+  "schema": "named-file4-hightech-v2",
   "rows": [
     {
       "source_tt": 1,
@@ -57,5 +57,23 @@
       "record_hash": "fbb77675d5d054553fbfa7c54f912240ca1452a51dc29c8f95a0ecf04d4d06cd"
     }
   ],
-  "count": 5
+  "count": 5,
+  "validation": {
+    "sourceTts": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "parsedTts": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "missingParsedTts": []
+  },
+  "acceptedForRuntime": true
 }

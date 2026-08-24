@@ -1,7 +1,231 @@
 {
-  "schema": "named-file2-islands-v1",
+  "schema": "named-file2-islands-v2-coordinate",
   "classificationAuthority": "user-assigned split filename",
   "pageSuffixRole": "bookmark_only",
-  "rows": [],
-  "count": 0
+  "rows": [
+    {
+      "source_tt": "1.1",
+      "name": "Đồng Trường Ó -",
+      "location": "Xã Trị An đảo còn lại thuộc xã Xã Phú Lý, Trị",
+      "prices": {
+        "NN": 45,
+        "DAT_O": 900,
+        "TMDV": 630,
+        "SXKD_PNN_KHONG_TMDV": 540
+      },
+      "source": {
+        "page": 1,
+        "anchor_text": "1.1 Đảo Ó - Đồng Trường",
+        "anchor_y": 247.85,
+        "price_x": [
+          327.72,
+          367.34,
+          431.21,
+          505.15
+        ],
+        "core_text": "Đồng Trường Ó - Xã Trị An đảo còn lại thuộc xã Xã Phú Lý, Trị"
+      },
+      "review": [
+        "ISLAND_NAME_MARKER_NOT_FOUND"
+      ],
+      "record_hash": "8bd810e37beff735d83e640c2dbf4c2c394749b648cffeb8616babdf6fd63b1b"
+    },
+    {
+      "source_tt": "1.2",
+      "name": "đảo còn lại thuộc",
+      "location": "xã Xã Phú Lý, Trị (cũ) , Mã Đà Liêm An Phú Lý (cũ)",
+      "prices": {
+        "NN": 40,
+        "DAT_O": 200,
+        "TMDV": 140,
+        "SXKD_PNN_KHONG_TMDV": 120
+      },
+      "source": {
+        "page": 1,
+        "anchor_text": "1.2 Hiếu Liêm (cũ) , Mã Đà",
+        "anchor_y": 277.37,
+        "price_x": [
+          327.72,
+          367.34,
+          431.21,
+          505.15
+        ],
+        "core_text": "đảo còn lại thuộc xã Xã Phú Lý, Trị (cũ) , Mã Đà Liêm An Phú Lý (cũ)"
+      },
+      "review": [],
+      "record_hash": "9acd0bc420d50a2949ceba2c1919ba90ccdea2f8f82cd12aef728999c4265fb5"
+    },
+    {
+      "source_tt": "1.3",
+      "name": "đảo thuộc",
+      "location": "xã La Ngà Ngọc Định (cũ), Xã La Ngà, Định Sơn (cũ), Phú Quán, Thanh (cũ), Trưng Sơn, Thống Túc Nhất",
+      "prices": {
+        "NN": 15,
+        "DAT_O": 250,
+        "TMDV": 175,
+        "SXKD_PNN_KHONG_TMDV": 150
+      },
+      "source": {
+        "page": 1,
+        "anchor_text": "1.3 Thanh Sơn (cũ), Phú",
+        "anchor_y": 329.96,
+        "price_x": [
+          327.72,
+          367.34,
+          431.21,
+          505.15
+        ],
+        "core_text": "đảo thuộc xã La Ngà Ngọc Định (cũ), Xã La Ngà, Định Sơn (cũ), Phú Quán, Thanh (cũ), Trưng Sơn, Thống Túc Nhất"
+      },
+      "review": [],
+      "record_hash": "f82dd3e45098ebc9c5d2fca35f1fc8a40cd422634544e5f7b57472f27c8b9cd7"
+    },
+    {
+      "source_tt": "1.4",
+      "name": "đảo thuộc",
+      "location": "xã Gia Tân Xã Thống Nhất (cũ) Phường Long",
+      "prices": {
+        "NN": 140,
+        "DAT_O": 400,
+        "TMDV": 280,
+        "SXKD_PNN_KHONG_TMDV": 240
+      },
+      "source": {
+        "page": 1,
+        "anchor_text": "1.4",
+        "anchor_y": 377.7,
+        "price_x": [
+          321.96,
+          367.34,
+          431.21,
+          505.15
+        ],
+        "core_text": "đảo thuộc xã Gia Tân Xã Thống Nhất (cũ) Phường Long"
+      },
+      "review": [],
+      "record_hash": "3b697f32d4110dd80965451a4890bb39f58a4403f39d263e2b5492ee9147adbd"
+    },
+    {
+      "source_tt": "1",
+      "name": "đảo thuộc",
+      "location": "xã Gia Tân Xã Thống Nhất (cũ) Phường Long lao Ba Xê",
+      "prices": {
+        "NN": 140,
+        "DAT_O": 400,
+        "TMDV": 280,
+        "SXKD_PNN_KHONG_TMDV": 240
+      },
+      "source": {
+        "page": 1,
+        "anchor_text": "1 (cũ)",
+        "anchor_y": 383.46,
+        "price_x": [
+          321.96,
+          367.34,
+          431.21,
+          505.15
+        ],
+        "core_text": "đảo thuộc xã Gia Tân Xã Thống Nhất (cũ) Phường Long lao Ba Xê"
+      },
+      "review": [],
+      "record_hash": "891b708c1b9ba21fdd124c0fed461d388011ed9caff7be6385d149f791dae9b7"
+    },
+    {
+      "source_tt": "2",
+      "name": "(cũ)",
+      "location": "Phường Long lao Ba Xê Hưng Phường Trấn",
+      "prices": {
+        "NN": 370,
+        "DAT_O": 2000,
+        "TMDV": 1400,
+        "SXKD_PNN_KHONG_TMDV": 1200
+      },
+      "source": {
+        "page": 1,
+        "anchor_text": "2 Cù lao Ba Xê",
+        "anchor_y": 407.22,
+        "price_x": [
+          321.96,
+          359.18,
+          423.05,
+          496.99
+        ],
+        "core_text": "(cũ) Phường Long lao Ba Xê Hưng Phường Trấn"
+      },
+      "review": [
+        "ISLAND_NAME_MARKER_NOT_FOUND"
+      ],
+      "record_hash": "319b066ff966ce7245846d2b344cec9254e7d4d962bef15bdd710989c5b6d3d8"
+    },
+    {
+      "source_tt": "3",
+      "name": "Hưng",
+      "location": "Phường Trấn lao Cỏ Biên",
+      "prices": {
+        "NN": 370,
+        "DAT_O": 3500,
+        "TMDV": 2450,
+        "SXKD_PNN_KHONG_TMDV": 2100
+      },
+      "source": {
+        "page": 1,
+        "anchor_text": "3 Cù lao Cỏ",
+        "anchor_y": 436.5,
+        "price_x": [
+          321.96,
+          359.18,
+          423.05,
+          496.99
+        ],
+        "core_text": "Hưng Phường Trấn lao Cỏ Biên"
+      },
+      "review": [
+        "ISLAND_NAME_MARKER_NOT_FOUND"
+      ],
+      "record_hash": "464cb103f54992cc628f8e88e256d01d5ae161d8d61a77ae455c69fe8a423e0b"
+    }
+  ],
+  "count": 7,
+  "validation": {
+    "sourcePageCount": 2146,
+    "boundaryPage": 1,
+    "fourPriceAnchorCount": 7,
+    "recordCount": 7,
+    "reviewCount": 3,
+    "sourceTts": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1",
+      "2",
+      "3"
+    ],
+    "tsvSha256": "6c00c539e401c58de83a2735b2b4422c69b920dbf4a3d03a544aab4587d022db"
+  },
+  "reviews": [
+    {
+      "source_tt": "1.1",
+      "flags": [
+        "ISLAND_NAME_MARKER_NOT_FOUND"
+      ],
+      "core_text": "Đồng Trường Ó - Xã Trị An đảo còn lại thuộc xã Xã Phú Lý, Trị"
+    },
+    {
+      "source_tt": "2",
+      "flags": [
+        "ISLAND_NAME_MARKER_NOT_FOUND"
+      ],
+      "core_text": "(cũ) Phường Long lao Ba Xê Hưng Phường Trấn"
+    },
+    {
+      "source_tt": "3",
+      "flags": [
+        "ISLAND_NAME_MARKER_NOT_FOUND"
+      ],
+      "core_text": "Hưng Phường Trấn lao Cỏ Biên"
+    }
+  ],
+  "acceptedForRuntime": false,
+  "runtimeOrD1Modified": false
 }

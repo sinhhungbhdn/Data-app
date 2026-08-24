@@ -1,5 +1,5 @@
 {
-  "schema": "named-file6-agri-bounds-v1",
+  "schema": "named-file6-agri-bounds-v2",
   "rows": [
     {
       "bound_type": "MIN",
@@ -2108,5 +2108,54 @@
       "record_hash": "fdbbe169fb3d1034944004b135ea0a3c8990dccc4b51d70222a41042a6fd17f1"
     }
   ],
-  "count": 162
+  "count": 162,
+  "validation": {
+    "MIN": {
+      "sourceTtCount": 95,
+      "parsedTtCount": 81,
+      "minTt": 1,
+      "maxTt": 95,
+      "missingParsedTts": [
+        56,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        76,
+        77,
+        90,
+        92,
+        93,
+        94,
+        95
+      ],
+      "unexpectedParsedTts": []
+    },
+    "MAX": {
+      "sourceTtCount": 95,
+      "parsedTtCount": 81,
+      "minTt": 1,
+      "maxTt": 95,
+      "missingParsedTts": [
+        56,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        76,
+        77,
+        90,
+        92,
+        93,
+        94,
+        95
+      ],
+      "unexpectedParsedTts": []
+    }
+  },
+  "acceptedForRuntime": false
 }

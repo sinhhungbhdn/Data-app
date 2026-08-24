@@ -1,5 +1,5 @@
 {
-  "schema": "named-file4-tdc-v1",
+  "schema": "named-file4-tdc-evidence-v2",
   "rows": [
     {
       "admin_unit": "Phường Biên Hòa",
@@ -1890,5 +1890,12 @@
       "record_hash": "ff318125786f853355ae959154e37fdc91cc501e3bd4dd8e01b01248171a6d31"
     }
   ],
-  "count": 236
+  "count": 236,
+  "validation": {
+    "blankTdcNameCount": 21,
+    "suspiciousPriceInsideNameCount": 46,
+    "missingAdminUnitCount": 0,
+    "exactDuplicateRecordCount": 4
+  },
+  "acceptedForRuntime": false
 }

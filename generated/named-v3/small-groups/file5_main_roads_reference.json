@@ -1,5 +1,5 @@
 {
-  "schema": "named-file5-main-roads-reference-v1",
+  "schema": "named-file5-main-roads-reference-v2",
   "has_price": false,
   "lines": [
     "CÁC TUYẾN ĐƯỜNG GIAO THÔNG CHÍNH",
@@ -4607,5 +4607,6 @@
     "Nghĩa, Xã Đa Kia, Xã Bù Gia Mập, Xã Phú Riềng, Xã Phú Trung, Xã Long Hà, Xã Bình Tân, các",
     "tuyến đường giao thông chính là các tuyến đường giao thông tại Phụ lục I (hoặc Phụ lục III)."
   ],
-  "line_count": 4604
+  "line_count": 4604,
+  "acceptedAsPriceDataset": false
 }

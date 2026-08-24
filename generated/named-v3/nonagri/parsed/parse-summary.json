@@ -1,7 +1,9 @@
 {
+  "schema": "nq28-parse-summary-v3-forward-owned",
   "areaCount": 0,
-  "areas": [],
+  "recordCount": 0,
   "groupCount": 0,
+  "reviewCount": 0,
   "missingAreas": [
     1,
     2,
@@ -99,22 +101,9 @@
     94,
     95
   ],
-  "recordCount": 0,
-  "requestedRange": {
-    "end": 95,
-    "start": 1
-  },
-  "reviewCount": 0,
+  "areas": [],
   "safety": {
-    "appRuntimeModified": false,
-    "legalRelationsInferredBeyondExplicitText": false,
-    "mainBranchModified": false,
-    "recordIdsGeneratedOnlyForNewIndependentDataset": true
-  },
-  "schema": "nq28-parse-summary-v1",
-  "validation": {
-    "allRequestedAreasParsed": false,
-    "sourceRowsPreservedAsCoordinateExcerpts": true,
-    "status": "blocked"
+    "ttUsedAsLookupKey": false,
+    "runtimeModified": false
   }
 }
