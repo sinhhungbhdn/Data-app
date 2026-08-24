@@ -1,0 +1,61 @@
+{
+  "schema": "named-file4-hightech-v1",
+  "rows": [
+    {
+      "source_tt": 1,
+      "road": "Đường N1",
+      "prices": {
+        "NN_KHAC": 170,
+        "TMDV": 1100,
+        "SXKD_PNN_KHONG_TMDV": 1000
+      },
+      "source_text": "1 Đường N1 170 1.100 1.000",
+      "record_hash": "857525271533dd2a7d8f6d8e053e490373492cbd895082b5d2888c645e9d0afd"
+    },
+    {
+      "source_tt": 2,
+      "road": "Đường D1",
+      "prices": {
+        "NN_KHAC": 180,
+        "TMDV": 1200,
+        "SXKD_PNN_KHONG_TMDV": 1100
+      },
+      "source_text": "2 Đường D1 180 1.200 1.100",
+      "record_hash": "b3ad22f4ba24d81ef49c8bf59f4b9faf3b55efca3ad93863d7915a59c9608221"
+    },
+    {
+      "source_tt": 3,
+      "road": "Đường N9 (đoạn có lộ giới 42 mét)",
+      "prices": {
+        "NN_KHAC": 180,
+        "TMDV": 1200,
+        "SXKD_PNN_KHONG_TMDV": 1100
+      },
+      "source_text": "3 Đường N9 (đoạn có lộ giới 42 mét) 180 1.200 1.100",
+      "record_hash": "55e1e6a3e1ba94c3ce755fdc910fabf35ed47ff48f03d2602e087d42d440c0b2"
+    },
+    {
+      "source_tt": 4,
+      "road": "Đường N9 (đoạn có lộ giới 30 mét)",
+      "prices": {
+        "NN_KHAC": 160,
+        "TMDV": 990,
+        "SXKD_PNN_KHONG_TMDV": 900
+      },
+      "source_text": "4 Đường N9 (đoạn có lộ giới 30 mét) 160 990 900",
+      "record_hash": "7b19b9c4e5fb6912325810a0a6f241d439208545176fb7d97582e18eba3913d5"
+    },
+    {
+      "source_tt": 5,
+      "road": "Các tuyến đường còn lại",
+      "prices": {
+        "NN_KHAC": 160,
+        "TMDV": 990,
+        "SXKD_PNN_KHONG_TMDV": 900
+      },
+      "source_text": "5 Các tuyến đường còn lại 160 990 900",
+      "record_hash": "fbb77675d5d054553fbfa7c54f912240ca1452a51dc29c8f95a0ecf04d4d06cd"
+    }
+  ],
+  "count": 5
+}

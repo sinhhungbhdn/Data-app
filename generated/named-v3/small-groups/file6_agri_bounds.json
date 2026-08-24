@@ -1,0 +1,2112 @@
+{
+  "schema": "named-file6-agri-bounds-v1",
+  "rows": [
+    {
+      "bound_type": "MIN",
+      "source_tt": 1,
+      "admin_unit": "Phường Biên Hòa",
+      "prices": {
+        "CLN": 350,
+        "HNK": 350,
+        "NTS": 240,
+        "RSX": 240
+      },
+      "source_text": "1 Phường Biên Hòa 350 350 240 240",
+      "record_hash": "29a615992557e959a4d67b7fcc43b92841bbf2034bf5363a4ac823afaecd2a40"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 2,
+      "admin_unit": "Phường Trấn Biên",
+      "prices": {
+        "CLN": 370,
+        "HNK": 370,
+        "NTS": 250,
+        "RSX": 250
+      },
+      "source_text": "2 Phường Trấn Biên 370 370 250 250",
+      "record_hash": "ea148b691af7db2ad276e35c782bb282e98c1a33a5befd75b2351b570152e9a7"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 3,
+      "admin_unit": "Phường Tam Hiệp",
+      "prices": {
+        "CLN": 370,
+        "HNK": 370,
+        "NTS": 250,
+        "RSX": 250
+      },
+      "source_text": "3 Phường Tam Hiệp 370 370 250 250",
+      "record_hash": "3a108d49e0a7d452ebc1afd4760126b25716a6cfdcc6c4eff290bfded47087b0"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 4,
+      "admin_unit": "Phường Long Bình",
+      "prices": {
+        "CLN": 370,
+        "HNK": 370,
+        "NTS": 250,
+        "RSX": 250
+      },
+      "source_text": "4 Phường Long Bình 370 370 250 250",
+      "record_hash": "acb08322007d4d5453552f31338f151694857c4b4a2dac5138c8cfbc575cdc84"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 5,
+      "admin_unit": "Phường Trảng Dài",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 80,
+        "RSX": 80
+      },
+      "source_text": "5 Phường Trảng Dài 130 130 80 80",
+      "record_hash": "42c43e65809a6006dd15161733ac37247620f1208ea6dd8cfb95defa13401be9"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 6,
+      "admin_unit": "Phường Hố Nai",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 120,
+        "RSX": 120
+      },
+      "source_text": "6 Phường Hố Nai 130 130 120 120",
+      "record_hash": "81904efd79b0c7827dba336e6878894200f69df951ebee5942b0ca85a1fdba5d"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 7,
+      "admin_unit": "Phường Long Hưng",
+      "prices": {
+        "CLN": 350,
+        "HNK": 350,
+        "NTS": 240,
+        "RSX": 240
+      },
+      "source_text": "7 Phường Long Hưng 350 350 240 240",
+      "record_hash": "33eeea304a7982b9d003fa27f10e9299aa3c3ba0e8f306d593a0fe73e1384844"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 8,
+      "admin_unit": "Phường Tân Triều",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 80,
+        "RSX": 80
+      },
+      "source_text": "8 Phường Tân Triều 130 130 80 80",
+      "record_hash": "8616f4e216180b0535e86f1917355893c48dc88ba602d93e65a2253d6ed19796"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 9,
+      "admin_unit": "Phường Phước Tân",
+      "prices": {
+        "CLN": 350,
+        "HNK": 350,
+        "NTS": 240,
+        "RSX": 240
+      },
+      "source_text": "9 Phường Phước Tân 350 350 240 240",
+      "record_hash": "a3d3cd947733f744dd9576786073d47bc4a01962c4c096b27449af1702ee4d0f"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 10,
+      "admin_unit": "Phường Tam Phước",
+      "prices": {
+        "CLN": 350,
+        "HNK": 350,
+        "NTS": 240,
+        "RSX": 240
+      },
+      "source_text": "10 Phường Tam Phước 350 350 240 240",
+      "record_hash": "3884ed78f9d6859a94c851da7bd4e596da845c11362c3bbe110a50877cd9d39d"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 11,
+      "admin_unit": "Xã Long Thành",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 100,
+        "RSX": 100
+      },
+      "source_text": "11 Xã Long Thành 130 130 100 100",
+      "record_hash": "c7576d25c90b7fb9bb65f54a32acec4ca9e2fe2120302afeca2060215888c0f8"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 12,
+      "admin_unit": "Xã Bình An",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "12 Xã Bình An 130 130 130 130",
+      "record_hash": "247f321d1b27e1c0584eaafa1d8bb8af5bf391acd5e64ee63bc4d7d3cf806c4c"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 13,
+      "admin_unit": "Xã An Phước",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "13 Xã An Phước 130 130 130 130",
+      "record_hash": "31b11628084a46dc40f90d278f6f44bcfeb66bf2c2239afe80fc3cf088d9b614"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 14,
+      "admin_unit": "Xã Long Phước",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "14 Xã Long Phước 130 130 130 130",
+      "record_hash": "f32c7983c235c810d4bd57910c0b8899f8656e2e09d9db231491488632a4567d"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 15,
+      "admin_unit": "Xã Phước Thái",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "15 Xã Phước Thái 130 130 130 130",
+      "record_hash": "4e9a02a460f38194269f4ec08a3f14f3c39d4e0eee271f362a0f1306dff5775c"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 16,
+      "admin_unit": "Xã Nhơn Trạch",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 100,
+        "RSX": 100
+      },
+      "source_text": "16 Xã Nhơn Trạch 100 100 100 100",
+      "record_hash": "326ed14b5260676ae06465e407e43f98b963bd49ecca9531b14890ae3f84a6a2"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 17,
+      "admin_unit": "Xã Đại Phước",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 100,
+        "RSX": 100
+      },
+      "source_text": "17 Xã Đại Phước 100 100 100 100",
+      "record_hash": "81b536258b08cf4e8a4efa814ba200dbe029085c4053dab483f029829ffbdb85"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 18,
+      "admin_unit": "Xã Phước An",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 100,
+        "RSX": 100
+      },
+      "source_text": "18 Xã Phước An 100 100 100 100",
+      "record_hash": "00c0cfaac356d2be631eac46679d499857f94ac50aa7f6ffc6975afa1a8b78c5"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 19,
+      "admin_unit": "Phường Long Khánh",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 90,
+        "RSX": 90
+      },
+      "source_text": "19 Phường Long Khánh 100 100 90 90",
+      "record_hash": "2943b2dbfabe9627c24a14507fa738acafe16a2e7fd093b5a43db2edd83b06dc"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 20,
+      "admin_unit": "Phường Bảo Vinh",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 90,
+        "RSX": 90
+      },
+      "source_text": "20 Phường Bảo Vinh 100 100 90 90",
+      "record_hash": "d43f63c40b70ce0407124958202ddfc107d531004ba91e356cc693ecf2e6e234"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 21,
+      "admin_unit": "Phường Xuân Lập",
+      "prices": {
+        "CLN": 170,
+        "HNK": 170,
+        "NTS": 150,
+        "RSX": 150
+      },
+      "source_text": "21 Phường Xuân Lập 170 170 150 150",
+      "record_hash": "9cdc9a57191217790a2e1a0f58d28b58976358b7f0adbc0c3727fb66ab4f233e"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 22,
+      "admin_unit": "Phường Hàng Gòn",
+      "prices": {
+        "CLN": 120,
+        "HNK": 120,
+        "NTS": 100,
+        "RSX": 100
+      },
+      "source_text": "22 Phường Hàng Gòn 120 120 100 100",
+      "record_hash": "e2fae13a1f4c074b01095ebbbb3a7d97c5998b219877dd40fe4f1788ef9f7b39"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 23,
+      "admin_unit": "Phường Bình Lộc",
+      "prices": {
+        "CLN": 110,
+        "HNK": 110,
+        "NTS": 100,
+        "RSX": 100
+      },
+      "source_text": "23 Phường Bình Lộc 110 110 100 100",
+      "record_hash": "c2d514ef1f5511c4ff7398f111a041296c501a10d2da1213fcbbc26365b8c857"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 24,
+      "admin_unit": "Xã Xuân Lộc",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "24 Xã Xuân Lộc 100 100 60 60",
+      "record_hash": "b097cef5e9011a44846c8e0a994bc54497ee59b3e90afa412725f48266df3ff7"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 25,
+      "admin_unit": "Xã Xuân Hòa",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "25 Xã Xuân Hòa 100 100 60 60",
+      "record_hash": "807bd4e9365faed7fcbbe69209786e906385fd9728ca6642804548682734b26f"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 26,
+      "admin_unit": "Xã Xuân Thành",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "26 Xã Xuân Thành 100 100 60 60",
+      "record_hash": "9a79f45fd69cff5a44b59db22126070d0a349cad47f08e07e8df51520604c16b"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 27,
+      "admin_unit": "Xã Xuân Bắc",
+      "prices": {
+        "CLN": 40,
+        "HNK": 40,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "27 Xã Xuân Bắc 40 40 20 20",
+      "record_hash": "0bef7cf612c26cbb5897362dcd091644e11baf5d67c1dd7bbde69393860dbaa9"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 28,
+      "admin_unit": "Xã Xuân Phú",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "28 Xã Xuân Phú 100 100 60 60",
+      "record_hash": "cad64f1db2fccdb40449565b9cef27e659486f312be1446738b89abf41300ae0"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 29,
+      "admin_unit": "Xã Xuân Định",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "29 Xã Xuân Định 100 100 60 60",
+      "record_hash": "8d143733e98b34b0daa652805eb3b3e3632ca93f76390dfcf98a889bae64b6cb"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 30,
+      "admin_unit": "Xã Cẩm Mỹ",
+      "prices": {
+        "CLN": 110,
+        "HNK": 110,
+        "NTS": 70,
+        "RSX": 70
+      },
+      "source_text": "30 Xã Cẩm Mỹ 110 110 70 70",
+      "record_hash": "2e44159ffa092768987f8af65d07f794538fa03b8a4a7aa35bba18cdb2ef723d"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 31,
+      "admin_unit": "Xã Xuân Quế",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "31 Xã Xuân Quế 100 100 60 60",
+      "record_hash": "9e85a2f6f424ecc93d2eede6092c010d228357e7b4a15877b33967b6ad8b592a"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 32,
+      "admin_unit": "Xã Xuân Đường",
+      "prices": {
+        "CLN": 110,
+        "HNK": 110,
+        "NTS": 70,
+        "RSX": 70
+      },
+      "source_text": "32 Xã Xuân Đường 110 110 70 70",
+      "record_hash": "b223f6fe726aac6a8fca58dd00fdd50b63a7affcab60173bd2f0b78f0a993b33"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 33,
+      "admin_unit": "Xã Sông Ray",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "33 Xã Sông Ray 100 100 60 60",
+      "record_hash": "0ae15a0231798ba08718d30fa5d27acc6acb5c0cf8e57fc61083b8ca4ae46636"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 34,
+      "admin_unit": "Xã Xuân Đông",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 60,
+        "RSX": 60
+      },
+      "source_text": "34 Xã Xuân Đông 100 100 60 60",
+      "record_hash": "7d0535c53e3b345eaf31ec8c3eac48ccb62fb4016bb366ea963b977511c342c1"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 35,
+      "admin_unit": "Xã Trảng Bom",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 115,
+        "RSX": 115
+      },
+      "source_text": "35 Xã Trảng Bom 130 130 115 115",
+      "record_hash": "45ae77cc31651534d8652ff97977afdaf58121fc8baf0937a9bbe9e277acca85"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 36,
+      "admin_unit": "Xã An Viễn",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 120,
+        "RSX": 120
+      },
+      "source_text": "36 Xã An Viễn 130 130 120 120",
+      "record_hash": "852b4b9ce8281c77fa2be773aa5d063faf4b9c16ddaf1408f9de548285160fc4"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 37,
+      "admin_unit": "Xã Bàu Hàm",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 90,
+        "RSX": 90
+      },
+      "source_text": "37 Xã Bàu Hàm 100 100 90 90",
+      "record_hash": "6fc617e3ee75bb7f5b0fc0eaf7180e8c3a722041173e0551e443ca389d546cf6"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 38,
+      "admin_unit": "Xã Bình Minh",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 115,
+        "RSX": 115
+      },
+      "source_text": "38 Xã Bình Minh 130 130 115 115",
+      "record_hash": "1cb070628f7dea871c7ee77e6220f3aad33c476384f4a38294bbda1302c3809e"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 39,
+      "admin_unit": "Xã Hưng Thịnh",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 90,
+        "RSX": 90
+      },
+      "source_text": "39 Xã Hưng Thịnh 100 100 90 90",
+      "record_hash": "1c13f0a5e5d4da69d2e6d27855e8acad46edf811c04e7da988ffbe67522d3db8"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 40,
+      "admin_unit": "Xã Dầu Giây",
+      "prices": {
+        "CLN": 100,
+        "HNK": 100,
+        "NTS": 90,
+        "RSX": 90
+      },
+      "source_text": "40 Xã Dầu Giây 100 100 90 90",
+      "record_hash": "5bc1f7f8986072d3cb86573472f4c9d97a5492c1dbebddf7b6cffc8844a204ad"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 41,
+      "admin_unit": "Xã Gia Kiệm",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 115,
+        "RSX": 115
+      },
+      "source_text": "41 Xã Gia Kiệm 130 130 115 115",
+      "record_hash": "361417218c5bd8c62cd24d4546a0147d42e107a73a968daf593d55ad957e9f9c"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 42,
+      "admin_unit": "Xã Thống Nhất",
+      "prices": {
+        "CLN": 40,
+        "HNK": 40,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "42 Xã Thống Nhất 40 40 20 20",
+      "record_hash": "3637e2a1e221b388687fbda76626d0d7963f22fe5909eaa84a65af7185050d76"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 43,
+      "admin_unit": "Xã Định Quán",
+      "prices": {
+        "CLN": 40,
+        "HNK": 40,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "43 Xã Định Quán 40 40 20 20",
+      "record_hash": "6e6b4e5efde587b55c097eb2a4d3ac51a7a17276f9e48082cae3579b7aa0916b"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 44,
+      "admin_unit": "Xã Phú Vinh",
+      "prices": {
+        "CLN": 40,
+        "HNK": 40,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "44 Xã Phú Vinh 40 40 20 20",
+      "record_hash": "61b645d70e273ad9ef0078112c8bb02364688c9b0075a4f96bd99620e297f03e"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 45,
+      "admin_unit": "Xã La Ngà",
+      "prices": {
+        "CLN": 40,
+        "HNK": 40,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "45 Xã La Ngà 40 40 20 20",
+      "record_hash": "80b470668cb89c53243e3774ee0f50a19d7f1b9b26b84ac26645f41dd1daed22"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 46,
+      "admin_unit": "Xã Phú Hòa",
+      "prices": {
+        "CLN": 40,
+        "HNK": 40,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "46 Xã Phú Hòa 40 40 20 20",
+      "record_hash": "f3b6dc816d66fcb651bc0d20bc54cef3f3904031e3c274f89ce0cf7d3e3e2b9f"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 47,
+      "admin_unit": "Xã Thanh Sơn",
+      "prices": {
+        "CLN": 20,
+        "HNK": 20,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "47 Xã Thanh Sơn 20 20 20 20",
+      "record_hash": "2299140a65a60f19c6eed58c9dbbf96179441adcd6c2a096e710d3bff4c5478a"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 48,
+      "admin_unit": "Xã Tân Phú",
+      "prices": {
+        "CLN": 30,
+        "HNK": 30,
+        "NTS": 25,
+        "RSX": 25
+      },
+      "source_text": "48 Xã Tân Phú 30 30 25 25",
+      "record_hash": "bf7857bbefbe41783e1360f0bfcfd4dbbbd958572c14cc918824874ed6e8381f"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 49,
+      "admin_unit": "Xã Tà Lài",
+      "prices": {
+        "CLN": 25,
+        "HNK": 25,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "49 Xã Tà Lài 25 25 20 20",
+      "record_hash": "94c1d19e41e37e610c1e513a62fb61c8b0eb0e981706b14e8549998001ec6b43"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 50,
+      "admin_unit": "Xã Nam Cát Tiên",
+      "prices": {
+        "CLN": 25,
+        "HNK": 25,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "50 Xã Nam Cát Tiên 25 25 20 20",
+      "record_hash": "96b0c0b2c82ebd6d786e77b6dd4e1269ba104acec3771157d8df9c1d12626dea"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 51,
+      "admin_unit": "Xã Phú Lâm",
+      "prices": {
+        "CLN": 30,
+        "HNK": 30,
+        "NTS": 25,
+        "RSX": 25
+      },
+      "source_text": "51 Xã Phú Lâm 30 30 25 25",
+      "record_hash": "a0d9836879c814eb4e32cd1ad686641c715ac3e68c5c7cb9b60bd68e791f559d"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 52,
+      "admin_unit": "Xã Đak Lua",
+      "prices": {
+        "CLN": 15,
+        "HNK": 15,
+        "NTS": 15,
+        "RSX": 15
+      },
+      "source_text": "52 Xã Đak Lua 15 15 15 15",
+      "record_hash": "e10bb71f4709a17bf047e61a4ad0f45f1b044aef17d91ac99614d33b0d501c1f"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 53,
+      "admin_unit": "Xã Trị An",
+      "prices": {
+        "CLN": 35,
+        "HNK": 35,
+        "NTS": 25,
+        "RSX": 25
+      },
+      "source_text": "53 Xã Trị An 35 35 25 25",
+      "record_hash": "0685e8497f2fb0a5e7ffbc9e4749bcee32064f05a71111a0fbfe0a701535e652"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 54,
+      "admin_unit": "Xã Tân An",
+      "prices": {
+        "CLN": 130,
+        "HNK": 130,
+        "NTS": 80,
+        "RSX": 80
+      },
+      "source_text": "54 Xã Tân An 130 130 80 80",
+      "record_hash": "9412320d17ad5f8f593a61df077ed5dbfc761a13814b53f8b2242c4d1dea27f2"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 55,
+      "admin_unit": "Xã Phú Lý",
+      "prices": {
+        "CLN": 35,
+        "HNK": 35,
+        "NTS": 25,
+        "RSX": 25
+      },
+      "source_text": "55 Xã Phú Lý 35 35 25 25",
+      "record_hash": "a1c8d503ef63a74efa2ccb767ca05703b9aadda98d004ade3137b8aa0756daca"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 57,
+      "admin_unit": "Phường Đồng Xoài",
+      "prices": {
+        "CLN": 240,
+        "HNK": 170,
+        "NTS": 25,
+        "RSX": 16
+      },
+      "source_text": "57 Phường Đồng Xoài 240 170 25 16",
+      "record_hash": "46b98206c41ab771ac7e9105ebd635703c836d34cdc0e22ff2b45cf75d880e6a"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 64,
+      "admin_unit": "Phường Phước Long",
+      "prices": {
+        "CLN": 120,
+        "HNK": 80,
+        "NTS": 20,
+        "RSX": 15
+      },
+      "source_text": "64 Phường Phước Long 120 80 20 15",
+      "record_hash": "e8354f19876d4b79fa9b994918b181380a4967b111f3509af92b9b3380fc42cd"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 65,
+      "admin_unit": "Xã Thuận Lợi",
+      "prices": {
+        "CLN": 50,
+        "HNK": 40,
+        "NTS": 20,
+        "RSX": 22
+      },
+      "source_text": "65 Xã Thuận Lợi 50 40 20 22",
+      "record_hash": "379c5f8c85caf5ea341b19a0e2dac6b1a8e3a3a4e2cc6522da269e60e269492e"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 66,
+      "admin_unit": "Xã Tân Lợi",
+      "prices": {
+        "CLN": 75,
+        "HNK": 60,
+        "NTS": 20,
+        "RSX": 22
+      },
+      "source_text": "66 Xã Tân Lợi 75 60 20 22",
+      "record_hash": "48e900bde1180eaac416b441ada7eceb2373bca41e822d1d0e72cf3326f37254"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 67,
+      "admin_unit": "Xã Đồng Tâm",
+      "prices": {
+        "CLN": 75,
+        "HNK": 60,
+        "NTS": 20,
+        "RSX": 19
+      },
+      "source_text": "67 Xã Đồng Tâm 75 60 20 19",
+      "record_hash": "4a3c2ea5c7c1bc75a1d7ec8b7cd5e3e59f9e23aeb3bc1a9cfb71729be87b20ae"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 68,
+      "admin_unit": "Xã Đồng Phú",
+      "prices": {
+        "CLN": 75,
+        "HNK": 60,
+        "NTS": 20,
+        "RSX": 22
+      },
+      "source_text": "68 Xã Đồng Phú 75 60 20 22",
+      "record_hash": "28deb7dfd2d33acee1282f6c403b26ed3414bd9cc1cb9e077d085931830b24f1"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 69,
+      "admin_unit": "Xã Lộc Ninh",
+      "prices": {
+        "CLN": 45,
+        "HNK": 30,
+        "NTS": 18,
+        "RSX": 18
+      },
+      "source_text": "69 Xã Lộc Ninh 45 30 18 18",
+      "record_hash": "5ec4986a4653af159a2aed9eb9e450b4dc4098c3dd184ab38a336e2fad649420"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 70,
+      "admin_unit": "Xã Lộc Thành",
+      "prices": {
+        "CLN": 45,
+        "HNK": 30,
+        "NTS": 18,
+        "RSX": 18
+      },
+      "source_text": "70 Xã Lộc Thành 45 30 18 18",
+      "record_hash": "e7812b8494201c99c12f468f9c9e1405612447a6ed3de51ae83d6d3c309983bb"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 71,
+      "admin_unit": "Xã Lộc Hưng",
+      "prices": {
+        "CLN": 45,
+        "HNK": 30,
+        "NTS": 18,
+        "RSX": 18
+      },
+      "source_text": "71 Xã Lộc Hưng 45 30 18 18",
+      "record_hash": "947e4a92bd7cfa43c51b16eea691c0244deda01a06fe2026af18bd8698aad30d"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 72,
+      "admin_unit": "Xã Lộc Tấn",
+      "prices": {
+        "CLN": 45,
+        "HNK": 30,
+        "NTS": 18,
+        "RSX": 18
+      },
+      "source_text": "72 Xã Lộc Tấn 45 30 18 18",
+      "record_hash": "4a62a86f6daa63594a385f7bb2f1eae558bfdb36bdd415312d1abc7a06452847"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 73,
+      "admin_unit": "Xã Lộc Thạnh",
+      "prices": {
+        "CLN": 45,
+        "HNK": 30,
+        "NTS": 18,
+        "RSX": 18
+      },
+      "source_text": "73 Xã Lộc Thạnh 45 30 18 18",
+      "record_hash": "a64281d2209c4b075ae704abdfd1973e7af5a8844966efc621ce00bfd6533162"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 74,
+      "admin_unit": "Xã Lộc Quang",
+      "prices": {
+        "CLN": 45,
+        "HNK": 30,
+        "NTS": 18,
+        "RSX": 18
+      },
+      "source_text": "74 Xã Lộc Quang 45 30 18 18",
+      "record_hash": "ed2fbfac2b2bf491a8833c5a93d6f97b3f3e8444ff9e90d4ab0961be2bd4413a"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 75,
+      "admin_unit": "Xã Tân Khai",
+      "prices": {
+        "CLN": 70,
+        "HNK": 50,
+        "NTS": 20,
+        "RSX": 25
+      },
+      "source_text": "75 Xã Tân Khai 70 50 20 25",
+      "record_hash": "2c6c37afe4a4758c421077889441510cf668c761780878e4c7cd551fd872742b"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 78,
+      "admin_unit": "Xã Minh Đức",
+      "prices": {
+        "CLN": 40,
+        "HNK": 30,
+        "NTS": 15,
+        "RSX": 17
+      },
+      "source_text": "78 Xã Minh Đức 40 30 15 17",
+      "record_hash": "ef501350c19be344a32d990ae2986586cd63a9943b2e9b788e37bd4370d63168"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 79,
+      "admin_unit": "Xã Phước Sơn",
+      "prices": {
+        "CLN": 45,
+        "HNK": 32,
+        "NTS": 13,
+        "RSX": 10
+      },
+      "source_text": "79 Xã Phước Sơn 45 32 13 10",
+      "record_hash": "2f063bf15105d9d4bd733001c6b83345986eb8a97c7ea071484e87c28f221756"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 80,
+      "admin_unit": "Xã Nghĩa Trung",
+      "prices": {
+        "CLN": 50,
+        "HNK": 35,
+        "NTS": 15,
+        "RSX": 13
+      },
+      "source_text": "80 Xã Nghĩa Trung 50 35 15 13",
+      "record_hash": "37cc70c626da761cc4dc3a49ced20139482a2e52fe6e9a5305d1cde4c656f2f9"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 81,
+      "admin_unit": "Xã Bù Đăng",
+      "prices": {
+        "CLN": 48,
+        "HNK": 34,
+        "NTS": 15,
+        "RSX": 13
+      },
+      "source_text": "81 Xã Bù Đăng 48 34 15 13",
+      "record_hash": "6681f43358adfca7b1431115e6f75afa2e086eed1a34e287cfd528f880e25b43"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 82,
+      "admin_unit": "Xã Thọ Sơn",
+      "prices": {
+        "CLN": 48,
+        "HNK": 34,
+        "NTS": 15,
+        "RSX": 13
+      },
+      "source_text": "82 Xã Thọ Sơn 48 34 15 13",
+      "record_hash": "6f6535e3a5e54d60516f9377afa2fe28b14fffd791a05597a0d40312ecf902a4"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 83,
+      "admin_unit": "Xã Đắk Nhau",
+      "prices": {
+        "CLN": 45,
+        "HNK": 32,
+        "NTS": 13,
+        "RSX": 10
+      },
+      "source_text": "83 Xã Đắk Nhau 45 32 13 10",
+      "record_hash": "7f7925dc25f41cd28b6f826d4d24ffaf12637ae27f7012d8109a32cfd9bb693f"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 84,
+      "admin_unit": "Xã Bom Bo",
+      "prices": {
+        "CLN": 48,
+        "HNK": 34,
+        "NTS": 15,
+        "RSX": 13
+      },
+      "source_text": "84 Xã Bom Bo 48 34 15 13",
+      "record_hash": "1b1bd3dad5589cb54b2a6de40f8fb9bd1246d4e5ebb86207063f70a54574dd00"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 85,
+      "admin_unit": "Xã Thiện Hưng",
+      "prices": {
+        "CLN": 40,
+        "HNK": 30,
+        "NTS": 13,
+        "RSX": 20
+      },
+      "source_text": "85 Xã Thiện Hưng 40 30 13 20",
+      "record_hash": "08edb29d5bae5b65de6efb80bce5708e2ca0719cbeb0cca2aa03d45ab49fbd38"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 86,
+      "admin_unit": "Xã Tân Tiến",
+      "prices": {
+        "CLN": 40,
+        "HNK": 30,
+        "NTS": 13,
+        "RSX": 18
+      },
+      "source_text": "86 Xã Tân Tiến 40 30 13 18",
+      "record_hash": "f49ffa32e9daa4020d2456657e169c2b3a0014f900b2437534ffb12901d3c31a"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 87,
+      "admin_unit": "Xã Hưng Phước",
+      "prices": {
+        "CLN": 40,
+        "HNK": 30,
+        "NTS": 13,
+        "RSX": 20
+      },
+      "source_text": "87 Xã Hưng Phước 40 30 13 20",
+      "record_hash": "1f91d1d79a601520e196ba1c1503edcafeeb64b8715ec6a470abbe270536b230"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 88,
+      "admin_unit": "Xã Đắk Ơ",
+      "prices": {
+        "CLN": 45,
+        "HNK": 32,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "88 Xã Đắk Ơ 45 32 20 20",
+      "record_hash": "30680a4dc86fcb80dbdb6902741f659e1ac73764b531aa6a9db029ee76cfa266"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 89,
+      "admin_unit": "Xã Phú Nghĩa",
+      "prices": {
+        "CLN": 45,
+        "HNK": 32,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "89 Xã Phú Nghĩa 45 32 20 20",
+      "record_hash": "be73a109793c7305942d6ef86beea8f028cbc6225250e42c9b1e618991fdac39"
+    },
+    {
+      "bound_type": "MIN",
+      "source_tt": 91,
+      "admin_unit": "Xã Bù Gia Mập",
+      "prices": {
+        "CLN": 40,
+        "HNK": 30,
+        "NTS": 20,
+        "RSX": 20
+      },
+      "source_text": "91 Xã Bù Gia Mập 40 30 20 20",
+      "record_hash": "4ff6d714010698bada1e65001fd9707beea0030db974ee7ccbc0b7c6b505d0f3"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 1,
+      "admin_unit": "Phường Biên Hòa",
+      "prices": {
+        "CLN": 630,
+        "HNK": 630,
+        "NTS": 430,
+        "RSX": 430
+      },
+      "source_text": "1 Phường Biên Hòa 630 630 430 430",
+      "record_hash": "da4e00129e7b6dc9c12cb154433d7c23ccde6bd9c25202a70816f4255105ad82"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 2,
+      "admin_unit": "Phường Trấn Biên",
+      "prices": {
+        "CLN": 670,
+        "HNK": 670,
+        "NTS": 450,
+        "RSX": 450
+      },
+      "source_text": "2 Phường Trấn Biên 670 670 450 450",
+      "record_hash": "c6226b1188360813123246b080a600ef92bf77d8c6d513e7a61f674e2af05a33"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 3,
+      "admin_unit": "Phường Tam Hiệp",
+      "prices": {
+        "CLN": 670,
+        "HNK": 670,
+        "NTS": 450,
+        "RSX": 450
+      },
+      "source_text": "3 Phường Tam Hiệp 670 670 450 450",
+      "record_hash": "d8fb7a9bf216f7473f19497ba08d187cd24c43e9647df8bc8c79b5b3d61470e5"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 4,
+      "admin_unit": "Phường Long Bình",
+      "prices": {
+        "CLN": 670,
+        "HNK": 670,
+        "NTS": 450,
+        "RSX": 450
+      },
+      "source_text": "4 Phường Long Bình 670 670 450 450",
+      "record_hash": "e8651c672525235531b75cf2636e0f5e6c29a9b433847adabfde6e141c3a8c50"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 5,
+      "admin_unit": "Phường Trảng Dài",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 140,
+        "RSX": 140
+      },
+      "source_text": "5 Phường Trảng Dài 230 230 140 140",
+      "record_hash": "348e2897ffc8d590c38b61650e1c03e6594f72fc62309434d15cfe78b387cb24"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 6,
+      "admin_unit": "Phường Hố Nai",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 220,
+        "RSX": 220
+      },
+      "source_text": "6 Phường Hố Nai 230 230 220 220",
+      "record_hash": "692ec3e892f695e2151c2ae1072bab3edf98c89fc894204571de52aff432572c"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 7,
+      "admin_unit": "Phường Long Hưng",
+      "prices": {
+        "CLN": 460,
+        "HNK": 460,
+        "NTS": 310,
+        "RSX": 310
+      },
+      "source_text": "7 Phường Long Hưng 460 460 310 310",
+      "record_hash": "849c0f43a9adf068b3bdb9848514fdcb7b5e46c7002b6d7d13e91883120f605a"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 8,
+      "admin_unit": "Phường Tân Triều",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 140,
+        "RSX": 140
+      },
+      "source_text": "8 Phường Tân Triều 230 230 140 140",
+      "record_hash": "f4e2e6536ed99ebcf04c8e7976eadea86a0a942c21d0e10ee268a665395fd9b0"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 9,
+      "admin_unit": "Phường Phước Tân",
+      "prices": {
+        "CLN": 460,
+        "HNK": 460,
+        "NTS": 310,
+        "RSX": 310
+      },
+      "source_text": "9 Phường Phước Tân 460 460 310 310",
+      "record_hash": "7a4d9c3831f19254522aafcdd8492fd8e22b900c939498bc6cb81850f45f626e"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 10,
+      "admin_unit": "Phường Tam Phước",
+      "prices": {
+        "CLN": 460,
+        "HNK": 460,
+        "NTS": 310,
+        "RSX": 310
+      },
+      "source_text": "10 Phường Tam Phước 460 460 310 310",
+      "record_hash": "d4c7e5f4a490e3a13dc032597d9fb8c5e29c4b336408fa4bb03128ddfc649219"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 11,
+      "admin_unit": "Xã Long Thành",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 180,
+        "RSX": 180
+      },
+      "source_text": "11 Xã Long Thành 230 230 180 180",
+      "record_hash": "e33272dbe6d166d75f6deef3eb7f867d1ced38020848eddddf891077b8a47905"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 12,
+      "admin_unit": "Xã Bình An",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 230,
+        "RSX": 230
+      },
+      "source_text": "12 Xã Bình An 230 230 230 230",
+      "record_hash": "e56cd61463da63b379ec336458ddcaac7df0040b18b6ca2e199b477a831177ad"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 13,
+      "admin_unit": "Xã An Phước",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 230,
+        "RSX": 230
+      },
+      "source_text": "13 Xã An Phước 230 230 230 230",
+      "record_hash": "66a89fa65ca92a678592569192037be51c94cdd899332c6393762ef933aa196e"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 14,
+      "admin_unit": "Xã Long Phước",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 230,
+        "RSX": 230
+      },
+      "source_text": "14 Xã Long Phước 230 230 230 230",
+      "record_hash": "a30385339b55ce78b956bbea8f83b0ca2ea2b4ba001936da1e8136b413a2a57d"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 15,
+      "admin_unit": "Xã Phước Thái",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 230,
+        "RSX": 230
+      },
+      "source_text": "15 Xã Phước Thái 230 230 230 230",
+      "record_hash": "fa206b245f9bca7b50ceb70e4a60f80a15ecc0a43195b973848524016bcf6aac"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 16,
+      "admin_unit": "Xã Nhơn Trạch",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 180,
+        "RSX": 180
+      },
+      "source_text": "16 Xã Nhơn Trạch 180 180 180 180",
+      "record_hash": "e9b96def9f785d511e37d8f98551a573d455d997492c41bcca39b9db73475b8a"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 17,
+      "admin_unit": "Xã Đại Phước",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 180,
+        "RSX": 180
+      },
+      "source_text": "17 Xã Đại Phước 180 180 180 180",
+      "record_hash": "a4f3c9a0b42130eb4fefcfb56a0b9367f619b594b1c860264c2218b19985fd54"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 18,
+      "admin_unit": "Xã Phước An",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 180,
+        "RSX": 180
+      },
+      "source_text": "18 Xã Phước An 180 180 180 180",
+      "record_hash": "6f79ea33d8dc38460adf3404699479eeca76908c2dccf0e5eefee0b058f0be1a"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 19,
+      "admin_unit": "Phường Long Khánh",
+      "prices": {
+        "CLN": 140,
+        "HNK": 140,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "19 Phường Long Khánh 140 140 130 130",
+      "record_hash": "93bba0d683f3137301de56137a9d680f2801ac029e4783b90c0d06d10192329f"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 20,
+      "admin_unit": "Phường Bảo Vinh",
+      "prices": {
+        "CLN": 140,
+        "HNK": 140,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "20 Phường Bảo Vinh 140 140 130 130",
+      "record_hash": "2cc109810765a76f05cc3e3d56d18b70014db2bf820d75035fff309f12fb9924"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 21,
+      "admin_unit": "Phường Xuân Lập",
+      "prices": {
+        "CLN": 240,
+        "HNK": 240,
+        "NTS": 210,
+        "RSX": 210
+      },
+      "source_text": "21 Phường Xuân Lập 240 240 210 210",
+      "record_hash": "afe3ba79d6473e9f0d66a378c3d821cd284e8519604db1be11a66b4ea2c37507"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 22,
+      "admin_unit": "Phường Hàng Gòn",
+      "prices": {
+        "CLN": 170,
+        "HNK": 170,
+        "NTS": 140,
+        "RSX": 140
+      },
+      "source_text": "22 Phường Hàng Gòn 170 170 140 140",
+      "record_hash": "056e17de124228bb8727f17cf1c472f152809465b79b2e545d91f59491f36c71"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 23,
+      "admin_unit": "Phường Bình Lộc",
+      "prices": {
+        "CLN": 140,
+        "HNK": 140,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "23 Phường Bình Lộc 140 140 130 130",
+      "record_hash": "31a7b618b42d6631f842836d12ed0c740d79fa3984429a90246b6bc5acea5944"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 24,
+      "admin_unit": "Xã Xuân Lộc",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "24 Xã Xuân Lộc 180 180 110 110",
+      "record_hash": "9a512962ed40b9727634591639a006675eef41656bef6a5576cba6c830c9a9d1"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 25,
+      "admin_unit": "Xã Xuân Hòa",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "25 Xã Xuân Hòa 180 180 110 110",
+      "record_hash": "48b7c9e55c96a51421e0de831d8170cbde653623ea2c873a26571b8e7d72d94d"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 26,
+      "admin_unit": "Xã Xuân Thành",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "26 Xã Xuân Thành 180 180 110 110",
+      "record_hash": "577af2a4b659426e609f51ade84f128a676dbf72a567460be2050602497f851f"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 27,
+      "admin_unit": "Xã Xuân Bắc",
+      "prices": {
+        "CLN": 70,
+        "HNK": 70,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "27 Xã Xuân Bắc 70 70 40 40",
+      "record_hash": "68e5cfa9afe1e5fb5262e484190a50029def1e811e6294a81420280908bbbcdc"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 28,
+      "admin_unit": "Xã Xuân Phú",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "28 Xã Xuân Phú 180 180 110 110",
+      "record_hash": "df047285dd9b6565d7bd32d8f3b6e0e04aa6c64b7ee8a1e438780504b1038216"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 29,
+      "admin_unit": "Xã Xuân Định",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "29 Xã Xuân Định 180 180 110 110",
+      "record_hash": "732c79602a9b21e8df4d5a643e1599c81579161a1d881f4a857776b0a4896a9a"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 30,
+      "admin_unit": "Xã Cẩm Mỹ",
+      "prices": {
+        "CLN": 200,
+        "HNK": 200,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "30 Xã Cẩm Mỹ 200 200 130 130",
+      "record_hash": "ae5196012b880e7a2ba3fcc290741d9b4743e9abd0bf60b9b4f20e150b681b3e"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 31,
+      "admin_unit": "Xã Xuân Quế",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "31 Xã Xuân Quế 180 180 110 110",
+      "record_hash": "82ebc5c4d8a660e5a5e9a28202da0aa9525fc8561764eab85e905ec319e6c5e3"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 32,
+      "admin_unit": "Xã Xuân Đường",
+      "prices": {
+        "CLN": 200,
+        "HNK": 200,
+        "NTS": 130,
+        "RSX": 130
+      },
+      "source_text": "32 Xã Xuân Đường 200 200 130 130",
+      "record_hash": "0f508017230972ded5e5b1b53b1918cb405ef10e198d54a3d1c9e72a3561ef5e"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 33,
+      "admin_unit": "Xã Sông Ray",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "33 Xã Sông Ray 180 180 110 110",
+      "record_hash": "67e5b72f16a9f8e7bcd2f2b86bd89f1e6f6c49d5ece7c089a3b1d09a956a9324"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 34,
+      "admin_unit": "Xã Xuân Đông",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 110,
+        "RSX": 110
+      },
+      "source_text": "34 Xã Xuân Đông 180 180 110 110",
+      "record_hash": "2603bbda44b29787db06feb821990fe4812592364debe573d41b888364fb80df"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 35,
+      "admin_unit": "Xã Trảng Bom",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 210,
+        "RSX": 210
+      },
+      "source_text": "35 Xã Trảng Bom 230 230 210 210",
+      "record_hash": "5719c628619c6d5fcca85c57782b2598661b3e0eebda2b528762b2e5f662dea3"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 36,
+      "admin_unit": "Xã An Viễn",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 220,
+        "RSX": 220
+      },
+      "source_text": "36 Xã An Viễn 230 230 220 220",
+      "record_hash": "52e775a95d2ef53e5b82d641d82cf9771f6c8e6be32ca725e7d8a80d7fb495e0"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 37,
+      "admin_unit": "Xã Bàu Hàm",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 160,
+        "RSX": 160
+      },
+      "source_text": "37 Xã Bàu Hàm 180 180 160 160",
+      "record_hash": "823f29a218f3fbf6a3c5e5ecbb5556886056b4e79a711c227b545520382d8bc4"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 38,
+      "admin_unit": "Xã Bình Minh",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 210,
+        "RSX": 210
+      },
+      "source_text": "38 Xã Bình Minh 230 230 210 210",
+      "record_hash": "51cbec15183941aa4375b6cd228419cf12a1774b4f56d700e44333f1ac2d7bda"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 39,
+      "admin_unit": "Xã Hưng Thịnh",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 160,
+        "RSX": 160
+      },
+      "source_text": "39 Xã Hưng Thịnh 180 180 160 160",
+      "record_hash": "92a69abf18bfc71f6c9bf2a483aad7a86fc1c4b83e2be979426b5c2af15cc53f"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 40,
+      "admin_unit": "Xã Dầu Giây",
+      "prices": {
+        "CLN": 180,
+        "HNK": 180,
+        "NTS": 160,
+        "RSX": 160
+      },
+      "source_text": "40 Xã Dầu Giây 180 180 160 160",
+      "record_hash": "42f3fb00255bf3b2b20df87bc9fa957eece5bac612f599ec7bdd3b9a1b571610"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 41,
+      "admin_unit": "Xã Gia Kiệm",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 210,
+        "RSX": 210
+      },
+      "source_text": "41 Xã Gia Kiệm 230 230 210 210",
+      "record_hash": "7be2ceee02c0c6cc3cb148c3081a4b7ff912353a50b05cf2d5948cc25408a0aa"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 42,
+      "admin_unit": "Xã Thống Nhất",
+      "prices": {
+        "CLN": 70,
+        "HNK": 70,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "42 Xã Thống Nhất 70 70 40 40",
+      "record_hash": "1abee1b26fa387e093d437bb79085e0bb9bb0ec32bc34ac7983d64f07f3c6247"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 43,
+      "admin_unit": "Xã Định Quán",
+      "prices": {
+        "CLN": 70,
+        "HNK": 70,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "43 Xã Định Quán 70 70 40 40",
+      "record_hash": "8d4bf759e58ce4b263d39df73796a6189c49b4697e7a685a6be3dff45a902500"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 44,
+      "admin_unit": "Xã Phú Vinh",
+      "prices": {
+        "CLN": 70,
+        "HNK": 70,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "44 Xã Phú Vinh 70 70 40 40",
+      "record_hash": "8ec4e965976d16a3c611ea6c1b1ea086fd0a4c64363ede020317985c334b24ff"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 45,
+      "admin_unit": "Xã La Ngà",
+      "prices": {
+        "CLN": 70,
+        "HNK": 70,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "45 Xã La Ngà 70 70 40 40",
+      "record_hash": "e5485461aae9db7b6ddbddc98b6894de60404b3bee7827cb2fcf47faa2933bb8"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 46,
+      "admin_unit": "Xã Phú Hòa",
+      "prices": {
+        "CLN": 70,
+        "HNK": 70,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "46 Xã Phú Hòa 70 70 40 40",
+      "record_hash": "72369c5813969141262a37e37f17ed30f0ba82ec15f6606dd18033de00589e67"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 47,
+      "admin_unit": "Xã Thanh Sơn",
+      "prices": {
+        "CLN": 40,
+        "HNK": 40,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "47 Xã Thanh Sơn 40 40 40 40",
+      "record_hash": "0cbf6e0f6dc49b93f948d02014b5c4092fbe2305bd42530e0fc396d386f42260"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 48,
+      "admin_unit": "Xã Tân Phú",
+      "prices": {
+        "CLN": 55,
+        "HNK": 55,
+        "NTS": 50,
+        "RSX": 50
+      },
+      "source_text": "48 Xã Tân Phú 55 55 50 50",
+      "record_hash": "7df014ba698b986ca5a16e057bbfe8ab2c3d7dc5116fc2f0f921fffc4ba66799"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 49,
+      "admin_unit": "Xã Tà Lài",
+      "prices": {
+        "CLN": 50,
+        "HNK": 50,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "49 Xã Tà Lài 50 50 40 40",
+      "record_hash": "e97a9bb0a367c50020f17406452cbf41ae9f50a2702bad36f6ddf7cefb841c6d"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 50,
+      "admin_unit": "Xã Nam Cát Tiên",
+      "prices": {
+        "CLN": 50,
+        "HNK": 50,
+        "NTS": 40,
+        "RSX": 40
+      },
+      "source_text": "50 Xã Nam Cát Tiên 50 50 40 40",
+      "record_hash": "6588b7a3d652c5a28c071db36c75296898ea6ffc116d838d2931b23b455ae6e8"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 51,
+      "admin_unit": "Xã Phú Lâm",
+      "prices": {
+        "CLN": 55,
+        "HNK": 55,
+        "NTS": 50,
+        "RSX": 50
+      },
+      "source_text": "51 Xã Phú Lâm 55 55 50 50",
+      "record_hash": "fe3fb75e0a15a7f3d0d78191062251599131174ffe39cdaf9da33a33f22d5a77"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 52,
+      "admin_unit": "Xã Đak Lua",
+      "prices": {
+        "CLN": 30,
+        "HNK": 30,
+        "NTS": 30,
+        "RSX": 30
+      },
+      "source_text": "52 Xã Đak Lua 30 30 30 30",
+      "record_hash": "3ccb850dad6fbefaa4dfcd606c59efe61b373afd40e812a453c029abb025c9d9"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 53,
+      "admin_unit": "Xã Trị An",
+      "prices": {
+        "CLN": 60,
+        "HNK": 60,
+        "NTS": 50,
+        "RSX": 50
+      },
+      "source_text": "53 Xã Trị An 60 60 50 50",
+      "record_hash": "1dfc5328bc7725f2eb5dd0b68b9d3f8f08b75f3c42f63b66d7e51b105d650e38"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 54,
+      "admin_unit": "Xã Tân An",
+      "prices": {
+        "CLN": 230,
+        "HNK": 230,
+        "NTS": 140,
+        "RSX": 140
+      },
+      "source_text": "54 Xã Tân An 230 230 140 140",
+      "record_hash": "9a730305808c087d4c6490564624e3b2c2b0787ad97acfe79ab1ba39896ae0d2"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 55,
+      "admin_unit": "Xã Phú Lý",
+      "prices": {
+        "CLN": 60,
+        "HNK": 60,
+        "NTS": 50,
+        "RSX": 50
+      },
+      "source_text": "55 Xã Phú Lý 60 60 50 50",
+      "record_hash": "5b03417104a0a29a2351c3e6bb8031433835d052ea50f36cedf4d21532407a95"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 57,
+      "admin_unit": "Phường Đồng Xoài",
+      "prices": {
+        "CLN": 280,
+        "HNK": 220,
+        "NTS": 130,
+        "RSX": 39
+      },
+      "source_text": "57 Phường Đồng Xoài 280 220 130 39",
+      "record_hash": "795b426d94d50411cb318f186cc3e3e612547d4bf1e1d6c76a8e0bc0a2c6dc5a"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 64,
+      "admin_unit": "Phường Phước Long",
+      "prices": {
+        "CLN": 210,
+        "HNK": 168,
+        "NTS": 134,
+        "RSX": 37
+      },
+      "source_text": "64 Phường Phước Long 210 168 134 37",
+      "record_hash": "d0abc7d48dcb9e8d13b70061f42b9da75272e9405885a65a9e4440df8f2c6906"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 65,
+      "admin_unit": "Xã Thuận Lợi",
+      "prices": {
+        "CLN": 98,
+        "HNK": 78,
+        "NTS": 63,
+        "RSX": 54
+      },
+      "source_text": "65 Xã Thuận Lợi 98 78 63 54",
+      "record_hash": "903b2aa2ea03c0cd86f9be702a59a8c9dc684aa848c5fe3480c40354650b1dcd"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 66,
+      "admin_unit": "Xã Tân Lợi",
+      "prices": {
+        "CLN": 110,
+        "HNK": 88,
+        "NTS": 70,
+        "RSX": 54
+      },
+      "source_text": "66 Xã Tân Lợi 110 88 70 54",
+      "record_hash": "8c838313b4eb0e7175ad9a2f81d6058316d7f2b8bfbe73a99e81da3fda16191c"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 67,
+      "admin_unit": "Xã Đồng Tâm",
+      "prices": {
+        "CLN": 113,
+        "HNK": 90,
+        "NTS": 72,
+        "RSX": 47
+      },
+      "source_text": "67 Xã Đồng Tâm 113 90 72 47",
+      "record_hash": "8b41ede824b91ea93b7e857d9f2da6912c69a25384e5fedde7e62d84fdc84942"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 68,
+      "admin_unit": "Xã Đồng Phú",
+      "prices": {
+        "CLN": 90,
+        "HNK": 72,
+        "NTS": 58,
+        "RSX": 54
+      },
+      "source_text": "68 Xã Đồng Phú 90 72 58 54",
+      "record_hash": "dbe979d03893d8d2b289feef1f4412eadf91420377c0e85bf015c90ac768d911"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 69,
+      "admin_unit": "Xã Lộc Ninh",
+      "prices": {
+        "CLN": 60,
+        "HNK": 48,
+        "NTS": 38,
+        "RSX": 38
+      },
+      "source_text": "69 Xã Lộc Ninh 60 48 38 38",
+      "record_hash": "b37e84202aef6a2d0269f6f8bd497b7031efd5e232ec1aa5744df8acd57e38f4"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 70,
+      "admin_unit": "Xã Lộc Thành",
+      "prices": {
+        "CLN": 60,
+        "HNK": 48,
+        "NTS": 38,
+        "RSX": 38
+      },
+      "source_text": "70 Xã Lộc Thành 60 48 38 38",
+      "record_hash": "719a5f02c84bf68e0ecb4fb99860a39de7ab449d48c10ccd31ada80037862ac6"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 71,
+      "admin_unit": "Xã Lộc Hưng",
+      "prices": {
+        "CLN": 70,
+        "HNK": 56,
+        "NTS": 45,
+        "RSX": 44
+      },
+      "source_text": "71 Xã Lộc Hưng 70 56 45 44",
+      "record_hash": "2008ef3ccf6f1e361e8e8bbdc0589f08b8f2b7378dff0bf5fe3cb91c3a4e49a1"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 72,
+      "admin_unit": "Xã Lộc Tấn",
+      "prices": {
+        "CLN": 70,
+        "HNK": 56,
+        "NTS": 45,
+        "RSX": 44
+      },
+      "source_text": "72 Xã Lộc Tấn 70 56 45 44",
+      "record_hash": "a89bb0007936c1c4f1a76e608c6917eeeb3bdcc395a7d343152603c6e31b81bd"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 73,
+      "admin_unit": "Xã Lộc Thạnh",
+      "prices": {
+        "CLN": 60,
+        "HNK": 48,
+        "NTS": 38,
+        "RSX": 38
+      },
+      "source_text": "73 Xã Lộc Thạnh 60 48 38 38",
+      "record_hash": "d6ef5acef9c31d43ca50c4c37f23fc018fee96ac3f16b9096c2ad97481a6b6c8"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 74,
+      "admin_unit": "Xã Lộc Quang",
+      "prices": {
+        "CLN": 60,
+        "HNK": 48,
+        "NTS": 38,
+        "RSX": 38
+      },
+      "source_text": "74 Xã Lộc Quang 60 48 38 38",
+      "record_hash": "e298c655a56ccae6dd39ac7ec042013db56d10d2eab987db8f6c87a49ab9058f"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 75,
+      "admin_unit": "Xã Tân Khai",
+      "prices": {
+        "CLN": 96,
+        "HNK": 77,
+        "NTS": 61,
+        "RSX": 42
+      },
+      "source_text": "75 Xã Tân Khai 96 77 61 42",
+      "record_hash": "3ecc001fa419e87e9bc0b932351841401f57513d8cc21971e84aeb8d8cb328b3"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 78,
+      "admin_unit": "Xã Minh Đức",
+      "prices": {
+        "CLN": 50,
+        "HNK": 40,
+        "NTS": 32,
+        "RSX": 32
+      },
+      "source_text": "78 Xã Minh Đức 50 40 32 32",
+      "record_hash": "4c46751e466f844bfffe321dd76f3f61e9174ec042bcf5eb79b07c11f196e131"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 79,
+      "admin_unit": "Xã Phước Sơn",
+      "prices": {
+        "CLN": 75,
+        "HNK": 60,
+        "NTS": 48,
+        "RSX": 25
+      },
+      "source_text": "79 Xã Phước Sơn 75 60 48 25",
+      "record_hash": "1b0ce7997193ae60472dfedbdba4ea3e9c60d8e7c45602a0dea7a2fbf79c1cce"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 80,
+      "admin_unit": "Xã Nghĩa Trung",
+      "prices": {
+        "CLN": 75,
+        "HNK": 60,
+        "NTS": 48,
+        "RSX": 32
+      },
+      "source_text": "80 Xã Nghĩa Trung 75 60 48 32",
+      "record_hash": "d10b9b5d09550d1268df88c37301798a91e8651d0d4ed0609b8a63a1b7afb069"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 81,
+      "admin_unit": "Xã Bù Đăng",
+      "prices": {
+        "CLN": 88,
+        "HNK": 70,
+        "NTS": 56,
+        "RSX": 32
+      },
+      "source_text": "81 Xã Bù Đăng 88 70 56 32",
+      "record_hash": "9561c900218b5a496efbe681be38adcc31c910b6b49274c70479e7b860d0776b"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 82,
+      "admin_unit": "Xã Thọ Sơn",
+      "prices": {
+        "CLN": 70,
+        "HNK": 56,
+        "NTS": 45,
+        "RSX": 32
+      },
+      "source_text": "82 Xã Thọ Sơn 70 56 45 32",
+      "record_hash": "77a84ea7841aff5b92c440bcefa73b4c9ded4483c8f8d806365ee24848d076c2"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 83,
+      "admin_unit": "Xã Đắk Nhau",
+      "prices": {
+        "CLN": 65,
+        "HNK": 52,
+        "NTS": 42,
+        "RSX": 25
+      },
+      "source_text": "83 Xã Đắk Nhau 65 52 42 25",
+      "record_hash": "16d0368f1ab602a1a7dcd1a8031e073a33967163f077314d59c26b5062c9c71b"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 84,
+      "admin_unit": "Xã Bom Bo",
+      "prices": {
+        "CLN": 70,
+        "HNK": 56,
+        "NTS": 45,
+        "RSX": 32
+      },
+      "source_text": "84 Xã Bom Bo 70 56 45 32",
+      "record_hash": "8bf700a9bc36fd93d1166018ce22dd787913926766f4af74ea9bd0f367ffccee"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 85,
+      "admin_unit": "Xã Thiện Hưng",
+      "prices": {
+        "CLN": 50,
+        "HNK": 40,
+        "NTS": 32,
+        "RSX": 32
+      },
+      "source_text": "85 Xã Thiện Hưng 50 40 32 32",
+      "record_hash": "1089c16de804ed1a0ae4114123ac5d42b7b9b28964f9a457e7c4103b611f6441"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 86,
+      "admin_unit": "Xã Tân Tiến",
+      "prices": {
+        "CLN": 50,
+        "HNK": 40,
+        "NTS": 32,
+        "RSX": 32
+      },
+      "source_text": "86 Xã Tân Tiến 50 40 32 32",
+      "record_hash": "46280f1990051e4108d51e50d1be58e05da08584a29e64f13a572f8aeb948cd7"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 87,
+      "admin_unit": "Xã Hưng Phước",
+      "prices": {
+        "CLN": 50,
+        "HNK": 40,
+        "NTS": 32,
+        "RSX": 32
+      },
+      "source_text": "87 Xã Hưng Phước 50 40 32 32",
+      "record_hash": "2eca3bccc063e24fc74de673a1f9c1d11cadc753df36fa61bde96e0916269f8c"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 88,
+      "admin_unit": "Xã Đắk Ơ",
+      "prices": {
+        "CLN": 60,
+        "HNK": 48,
+        "NTS": 38,
+        "RSX": 38
+      },
+      "source_text": "88 Xã Đắk Ơ 60 48 38 38",
+      "record_hash": "d48d366e154df9f2bda2fad701c0bb12f3cb299aff7921fb2a2d66da95287982"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 89,
+      "admin_unit": "Xã Phú Nghĩa",
+      "prices": {
+        "CLN": 60,
+        "HNK": 48,
+        "NTS": 38,
+        "RSX": 38
+      },
+      "source_text": "89 Xã Phú Nghĩa 60 48 38 38",
+      "record_hash": "ec18a1591ee6461fc45647d02c1ad8edd2bf41034c24be277d46ae365ba2907b"
+    },
+    {
+      "bound_type": "MAX",
+      "source_tt": 91,
+      "admin_unit": "Xã Bù Gia Mập",
+      "prices": {
+        "CLN": 50,
+        "HNK": 40,
+        "NTS": 32,
+        "RSX": 32
+      },
+      "source_text": "91 Xã Bù Gia Mập 50 40 32 32",
+      "record_hash": "fdbbe169fb3d1034944004b135ea0a3c8990dccc4b51d70222a41042a6fd17f1"
+    }
+  ],
+  "count": 162
+}

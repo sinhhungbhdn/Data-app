@@ -1,0 +1,1005 @@
+{
+  "schema": "named-file3-kcn-ccn-v1",
+  "rows": [
+    {
+      "group": "KCN",
+      "source_tt": 1,
+      "name": "Biên Hòa I",
+      "location": "Phường Trấn Biên",
+      "price_thousand_vnd_m2": 3600,
+      "source_text": "1 Biên Hòa I Phường Trấn Biên 3.600",
+      "record_hash": "f23be3f46c024c838a23d24db55aa56e647867a9c3a2aa407b4f31189970678e"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 2,
+      "name": "Biên Hòa II",
+      "location": "Phường Long Hưng",
+      "price_thousand_vnd_m2": 3900,
+      "source_text": "2 Biên Hòa II Phường Long Hưng 3.900",
+      "record_hash": "c55fa5a2eb7e7968b813813370554daf6792755b52c3f0dbaec2799d72f059c2"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 3,
+      "name": "Loteco",
+      "location": "Phường Long Bình",
+      "price_thousand_vnd_m2": 3900,
+      "source_text": "3 Loteco Phường Long Bình 3.900",
+      "record_hash": "285248c18fca610b11cc96e8b9aee41e572d84333da73d3f84bbad23e48068b0"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 4,
+      "name": "Agtex Long Bình",
+      "location": "Phường Long Bình",
+      "price_thousand_vnd_m2": 3900,
+      "source_text": "4 Agtex Long Bình Phường Long Bình 3.900",
+      "record_hash": "9141e1494d917f6cefd86ba5e92f573cc4eddf60255b0f9621fc8ad3d2d776f2"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 5,
+      "name": "Amata",
+      "location": "Phường Long Bình",
+      "price_thousand_vnd_m2": 3900,
+      "source_text": "5 Amata Phường Long Bình 3.900",
+      "record_hash": "c0219433a5603e709a81ab509277a2c65189da7ab22da2b008f4500d89599914"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 6,
+      "name": "Tam Phước",
+      "location": "Phường Tam Phước",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "6 Tam Phước Phường Tam Phước 2.000",
+      "record_hash": "fea07279749a9724c19e2575b6ef9d195cc9bc131dac0d7502cf591de3d6c6ca"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 7,
+      "name": "An Phước",
+      "location": "Xã An Phước",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "7 An Phước Xã An Phước 2.000",
+      "record_hash": "273f296118775eb81d95706a68db9d2f06b04874919f163a50b86c3ec7419cf2"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 8,
+      "name": "Giang Điền",
+      "location": "Xã Giang Điền, phường Tam Phước",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "8 Giang Điền Xã Giang Điền, phường Tam Phước 2.000",
+      "record_hash": "f307ddda38fa35f14dd8b6f2f6b1cc4a131d39a2694a2a6ffbe7afbaa18955dc"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 9,
+      "name": "Long Thành",
+      "location": "Xã An Phước",
+      "price_thousand_vnd_m2": 2160,
+      "source_text": "9 Long Thành Xã An Phước 2.160",
+      "record_hash": "2ebcdae2cbf980d343c9cec69ed2bf05aa252c12df9d0d52ea4499025222fc0b"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 10,
+      "name": "Long Đức",
+      "location": "Xã Bình An",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "10 Long Đức Xã Bình An 2.000",
+      "record_hash": "d57acc73bad5112dbc74dcd8fa86cef9415407d4e8caffceb044c3f1e3f784a3"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 11,
+      "name": "Lộc An - Bình Sơn",
+      "location": "Xã Long Thành",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "11 Lộc An - Bình Sơn Xã Long Thành 2.000",
+      "record_hash": "7e9905dda93c3882306e0ef56dfd9c8ae258751d27cd48ed83455483f43bf5dc"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 12,
+      "name": "Gò Dầu",
+      "location": "Xã Phước Thái",
+      "price_thousand_vnd_m2": 2300,
+      "source_text": "12 Gò Dầu Xã Phước Thái 2.300",
+      "record_hash": "34faff0c992d17688dda6793af03900a9c206f5161702060960d642faf716af7"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 15,
+      "name": "Thạnh Phú",
+      "location": "Phường Tân Triều",
+      "price_thousand_vnd_m2": 2100,
+      "source_text": "15 Thạnh Phú Phường Tân Triều 2.100",
+      "record_hash": "9d0b15f22199160c323ea36fae9f78d4c7dc7037d174896d63bfdd87bbce2178"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 19,
+      "name": "Nhơn Trạch VI",
+      "location": "Xã Phước An",
+      "price_thousand_vnd_m2": 2100,
+      "source_text": "19 Nhơn Trạch VI Xã Phước An 2.100",
+      "record_hash": "9c1f8a6237c77314aedad5eec0c6209a33d5bc6fed56f3c489c85583591b0c70"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 20,
+      "name": "Ông Kèo",
+      "location": "Xã Đại Phước",
+      "price_thousand_vnd_m2": 1575,
+      "source_text": "20 Ông Kèo Xã Đại Phước 1.575",
+      "record_hash": "ce90f0d073e97028539912916906d77604deb339ba6e531120de5cc5bebeb7d4"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 21,
+      "name": "Long Khánh",
+      "location": "Phường Bình Lộc",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "21 Long Khánh Phường Bình Lộc 1.000",
+      "record_hash": "ab02651c7e13d061b3f9345c88709bc500d010777e196ed0f040a55ed1c131ae"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 22,
+      "name": "Suối Tre",
+      "location": "Phường Bình Lộc",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "22 Suối Tre Phường Bình Lộc 1.000",
+      "record_hash": "8314bf7bf63bfac14738b15af3f9366c504a4a0827a688ccb30f373f22d49881"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 23,
+      "name": "Dầu Giây",
+      "location": "Xã Dầu Giây",
+      "price_thousand_vnd_m2": 1270,
+      "source_text": "23 Dầu Giây Xã Dầu Giây 1.270",
+      "record_hash": "c43ed10f80f2a9441eec6e336e84bcabe5ac3f3d7ba7391a8e941bd3e93bc518"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 24,
+      "name": "Xuân Lộc",
+      "location": "Xã Xuân Lộc",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "24 Xuân Lộc Xã Xuân Lộc 1.000",
+      "record_hash": "4e6a46f063c666d311d02253f66c2947d9377276555f2b11edb624fe7304e8b6"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 25,
+      "name": "Định Quán",
+      "location": "Xã La Ngà",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "25 Định Quán Xã La Ngà 500",
+      "record_hash": "69691347cac95046445727aa7aa5e1e7ea6319d3fd07a5585f5f7a8cab66e6ab"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 30,
+      "name": "Long Đức (giai đoạn 2)",
+      "location": "Xã Bình An",
+      "price_thousand_vnd_m2": 1800,
+      "source_text": "30 Long Đức (giai đoạn 2) Xã Bình An 1.800",
+      "record_hash": "43e179a334fc6a6e9154262e7c66d5fe34ee27540ae1c1d18681ace599e1871d"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 31,
+      "name": "Long Đức 3",
+      "location": "Xã Bình An, xã Long Thành",
+      "price_thousand_vnd_m2": 1800,
+      "source_text": "31 Long Đức 3 Xã Bình An, xã Long Thành 1.800",
+      "record_hash": "3fd230b105bd9837813aa813e8764c3ba73e61f7916ce6dd47dddbcaf20a05b0"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 32,
+      "name": "Phước Bình",
+      "location": "Xã Phước Thái",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "32 Phước Bình Xã Phước Thái 2.000",
+      "record_hash": "86e0052de2200246e8b1a1931b1a87f4acb3cfc97d55f54397f1fa43b34d3fb8"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 33,
+      "name": "Phước Bình 2",
+      "location": "Xã Phước Thái",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "33 Phước Bình 2 Xã Phước Thái 2.000",
+      "record_hash": "6335d4688ee7e223da025497b615fb5cc737b9a8e50e423e2631d0b81238e96d"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 34,
+      "name": "Phước An",
+      "location": "Xã Phước An",
+      "price_thousand_vnd_m2": 1570,
+      "source_text": "34 Phước An Xã Phước An 1.570",
+      "record_hash": "3a1f569e1d692831707b17db2b51968502991462ff6c61953d0a7985ee290216"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 35,
+      "name": "Becamex - Bình Phước",
+      "location": "Phường Chơn Thành",
+      "price_thousand_vnd_m2": 870,
+      "source_text": "35 Becamex - Bình Phước Phường Chơn Thành 870",
+      "record_hash": "c588ed58b72f06535263e028f860c2b6d046887475dd6dfb649d239ba747c51b"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 36,
+      "name": "Chơn Thành I",
+      "location": "Phường Chơn Thành",
+      "price_thousand_vnd_m2": 820,
+      "source_text": "36 Chơn Thành I Phường Chơn Thành 820",
+      "record_hash": "dc8a50ca74179458143abcc054329c6750cb26aa976ca02f19dae2f1e350dc1e"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 37,
+      "name": "Chơn Thành II",
+      "location": "Phường Chơn Thành",
+      "price_thousand_vnd_m2": 820,
+      "source_text": "37 Chơn Thành II Phường Chơn Thành 820",
+      "record_hash": "f11e88fadacdbab523403bed52d7b48103a74d9942103dfe9a7fd5076bd383c6"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 38,
+      "name": "Minh Hưng - Hàn Quốc",
+      "location": "Phường Minh Hưng",
+      "price_thousand_vnd_m2": 1050,
+      "source_text": "38 Minh Hưng - Hàn Quốc Phường Minh Hưng 1.050",
+      "record_hash": "34615a770036dbb165a1a34c74962986919fae849235595ba9cf1e1ac8698e01"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 39,
+      "name": "Minh Hưng",
+      "location": "Phường Minh Hưng",
+      "price_thousand_vnd_m2": 820,
+      "source_text": "39 Minh Hưng Phường Minh Hưng 820",
+      "record_hash": "35b15809bed0759bfef6abb7fe3084f59671aeed64018c4d68393894b2fcda5a"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 40,
+      "name": "Minh Hưng III",
+      "location": "Phường Minh Hưng",
+      "price_thousand_vnd_m2": 820,
+      "source_text": "40 Minh Hưng III Phường Minh Hưng 820",
+      "record_hash": "09267d798701f33cd9d47b2c27f2e27f78da43f802bac45e749f49f8e29fd803"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 41,
+      "name": "Minh Hưng III giai đoạn II",
+      "location": "Phường Minh Hưng",
+      "price_thousand_vnd_m2": 820,
+      "source_text": "41 Minh Hưng III giai đoạn II Phường Minh Hưng 820",
+      "record_hash": "29e8d0d92fa3acab49aa1cc9618227d75bff694ba02fea8fe479b3810e4d286a"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 42,
+      "name": "Việt Kiều",
+      "location": "Phường Bình Long",
+      "price_thousand_vnd_m2": 670,
+      "source_text": "42 Việt Kiều Phường Bình Long 670",
+      "record_hash": "1116cee8b27f44feb3932af739af3de5c820693dc8a173abd1749d1527b36217"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 43,
+      "name": "Minh Hưng - Sikico",
+      "location": "Xã Tân Khai",
+      "price_thousand_vnd_m2": 820,
+      "source_text": "43 Minh Hưng - Sikico Xã Tân Khai 820",
+      "record_hash": "05effb0e747434b5a5069b1228915bd510d47d23cea3dffa61790d751c6368ca"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 44,
+      "name": "Minh Hưng - Sikico giai đoạn II",
+      "location": "Xã Tân Khai",
+      "price_thousand_vnd_m2": 820,
+      "source_text": "44 Minh Hưng - Sikico giai đoạn II Xã Tân Khai 820",
+      "record_hash": "32bb90f99d5752b98d020a6544ce91c0f8d893a113f07ee14bb770b9ac6c1210"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 45,
+      "name": "Đồng Xoài I",
+      "location": "Phường Đồng Xoài",
+      "price_thousand_vnd_m2": 780,
+      "source_text": "45 Đồng Xoài I Phường Đồng Xoài 780",
+      "record_hash": "2f8d2d09007bcce46356d9da6f9a07be40c3a1c565152f184abe40fd55338c08"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 46,
+      "name": "Đồng Xoài II",
+      "location": "Phường Đồng Xoài",
+      "price_thousand_vnd_m2": 670,
+      "source_text": "46 Đồng Xoài II Phường Đồng Xoài 670",
+      "record_hash": "2c0a44103b8e3ba5f905b1c5757965a173be0bd3417a00f7c974429f9d6c8f87"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 47,
+      "name": "Đồng Xoài III",
+      "location": "Phường Bình Phước",
+      "price_thousand_vnd_m2": 1050,
+      "source_text": "47 Đồng Xoài III Phường Bình Phước 1.050",
+      "record_hash": "86d00f0c6fc7417cf49675237abbdcf71b0f069b88a414fcf5b6ef168e030c71"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 48,
+      "name": "Bắc Đồng Phú",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 870,
+      "source_text": "48 Bắc Đồng Phú Xã Đồng Phú 870",
+      "record_hash": "7afaff547bc97aed8d3c2b79ef4a6df8e5c2c564fc89dd9d63fe916fb7460dfe"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 49,
+      "name": "Nam Đồng Phú",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 870,
+      "source_text": "49 Nam Đồng Phú Xã Đồng Phú 870",
+      "record_hash": "f27ebb75993360191935371b3e42826c60d2ac171f8f63e78fec60c2bd83b9af"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 50,
+      "name": "Bắc Đồng Phú giai đoạn II",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 870,
+      "source_text": "50 Bắc Đồng Phú giai đoạn II Xã Đồng Phú 870",
+      "record_hash": "36664904ac26686bf1a7c607bda799d84cf999ac8135e2c0fcc9bd79eee23b60"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 51,
+      "name": "Nam Đồng Phú giai đoạn II",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 870,
+      "source_text": "51 Nam Đồng Phú giai đoạn II Xã Đồng Phú 870",
+      "record_hash": "b7ed8a5e9691ad7045ec4ce1149725858ce3c867da31080000919c02db79a852"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 52,
+      "name": "Tân Khai 1",
+      "location": "Xã Tân Khai",
+      "price_thousand_vnd_m2": 670,
+      "source_text": "52 Tân Khai 1 Xã Tân Khai 670",
+      "record_hash": "384a548f0434cfbe2db552773aa43549d8d9e2c784f3c0aa4ffcd59e0cd58757"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 53,
+      "name": "Tân Khai 2",
+      "location": "Phường Bình Long, xã Tân Khai",
+      "price_thousand_vnd_m2": 670,
+      "source_text": "53 Tân Khai 2 Phường Bình Long, xã Tân Khai 670",
+      "record_hash": "e69742add8524fea4b6b6bee1b61d7e9f0b8baa37dd66d7e73962b9f4c348401"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 54,
+      "name": "Bình Phước",
+      "location": "Xã Đồng Tâm",
+      "price_thousand_vnd_m2": 670,
+      "source_text": "54 Bình Phước Xã Đồng Tâm 670",
+      "record_hash": "0ca51c13d4cdc31588af873ff0b11a723fa4d2a19825ef4d18418dec07476ae3"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 55,
+      "name": "Đồng Nơ",
+      "location": "Xã Tân Khai",
+      "price_thousand_vnd_m2": 670,
+      "source_text": "55 Đồng Nơ Xã Tân Khai 670",
+      "record_hash": "41b151d04928d6ba5a29eae48ab1f286c2c5bd852d8ede82c771cf965e6d69a5"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 56,
+      "name": "Hoa Lư",
+      "location": "Xã Lộc Tấn, xã Lộc Thạnh",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "56 Hoa Lư Xã Lộc Tấn, xã Lộc Thạnh 500",
+      "record_hash": "0b60f8028659977044fb366e1b45fdeea13eda63151552d09300267cef19e9b3"
+    },
+    {
+      "group": "KCN",
+      "source_tt": 57,
+      "name": "Ledana",
+      "location": "Xã Lộc Thạnh",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "57 Ledana Xã Lộc Thạnh 500",
+      "record_hash": "68e8d3ce3b60c6369a81028217ab9aef101f7d71f6ef1233c877f81549e7bbed"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 1,
+      "name": "Dốc 47",
+      "location": "Phường Tam Phước",
+      "price_thousand_vnd_m2": 1400,
+      "source_text": "1 Dốc 47 Phường Tam Phước 1.400",
+      "record_hash": "253385efb74027a6945bf1f920f2dc8e43b42caea4c2e7b607afd76f1a0fa999"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 2,
+      "name": "Tam An",
+      "location": "Xã An Phước",
+      "price_thousand_vnd_m2": 1400,
+      "source_text": "2 Tam An Xã An Phước 1.400",
+      "record_hash": "dc2eba062d33ad08ca159d5b4f241b3f760cdc3faca81177843f3a94ac9dd1d0"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 3,
+      "name": "Gốm Tân Hạnh",
+      "location": "Xã Tân Hạnh",
+      "price_thousand_vnd_m2": 1560,
+      "source_text": "3 Gốm Tân Hạnh Xã Tân Hạnh 1.560",
+      "record_hash": "dfdc25d22442d6dc9b1f966063ad30686165dd1458d93a687933af94f0a83502"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 4,
+      "name": "Phú Thạnh - Vĩnh Thanh",
+      "location": "Xã Nhơn Trạch",
+      "price_thousand_vnd_m2": 1575,
+      "source_text": "4 Phú Thạnh - Vĩnh Thanh Xã Nhơn Trạch 1.575",
+      "record_hash": "cf9d8b184670ffe7b62d42ec82d2ed1fdaecff99471cb6e65dd2191e6626a713"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 5,
+      "name": "Vật liệu xây dựng Hố Nai 3",
+      "location": "Phường Hố Nai",
+      "price_thousand_vnd_m2": 1200,
+      "source_text": "5 Vật liệu xây dựng Hố Nai 3 Phường Hố Nai 1.200",
+      "record_hash": "287aed07c068394f72555740bb24759d4fe7869dc050aca619a799afbae2e2aa"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 6,
+      "name": "Hưng Lộc",
+      "location": "Xã Dầu Giây",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "6 Hưng Lộc Xã Dầu Giây 1.000",
+      "record_hash": "f335a3ec049ef8e53bd04e2aef352c53f81f9d0259afc9cd6ad423e53a6073be"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 7,
+      "name": "Thạnh Phú - Thiện Tân",
+      "location": "Phường Trảng Dài",
+      "price_thousand_vnd_m2": 2100,
+      "source_text": "7 Thạnh Phú - Thiện Tân Phường Trảng Dài 2.100",
+      "record_hash": "afd543ebbe90cd0c4b8bb20f86f93cda10833f72d33f157b083abe664ed2ad83"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 8,
+      "name": "Vật liệu xây dựng Tân An",
+      "location": "Xã Tân An",
+      "price_thousand_vnd_m2": 1470,
+      "source_text": "8 Vật liệu xây dựng Tân An Xã Tân An 1.470",
+      "record_hash": "30956c614bece5f6acb2c588ce41655d9ff6d943fdf70f63f68081a43f86a36b"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 9,
+      "name": "Xuân Hưng",
+      "location": "Xã Xuân Hòa",
+      "price_thousand_vnd_m2": 950,
+      "source_text": "9 Xuân Hưng Xã Xuân Hòa 950",
+      "record_hash": "24b2ef4836f563444ddee31fd4aae418d28a42f72aaa51421d01f884a12ad745"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 10,
+      "name": "Phú Cường",
+      "location": "Xã Thống Nhất",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "10 Phú Cường Xã Thống Nhất 580",
+      "record_hash": "e8ccf23ec58ec03425370a0b711f6f843814905d6ca4ed91e4d920489ce5f2b8"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 11,
+      "name": "Long Giao",
+      "location": "Xã Cẩm Mỹ, xã Xuân Đường",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "11 Long Giao Xã Cẩm Mỹ, xã Xuân Đường 1.500",
+      "record_hash": "b32989e49ef373172fe5dc997c9e5136ff47f9a5823f499defd2a49358948138"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 12,
+      "name": "Long Phước 1",
+      "location": "Xã Long Phước",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "12 Long Phước 1 Xã Long Phước 1.500",
+      "record_hash": "0a32575a0b846e7df86745145d2e8e9d1da32d2013549895838b9baacd745bcd"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 13,
+      "name": "Tân An",
+      "location": "Xã Tân An",
+      "price_thousand_vnd_m2": 1470,
+      "source_text": "13 Tân An Xã Tân An 1.470",
+      "record_hash": "c39e9c8e4d285569287184130558078047150404d3e16777176716b2322f56d6"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 14,
+      "name": "Thiện Tân giai đoạn 1",
+      "location": "Phường Trảng Dài",
+      "price_thousand_vnd_m2": 1600,
+      "source_text": "14 Thiện Tân giai đoạn 1 Phường Trảng Dài 1.600",
+      "record_hash": "ce93593f6121a343672708ee59d9356cb4d00cc59aca7c967923d38c36d38395"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 15,
+      "name": "Vĩnh Tân",
+      "location": "Xã Tân An",
+      "price_thousand_vnd_m2": 1470,
+      "source_text": "15 Vĩnh Tân Xã Tân An 1.470",
+      "record_hash": "fa0fd2940337c9857d0813078d7c3774ad1a1a8caf72bc88e305ff579e94cedd"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 16,
+      "name": "Phước Bình",
+      "location": "Xã Phước Thái",
+      "price_thousand_vnd_m2": 910,
+      "source_text": "16 Phước Bình Xã Phước Thái 910",
+      "record_hash": "8388b36a76a9cceb734d7a1a52390eeeea6f9828a396bcb7aa2dc7fd6425a406"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 17,
+      "name": "",
+      "location": "Xã Đồi 61 Xã An Viễn",
+      "price_thousand_vnd_m2": 1200,
+      "source_text": "17 Xã Đồi 61 Xã An Viễn 1.200",
+      "record_hash": "760a1e5bcadac1a21adb1e83143f33a112f60380b82eb9c057321b3655ca72c1"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 18,
+      "name": "Bình An",
+      "location": "Xã Bình An",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "18 Bình An Xã Bình An 1.500",
+      "record_hash": "cf402aa0cc4ee03a7004d811f7fbb4533df4b15de4b4a1b94965c2585970ba12"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 19,
+      "name": "Sông Trầu",
+      "location": "Xã Trảng Bom",
+      "price_thousand_vnd_m2": 1200,
+      "source_text": "19 Sông Trầu Xã Trảng Bom 1.200",
+      "record_hash": "f9e050c26fd4790f0c9351e93504aee3548b872df9e08b9abae5daf1eb2d7025"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 20,
+      "name": "Hưng Thịnh",
+      "location": "Xã Hưng Thịnh",
+      "price_thousand_vnd_m2": 1200,
+      "source_text": "20 Hưng Thịnh Xã Hưng Thịnh 1.200",
+      "record_hash": "af3633895b5011a219314d71a7a74ba8b17489e8776cd42151c0398bb55646fe"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 21,
+      "name": "Lộ 25",
+      "location": "Xã Dầu Giây",
+      "price_thousand_vnd_m2": 1270,
+      "source_text": "21 Lộ 25 Xã Dầu Giây 1.270",
+      "record_hash": "eeb2365202ec1d2e6c416a75136079ad89b7261c7ad0314217361e11d75c36b2"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 22,
+      "name": "Quang Trung",
+      "location": "Xã Gia Kiệm",
+      "price_thousand_vnd_m2": 1270,
+      "source_text": "22 Quang Trung Xã Gia Kiệm 1.270",
+      "record_hash": "f5fd0d99bc01a2c721d5cb388cde2c5c6aa96e752f3f125f1ef5b18eb2254c12"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 23,
+      "name": "Quang Trung 1",
+      "location": "Xã Gia Kiệm",
+      "price_thousand_vnd_m2": 1270,
+      "source_text": "23 Quang Trung 1 Xã Gia Kiệm 1.270",
+      "record_hash": "e0c40f6b706e74713ee48818c2b7b3b3482956349c1abb8794cded1a12b265d5"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 24,
+      "name": "Quang Trung 2",
+      "location": "Xã Gia Kiệm",
+      "price_thousand_vnd_m2": 1270,
+      "source_text": "24 Quang Trung 2 Xã Gia Kiệm 1.270",
+      "record_hash": "3340b7687299b26db37193ff94eca21b2816fbe8bc4e3a1ca4a67ccbcb4a2bbf"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 25,
+      "name": "Phú Túc",
+      "location": "Xã Thống Nhất",
+      "price_thousand_vnd_m2": 620,
+      "source_text": "25 Phú Túc Xã Thống Nhất 620",
+      "record_hash": "875acca7eb3005e3a0c2ef78f2d9010d2e6e6c865661f258701daaf5f5d830d3"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 26,
+      "name": "Hàng Gòn",
+      "location": "Phường Hàng Gòn",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "26 Hàng Gòn Phường Hàng Gòn 1.000",
+      "record_hash": "61175762afb25475cb5532099d31e48288a7ec0a8e8a9d3b110114fbdff66e54"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 27,
+      "name": "Xuân Tây",
+      "location": "Xã Xuân Đông",
+      "price_thousand_vnd_m2": 950,
+      "source_text": "27 Xuân Tây Xã Xuân Đông 950",
+      "record_hash": "f22df8f37cccd9532b1daa9748260f302ec2bb2db8ae7659dab55ea95375b23f"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 28,
+      "name": "Phú Vinh",
+      "location": "Xã Phú Vinh",
+      "price_thousand_vnd_m2": 620,
+      "source_text": "28 Phú Vinh Xã Phú Vinh 620",
+      "record_hash": "520527bdf2b20381cfdc882b39351cd0db7884bb182ee77767e0c4d268ed5c09"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 29,
+      "name": "Phú Bình",
+      "location": "Xã Phú Lâm",
+      "price_thousand_vnd_m2": 620,
+      "source_text": "29 Phú Bình Xã Phú Lâm 620",
+      "record_hash": "9ba4b1f7c3a796318243492a45209c3698b52c26d3478c3eeacfd49284a7b460"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 30,
+      "name": "Vĩnh An",
+      "location": "Xã Trị An",
+      "price_thousand_vnd_m2": 1470,
+      "source_text": "30 Vĩnh An Xã Trị An 1.470",
+      "record_hash": "262931ba670dfde1dcfd4eab3a6bfd27fc24b9b53227a96785b89bdfb746f52a"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 31,
+      "name": "Tân An 2",
+      "location": "Xã Tân An",
+      "price_thousand_vnd_m2": 1470,
+      "source_text": "31 Tân An 2 Xã Tân An 1.470",
+      "record_hash": "ab90794516cf1d487623ef4dd5c1f3d57a3c72e8abaaa0a32b72ff139f28ee7a"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 32,
+      "name": "Tiến Hưng 1",
+      "location": "Phường Bình Phước",
+      "price_thousand_vnd_m2": 650,
+      "source_text": "32 Tiến Hưng 1 Phường Bình Phước 650",
+      "record_hash": "064418a0f044af470acf64a816eed4b1cadc79c06530559b9dd4f866bb84ed05"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 33,
+      "name": "Tân Phú",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "33 Tân Phú Xã Đồng Phú 580",
+      "record_hash": "861223f736a0ce6505b43c474c1c4995eb86dd81b60cebd03a02df20ec376fc6"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 34,
+      "name": "Tân Tiến 1",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "34 Tân Tiến 1 Xã Đồng Phú 580",
+      "record_hash": "49fdc838a00e6478377415a570d71402fa4954a09b501224ef9d64c35b252c15"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 35,
+      "name": "Tân Tiến 2",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "35 Tân Tiến 2 Xã Đồng Phú 580",
+      "record_hash": "708f2211948367868b1a3745898d1d3a916a941fff6077012ea51edf7bd81cb5"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 36,
+      "name": "Hà Mỵ",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "36 Hà Mỵ Xã Đồng Phú 580",
+      "record_hash": "35d44cfcc5a258d5e71bcbcc2083d9aad2c9b812e739daad209a4ad882b8d13c"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 37,
+      "name": "Phú Riềng",
+      "location": "Xã Phú Riềng",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "37 Phú Riềng Xã Phú Riềng 580",
+      "record_hash": "662870e16bfdc6ac6ea8b0ab88bcec4b309239167110a5174830eae8790cd2e3"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 38,
+      "name": "Bù Nho",
+      "location": "Xã Phú Riềng",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "38 Bù Nho Xã Phú Riềng 580",
+      "record_hash": "9479b824e76c203bdb7d1a8a4976aedba809170e797fb778ce948fbfa0ae4d68"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 39,
+      "name": "Tân Hưng",
+      "location": "Xã Tân Lợi",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "39 Tân Hưng Xã Tân Lợi 580",
+      "record_hash": "6462059f9821f85afef5b8898be559027eeaa30c99a0e007ca35518a3d6dce79"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 40,
+      "name": "Thanh Phú",
+      "location": "Phường An Lộc",
+      "price_thousand_vnd_m2": 650,
+      "source_text": "40 Thanh Phú Phường An Lộc 650",
+      "record_hash": "74ce522f1d97d4b108e5180d05e9d8438535a8d3d1d0b4c43e943b26e135d4ce"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 41,
+      "name": "Thanh Phú 2",
+      "location": "Phường An Lộc",
+      "price_thousand_vnd_m2": 650,
+      "source_text": "41 Thanh Phú 2 Phường An Lộc 650",
+      "record_hash": "b080fe1ad7bc997ea20feaf7eeaa8d17f587c6f4ffd81821f7d861ce7e060363"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 42,
+      "name": "Hưng Chiến",
+      "location": "Phường Bình Long",
+      "price_thousand_vnd_m2": 650,
+      "source_text": "42 Hưng Chiến Phường Bình Long 650",
+      "record_hash": "620a5ea1d3c7e15d82f651b0bac017fe946edcafcbbb2af666ee11f70c0a45b3"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 43,
+      "name": "Tân Lập",
+      "location": "Xã Đồng Phú",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "43 Tân Lập Xã Đồng Phú 580",
+      "record_hash": "b622daf7119b2ab7d5f8346991d1404fb8926ff7045066e606b7f537697dd100"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 44,
+      "name": "Đa Kia",
+      "location": "Xã Đa Kia",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "44 Đa Kia Xã Đa Kia 580",
+      "record_hash": "7f52ed654afce027fecb2694836bb54717ad16b791101496a8545d8c002166ec"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 45,
+      "name": "Nha Bích",
+      "location": "Xã Nha Bích",
+      "price_thousand_vnd_m2": 650,
+      "source_text": "45 Nha Bích Xã Nha Bích 650",
+      "record_hash": "faafc1c5f9c6e57d7d73fd0d1c2e2cf218e8e1e1ace010daee8098b5934419da"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 46,
+      "name": "Phước Bình",
+      "location": "Phường Phước Bình",
+      "price_thousand_vnd_m2": 650,
+      "source_text": "46 Phước Bình Phường Phước Bình 650",
+      "record_hash": "78caf42597c71d95ada7e2801cb076a337807423255b73b29893bbd26211a26e"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 47,
+      "name": "Long Giang",
+      "location": "Phường Phước Bình",
+      "price_thousand_vnd_m2": 650,
+      "source_text": "47 Long Giang Phường Phước Bình 650",
+      "record_hash": "fab615ab9d0c4bebcf20a27fb8be392a0506ea524f53c6911921ba4a2205daa5"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 48,
+      "name": "Phước An",
+      "location": "Xã Tân Quan",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "48 Phước An Xã Tân Quan 580",
+      "record_hash": "e215f88be760c14433f498f4a71e5ba5ff405682dffe1ae8afb85bfb76f3a491"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 49,
+      "name": "Hưng Phú",
+      "location": "Xã Tân Khai",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "49 Hưng Phú Xã Tân Khai 580",
+      "record_hash": "b2170d2f275147414ab95c3296cab34302ca66d0ce1915d47db4937993a9e9d2"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 50,
+      "name": "Đại Tân",
+      "location": "Xã Minh Đức",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "50 Đại Tân Xã Minh Đức 580",
+      "record_hash": "0af3165c418be22a42fabcaabffd130e55c76dc501b7610e453a981fe23881b1"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 51,
+      "name": "Lộc Thái",
+      "location": "Xã Lộc Ninh",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "51 Lộc Thái Xã Lộc Ninh 580",
+      "record_hash": "9d00d9e572cfb07b64c5f88e7cfacde283a993dd350bf8ccd0563918b2bbb392"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 52,
+      "name": "Lộc Tấn",
+      "location": "Xã Lộc Tấn",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "52 Lộc Tấn Xã Lộc Tấn 500",
+      "record_hash": "b912d83d772d9430373e5d10fca275ec38a5002862e8d9ddc6adda910cdb7fe9"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 53,
+      "name": "Lộc Thạnh",
+      "location": "Xã Lộc Thạnh",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "53 Lộc Thạnh Xã Lộc Thạnh 500",
+      "record_hash": "75af3315b0f6faf1a3796f1a47cc21aa46e629bac909ee64e48c3afef4a7b6fb"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 54,
+      "name": "Thiện Hưng",
+      "location": "Xã Thiện Hưng",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "54 Thiện Hưng Xã Thiện Hưng 500",
+      "record_hash": "dbd9649d2f9549ce90a066fd046d91b3423a21185a7e5c69925e2833a9cea8e6"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 55,
+      "name": "Phước Thiện",
+      "location": "Xã Hưng Phước",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "55 Phước Thiện Xã Hưng Phước 500",
+      "record_hash": "d64c50d126242e505965c8b3ccb8fcd47570ba27a06de3a34e86ddda1642a77b"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 56,
+      "name": "Cao su Sông Bé",
+      "location": "Xã Hưng Phước",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "56 Cao su Sông Bé Xã Hưng Phước 500",
+      "record_hash": "b42dd9c3df603b02b3477e8df81bd4833c03edc7524e416dd7d556c0de676c87"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 57,
+      "name": "Phú Nghĩa 2",
+      "location": "Xã Phú Nghĩa",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "57 Phú Nghĩa 2 Xã Phú Nghĩa 500",
+      "record_hash": "532645a2f4e36bccf1a9a4eb4ea8d8b33ba9049f3d0f553b878e80b9c93828e2"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 58,
+      "name": "Phú Nghĩa 3",
+      "location": "Xã Phú Nghĩa",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "58 Phú Nghĩa 3 Xã Phú Nghĩa 500",
+      "record_hash": "6acecd5282fe5655072ce39c16a142ee5a4fe45e1ae03f9e88713d3983ebafa2"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 59,
+      "name": "Bù Nho 1",
+      "location": "Xã Phú Riềng",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "59 Bù Nho 1 Xã Phú Riềng 580",
+      "record_hash": "b1bbf9d443e45480fe9ed90e8a65e3859c9783432d83bd58d836eb87411c57b6"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 60,
+      "name": "Thuận Phú",
+      "location": "Xã Thuận Lợi",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "60 Thuận Phú Xã Thuận Lợi 580",
+      "record_hash": "ddf4c029ca0d11afd00f108605203d85d1435d54fca0047262769f28445d47af"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 61,
+      "name": "Đức Liễu",
+      "location": "Xã Nghĩa Trung",
+      "price_thousand_vnd_m2": 580,
+      "source_text": "61 Đức Liễu Xã Nghĩa Trung 580",
+      "record_hash": "3c407f9e1ea3600f14a75ffcc1dc19aa3912c627fb2059dc5092e7c19adfe7f0"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 62,
+      "name": "Minh Hưng 1",
+      "location": "Xã Bù Đăng",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "62 Minh Hưng 1 Xã Bù Đăng 500",
+      "record_hash": "5e3adbfbf22800cc06bffbfab46753940b6f4cb076786d4845f55121568ea71f"
+    },
+    {
+      "group": "CCN",
+      "source_tt": 63,
+      "name": "Minh Hưng 2",
+      "location": "Xã Bù Đăng",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "63 Minh Hưng 2 Xã Bù Đăng 500",
+      "record_hash": "6cff4351e7973af73bc499f9a293d61d29461330e505560a201f56c95ef2843d"
+    }
+  ],
+  "count": 111
+}

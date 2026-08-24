@@ -1,0 +1,1894 @@
+{
+  "schema": "named-file4-tdc-v1",
+  "rows": [
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu tái định cư 4,20 ha (phường Tân Hạnh)",
+      "route_or_scope": "Đường Phạm Văn Diêu",
+      "price_thousand_vnd_m2": 15200,
+      "source_text": "Đường Phạm Văn Diêu 15.200",
+      "record_hash": "29443934ba56e2be04baafc5fa7a48d441dec84b161a28e40ffcd99a07d5aee4"
+    },
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu tái định cư 4,20 ha (phường Tân Hạnh)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 10600,
+      "source_text": "Các đường còn lại 10.600",
+      "record_hash": "f5333d8d7d040d113866b8874c394b719f631b6117fc8bd7fd3e126ac8ef8953"
+    },
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu tái định cư 2,10 ha phường Tân Hạnh",
+      "route_or_scope": "Các đường trong Khu tái định cư 2,10 ha phường Tân Hạnh (cũ)",
+      "price_thousand_vnd_m2": 10600,
+      "source_text": "Các đường trong Khu tái định cư 2,10 ha phường Tân Hạnh (cũ) 10.600",
+      "record_hash": "cf0c9fd2d8e2aa63e177bf996250713155b5ab1ce83596c7f9e469ef77c38a07"
+    },
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu dân cư Tân Hạnh 01 ha",
+      "route_or_scope": "Các đường trong Khu dân cư Tân Hạnh 1 ha",
+      "price_thousand_vnd_m2": 10600,
+      "source_text": "Các đường trong Khu dân cư Tân Hạnh 1 ha 10.600",
+      "record_hash": "95c1956f04b99471ad08dcd1432baca3f0536aef61a9a3c1a745f2aeb05f5f9f"
+    },
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu dân cư 01 ha phường Hóa An (cũ)",
+      "route_or_scope": "Đường Huỳnh Mẫn Đạt (đường vào Mỏ đá BBCC (cũ))",
+      "price_thousand_vnd_m2": 16500,
+      "source_text": "Đường Huỳnh Mẫn Đạt (đường vào Mỏ đá BBCC (cũ)) 16.500",
+      "record_hash": "f62e0936e913799e2aeb7f4e8e91982c34f537ce83ece239d49d5afd22807cb6"
+    },
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu dân cư 01 ha phường Hóa An (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 11600,
+      "source_text": "Các đường còn lại 11.600",
+      "record_hash": "bdab827569dadecc31b28504cf574dd7ad7fcb5734f4818df60022c01f77a94d"
+    },
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu tái định cư Phước Hữu (phường Bửu Hòa cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư Phước Hữu",
+      "price_thousand_vnd_m2": 17600,
+      "source_text": "Các đường trong Khu tái định cư Phước Hữu 17.600",
+      "record_hash": "7db6190a6886fa93293e524b326ef1582251eed77b4d3477729e2eb39ab7cd7d"
+    },
+    {
+      "admin_unit": "Phường Biên Hòa",
+      "tdc_name": "Khu Tái định cư phường Bửu Hòa (cũ) 1,8 ha",
+      "route_or_scope": "Các đường trong Khu tái định cư",
+      "price_thousand_vnd_m2": 17600,
+      "source_text": "Các đường trong Khu tái định cư 17.600",
+      "record_hash": "147e87ada0b17f67d7a3c5b637cc523fa4a6e359fbfce576f4df0f4391fb5009"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "",
+      "route_or_scope": "Đường N4 (từ đường Nguyễn Du đến đường D5 (khu dân cư Bửu Long)",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường N4 (từ đường Nguyễn Du đến đường D5 (khu dân cư Bửu Long) 23.100",
+      "record_hash": "cb743750ca03f2216c5601850bbfef8594e74df1f68c316c9aa005ba68cdab5f"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "",
+      "route_or_scope": "Đường D2 (phường Bửu Long (cũ))",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường D2 (phường Bửu Long (cũ)) 23.100",
+      "record_hash": "290edff483481a95cca4753c7785ac317439a1873071812ccc1318c2ba1f2142"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "",
+      "route_or_scope": "Đường N12 (phường Bửu Long (cũ))",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường N12 (phường Bửu Long (cũ)) 23.100",
+      "record_hash": "b6f9ab57ce9bfdc48dd71fa1eb6abe732a299cd844fad8ac9f01d04e0f0a33e3"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 16200,
+      "source_text": "Các đường còn lại 16.200",
+      "record_hash": "b213dc95c64452dbe42f3b22c43aae9e127b3bba9b15ead975f38b7a40989e99"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Bửu Long (cũ)",
+      "route_or_scope": "Đường D2 (phường Bửu Long (cũ))",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường D2 (phường Bửu Long (cũ)) 23.100",
+      "record_hash": "1bd2be2cd343c5aef364f4bb78aa06fe94417a5a976be3d9360cfdacd610eedd"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Bửu Long (cũ)",
+      "route_or_scope": "Đường N12 (phường Bửu Long (cũ))",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường N12 (phường Bửu Long (cũ)) 23.100",
+      "record_hash": "b345644725d1228a768da8fc829f2e45c60acceb22ad64e29983956c98cfd6e7"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Bửu Long (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 16200,
+      "source_text": "Các đường còn lại 16.200",
+      "record_hash": "de2276c25688bf7f0c106018c66f2ca887db32d0fab6a5243b0abf5dc0a7867b"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu dân cư phục vụ tái định cư KP1 phường Bửu Long (cũ) Các đường trong Khu dân cư phục vụ tái định cư KP1 phường Bửu Long 16.200 (cũ) Hạ tầng khu dân cư, thương mại và tái định cư 6,3 ha tại phường Bửu Long 4 (cũ)",
+      "route_or_scope": "Đường 10 (từ đường Huỳnh Văn Nghệ đến bến đò trạm 1)",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường 10 (từ đường Huỳnh Văn Nghệ đến bến đò trạm 1) 23.100",
+      "record_hash": "d56919fd35e0971a68ad4caf5bbde97972491fb4f098823e9a321204e696e2d2"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu dân cư phục vụ tái định cư KP1 phường Bửu Long (cũ) Các đường trong Khu dân cư phục vụ tái định cư KP1 phường Bửu Long 16.200 (cũ) Hạ tầng khu dân cư, thương mại và tái định cư 6,3 ha tại phường Bửu Long 4 (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 16200,
+      "source_text": "Các đường còn lại 16.200",
+      "record_hash": "8b4cf1573ced3a98369e7d7d4aebbdb180177c357080dad11f104001821ca1c5"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư 3,2 ha phường Bửu Long (cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư 3,2 ha phường Bửu Long (cũ)",
+      "price_thousand_vnd_m2": 16200,
+      "source_text": "Các đường trong Khu tái định cư 3,2 ha phường Bửu Long (cũ) 16.200",
+      "record_hash": "bc927c69a9170f4800c3d85864724372a1074d40c08a13d62519e7ad90ea03da"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Bửu Long (cũ)",
+      "route_or_scope": "Đường D2 (phường Bửu Long (cũ))",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường D2 (phường Bửu Long (cũ)) 23.100",
+      "record_hash": "1bd2be2cd343c5aef364f4bb78aa06fe94417a5a976be3d9360cfdacd610eedd"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Bửu Long (cũ)",
+      "route_or_scope": "Đường N12 (phường Bửu Long (cũ))",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường N12 (phường Bửu Long (cũ)) 23.100",
+      "record_hash": "b345644725d1228a768da8fc829f2e45c60acceb22ad64e29983956c98cfd6e7"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Bửu Long (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 16200,
+      "source_text": "Các đường còn lại 16.200",
+      "record_hash": "de2276c25688bf7f0c106018c66f2ca887db32d0fab6a5243b0abf5dc0a7867b"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Quang Vinh (cũ)",
+      "route_or_scope": "Đường Đông Tây 3 (phường Quang Vinh (cũ))",
+      "price_thousand_vnd_m2": 21300,
+      "source_text": "Đường Đông Tây 3 (phường Quang Vinh (cũ)) 21.300",
+      "record_hash": "4f324da91c234b889a0b7a846ddf41d2a1e132eaf92863fb505b9db572594303"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Quang Vinh (cũ)",
+      "route_or_scope": "Đường Nguyễn Du (đường vào Miếu Bình Thiền cũ)",
+      "price_thousand_vnd_m2": 23300,
+      "source_text": "Đường Nguyễn Du (đường vào Miếu Bình Thiền cũ) 23.300",
+      "record_hash": "571dbcc26959808eefe612ead6cd3634ece482fc176528132efc782a2655fef0"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Quang Vinh (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 16200,
+      "source_text": "Các đường còn lại 16.200",
+      "record_hash": "eed892c4a74f5bb0633a497a4e339a0bb15443d48db7613e015af19ce57e45cb"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường Thống Nhất và phường Tân Mai (cũ) Đường Phạm Văn Thuận (Từ đường 30 tháng 4 đến hết ranh giới phường 44.400 Trấn Biên)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 31100,
+      "source_text": "Các đường còn lại 31.100",
+      "record_hash": "f89efc7a2337bcc1995c5141d0228aeb761b999942979af8047b1f1222b3525e"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu dân cư An Bình mở rộng (công ty Sonadezi)",
+      "route_or_scope": "Đường Trần Thị Hoa",
+      "price_thousand_vnd_m2": 19000,
+      "source_text": "Đường Trần Thị Hoa 19.000",
+      "record_hash": "d8541c3433ff3ea2e617228fc2e40ddb6409eb03d0334b9be0216f97df127b66"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu dân cư An Bình mở rộng (công ty Sonadezi)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 13300,
+      "source_text": "Các đường còn lại 13.300",
+      "record_hash": "b0a1ff0fd06250d54c9c5edab0a859605a1774a199c887d8d740d2a7e7cc54d9"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu dân cư An Hòa 2 (phường An Bình (cũ))",
+      "route_or_scope": "Đường Trần Thị Hoa",
+      "price_thousand_vnd_m2": 19000,
+      "source_text": "Đường Trần Thị Hoa 19.000",
+      "record_hash": "6d719c549cda21d6878509aa00827d0ab1c7d34b791263ee65df564336b349ec"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu dân cư An Hòa 2 (phường An Bình (cũ))",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 13300,
+      "source_text": "Các đường còn lại 13.300",
+      "record_hash": "c359113cabe3ebb75dae54956a9deb1fd5091a45ff2c2f697a38eff49b8b3829"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư Khu phố Nhị Hòa (phường Hiệp Hòa (cũ)) Đường Đỗ Văn Thi, đoạn từ đường Đặng Đại Độ đến đường trục Trung tâm 23.700 thành phố Biên Hòa cũ",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 16600,
+      "source_text": "Các đường còn lại 16.600",
+      "record_hash": "ef0d3cfc439e10a9bb8d701e80924607418fffa3db9df63fc404971fdca8f196"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư 0,16 ha phường Hiệp Hòa (cũ) Đường Đặng Văn Trơn, Đoạn từ đường Đỗ Văn Thi đến đường rẽ lên cầu 24.900 Bửu Hòa",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 17400,
+      "source_text": "Các đường còn lại 17.400",
+      "record_hash": "29685c5a43f44462e6fec748d836f27b3d8dc2408cbf0218081a0024fb4ad94a"
+    },
+    {
+      "admin_unit": "Phường Trấn Biên",
+      "tdc_name": "Khu tái định cư phường An Bình (cũ) (Ajinomoto)",
+      "route_or_scope": "Các đường trong Khu tái định cư phường An Bình (cũ) (Ajinomoto)",
+      "price_thousand_vnd_m2": 13300,
+      "source_text": "Các đường trong Khu tái định cư phường An Bình (cũ) (Ajinomoto) 13.300",
+      "record_hash": "8d30fc0f01edb75ff71dd252178105581f96642e011f7ad92e19cc9cd820a692"
+    },
+    {
+      "admin_unit": "Phường Tam Hiệp",
+      "tdc_name": "Khu tái định cư phường Thống Nhất và phường Tân Mai (cũ)",
+      "route_or_scope": "Đường Phạm Văn Thuận",
+      "price_thousand_vnd_m2": 44400,
+      "source_text": "Đường Phạm Văn Thuận 44.400",
+      "record_hash": "2842161ba8d19e2bd32d6239d72295176a9549c516ea8e8607ae20d2717afc44"
+    },
+    {
+      "admin_unit": "Phường Tam Hiệp",
+      "tdc_name": "Khu tái định cư phường Thống Nhất và phường Tân Mai (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 31100,
+      "source_text": "Các đường còn lại 31.100",
+      "record_hash": "c2170daf732e3e864a572bdc0095b79a6b01de682cb167f26486819a0b80c49e"
+    },
+    {
+      "admin_unit": "Phường Tam Hiệp",
+      "tdc_name": "Khu tái định cư số 91 (Ban Quản lý Dự án) (phường Tam Hiệp)",
+      "route_or_scope": "Các đường trong Khu tái định cư số 91 (Ban Quản lý Dự án)",
+      "price_thousand_vnd_m2": 31100,
+      "source_text": "Các đường trong Khu tái định cư số 91 (Ban Quản lý Dự án) 31.100",
+      "record_hash": "a4b0d2082d1e087dae0ad2d899f569cc9e3c844fd3145f38dc6ffd461eb554ba"
+    },
+    {
+      "admin_unit": "Phường Tam Hiệp",
+      "tdc_name": "Khu dân cư và tái định cư số 55 (xây dựng hạ tầng) (phường Tân Hiệp (cũ))",
+      "route_or_scope": "Đường Phạm Thị Nghĩa vào khu tái định cư Tân Hiệp",
+      "price_thousand_vnd_m2": 25400,
+      "source_text": "Đường Phạm Thị Nghĩa vào khu tái định cư Tân Hiệp 25.400",
+      "record_hash": "0bf4b0a35960c3d214bf6ab453c3f8e3876794eeb3ee7429a9a42c55f25a529d"
+    },
+    {
+      "admin_unit": "Phường Tam Hiệp",
+      "tdc_name": "Khu dân cư và tái định cư số 55 (xây dựng hạ tầng) (phường Tân Hiệp (cũ))",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 17800,
+      "source_text": "Các đường còn lại 17.800",
+      "record_hash": "ef7156fd85715fa67fd18add22268cd9ebe12613958dfc5065f3cf3d20a94d04"
+    },
+    {
+      "admin_unit": "Phường Long Bình",
+      "tdc_name": "Khu tái định cư 1 ha phường Tân Biên Đường vào nhà máy nước Thiện Tân (nối từ đường vào khu tái định cư Tân Biên đến hết ranh thửa đất số 52, tờ BĐĐC số 215 về bên phải và hết ranh thửa đất số 4, tờ BĐĐC số 215 về bên trái)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 9900,
+      "source_text": "Các đường còn lại 9.900",
+      "record_hash": "78beca9250fc9c7b90852431f4ae2053ec990bb2c3e06308e7700e5079e0e392"
+    },
+    {
+      "admin_unit": "Phường Long Bình",
+      "tdc_name": "Khu tái định cư Hố Nai",
+      "route_or_scope": "Các đường trong Khu tái định cư Hố Nai",
+      "price_thousand_vnd_m2": 22700,
+      "source_text": "Các đường trong Khu tái định cư Hố Nai 22.700",
+      "record_hash": "3e32aa57d0557166a7a354c9a5608cf7d2f87096d92895274425a602b42c8774"
+    },
+    {
+      "admin_unit": "Phường Long Bình",
+      "tdc_name": "Xây dựng hạ tầng khu tái định cư phường Tân Biên (cũ) Đường vào khu tái định cư Tân Biên (nối từ đường Hoàng Văn Bổn đến hết ranh thửa đất số 521, tờ BĐĐC số 219 về bên phải và hết ranh thửa đất số 120, tờ BĐĐC số 217 về bên trái)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 11800,
+      "source_text": "Các đường còn lại 11.800",
+      "record_hash": "fa9b053db14ce381de48a3fbaa3ad2e8f008ed0e3af6af6d62d1104069ada659"
+    },
+    {
+      "admin_unit": "Phường Long Bình",
+      "tdc_name": "Khu Tái định cư Long Bình",
+      "route_or_scope": "Các đường trong Khu Tái định cư Long Bình",
+      "price_thousand_vnd_m2": 18500,
+      "source_text": "Các đường trong Khu Tái định cư Long Bình 18.500",
+      "record_hash": "148ac0be374e41e30e1bf2c62f8f5e2f53855fbc641ba813ad0c56ee0df5b44e"
+    },
+    {
+      "admin_unit": "Phường Long Bình",
+      "tdc_name": "Khu dân cư phục vụ tái định cư số 54 (phường Tân Biên (cũ))",
+      "route_or_scope": "Các đường trong Khu dân cư phục vụ tái định cư số 54",
+      "price_thousand_vnd_m2": 18500,
+      "source_text": "Các đường trong Khu dân cư phục vụ tái định cư số 54 18.500",
+      "record_hash": "235a092c1d7985068a284bb736a32a2e329aa16375a45f642e67ac1d46f76a55"
+    },
+    {
+      "admin_unit": "Phường Long Bình",
+      "tdc_name": "về bên trái, phường Long Bình)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 16600,
+      "source_text": "Các đường còn lại 16.600",
+      "record_hash": "3e05047f1473f3ef8e25901481d41c6899d89943942358c7472a5e3b37a2c133"
+    },
+    {
+      "admin_unit": "Phường Trảng Dài",
+      "tdc_name": "Khu dân cư Phú Gia (phường Trảng Dài) Đường Nguyễn Khuyến đoạn từ đường Trần Văn Xã (ngã tư Trường 17.900 Nguyễn Khuyến) đến đường Bùi Trọng Nghĩa",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 12500,
+      "source_text": "Các đường còn lại 12.500",
+      "record_hash": "6c64d4c76f5563c52032f7f1385979cb110558bcbb46529a877146b363183e43"
+    },
+    {
+      "admin_unit": "Phường Long Hưng",
+      "tdc_name": "Khu tái định cư Khu phố Bình Dương (phường Long Bình Tân (cũ)) Đường Châu Văn Lồng (từ Quốc lộ 51 đến hết ranh thửa đất số 281, tờ BĐĐC số 84 về bên phải và hết ranh thửa đất số 144, tờ BĐĐC số 53 về bên trái)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 11600,
+      "source_text": "Các đường còn lại 11.600",
+      "record_hash": "04aea931ddcad7ecf976f537015e925e6c3527c8117715f6312f687b73865035"
+    },
+    {
+      "admin_unit": "Phường Long Hưng",
+      "tdc_name": "Khu tái định cư Long Hưng",
+      "route_or_scope": "Các đường trong Khu tái định cư Long Hưng",
+      "price_thousand_vnd_m2": 7600,
+      "source_text": "Các đường trong Khu tái định cư Long Hưng 7.600",
+      "record_hash": "53241be204461e33be9c5720946495fdc98f91d33c313a0f1092e34ceab1b6a6"
+    },
+    {
+      "admin_unit": "Phường Long Hưng",
+      "tdc_name": "Khu tái định cư số 39 (khóm 3) (phường Long Bình Tân (cũ))",
+      "route_or_scope": "Các đường trong Khu tái định cư số 39 (khóm 3)",
+      "price_thousand_vnd_m2": 19200,
+      "source_text": "Các đường trong Khu tái định cư số 39 (khóm 3) 19.200",
+      "record_hash": "83c38e704042a8782b74a17d4849b3ea4ee046d03053c022c32d01bdd9b8fbb5"
+    },
+    {
+      "admin_unit": "Phường Long Hưng",
+      "tdc_name": "Khu tái định cư phường An Hòa (cũ)",
+      "route_or_scope": "Quốc lộ 51",
+      "price_thousand_vnd_m2": 27200,
+      "source_text": "Quốc lộ 51 27.200",
+      "record_hash": "1c6d7c716d78d4fccea011b96f3f685b39d83073b223e417695a21e98ccb0bda"
+    },
+    {
+      "admin_unit": "Phường Long Hưng",
+      "tdc_name": "Khu tái định cư phường An Hòa (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 18900,
+      "source_text": "Các đường còn lại 18.900",
+      "record_hash": "830767f9b682a7c505b7100f1cd079d2d4f9fb0e539d23d415999fa7ccdeba3b"
+    },
+    {
+      "admin_unit": "Phường Tân Triều",
+      "tdc_name": "",
+      "route_or_scope": "1 Khu tái định cư Tân Phong",
+      "price_thousand_vnd_m2": 1,
+      "source_text": "1 Khu tái định cư Tân Phong 1",
+      "record_hash": "1d55a181aa945246e4b2d51b21abfe4bf18327d8186715ce75f7ee8a740dae45"
+    },
+    {
+      "admin_unit": "Phường Tân Triều",
+      "tdc_name": "",
+      "route_or_scope": "Các đường trong Khu tái định cư Tân Phong 1",
+      "price_thousand_vnd_m2": 8400,
+      "source_text": "Các đường trong Khu tái định cư Tân Phong 1 8.400",
+      "record_hash": "ebe95ec3a3f59db4c7986da6775dc0d69012d9695fbd08b633b460edc32a3ef6"
+    },
+    {
+      "admin_unit": "Phường Tân Triều",
+      "tdc_name": "Khu tái định cư Tân Phong Đường Lương Văn Nho, Đoạn từ đường vào cư xá Tỉnh đội đến ngã rẽ giáp 21.600 đường Hồ Hòa",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 15100,
+      "source_text": "Các đường còn lại 15.100",
+      "record_hash": "a3d1ad1aec277d5e2bc7d7a319a558308adb5b3f306f4bc22bd9d3d82943981c"
+    },
+    {
+      "admin_unit": "Phường Tân Triều",
+      "tdc_name": "Khu Tái định cư ấp Thới Sơn (xã Bình Hòa (cũ))",
+      "route_or_scope": "Các đường trong Khu Tái định cư ấp Thới Sơn",
+      "price_thousand_vnd_m2": 5500,
+      "source_text": "Các đường trong Khu Tái định cư ấp Thới Sơn 5.500",
+      "record_hash": "304604fab1eb0a28918d3d0c13684bd75fdcd5043cc396045b9c3760d27e2588"
+    },
+    {
+      "admin_unit": "Phường Tân Triều",
+      "tdc_name": "Khu tái định cư ấp 5 (xã Thạnh Phú cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư ấp 5",
+      "price_thousand_vnd_m2": 5900,
+      "source_text": "Các đường trong Khu tái định cư ấp 5 5.900",
+      "record_hash": "b14a238e96dcb7fabd025db5094f3806280b13b33c0e1d463cfe105e440f73e9"
+    },
+    {
+      "admin_unit": "Phường Tân Triều",
+      "tdc_name": "Khu dân cư, tái định cư Miền Đông (xã Thạnh Phú cũ)",
+      "route_or_scope": "Các đường trong Khu dân cư, tái định cư Miền Đông",
+      "price_thousand_vnd_m2": 5900,
+      "source_text": "Các đường trong Khu dân cư, tái định cư Miền Đông 5.900",
+      "record_hash": "e811ec228e55c0d092199600f0f2718c440f2e9919955bef05a074780e88de58"
+    },
+    {
+      "admin_unit": "Phường Tân Triều",
+      "tdc_name": "Khu tái định cư xã Bình Lợi (cũ)",
+      "route_or_scope": "Các đường trong khu tái định cư xã Bình Lợi (cũ)",
+      "price_thousand_vnd_m2": 5500,
+      "source_text": "Các đường trong khu tái định cư xã Bình Lợi (cũ) 5.500",
+      "record_hash": "3e61dc562647bd64e124981b296e22be662d0efd7e94e49732ab12fc5d9ed1c2"
+    },
+    {
+      "admin_unit": "Phường Phước Tân",
+      "tdc_name": "Khu tái định cư Quốc lộ 1A (phường Phước Tân)",
+      "route_or_scope": "Các đường trong Khu tái định cư Quốc lộ 1A",
+      "price_thousand_vnd_m2": 14300,
+      "source_text": "Các đường trong Khu tái định cư Quốc lộ 1A 14.300",
+      "record_hash": "5e57bcc3de375bc68bb2e70f618c636f2cc95b5553f8cfd428556db810e2c0b6"
+    },
+    {
+      "admin_unit": "Phường Phước Tân",
+      "tdc_name": "Khu dân cư và tái định cư số 44 (phường Phước Tân)",
+      "route_or_scope": "Quốc lộ 51, đoạn từ đường Nguyễn Trung Trực đến cầu sông Buông",
+      "price_thousand_vnd_m2": 16600,
+      "source_text": "Quốc lộ 51, đoạn từ đường Nguyễn Trung Trực đến cầu sông Buông 16.600",
+      "record_hash": "a06dc1f9f336c1ceae4be8688c5b837910d794dc66964d44002e69e844b0f42e"
+    },
+    {
+      "admin_unit": "Phường Phước Tân",
+      "tdc_name": "Khu dân cư và tái định cư số 44 (phường Phước Tân)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 11600,
+      "source_text": "Các đường còn lại 11.600",
+      "record_hash": "29047a0e7b321458ed2506b379b9d73cafe90167298ca2d612d8a39f336dde8e"
+    },
+    {
+      "admin_unit": "phường Tam Phước)",
+      "tdc_name": "",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 3900,
+      "source_text": "Các đường còn lại 3.900",
+      "record_hash": "dacafce783940082fabf292380b4172a09cdf2e6966ef064a3cfdf150538f2dd"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu tái định cư Liên Kim Sơn (thị trấn Long Thành (cũ)) Đường Huỳnh Văn Lũy (từ đường Nguyễn Văn Cừ đến đường Trần Quang 7.400 Khải)",
+      "route_or_scope": "Đường Nguyễn Văn Ký",
+      "price_thousand_vnd_m2": 7400,
+      "source_text": "Đường Nguyễn Văn Ký 7.400",
+      "record_hash": "ea38e6d2faf87f777a47e1c2629c5574fb93e6a1254749b2ba9e7daad7118b0a"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu tái định cư Liên Kim Sơn (thị trấn Long Thành (cũ)) Đường Huỳnh Văn Lũy (từ đường Nguyễn Văn Cừ đến đường Trần Quang 7.400 Khải)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5200,
+      "source_text": "Các đường còn lại 5.200",
+      "record_hash": "d7e326133a4d98880d72c1d1bfba906c4c57c8b4c017613d6e7714e5a0b7116d"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu tái định cư Long An",
+      "route_or_scope": "Đường Bưng Môn qua xã Long An (cũ) (từ Quốc lộ 51 đến Đường tỉnh 769)",
+      "price_thousand_vnd_m2": 7200,
+      "source_text": "Đường Bưng Môn qua xã Long An (cũ) (từ Quốc lộ 51 đến Đường tỉnh 769) 7.200",
+      "record_hash": "50b4549f8578077e1a3f0f511746cfa5531ff99b35c708e2789a38ec4109c854"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu tái định cư Long An",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5100,
+      "source_text": "Các đường còn lại 5.100",
+      "record_hash": "d8bdd85da88a3d0682d10ece25b7a9854f997c9157c950a113fabf1c199ace4b"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu tái định cư An Thuận (xã Long An (cũ))",
+      "route_or_scope": "Các đường trong Khu tái định cư An Thuận",
+      "price_thousand_vnd_m2": 6000,
+      "source_text": "Các đường trong Khu tái định cư An Thuận 6.000",
+      "record_hash": "81bf9db6d1ced092016b73a6220526dd1de29aacb5e92afd0d873014d22f46b8"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu dân cư, tái định cư tại xã Lộc An - Bình Sơn (cũ)",
+      "route_or_scope": "Các đường: N19, N23, N39, D1, D16, D18",
+      "price_thousand_vnd_m2": 10200,
+      "source_text": "Các đường: N19, N23, N39, D1, D16, D18 10.200",
+      "record_hash": "2888733f679d0944fac50231f27bba66bc54569a3b3df30bcfabc0db593cdadb"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu dân cư, tái định cư tại xã Lộc An - Bình Sơn (cũ)",
+      "route_or_scope": "Các đường: N7, N 47, N54, D2, D10, D22",
+      "price_thousand_vnd_m2": 8400,
+      "source_text": "Các đường: N7, N 47, N54, D2, D10, D22 8.400",
+      "record_hash": "02715db69346d2abe8c50d5a24cc36dd77c458601379943e482a358fddf0736e"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Khu dân cư, tái định cư tại xã Lộc An - Bình Sơn (cũ)",
+      "route_or_scope": "Các tuyến đường còn lại",
+      "price_thousand_vnd_m2": 6700,
+      "source_text": "Các tuyến đường còn lại 6.700",
+      "record_hash": "354130f0569335648a9c98cb2f4bde96a7721869353f8347dcf53f0178ba0535"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư thị trấn Long Thành (cũ)",
+      "route_or_scope": "Đường Hoàng Minh Châu",
+      "price_thousand_vnd_m2": 7600,
+      "source_text": "Đường Hoàng Minh Châu 7.600",
+      "record_hash": "225e506c559f96b38f810598860389e8dcdaa401b607cfebc01d7aa73d1985b7"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư thị trấn Long Thành (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5300,
+      "source_text": "Các đường còn lại 5.300",
+      "record_hash": "4cb8676fb1bba66521f6b9b8b5c6a9a2406ac80b3ceadfe8d0b1ce8c472552e9"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Lâm Trường (thị trấn Long Thành (cũ))",
+      "route_or_scope": "Đường Nguyễn Đình Chiểu (từ đường Lê Duẩn đến đường Trường Chinh)",
+      "price_thousand_vnd_m2": 19500,
+      "source_text": "Đường Nguyễn Đình Chiểu (từ đường Lê Duẩn đến đường Trường Chinh) 19.500",
+      "record_hash": "a18e37909831b8c5462b01256c5032f042d6d832183ad15d592ff0957871555c"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Lâm Trường (thị trấn Long Thành (cũ))",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 13700,
+      "source_text": "Các đường còn lại 13.700",
+      "record_hash": "dbde28c0bca664d191037d118637352c4bca04ea4ebf2972e2386e057cf6da60"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm khuyến nông",
+      "route_or_scope": "Đường Lê Duẩn (đoạn từ giáp ranh xã An Phước đến đường Trần Phú)",
+      "price_thousand_vnd_m2": 23100,
+      "source_text": "Đường Lê Duẩn (đoạn từ giáp ranh xã An Phước đến đường Trần Phú) 23.100",
+      "record_hash": "6ae38785a4153801f2a607e43e3c1d8e4cdd2fa2346d815079acf8f14ae46470"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm khuyến nông",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 13500,
+      "source_text": "Các đường còn lại 13.500",
+      "record_hash": "5ea044aaf7aca3d328d34bfaca07aa64f6a0bce4550a07801c9cc7396ca166ec"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm dịch vụ Công ích",
+      "route_or_scope": "Đường Võ Văn Tần",
+      "price_thousand_vnd_m2": 14700,
+      "source_text": "Đường Võ Văn Tần 14.700",
+      "record_hash": "847005840d08a1deaa4bf2edfcb81c4687b9192ae51aaef8d0da2bf892d445ce"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm dịch vụ Công ích",
+      "route_or_scope": "Đường Nguyễn Hữu Cảnh",
+      "price_thousand_vnd_m2": 16800,
+      "source_text": "Đường Nguyễn Hữu Cảnh 16.800",
+      "record_hash": "8a80342c5664127736cb808b8200816bab8624be7c770171fbc97877171261e5"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm dịch vụ Công ích",
+      "route_or_scope": "9 Tái định cư 47ha",
+      "price_thousand_vnd_m2": 9800,
+      "source_text": "9 Tái định cư 47ha 9.800",
+      "record_hash": "6269d2408865d6d0a95677e653cb90ab9c79fab96c80928e15daff89fe98820d"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm dịch vụ Công ích",
+      "route_or_scope": "Đường Lê Duẩn (đoạn từ đường Trần Phú đến đường Lý Tự Trọng)",
+      "price_thousand_vnd_m2": 28600,
+      "source_text": "Đường Lê Duẩn (đoạn từ đường Trần Phú đến đường Lý Tự Trọng) 28.600",
+      "record_hash": "35315764e48eed5a891e9241bf5e2856192fe1c3ab81d86ba9e8ca434113b08a"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm dịch vụ Công ích",
+      "route_or_scope": "Đường Nguyễn Văn Cừ",
+      "price_thousand_vnd_m2": 15400,
+      "source_text": "Đường Nguyễn Văn Cừ 15.400",
+      "record_hash": "be3d0d03799dd29a889a0fa28b9e307fd7b5e285319221631d9a976befe05208"
+    },
+    {
+      "admin_unit": "Xã Long Thành",
+      "tdc_name": "Tái định cư Trung tâm dịch vụ Công ích",
+      "route_or_scope": "Các đường trong khu tái định cư",
+      "price_thousand_vnd_m2": 6700,
+      "source_text": "Các đường trong khu tái định cư 6.700",
+      "record_hash": "98213bce173d54320b0d444deb3e035193d69c95a1e8dc406d7ec0c041051c02"
+    },
+    {
+      "admin_unit": "Xã Bình An",
+      "tdc_name": "Khu tái định cư Long Đức",
+      "route_or_scope": "Đường liên xã Bình An - Long Thành",
+      "price_thousand_vnd_m2": 7000,
+      "source_text": "Đường liên xã Bình An - Long Thành 7.000",
+      "record_hash": "0da31d3777692b6048a981f0ad172d7bbded1467c8c0f5a50d07ac9bffa049fb"
+    },
+    {
+      "admin_unit": "Xã Bình An",
+      "tdc_name": "Khu tái định cư Long Đức",
+      "route_or_scope": "Đường QH-D9",
+      "price_thousand_vnd_m2": 5500,
+      "source_text": "Đường QH-D9 5.500",
+      "record_hash": "f55bbee1cbee737c997ace28c5bb3cb6aa99325fa4832d60c8b5c394c8978435"
+    },
+    {
+      "admin_unit": "Xã Bình An",
+      "tdc_name": "Khu tái định cư Long Đức",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4900,
+      "source_text": "Các đường còn lại 4.900",
+      "record_hash": "411d4cf9abb87c150b5e536bd110d3a0c40e6913a5a87a6b7fa94e4d95bed516"
+    },
+    {
+      "admin_unit": "Xã An Phước",
+      "tdc_name": "Khu tái định cư An Phước (Xuân An)",
+      "route_or_scope": "Các đường trong Khu tái định cư An Phước (Xuân An)",
+      "price_thousand_vnd_m2": 6900,
+      "source_text": "Các đường trong Khu tái định cư An Phước (Xuân An) 6.900",
+      "record_hash": "36cb6aa82517e356944a6a8016270007060e727583a1a9d1b24c51515690a8c9"
+    },
+    {
+      "admin_unit": "Xã An Phước",
+      "tdc_name": "Khu tái định cư Tam An",
+      "route_or_scope": "Các đường trong Khu tái định cư Tam An",
+      "price_thousand_vnd_m2": 3200,
+      "source_text": "Các đường trong Khu tái định cư Tam An 3.200",
+      "record_hash": "eadd6bb47717378dd8213824cb11e18ed54200c484f89b9da313ed629f8fb996"
+    },
+    {
+      "admin_unit": "Xã Long Phước",
+      "tdc_name": "",
+      "route_or_scope": "Các đường trong Khu tái định cư Long Phước",
+      "price_thousand_vnd_m2": 5200,
+      "source_text": "Các đường trong Khu tái định cư Long Phước 5.200",
+      "record_hash": "c75a3e7c5c64e9f1e4bf817d41606c55a745d40201ae7e5192ecc95288c2fb0f"
+    },
+    {
+      "admin_unit": "Xã Phước Thái",
+      "tdc_name": "Khu tái định cư Phước Bình Đường vào UBND xã Phước Bình (cũ) (Đoạn từ Quốc lộ 51 đến hết khu làng dân tộc Chơro (bên phải hết ranh thửa đất số 26, tờ BĐĐC số 190; bên trái hết ranh thửa đất số 4, tờ BĐĐC số 190, xã Phước Thái)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Các đường còn lại 5.000",
+      "record_hash": "87fb2f46be4272fdb23eec087ef9e2a088dc00a3ed9d295e40a01e3e67f42715"
+    },
+    {
+      "admin_unit": "Xã Phước Thái",
+      "tdc_name": "Khu tái định cư Tân Hiệp Đường vào UBND xã Phước Bình (cũ) (Đoạn từ Quốc lộ 51 đến hết khu làng dân tộc Chơro (bên phải hết ranh thửa đất số 26, tờ BĐĐC số 190; bên trái hết ranh thửa đất số 4, tờ BĐĐC số 190, xã Phước Thái)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Các đường còn lại 5.000",
+      "record_hash": "4801392da45802095355010c04df2bd843652b3fa9aef92a9026df667679e684"
+    },
+    {
+      "admin_unit": "Xã Phước Thái",
+      "tdc_name": "Khu tái định cư Tân Hiệp mở rộng Đường vào UBND xã Phước Bình (cũ) (Đoạn từ Quốc lộ 51 đến hết khu làng dân tộc Chơro (bên phải hết ranh thửa đất số 26, tờ BĐĐC số 190; bên trái hết ranh thửa đất số 4, tờ BĐĐC số 190, xã Phước Thái)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Các đường còn lại 5.000",
+      "record_hash": "97554c491c791aae4e319049d449ab8822efdc71a8692745dd5d68867cd68996"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phú Hội",
+      "route_or_scope": "Đường Cây Dầu (từ đường Nguyễn Hữu Cảnh đến đường Lý Thái Tổ)",
+      "price_thousand_vnd_m2": 5400,
+      "source_text": "Đường Cây Dầu (từ đường Nguyễn Hữu Cảnh đến đường Lý Thái Tổ) 5.400",
+      "record_hash": "4c0efac9efb6798cd4774a8ec4d70cafb9fdd0920cdf92f8c5b3903afb49ddd1"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phú Hội",
+      "route_or_scope": "Đường Lý Thái Tổ (Đường tỉnh 769 cũ) (Đoạn từ đường vào đình Phú Mỹ",
+      "price_thousand_vnd_m2": 2,
+      "source_text": "Đường Lý Thái Tổ (Đường tỉnh 769 cũ) (Đoạn từ đường vào đình Phú Mỹ 2",
+      "record_hash": "a63152cd4bab12bbbfbc043ddee8d62c2009ec3585e18faa520f78d58cf06ca1"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phú Hội",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4700,
+      "source_text": "Các đường còn lại 4.700",
+      "record_hash": "898ee28495d39975ce4bae20985a7ed5efbc334500e47a07878749ec53e3e354"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4900,
+      "source_text": "Các đường còn lại 4.900",
+      "record_hash": "397e1aa7514dce60b4fd7bee5e11eed886cba10cbb366d6021080c65355a6de0"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "3 Khu tái định cư Hiệp Phước",
+      "price_thousand_vnd_m2": 3,
+      "source_text": "3 Khu tái định cư Hiệp Phước 3",
+      "record_hash": "d299de394246f2ee2caa79e6ae3cd14f18f4d5740077f05a1a8b054a550f085f"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 6300,
+      "source_text": "Các đường còn lại 6.300",
+      "record_hash": "32e0864b45edaf42f7fd36e362c3b3bb461507d722f135c5b78604bf4443cfff"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "4 Khu dân cư, tái định cư Hiệp Phước",
+      "price_thousand_vnd_m2": 2,
+      "source_text": "4 Khu dân cư, tái định cư Hiệp Phước 2",
+      "record_hash": "7bfe99c2e54c4749018267bd54efeae0767b7e6efc2b6b5d77a873f73726c23e"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 6300,
+      "source_text": "Các đường còn lại 6.300",
+      "record_hash": "32e0864b45edaf42f7fd36e362c3b3bb461507d722f135c5b78604bf4443cfff"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "5 Khu tái định cư Hiệp Phước",
+      "price_thousand_vnd_m2": 1,
+      "source_text": "5 Khu tái định cư Hiệp Phước 1",
+      "record_hash": "bd304f57db5ead4f91f60b4096e729fde0f6703cc3d1e1358509a12211f5bd83"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "Đường Tôn Đức Thắng (Giáp ranh xã Nhơn Trạch đến đường Trần Phú)",
+      "price_thousand_vnd_m2": 14600,
+      "source_text": "Đường Tôn Đức Thắng (Giáp ranh xã Nhơn Trạch đến đường Trần Phú) 14.600",
+      "record_hash": "21c070aec1c3dc08d79bb4fa3387c97cc36f66bfb78ce29dfd5178c67b8aca01"
+    },
+    {
+      "admin_unit": "Xã Nhơn Trạch",
+      "tdc_name": "Khu tái định cư Phước Thiền Đường vào khu tái định cư Phước Thiền (xã Phước Thiền (cũ)), từ đường 7.000 Lý Thái Tổ đến hết khu Tái định cư Phước Thiền",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 10200,
+      "source_text": "Các đường còn lại 10.200",
+      "record_hash": "a9745e0e9e312cc34c6f46fa97490808805ea30ad82387d9d4e8d9a7ec81c648"
+    },
+    {
+      "admin_unit": "Xã Đại Phước",
+      "tdc_name": "Khu dân cư, tái định cư Đại Lộc 1 và 2 (xã Đại Phước)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 9500,
+      "source_text": "Các đường còn lại 9.500",
+      "record_hash": "ab5c750cd9b50069efec6c9a4a3b652095cf7e66f74cc3efff6e290442d26cbd"
+    },
+    {
+      "admin_unit": "Xã Đại Phước",
+      "tdc_name": "Khu tái định cư Phước Khánh Đường vào khu tái định cư Phước Khánh (từ đường Phạm Thái Bường đến 5.700 hết khu tái định cư Phước Khánh)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4500,
+      "source_text": "Các đường còn lại 4.500",
+      "record_hash": "f8440d77d1e29fc05a1b4b84bcf9f35127f0079636ddf95ef88dae467f3f46a2"
+    },
+    {
+      "admin_unit": "Xã Đại Phước",
+      "tdc_name": "Khu tái định cư Phước Khánh Đường vào khu tái định cư Phước Khánh (từ đường Phạm Thái Bường đến 5.700 hết khu tái định cư Phước Khánh)",
+      "route_or_scope": "Các đường của Khu tái định cư Phú Đông",
+      "price_thousand_vnd_m2": 4000,
+      "source_text": "Các đường của Khu tái định cư Phú Đông 4.000",
+      "record_hash": "bf265918cc82d0443818ad1528335e6e43b90e0ee1ebf3ef486e091ee8314c75"
+    },
+    {
+      "admin_unit": "Xã Phước An",
+      "tdc_name": "",
+      "route_or_scope": "Đường Nguyễn Văn Cừ",
+      "price_thousand_vnd_m2": 8500,
+      "source_text": "Đường Nguyễn Văn Cừ 8.500",
+      "record_hash": "1496cead4e5f87d48c52a77cb8bfc869b344a47a17c92ca2e8effdeb6e91dfc9"
+    },
+    {
+      "admin_unit": "Xã Phước An",
+      "tdc_name": "",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4500,
+      "source_text": "Các đường còn lại 4.500",
+      "record_hash": "fbafbfdef98d19c703548c6dec9c1372f08e930b51200dfb469ff708b9005e88"
+    },
+    {
+      "admin_unit": "Xã Phước An",
+      "tdc_name": "Khu dân cư, tái định cư Phước An 3 (Ban Quản lý dự án làm chủ đầu tư)",
+      "route_or_scope": "Đường Nguyễn Văn Cừ",
+      "price_thousand_vnd_m2": 8500,
+      "source_text": "Đường Nguyễn Văn Cừ 8.500",
+      "record_hash": "5c7f412e575ebf60d613025b6ebf4e1fe29536d263e17743feab1ab71cea53f5"
+    },
+    {
+      "admin_unit": "Xã Phước An",
+      "tdc_name": "Khu dân cư, tái định cư Phước An 3 (Ban Quản lý dự án làm chủ đầu tư)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4500,
+      "source_text": "Các đường còn lại 4.500",
+      "record_hash": "22c7cf1575278a4b454a8def805bde43a2074c2d292b48d2b6a463f0f39f13ff"
+    },
+    {
+      "admin_unit": "Xã Phước An",
+      "tdc_name": "Khu tái định cư Long Thọ Đường Hùng Vương (Hương lộ 19 cũ) (Đoạn từ ranh giới xã Nhơn Trạch 9.800 đến cửa hàng xăng dầu An Phú)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 6800,
+      "source_text": "Các đường còn lại 6.800",
+      "record_hash": "36dafcbb751c65e0cd13c358541eb934447b543c7673fe65944e12848ce252ba"
+    },
+    {
+      "admin_unit": "Xã Phước An",
+      "tdc_name": "Khu tái định cư Long Thọ Đường Hùng Vương (Hương lộ 19 cũ) (Đoạn từ ranh giới xã Nhơn Trạch 9.800 đến cửa hàng xăng dầu An Phú)",
+      "route_or_scope": "4 Khu tái định cư Phước An",
+      "price_thousand_vnd_m2": 1,
+      "source_text": "4 Khu tái định cư Phước An 1",
+      "record_hash": "52520be08e9faaed11c5b3f39aacd77cd379c1ffeb9ff3899e5dbeb12d8e467e"
+    },
+    {
+      "admin_unit": "Xã Phước An",
+      "tdc_name": "Khu tái định cư Long Thọ Đường Hùng Vương (Hương lộ 19 cũ) (Đoạn từ ranh giới xã Nhơn Trạch 9.800 đến cửa hàng xăng dầu An Phú)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 6300,
+      "source_text": "Các đường còn lại 6.300",
+      "record_hash": "31d594ca70f45e19c3c6942d364ebc8f752ffcf36915c65aaa0c684e90cd826e"
+    },
+    {
+      "admin_unit": "Phường Bảo Vinh",
+      "tdc_name": "Khu tái định cư phường Bảo Vinh",
+      "route_or_scope": "Đường Trần Nhân Tông (Bảo Vinh B - Suối Chồn)",
+      "price_thousand_vnd_m2": 2600,
+      "source_text": "Đường Trần Nhân Tông (Bảo Vinh B - Suối Chồn) 2.600",
+      "record_hash": "7623f67225b605b95f0c8ebecd3ff347e463cd7974fb78c321390fc29078b570"
+    },
+    {
+      "admin_unit": "Phường Bảo Vinh",
+      "tdc_name": "Khu tái định cư phường Bảo Vinh",
+      "route_or_scope": "Đường Nguyễn Trung Trực",
+      "price_thousand_vnd_m2": 3700,
+      "source_text": "Đường Nguyễn Trung Trực 3.700",
+      "record_hash": "6b1542713d49d180af9b96a16501263ddf6218ac83872e9733e1e25ef2bd06cc"
+    },
+    {
+      "admin_unit": "Phường Bảo Vinh",
+      "tdc_name": "Khu tái định cư phường Bảo Vinh",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 2100,
+      "source_text": "Các đường còn lại 2.100",
+      "record_hash": "ceb9d46da97d6361b5b8d076e5b791ffa023c427cdc0678dd2a7570766680b41"
+    },
+    {
+      "admin_unit": "Phường Hàng Gòn",
+      "tdc_name": "Khu tái định cư phường Xuân Tân (cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư phường Xuân Tân (cũ)",
+      "price_thousand_vnd_m2": 1200,
+      "source_text": "Các đường trong Khu tái định cư phường Xuân Tân (cũ) 1.200",
+      "record_hash": "3541050706b5da985c1fcffaeb60582abe3f5dd2804dd0ab259211739217e368"
+    },
+    {
+      "admin_unit": "Xã Xuân Lộc",
+      "tdc_name": "",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 2300,
+      "source_text": "Các đường còn lại 2.300",
+      "record_hash": "8ae5123bb5967803efa721805d2cceae9a8b81cc33a4ffce3b7350259dcc2525"
+    },
+    {
+      "admin_unit": "Xã Xuân Lộc",
+      "tdc_name": "Khu tái định cư thị trấn Gia Ray (cũ)",
+      "route_or_scope": "Đường Phan Văn Trị (Từ Đường Hùng Vương đến Đường 21 tháng 3)",
+      "price_thousand_vnd_m2": 3000,
+      "source_text": "Đường Phan Văn Trị (Từ Đường Hùng Vương đến Đường 21 tháng 3) 3.000",
+      "record_hash": "96c29bed94e20077e848565ea963ecbc9b4ab74034e1f80d3bb1fc41f4158bea"
+    },
+    {
+      "admin_unit": "Xã Xuân Lộc",
+      "tdc_name": "Khu tái định cư thị trấn Gia Ray (cũ)",
+      "route_or_scope": "Đường số 4",
+      "price_thousand_vnd_m2": 2300,
+      "source_text": "Đường số 4 2.300",
+      "record_hash": "34d4b8f42390764a9d46e502264f26d419aa234ac183d95f98953a5d45a2fb90"
+    },
+    {
+      "admin_unit": "Xã Xuân Lộc",
+      "tdc_name": "Khu tái định cư thị trấn Gia Ray (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 2200,
+      "source_text": "Các đường còn lại 2.200",
+      "record_hash": "a3181b936b1309f6c8646a0f999f00462ae693fc3d1190a05a1d3577bf077e0c"
+    },
+    {
+      "admin_unit": "Xã Xuân Lộc",
+      "tdc_name": "Khu tái định cư xã Xuân Hiệp (cũ) Đường Tam Hiệp - Tân Tiến (từ Quốc lộ 1 đến hết ranh thửa đất số 426, tờ BĐĐC số 292 về bên phải và hết ranh thửa đất số 68, tờ BĐĐC số 292 về bên trái, xã Xuân Lộc) Đường vào Trạm y tế (xã Xuân Hiệp (cũ)), từ Quốc lộ 1 đến ranh hồ Gia 1.400 Măng",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 990,
+      "source_text": "Các đường còn lại 990",
+      "record_hash": "e5d6f9cd7b8acb35fa406e2857c4ffbadbee407d99d700a64476fe9d015ced23"
+    },
+    {
+      "admin_unit": "Xã Xuân Bắc",
+      "tdc_name": "Khu tái định cư ấp 2, xã Suối Nho (cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư ấp 2, xã Suối Nho (cũ)",
+      "price_thousand_vnd_m2": 2200,
+      "source_text": "Các đường trong Khu tái định cư ấp 2, xã Suối Nho (cũ) 2.200",
+      "record_hash": "a3cb8a7a993b06317709d584be7c9897723bd678642afb59920b4083f98beb42"
+    },
+    {
+      "admin_unit": "Xã Cẩm Mỹ",
+      "tdc_name": "Khu dân cư và tái định cư xã Nhân Nghĩa (cũ)",
+      "route_or_scope": "Các đường trong Khu dân cư và tái định cư xã Nhân Nghĩa (cũ)",
+      "price_thousand_vnd_m2": 2500,
+      "source_text": "Các đường trong Khu dân cư và tái định cư xã Nhân Nghĩa (cũ) 2.500",
+      "record_hash": "6d6a222880cdd0ec5d5e8e31bd2333b4043fdb1ff9a4a8f8428da5198f6ad574"
+    },
+    {
+      "admin_unit": "Xã Xuân Quế",
+      "tdc_name": "Khu dân cư có bố trí tái định cư Xuân Quế Đường Nhân Nghĩa - Sông Nhạn (đoạn từ đầu khu tái định cư xã Xuân Quế 2.100 đến đường cầu Đỏ - Suối Sâu)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "Các đường còn lại 1.500",
+      "record_hash": "3f5f069ae252c2c374b43730294554f66f5ec45367d310e072b15bb66e2379fb"
+    },
+    {
+      "admin_unit": "Xã Sông Ray",
+      "tdc_name": "Khu tái định cư tại xã Lâm San (cũ)",
+      "route_or_scope": "Các đường trong khu tái định cư tại xã Lâm San (cũ)",
+      "price_thousand_vnd_m2": 1600,
+      "source_text": "Các đường trong khu tái định cư tại xã Lâm San (cũ) 1.600",
+      "record_hash": "8e20d1d238da6ab99489bddb7514d56cb0d9a448f7fc9d5d4d5def7cade84356"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư và tái định cư 5,3 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền)",
+      "route_or_scope": "Đường Hai Bà Trưng (từ đường Ngô Quyền đến đường An Dương Vương)",
+      "price_thousand_vnd_m2": 8400,
+      "source_text": "Đường Hai Bà Trưng (từ đường Ngô Quyền đến đường An Dương Vương) 8.400",
+      "record_hash": "22a1db31c3d991d76cf7eea5f4badbaedc2064e5d26b7b6da068f1d6d4aae8a8"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư và tái định cư 5,3 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền)",
+      "route_or_scope": "Đường Lý Thái Tổ",
+      "price_thousand_vnd_m2": 9100,
+      "source_text": "Đường Lý Thái Tổ 9.100",
+      "record_hash": "31739a06457691793814ee5242391089b92fb921ed5bdd04a9a00bcfbd47cbaa"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư và tái định cư 5,3 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền)",
+      "route_or_scope": "Đường Lý Nam Đế",
+      "price_thousand_vnd_m2": 9100,
+      "source_text": "Đường Lý Nam Đế 9.100",
+      "record_hash": "f3bc5a060ee7e6ab5243468189cb6b9ac6325120b23eff87a13e36afd1a27fcf"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư và tái định cư 5,3 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền)",
+      "route_or_scope": "Đường 30 tháng 4 từ Quốc lộ 1 đến đường An Dương Vương",
+      "price_thousand_vnd_m2": 15300,
+      "source_text": "Đường 30 tháng 4 từ Quốc lộ 1 đến đường An Dương Vương 15.300",
+      "record_hash": "42b2decd0ffcff53e72ab7e835bbba8bf6940475a0ba2c6f1c4e5465a074cd1d"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư và tái định cư 5,3 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Các đường còn lại 5.000",
+      "record_hash": "042bf0333171315e1dfb7a142a9251d99967e792921901df0a2f3d248f721237"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư 4,7 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền) Đường Đinh Tiên Hoàng (Đoạn từ đường Hùng Vương đến đường An 9.800 Dương Vương (hết khu dân cư 4,7 ha)) Đường Hùng Vương (Đoạn từ đường Nguyễn Hoàng đến đường Ngô 15.300 Quyền)",
+      "route_or_scope": "Đường Lê Đại Hành (Đoạn từ đường Nguyễn Huệ đến đường Lý Nam Đế)",
+      "price_thousand_vnd_m2": 9100,
+      "source_text": "Đường Lê Đại Hành (Đoạn từ đường Nguyễn Huệ đến đường Lý Nam Đế) 9.100",
+      "record_hash": "ebe1fb03fb35671134769118edaee858328ace6100748f0032f85e665b1cd2db"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư 4,7 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền) Đường Đinh Tiên Hoàng (Đoạn từ đường Hùng Vương đến đường An 9.800 Dương Vương (hết khu dân cư 4,7 ha)) Đường Hùng Vương (Đoạn từ đường Nguyễn Hoàng đến đường Ngô 15.300 Quyền)",
+      "route_or_scope": "Đường Lý Nam Đế",
+      "price_thousand_vnd_m2": 9100,
+      "source_text": "Đường Lý Nam Đế 9.100",
+      "record_hash": "574f2202de3ac5090d6d44f527686fee537b661165d1afb9a2acf789c4f633d4"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư 4,7 ha thị trấn Trảng Bom (cũ) Đường An Dương Vương (từ đường Đinh Tiên Hoàng đến đường Ngô 9.800 Quyền) Đường Đinh Tiên Hoàng (Đoạn từ đường Hùng Vương đến đường An 9.800 Dương Vương (hết khu dân cư 4,7 ha)) Đường Hùng Vương (Đoạn từ đường Nguyễn Hoàng đến đường Ngô 15.300 Quyền)",
+      "route_or_scope": "562, tờ BĐĐC số 15 về bên phải và hết ranh thửa đất số 352, tờ BĐĐC số",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "562, tờ BĐĐC số 15 về bên phải và hết ranh thửa đất số 352, tờ BĐĐC số 5.000",
+      "record_hash": "064f78066bd529612c7019db4c16190b655f6168e0a4b6ea21a337d44db91caa"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "về bên trái, thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4500,
+      "source_text": "Các đường còn lại 4.500",
+      "record_hash": "581368511cb67b5707dfdc3074f6e8a700803fc2e85005ba8445c9aa1be45d14"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư phục vụ đường Nguyễn Hữu Cảnh (thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Quốc lộ 1 (trừ những đoạn đã có đường song hành)",
+      "price_thousand_vnd_m2": 13900,
+      "source_text": "Quốc lộ 1 (trừ những đoạn đã có đường song hành) 13.900",
+      "record_hash": "5d4237b90714aed19b23edac35dcc6cc695bf5dec7206be86e6adab452c60214"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư phục vụ đường Nguyễn Hữu Cảnh (thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Đường Trương Định (từ đường Lê Quý Đôn đến đường Nguyễn Huệ)",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Đường Trương Định (từ đường Lê Quý Đôn đến đường Nguyễn Huệ) 5.000",
+      "record_hash": "17daf047eec32cb2bcc8324d02c3101cfcb91edcb0de69fa9c6594730ea7585b"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư phục vụ đường Nguyễn Hữu Cảnh (thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Đường Trương Định (từ đường Lê Quý Đôn đến Quốc lộ 1)",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Đường Trương Định (từ đường Lê Quý Đôn đến Quốc lộ 1) 5.000",
+      "record_hash": "f02ab4e64d2af85855933d9beeaa911904ec94c6681a7e9140b8a6f771df35ba"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư phục vụ đường Nguyễn Hữu Cảnh (thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Đường Nội bộ Khu tái định cư phục vụ đường Nguyễn Hữu Cảnh",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Đường Nội bộ Khu tái định cư phục vụ đường Nguyễn Hữu Cảnh 5.000",
+      "record_hash": "450e3c69154eacef3e2fe9da8c3a5b37ccb549236ea8097799643fab63336a22"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư phục vụ đường Nguyễn Hữu Cảnh (thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Đường Nguyễn Huệ (đoạn từ đường Nguyễn Tri Phương đến Quốc lộ 1)",
+      "price_thousand_vnd_m2": 11100,
+      "source_text": "Đường Nguyễn Huệ (đoạn từ đường Nguyễn Tri Phương đến Quốc lộ 1) 11.100",
+      "record_hash": "c6fe0b5844ded2c30119200f52b033470680fcea45e6f062d5a2dca9e484ec8a"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư số 1 (thị trấn Trảng Bom (cũ)) Đường Nguyễn Hữu Cảnh (Đoạn từ trụ sở Hội người mù đến đường 15.300 Nguyễn Huệ)",
+      "route_or_scope": "Đường Nguyễn Văn Linh",
+      "price_thousand_vnd_m2": 11800,
+      "source_text": "Đường Nguyễn Văn Linh 11.800",
+      "record_hash": "dae2c2477b4375ec036c334cfe4334bc426b1d12522a31f214140e2ab875067f"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư số 1 (thị trấn Trảng Bom (cũ)) Đường Nguyễn Hữu Cảnh (Đoạn từ trụ sở Hội người mù đến đường 15.300 Nguyễn Huệ)",
+      "route_or_scope": "Đường Lê Quý Đôn",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Đường Lê Quý Đôn 5.000",
+      "record_hash": "3ff644f060e894eb24ca52784733faf5ce371b494072ef0a86d713449bc1b48e"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư số 1 (thị trấn Trảng Bom (cũ)) Đường Nguyễn Hữu Cảnh (Đoạn từ trụ sở Hội người mù đến đường 15.300 Nguyễn Huệ)",
+      "route_or_scope": "Đường Trương Định (từ đường Lê Quý Đôn đến đường Nguyễn Huệ)",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Đường Trương Định (từ đường Lê Quý Đôn đến đường Nguyễn Huệ) 5.000",
+      "record_hash": "0521e64d5d18f40e139757b7db09439612bb1ff16648fcc58da74c007b9b67f3"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu dân cư số 1 (thị trấn Trảng Bom (cũ)) Đường Nguyễn Hữu Cảnh (Đoạn từ trụ sở Hội người mù đến đường 15.300 Nguyễn Huệ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 4500,
+      "source_text": "Các đường còn lại 4.500",
+      "record_hash": "dd89351d0af17ffc207bc0bc5bd08e02737938a0fee52011dcf7c15ba8249ec6"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư Lò Gạch (thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Đường Ngô Quyền",
+      "price_thousand_vnd_m2": 10400,
+      "source_text": "Đường Ngô Quyền 10.400",
+      "record_hash": "d44243a2a2d9b3377f57b7fd5cd6465731651df4563a2f918ddb441394dd0daa"
+    },
+    {
+      "admin_unit": "Xã Trảng Bom",
+      "tdc_name": "Khu tái định cư Lò Gạch (thị trấn Trảng Bom (cũ))",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5300,
+      "source_text": "Các đường còn lại 5.300",
+      "record_hash": "095ca053edec577f74b0d1c7ecf787f50cef24d01fee7854640c3bb988f4db1a"
+    },
+    {
+      "admin_unit": "Xã Bình Minh",
+      "tdc_name": "",
+      "route_or_scope": "định cư Bình Minh), từ thửa đất số 456, tờ BĐĐC số 29, xã Bình Minh đến",
+      "price_thousand_vnd_m2": 7500,
+      "source_text": "định cư Bình Minh), từ thửa đất số 456, tờ BĐĐC số 29, xã Bình Minh đến 7.500",
+      "record_hash": "e5bfe6bf1a99f0b9ceff8856c5c773d8dfdd50a01d5223dc12205bef8be8293d"
+    },
+    {
+      "admin_unit": "Xã Bình Minh",
+      "tdc_name": "",
+      "route_or_scope": "Đường trục chính khu tái định cư Bình Minh",
+      "price_thousand_vnd_m2": 5600,
+      "source_text": "Đường trục chính khu tái định cư Bình Minh 5.600",
+      "record_hash": "db7456f6ccadea5587896264624140b2103558e268fe2ab7a3baaa5e65f61740"
+    },
+    {
+      "admin_unit": "Xã Bình Minh",
+      "tdc_name": "",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 5300,
+      "source_text": "Các đường còn lại 5.300",
+      "record_hash": "24c5d70f875956aff64607cb6814bc5dbf6d1a5b11a07b9103b26ef586c49e72"
+    },
+    {
+      "admin_unit": "Xã Bình Minh",
+      "tdc_name": "Khu tái định cư Hố Nai",
+      "route_or_scope": "Các đường trong Khu tái định cư Hố Nai",
+      "price_thousand_vnd_m2": 2500,
+      "source_text": "Các đường trong Khu tái định cư Hố Nai 2.500",
+      "record_hash": "efda08932c4f02b18433e5b3bd8c0dd8dd89deed357cee1659c4ad4261028358"
+    },
+    {
+      "admin_unit": "Xã Bình Minh",
+      "tdc_name": "Khu tái định cư 2,5 và 3,5 ha Bắc Sơn",
+      "route_or_scope": "Đường tỉnh 767 (Đoạn từ ngã 3 Hươu Nai đến Trường Tiểu học Sông Mây)",
+      "price_thousand_vnd_m2": 10900,
+      "source_text": "Đường tỉnh 767 (Đoạn từ ngã 3 Hươu Nai đến Trường Tiểu học Sông Mây) 10.900",
+      "record_hash": "2af9a17c4137f4798f00850f358b0bd99b2cc14101a3ff845e43fb9f3a6a2749"
+    },
+    {
+      "admin_unit": "Xã Bình Minh",
+      "tdc_name": "Khu tái định cư 2,5 và 3,5 ha Bắc Sơn",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 7700,
+      "source_text": "Các đường còn lại 7.700",
+      "record_hash": "6680531c891bf0508ba51dfb2ff0ff4ba8cde7fc1b4654014ac568786b7b1e47"
+    },
+    {
+      "admin_unit": "Xã Hưng Thịnh",
+      "tdc_name": "Khu dân cư Tây Hòa Đường liên xã Hưng Thịnh - Trảng Bom (từ Quốc lộ 1 đi qua khu tái định cư 4.200 ấp An Hoà đến Cầu 1 tấn)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 2100,
+      "source_text": "Các đường còn lại 2.100",
+      "record_hash": "8a18c3ff0c0c7de0f9476c499e65c8197dac7e1078a9d4bb7b2ddc50f8cbdd8d"
+    },
+    {
+      "admin_unit": "Xã Dầu Giây",
+      "tdc_name": "Khu tái định cư Bàu Hàm 2 (thị trấn Dầu Giây (cũ))",
+      "route_or_scope": "Các đường trong Khu tái định cư Bàu Hàm 2",
+      "price_thousand_vnd_m2": 2800,
+      "source_text": "Các đường trong Khu tái định cư Bàu Hàm 2 2.800",
+      "record_hash": "e83f77dd214ef0ddde999d8ee3f56c7a388bb8b7426742807de69a47dc33b387"
+    },
+    {
+      "admin_unit": "Xã Dầu Giây",
+      "tdc_name": "Khu dân cư Xóm Hố (các xã Hưng lộc, Bàu Hàm 2 (cũ))",
+      "route_or_scope": "Các đường trong Khu dân cư Xóm Hố",
+      "price_thousand_vnd_m2": 4700,
+      "source_text": "Các đường trong Khu dân cư Xóm Hố 4.700",
+      "record_hash": "59b6dc9683a3050387e3687a500e16ebb51fdcaa2648c89f664b7d92ffb175d1"
+    },
+    {
+      "admin_unit": "Xã Dầu Giây",
+      "tdc_name": "Khu tái định cư Thị Trấn Dầu Giây (cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư Thị Trấn Dầu Giây (cũ)",
+      "price_thousand_vnd_m2": 4700,
+      "source_text": "Các đường trong Khu tái định cư Thị Trấn Dầu Giây (cũ) 4.700",
+      "record_hash": "cf394d0a8ac0c5aed18ca7692db1306aa3ad127d59ce63556905cef0f2b903ca"
+    },
+    {
+      "admin_unit": "Xã Dầu Giây",
+      "tdc_name": "Khu tái định cư giai đoạn 2 xã Hưng Lộc (cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư giai đoạn 2 xã Hưng Lộc (cũ)",
+      "price_thousand_vnd_m2": 2800,
+      "source_text": "Các đường trong Khu tái định cư giai đoạn 2 xã Hưng Lộc (cũ) 2.800",
+      "record_hash": "b475af72d5d96bad7a6193fda1dad9224fcee50e8bea1687d1cd2ab68cdacb93"
+    },
+    {
+      "admin_unit": "Xã Dầu Giây",
+      "tdc_name": "Khu dân cư phục vụ tái định cư xã Hưng Lộc (cũ)",
+      "route_or_scope": "Các đường trong Khu dân cư phục vụ tái định cư xã Hưng Lộc (cũ)",
+      "price_thousand_vnd_m2": 2800,
+      "source_text": "Các đường trong Khu dân cư phục vụ tái định cư xã Hưng Lộc (cũ) 2.800",
+      "record_hash": "45686997dc6665aacee698df2e57068e1b7cfec41d289d33816080954d09b4a4"
+    },
+    {
+      "admin_unit": "Xã Thống Nhất",
+      "tdc_name": "Khu tái định cư xã Phú Túc (cũ)",
+      "route_or_scope": "Các đường trong Khu tái định cư xã Phú Túc (cũ)",
+      "price_thousand_vnd_m2": 3200,
+      "source_text": "Các đường trong Khu tái định cư xã Phú Túc (cũ) 3.200",
+      "record_hash": "9af1834db4e618d1a50047f1c3e0b1e8d8ce4460da920d07e3beb0e0b868affa"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu Tái định cư Đồi Nancy (thị trấn Định Quán (cũ))",
+      "route_or_scope": "Các đường trong Khu Tái định cư Đồi Nancy",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "Các đường trong Khu Tái định cư Đồi Nancy 1.000",
+      "record_hash": "280af99d2f99ab6df2d5349649d1a14bfb85940994640c646d0cdc820d41746c"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư - Đường Lý Thái Tổ (thị trấn Định Quán (cũ))",
+      "route_or_scope": "Các đường trong Khu tái định cư - Đường Lý Thái Tổ",
+      "price_thousand_vnd_m2": 630,
+      "source_text": "Các đường trong Khu tái định cư - Đường Lý Thái Tổ 630",
+      "record_hash": "7ac378f0d62dab757a37ed0e1f8fa246663fe273a157a496cc1bc4fd0d995bb5"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư Lò Gạch (thị trấn Định Quán (cũ))",
+      "route_or_scope": "Các đường trong Khu tái định cư Lò Gạch",
+      "price_thousand_vnd_m2": 540,
+      "source_text": "Các đường trong Khu tái định cư Lò Gạch 540",
+      "record_hash": "1c9bb92d229c91ae8a0dafdda1a54a586726152e8f12f2b023eae8cde4e878df"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu dân cư bệnh viện cũ (thị trấn Định Quán (cũ))",
+      "route_or_scope": "Đường Trịnh Hoài Đức, từ đường 17/3 đến đường Gia Canh",
+      "price_thousand_vnd_m2": 1600,
+      "source_text": "Đường Trịnh Hoài Đức, từ đường 17/3 đến đường Gia Canh 1.600",
+      "record_hash": "109071646c615db34f8c8d07d5414c4a11944104b5491af68761384df3b0ac25"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu dân cư bệnh viện cũ (thị trấn Định Quán (cũ))",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1100,
+      "source_text": "Các đường còn lại 1.100",
+      "record_hash": "0dfe182d6f85e7acbff406ae19fbfbdacd131263fdbc0bb1e55773cbc98a4e4c"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "- Đoạn từ đường Nguyễn Ái Quốc đến đường Trần Hưng Đạo",
+      "price_thousand_vnd_m2": 4400,
+      "source_text": "- Đoạn từ đường Nguyễn Ái Quốc đến đường Trần Hưng Đạo 4.400",
+      "record_hash": "e4bc355e5e4bbbab9464ae30310bd3998373acda45b85faf92057b28e78ae07b"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "- Đoạn từ đường Trần Hưng Đạo đến đường Cách Mạng Tháng 8",
+      "price_thousand_vnd_m2": 2800,
+      "source_text": "- Đoạn từ đường Trần Hưng Đạo đến đường Cách Mạng Tháng 8 2.800",
+      "record_hash": "39918a32b33197406d83f2c3838b72fc6e352cf1d73d5ec977cae5a4ca3ee580"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "- Đoạn từ đường Nguyễn Văn Linh đến đường Ngô Quyền",
+      "price_thousand_vnd_m2": 3600,
+      "source_text": "- Đoạn từ đường Nguyễn Văn Linh đến đường Ngô Quyền 3.600",
+      "record_hash": "1d3d199c20ed1d27857eee12077c080e214b3ca35ebd64885326c98b92dc29dc"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "- Đoạn từ đường Ngô Quyền đến đường Cách Mạng Tháng 8",
+      "price_thousand_vnd_m2": 3500,
+      "source_text": "- Đoạn từ đường Ngô Quyền đến đường Cách Mạng Tháng 8 3.500",
+      "record_hash": "6560d0b20dddee42dbd75321ef459953a56b22905c225d57c74626efd793a9af"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "Đường 3 Tháng",
+      "price_thousand_vnd_m2": 2,
+      "source_text": "Đường 3 Tháng 2",
+      "record_hash": "c2dc198d00f38faa9614dcb5803f0e8e6eda79c3e0c777d2a41c7eb7a879bbc9"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "- Đoạn từ đường Nguyễn Văn Linh đến đường Ngô Quyền",
+      "price_thousand_vnd_m2": 4000,
+      "source_text": "- Đoạn từ đường Nguyễn Văn Linh đến đường Ngô Quyền 4.000",
+      "record_hash": "e616f7c58923622d74f1cf2c2e119e7744e73e2b572ec827d9757461aeb50356"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "- Đường Chu Văn An",
+      "price_thousand_vnd_m2": 2600,
+      "source_text": "- Đường Chu Văn An 2.600",
+      "record_hash": "5ebe7be39f13743172707bbad4c30f9341ddfca79734ae956b142bc836296cb7"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "Đường Lương Thế Vinh",
+      "price_thousand_vnd_m2": 2200,
+      "source_text": "Đường Lương Thế Vinh 2.200",
+      "record_hash": "40a4f054ce9eec4e7f42f9991a633439031b791b7c7252109d8fe43d25591ffc"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "Đường Ngô Thời Nhiệm",
+      "price_thousand_vnd_m2": 2200,
+      "source_text": "Đường Ngô Thời Nhiệm 2.200",
+      "record_hash": "784d4b2cd1236c2af59bc7d60fcc5df53db2f8de3d12e55a7e4dd8e44f1b6e44"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "Đường Mạc Đĩnh Chi",
+      "price_thousand_vnd_m2": 2200,
+      "source_text": "Đường Mạc Đĩnh Chi 2.200",
+      "record_hash": "533be99f603d347e2b630b4831841e4ebc5f95ae160269ce575da08d4682692d"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "Đường Nguyễn Du",
+      "price_thousand_vnd_m2": 2200,
+      "source_text": "Đường Nguyễn Du 2.200",
+      "record_hash": "d7c67b5d5f516b7f1de2ef4d1f93aa70bd1976594e65366b3cd264f639dbfb2d"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "Đường Lý Thường Kiệt",
+      "price_thousand_vnd_m2": 2200,
+      "source_text": "Đường Lý Thường Kiệt 2.200",
+      "record_hash": "7dceac944bc867bf4cf1a894918d2503ed8f583f6a2d28fbfff91f332957aa6b"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư 1 và Khu tái định cư 2, thị trấn Định Quán (cũ) Đường Ngô Quyền",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "Các đường còn lại 2.000",
+      "record_hash": "60d530e5cfc2bf9740a2612742411b4acb0301b7ed193b0ff7e8c3eac40a2aec"
+    },
+    {
+      "admin_unit": "Xã Định Quán",
+      "tdc_name": "Khu tái định cư xã Gia Canh (cũ) Đường Gia Canh, đoạn còn lại, từ Trường Tiểu học Trần Quốc Tuấn đến hết ranh thửa đất số 199, tờ BĐĐC số 270 về bên trái và hết ranh thửa đất số 11, tờ BĐĐC số 284 về bên phải)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 700,
+      "source_text": "Các đường còn lại 700",
+      "record_hash": "a17e1f587052f42a51f9e5af7986009a39f22b397d5b92d594569809379dfdd3"
+    },
+    {
+      "admin_unit": "Xã Phú Vinh",
+      "tdc_name": "Khu tái định cư xã Phú Tân (cũ)",
+      "route_or_scope": "Đường 120 (xã Phú Tân (cũ))",
+      "price_thousand_vnd_m2": 550,
+      "source_text": "Đường 120 (xã Phú Tân (cũ)) 550",
+      "record_hash": "95f0500c64693dccd7d10a273be6dc46b45107ea2c3d60094fb015a8085aed2a"
+    },
+    {
+      "admin_unit": "Xã Phú Vinh",
+      "tdc_name": "Khu tái định cư xã Phú Tân (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 390,
+      "source_text": "Các đường còn lại 390",
+      "record_hash": "b36ff7992fe01390b3ce01288a7c5b35b86e23ca1adbb331e34b8745bfe0456a"
+    },
+    {
+      "admin_unit": "Xã Phú Vinh",
+      "tdc_name": "Khu dân cư xã Phú Tân (cũ)",
+      "route_or_scope": "Đường 120 (xã Phú Tân (cũ))",
+      "price_thousand_vnd_m2": 550,
+      "source_text": "Đường 120 (xã Phú Tân (cũ)) 550",
+      "record_hash": "b5fec54e6b17af7a51f2d177be332e1632a33d4a8bc1ec22e3f1667e4b0542e9"
+    },
+    {
+      "admin_unit": "Xã Phú Vinh",
+      "tdc_name": "Khu dân cư xã Phú Tân (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 390,
+      "source_text": "Các đường còn lại 390",
+      "record_hash": "6c375d4cab6d31e4251641c6f653b688ad23dd93c7f9e331cf50b04c4ca7c962"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu định canh định cư",
+      "route_or_scope": "Các đường trong Khu tái định cư, xã La Ngà",
+      "price_thousand_vnd_m2": 350,
+      "source_text": "Các đường trong Khu tái định cư, xã La Ngà 350",
+      "record_hash": "e7ed462f65fd829c75bd942dfab0d164d41c0f9ede988ba56a185f999aa14275"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu tái định cư đô thị La Ngà Đường 101B (xã La Ngà), từ đường 101B đến đường nối từ Quốc lộ 20 với 780 Đồi Du Lịch xã La Ngà",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 550,
+      "source_text": "Các đường còn lại 550",
+      "record_hash": "5d5d4dd6c7eb2d90288699f9e191b5da0b67d7ca98ea8a0d4008bdfa40e02914"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu tái định cư L16, xã Túc Trưng (cũ)",
+      "route_or_scope": "Đường 2A",
+      "price_thousand_vnd_m2": 1900,
+      "source_text": "Đường 2A 1.900",
+      "record_hash": "7ca3de8198fa70cd37d6c62927e3e9c84589b1d3814de595ffecd758f0d1f8f0"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu tái định cư L16, xã Túc Trưng (cũ)",
+      "route_or_scope": "Đường 4A",
+      "price_thousand_vnd_m2": 1900,
+      "source_text": "Đường 4A 1.900",
+      "record_hash": "5a68faf7354518713b11ca1a55b120e0f7e052defbe6232bade95f28a5e5fb8c"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu tái định cư L16, xã Túc Trưng (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1300,
+      "source_text": "Các đường còn lại 1.300",
+      "record_hash": "6adcc93a99e9339b0a4107f7bbf2c26e504b5882d2c7c20a46603ccc8286f415"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu A1, xã Túc Trưng (cũ)",
+      "route_or_scope": "Đường 2A",
+      "price_thousand_vnd_m2": 1900,
+      "source_text": "Đường 2A 1.900",
+      "record_hash": "2d106c6f99e3e53b2c458998e78082f0488d27aabbbc5b2c5a86a839f77c3a92"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu A1, xã Túc Trưng (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1300,
+      "source_text": "Các đường còn lại 1.300",
+      "record_hash": "ee4ddc5e1a682a7a5af81d221dbb1f47675b35cde9415f18b788bc530787f80c"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu A3, xã Túc Trưng (cũ)",
+      "route_or_scope": "Đường 2A",
+      "price_thousand_vnd_m2": 1900,
+      "source_text": "Đường 2A 1.900",
+      "record_hash": "78c5788be65ee684cd3beaa255d36c8d7fe567927486e5ee71fcf8c0062a69d1"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu A3, xã Túc Trưng (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1300,
+      "source_text": "Các đường còn lại 1.300",
+      "record_hash": "78372d3977de42949d6852f9347f8d407584d25a47c2e49836c0a1038fefa777"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu tái định cư L9, xã Túc Trưng (cũ)",
+      "route_or_scope": "Đường 4A",
+      "price_thousand_vnd_m2": 1900,
+      "source_text": "Đường 4A 1.900",
+      "record_hash": "c6573f0690357a109ab2596d0995fda9070ae798cb0ec7b1100607690b028e62"
+    },
+    {
+      "admin_unit": "Xã La Ngà",
+      "tdc_name": "Khu tái định cư L9, xã Túc Trưng (cũ)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1300,
+      "source_text": "Các đường còn lại 1.300",
+      "record_hash": "893986fbce608c3d6acc20d2aeec6c65736b887771ba7e79944280787ea4c9f7"
+    },
+    {
+      "admin_unit": "Xã Phú Hòa",
+      "tdc_name": "",
+      "route_or_scope": "1 Khu tái định cư ấp",
+      "price_thousand_vnd_m2": 3,
+      "source_text": "1 Khu tái định cư ấp 3",
+      "record_hash": "fd8ea87fa4f6fba8f30653584dd14491b39fa155f51c02d9db3d05f74e3836bb"
+    },
+    {
+      "admin_unit": "Xã Phú Hòa",
+      "tdc_name": "",
+      "route_or_scope": "Các đường trong Khu tái định cư",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "Các đường trong Khu tái định cư 1.500",
+      "record_hash": "c76f6c86261770c19a166ee5d06b5e3d2dc7ba857ca7878e39c6b6fa14916d7f"
+    },
+    {
+      "admin_unit": "Xã Thanh Sơn",
+      "tdc_name": "Khu tái định cư trung tâm xã Thanh Sơn",
+      "route_or_scope": "Các đường trong Khu tái định cư trung tâm xã Thanh Sơn",
+      "price_thousand_vnd_m2": 430,
+      "source_text": "Các đường trong Khu tái định cư trung tâm xã Thanh Sơn 430",
+      "record_hash": "f132d9212867f6eb25a49333f90097c20f6388533fc2658e1d63557fc3a1df48"
+    },
+    {
+      "admin_unit": "Xã Thanh Sơn",
+      "tdc_name": "Khu tái định cư Làng Cá Bè (xã Thanh Sơn)",
+      "route_or_scope": "Các đường trong Khu tái định cư Làng Cá Bè",
+      "price_thousand_vnd_m2": 120,
+      "source_text": "Các đường trong Khu tái định cư Làng Cá Bè 120",
+      "record_hash": "8ce01d42582f4be473328b184308c05f4b8befe95c91d13c2940e3b41fa4e0fb"
+    },
+    {
+      "admin_unit": "Xã Tân Phú",
+      "tdc_name": "Khu tái định cư (9,7ha) (thị trấn Tân Phú (cũ)) Đường D1 đi khu tái định cư 9,7 ha (từ đường Phạm Ngọc Thạch đến 1.600 Nguyễn Du)",
+      "route_or_scope": "Đường Hùng Vương (từ đường Phạm Ngọc Thạch đến Nguyễn Du)",
+      "price_thousand_vnd_m2": 2600,
+      "source_text": "Đường Hùng Vương (từ đường Phạm Ngọc Thạch đến Nguyễn Du) 2.600",
+      "record_hash": "e249ad28f7b96f65493734d0457312de8d157fb85e4f3edaace8101945e2b56c"
+    },
+    {
+      "admin_unit": "Xã Tân Phú",
+      "tdc_name": "Khu tái định cư (9,7ha) (thị trấn Tân Phú (cũ)) Đường D1 đi khu tái định cư 9,7 ha (từ đường Phạm Ngọc Thạch đến 1.600 Nguyễn Du)",
+      "route_or_scope": "BĐĐC số 2 về bên phải và hết ranh thửa đất số 508, tờ BĐĐC số 2 về bên",
+      "price_thousand_vnd_m2": 2900,
+      "source_text": "BĐĐC số 2 về bên phải và hết ranh thửa đất số 508, tờ BĐĐC số 2 về bên 2.900",
+      "record_hash": "49a170c35e4af64f0f6ebe9904176f71ed2adc194c03e6e0864bc4a6ef817694"
+    },
+    {
+      "admin_unit": "Xã Tân Phú",
+      "tdc_name": "Khu tái định cư (9,7ha) (thị trấn Tân Phú (cũ)) Đường D1 đi khu tái định cư 9,7 ha (từ đường Phạm Ngọc Thạch đến 1.600 Nguyễn Du)",
+      "route_or_scope": "BĐĐC số 3 về bên trái và hết ranh thửa đất số 785 tờ BĐĐC số 3 về bên",
+      "price_thousand_vnd_m2": 3300,
+      "source_text": "BĐĐC số 3 về bên trái và hết ranh thửa đất số 785 tờ BĐĐC số 3 về bên 3.300",
+      "record_hash": "17f9710f8e70b241bc11e13f5ab10a423c7f6ff1286b1425eba91771eda5f955"
+    },
+    {
+      "admin_unit": "Xã Tân Phú",
+      "tdc_name": "Khu tái định cư (15 ha) (thị trấn Tân Phú (cũ)) Đường Hùng Vương (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư) Đường Nguyễn Tri Phương (từ đường Nguyễn Chí Thanh đến đường Lý 2.600 Thường Kiệt trong khu tái định cư) Đường Nguyễn Chí Thanh (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lý Thường Kiệt (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lê Đại Hành (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư)",
+      "route_or_scope": "Đường D1, D2, D3, D4, D5, D6, D7, D8",
+      "price_thousand_vnd_m2": 1600,
+      "source_text": "Đường D1, D2, D3, D4, D5, D6, D7, D8 1.600",
+      "record_hash": "fdf8a5c1bb2a763bb3c123cde7b6488be292f3efc87de53e7174e627a8e4362b"
+    },
+    {
+      "admin_unit": "Xã Tân Phú",
+      "tdc_name": "Khu tái định cư (15 ha) (thị trấn Tân Phú (cũ)) Đường Hùng Vương (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư) Đường Nguyễn Tri Phương (từ đường Nguyễn Chí Thanh đến đường Lý 2.600 Thường Kiệt trong khu tái định cư) Đường Nguyễn Chí Thanh (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lý Thường Kiệt (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lê Đại Hành (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư)",
+      "route_or_scope": "Đường N4, N5, N12, N13",
+      "price_thousand_vnd_m2": 1600,
+      "source_text": "Đường N4, N5, N12, N13 1.600",
+      "record_hash": "c809b95531a5eb8c3a950a40857c2742d422a260abe2675a15823b5ff341a381"
+    },
+    {
+      "admin_unit": "Xã Tân Phú",
+      "tdc_name": "Khu tái định cư (15 ha) (thị trấn Tân Phú (cũ)) Đường Hùng Vương (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư) Đường Nguyễn Tri Phương (từ đường Nguyễn Chí Thanh đến đường Lý 2.600 Thường Kiệt trong khu tái định cư) Đường Nguyễn Chí Thanh (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lý Thường Kiệt (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lê Đại Hành (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư)",
+      "route_or_scope": "Đường N1, N2, N3, N6, N7, N8, N9, N10, N14, N15, N16",
+      "price_thousand_vnd_m2": 1600,
+      "source_text": "Đường N1, N2, N3, N6, N7, N8, N9, N10, N14, N15, N16 1.600",
+      "record_hash": "fff585e99f01bff03b0d69553e6063490b18ff02353be9438ab2bb85918f5ead"
+    },
+    {
+      "admin_unit": "Xã Tân Phú",
+      "tdc_name": "Khu tái định cư (15 ha) (thị trấn Tân Phú (cũ)) Đường Hùng Vương (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư) Đường Nguyễn Tri Phương (từ đường Nguyễn Chí Thanh đến đường Lý 2.600 Thường Kiệt trong khu tái định cư) Đường Nguyễn Chí Thanh (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lý Thường Kiệt (từ đường Hùng Vương đến đường Lê Đại Hành 3.300 trong khu tái định cư) Đường Lê Đại Hành (từ đường Nguyễn Chí Thanh đến đường Lý Thường 2.600 Kiệt trong khu tái định cư)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1600,
+      "source_text": "Các đường còn lại 1.600",
+      "record_hash": "5e4adb1f3400ff4bd56a6fde7681a8cb5e1ab54ae2ec7e51938647d9bf54628a"
+    },
+    {
+      "admin_unit": "Xã Trị An",
+      "tdc_name": "Khu định cư khu phố 8 (thị trấn Vĩnh An (cũ)) Đường Phan Chu Trinh (ĐT 768), đoạn từ đường Quang Trung đến ngã ba 3.600 Điện lực Đường Nguyễn Tất Thành (ĐT 767) (Đoạn từ ngã tư Đập Tràn đến cổng 4.100 Công ty Thủy điện Trị An)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 2100,
+      "source_text": "Các đường còn lại 2.100",
+      "record_hash": "018652c468fd35a62c03ad6d09fd0af1daa3e586ab6779ea915548d5fc89beb5"
+    },
+    {
+      "admin_unit": "Xã Trị An",
+      "tdc_name": "Khu tái định cư (cũ) (xã Trị An)",
+      "route_or_scope": "Đường Xóm Mới ấp 3",
+      "price_thousand_vnd_m2": 880,
+      "source_text": "Đường Xóm Mới ấp 3 880",
+      "record_hash": "2f7951ebf3fe487ca51ef9305af44f7060f4d0610947af12de6122324a8b0c78"
+    },
+    {
+      "admin_unit": "Xã Trị An",
+      "tdc_name": "Khu tái định cư (cũ) (xã Trị An)",
+      "route_or_scope": "Các đường trong Khu tái định cư",
+      "price_thousand_vnd_m2": 620,
+      "source_text": "Các đường trong Khu tái định cư 620",
+      "record_hash": "81b88621478680d3bfb717609b3c4ccedaa8f224c361ef6cbd6fed28cd258555"
+    },
+    {
+      "admin_unit": "Xã Trị An",
+      "tdc_name": "Khu tái định cư ((cũ) (mở rộng))(xã Trị An)",
+      "route_or_scope": "Đường Xóm Mới ấp 3",
+      "price_thousand_vnd_m2": 880,
+      "source_text": "Đường Xóm Mới ấp 3 880",
+      "record_hash": "7d34c430ec64af6b0ea0d0f39bcf201ffed15e2d98e1e0ea96eca8b5f729ebbb"
+    },
+    {
+      "admin_unit": "Xã Trị An",
+      "tdc_name": "Khu tái định cư ((cũ) (mở rộng))(xã Trị An)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 620,
+      "source_text": "Các đường còn lại 620",
+      "record_hash": "601d3223e0753c2c9711507202f5ebcf1cccab5018e4dc878f8ffe7a2ed96770"
+    },
+    {
+      "admin_unit": "Xã Trị An",
+      "tdc_name": "Khu định cư khu phố 1 (thị trấn Vĩnh An (cũ))",
+      "route_or_scope": "Đường Lê Duẩn",
+      "price_thousand_vnd_m2": 2600,
+      "source_text": "Đường Lê Duẩn 2.600",
+      "record_hash": "417374a3eac079874fb5551b9fc572d6a83692e8c0507078949630f9df72f7d7"
+    },
+    {
+      "admin_unit": "Xã Trị An",
+      "tdc_name": "Khu định cư khu phố 1 (thị trấn Vĩnh An (cũ))",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "Các đường còn lại 1.500",
+      "record_hash": "d01f7b6a8c6c3970d355490e01e80ec200425b81a2ed8d6c48e0accde71572f8"
+    },
+    {
+      "admin_unit": "Xã Tân An",
+      "tdc_name": "Khu định cư 3,8 ha (xã Tân An) Đường Cộ - Cây Xoài (Đoạn từ Đường tỉnh 768 đến hết khu tái định cư 3,8 2.800 ha xã Tân An)",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "Các đường còn lại 2.000",
+      "record_hash": "3611d5ce36926afc4af75487882b7885862c98fce1e96610f5119d21260f7e18"
+    },
+    {
+      "admin_unit": "Xã Phú Lý",
+      "tdc_name": "Khu định cư xã Phú Lý",
+      "route_or_scope": "Các đường trong Khu định cư xã Phú Lý",
+      "price_thousand_vnd_m2": 550,
+      "source_text": "Các đường trong Khu định cư xã Phú Lý 550",
+      "record_hash": "e9e89fdd30e1cda6b237f7feacb27fef0d94ea79294ddaee3318c81ad018f290"
+    },
+    {
+      "admin_unit": "Phường Bình Phước",
+      "tdc_name": "Cụm tái định cư huyện đội Đồng Phú (cũ)",
+      "route_or_scope": "Đường quy hoạch số 13 thuộc cụm tái định cư huyện đội Đồng Phú (cũ)",
+      "price_thousand_vnd_m2": 12000,
+      "source_text": "Đường quy hoạch số 13 thuộc cụm tái định cư huyện đội Đồng Phú (cũ) 12.000",
+      "record_hash": "154144332a62bb453da92c04b385d689181ae62d215d3519c48eb7c84ea2d12a"
+    },
+    {
+      "admin_unit": "Phường Bình Phước",
+      "tdc_name": "Khu dân cư Tiến Hưng (khu tái định cư)",
+      "route_or_scope": "Đường D2",
+      "price_thousand_vnd_m2": 5000,
+      "source_text": "Đường D2 5.000",
+      "record_hash": "88f3aeab97a1ab14bbeef32ffbe5cdc4a9f674dd1072092bf953411f612abc3b"
+    },
+    {
+      "admin_unit": "Phường Bình Phước",
+      "tdc_name": "Khu dân cư Tiến Hưng (khu tái định cư)",
+      "route_or_scope": "Các tuyến đường còn lại trong khu tái định cư Tiến Hưng",
+      "price_thousand_vnd_m2": 4500,
+      "source_text": "Các tuyến đường còn lại trong khu tái định cư Tiến Hưng 4.500",
+      "record_hash": "f7fcad405ec3a60b5946198230d68105195fd8519f6c245ca76f468038593693"
+    },
+    {
+      "admin_unit": "Phường Chơn Thành",
+      "tdc_name": "Khu tái định cư 12,4 ha",
+      "route_or_scope": "Đường D2",
+      "price_thousand_vnd_m2": 3000,
+      "source_text": "Đường D2 3.000",
+      "record_hash": "e858bdaa69a9da09839d3c05e961723e06a05f77fc2616766d8d199d1958c0c4"
+    },
+    {
+      "admin_unit": "Phường Chơn Thành",
+      "tdc_name": "Khu tái định cư 12,4 ha",
+      "route_or_scope": "Đường N9",
+      "price_thousand_vnd_m2": 2500,
+      "source_text": "Đường N9 2.500",
+      "record_hash": "086f4bd5aeb37e8b1d57bb3e20662cbbea67f339e1a38db2549127913c28676e"
+    },
+    {
+      "admin_unit": "Phường Chơn Thành",
+      "tdc_name": "Khu tái định cư 12,4 ha",
+      "route_or_scope": "Đường D8M, D9M, D8",
+      "price_thousand_vnd_m2": 2300,
+      "source_text": "Đường D8M, D9M, D8 2.300",
+      "record_hash": "9fd12a0cf3b40ea564f1fa142051dbe0c9251064efab72a98f5f0d09eec434e3"
+    },
+    {
+      "admin_unit": "Phường Chơn Thành",
+      "tdc_name": "Khu tái định cư 12,4 ha",
+      "route_or_scope": "Các tuyến đường còn lại thuộc khu tái định cư",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "Các tuyến đường còn lại thuộc khu tái định cư 2.000",
+      "record_hash": "a4f70b39e96c483aa4ce4e9011599c31933bfdf5306329e1f2bfa3fb4f8e9852"
+    },
+    {
+      "admin_unit": "Xã Nha Bích",
+      "tdc_name": "Khu tái định cư 80ha - Ấp 6 - Xã Nha Bích",
+      "route_or_scope": "Đường D6 (Trục chính - Đường nhựa)",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "Đường D6 (Trục chính - Đường nhựa) 1.000",
+      "record_hash": "8228a08879b859d75f29318ed34bf002a71d7509bc0764f416e5b9f4a1857562"
+    },
+    {
+      "admin_unit": "Xã Nha Bích",
+      "tdc_name": "Khu tái định cư 80ha - Ấp 6 - Xã Nha Bích",
+      "route_or_scope": "Đường D3 và đường D8 (Trục chính - Đường sỏi đỏ)",
+      "price_thousand_vnd_m2": 800,
+      "source_text": "Đường D3 và đường D8 (Trục chính - Đường sỏi đỏ) 800",
+      "record_hash": "1e21ff952b8b9332a43f5eba15121e0e5e21dc15178ac92ca3f293ff7a3095a1"
+    },
+    {
+      "admin_unit": "Xã Nha Bích",
+      "tdc_name": "Khu tái định cư 80ha - Ấp 6 - Xã Nha Bích",
+      "route_or_scope": "Các đường đất còn lại trong khu tái định cư",
+      "price_thousand_vnd_m2": 600,
+      "source_text": "Các đường đất còn lại trong khu tái định cư 600",
+      "record_hash": "0bc681327e23ef8e629dfa04880f4f9957c8682b2bde9b5af9685d229f0debff"
+    },
+    {
+      "admin_unit": "Xã Nha Bích",
+      "tdc_name": "Khu tái định cư 10ha - Ấp Suối Ngang - Xã Nha Bích",
+      "route_or_scope": "Đường D1 (Đường nhựa)",
+      "price_thousand_vnd_m2": 1200,
+      "source_text": "Đường D1 (Đường nhựa) 1.200",
+      "record_hash": "667529ab15b361976a1701ac8e7aa4debbe2c404d2978a9ce794e9ed1bb09056"
+    },
+    {
+      "admin_unit": "Xã Nha Bích",
+      "tdc_name": "Khu tái định cư 10ha - Ấp Suối Ngang - Xã Nha Bích",
+      "route_or_scope": "Các đường đất còn lại trong khu tái định cư",
+      "price_thousand_vnd_m2": 700,
+      "source_text": "Các đường đất còn lại trong khu tái định cư 700",
+      "record_hash": "e45e5f7d5cd41349bb7d17508a263c95a0dc790580807e0c420466934c404e32"
+    },
+    {
+      "admin_unit": "Phường Phước Bình",
+      "tdc_name": "",
+      "route_or_scope": "1 Khu tái định cư Khu phố",
+      "price_thousand_vnd_m2": 9,
+      "source_text": "1 Khu tái định cư Khu phố 9",
+      "record_hash": "0cbb995356b8101b19aaa41ee21e7ed255bc01f93b2ea1b984a2a8fcc4524068"
+    },
+    {
+      "admin_unit": "Phường Phước Bình",
+      "tdc_name": "",
+      "route_or_scope": "Các tuyến đường ngang Khu tái định cư Khu phố 9 (3 nhánh)",
+      "price_thousand_vnd_m2": 2300,
+      "source_text": "Các tuyến đường ngang Khu tái định cư Khu phố 9 (3 nhánh) 2.300",
+      "record_hash": "b8866003170fcac8427387a126c1eaf6e2eae082687112f57ba11d0e233a7d0e"
+    },
+    {
+      "admin_unit": "Xã Tân Lợi",
+      "tdc_name": "Khu tái định cư khu trung tâm hành chính (các xã cũ)",
+      "route_or_scope": "Các thửa đất trong khu trung tâm hành chính (các xã cũ)",
+      "price_thousand_vnd_m2": 900,
+      "source_text": "Các thửa đất trong khu trung tâm hành chính (các xã cũ) 900",
+      "record_hash": "ea5f6f2f4bf192b0bb84b91b394f7f81ffe5e22e9d212732e9c0a982656e7a26"
+    },
+    {
+      "admin_unit": "Xã Đồng Tâm",
+      "tdc_name": "Khu tái định cư K84C",
+      "route_or_scope": "Các tuyến đường trong khu tái định cư",
+      "price_thousand_vnd_m2": 700,
+      "source_text": "Các tuyến đường trong khu tái định cư 700",
+      "record_hash": "3b36ccd6ea74560062b9007405ef5b7b3e45a2752f664d678d06cc5eeef5b1db"
+    },
+    {
+      "admin_unit": "Xã Đồng Tâm",
+      "tdc_name": "Khu tái định cư K84C",
+      "route_or_scope": "Đường D8",
+      "price_thousand_vnd_m2": 1800,
+      "source_text": "Đường D8 1.800",
+      "record_hash": "9e0dd378a32f5d3e422d8175da3348cfd8e229e9acd8792677387be6c87ec69e"
+    },
+    {
+      "admin_unit": "Xã Đồng Tâm",
+      "tdc_name": "Khu tái định cư K84C",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "Các đường còn lại 1.500",
+      "record_hash": "7c33791df33e72139869eac7f843e662455dced364375a83a3d60af8c686634e"
+    },
+    {
+      "admin_unit": "xã Đồng Tâm)",
+      "tdc_name": "",
+      "route_or_scope": "Đường N4",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "Đường N4 1.500",
+      "record_hash": "40c95c13fc27768671a43c685f24c8bea93eeb17d993142560523d67ca97312f"
+    },
+    {
+      "admin_unit": "xã Đồng Tâm)",
+      "tdc_name": "",
+      "route_or_scope": "Đường N6, D4",
+      "price_thousand_vnd_m2": 1200,
+      "source_text": "Đường N6, D4 1.200",
+      "record_hash": "e4f1cbf34554e124019151e78230114b693b5bf4c0db6e23f369b0af042f1d5f"
+    },
+    {
+      "admin_unit": "xã Đồng Tâm)",
+      "tdc_name": "",
+      "route_or_scope": "Các đường còn lại",
+      "price_thousand_vnd_m2": 1000,
+      "source_text": "Các đường còn lại 1.000",
+      "record_hash": "3dac466a1fb92269057127b355b2a2675680e6e2f4ff1b31e6500ebde809f2ad"
+    },
+    {
+      "admin_unit": "Xã Bù Đăng",
+      "tdc_name": "Khu tái định cư Lý Thường Kiệt",
+      "route_or_scope": "Đường D3 - Khu tái định cư Lý Thường Kiệt",
+      "price_thousand_vnd_m2": 2000,
+      "source_text": "Đường D3 - Khu tái định cư Lý Thường Kiệt 2.000",
+      "record_hash": "e0a3e5651ba5a213e05a845e075c31570932d0523995930691a08e0982d9c6b1"
+    },
+    {
+      "admin_unit": "Xã Bù Đăng",
+      "tdc_name": "Khu tái định cư Lý Thường Kiệt",
+      "route_or_scope": "Đường D2 - Khu tái định cư Lý Thường Kiệt",
+      "price_thousand_vnd_m2": 1700,
+      "source_text": "Đường D2 - Khu tái định cư Lý Thường Kiệt 1.700",
+      "record_hash": "8d96f55edf54e32f556d5d75fb71d79ec8b76f40db75ed00c49af2a3507f63b5"
+    },
+    {
+      "admin_unit": "Xã Bù Đăng",
+      "tdc_name": "Khu tái định cư Lý Thường Kiệt",
+      "route_or_scope": "Các đường còn lại trong Khu tái định cư Lý Thường Kiệt",
+      "price_thousand_vnd_m2": 1500,
+      "source_text": "Các đường còn lại trong Khu tái định cư Lý Thường Kiệt 1.500",
+      "record_hash": "fd7544e1a1d7ca0640ffd3b639bf7602469940479809a3b355c79f4d4439518d"
+    },
+    {
+      "admin_unit": "Xã Thiện Hưng",
+      "tdc_name": "Khu tái định cư Cần Đơn",
+      "route_or_scope": "Các tuyến đường trong khu tái định cư",
+      "price_thousand_vnd_m2": 800,
+      "source_text": "Các tuyến đường trong khu tái định cư 800",
+      "record_hash": "33b4fea5ae037d2d876f3f092a54360f217ccb77e517c9511dfb09a7c0d1d713"
+    },
+    {
+      "admin_unit": "Xã Hưng Phước",
+      "tdc_name": "Khu tái định cư công trình Hồ chứa nước Bù Tam",
+      "route_or_scope": "Các tuyến đường trong khu tái định cư",
+      "price_thousand_vnd_m2": 500,
+      "source_text": "Các tuyến đường trong khu tái định cư 500",
+      "record_hash": "ff318125786f853355ae959154e37fdc91cc501e3bd4dd8e01b01248171a6d31"
+    }
+  ],
+  "count": 236
+}

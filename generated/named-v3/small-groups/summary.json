@@ -1,0 +1,19 @@
+{
+  "classificationAuthority": "user-assigned split filename",
+  "pageSuffixRole": "bookmark_only",
+  "file3": {
+    "kcnCcnRows": 111
+  },
+  "file4": {
+    "hightechRows": 5,
+    "tdcPriceRows": 236
+  },
+  "file5": {
+    "referenceLineCount": 4604,
+    "hasPrice": false
+  },
+  "file6": {
+    "boundRows": 162
+  },
+  "runtimeOrD1Modified": false
+}
