@@ -1,0 +1,72 @@
+{
+  "schema": "bao-tin-land-canonical-fixtures-v1",
+  "rules": [
+    "TT is not a globally unique key.",
+    "A lookup key must include legal dataset/appendix or section, administrative area, source row identity and purpose code when the source has purpose-specific columns.",
+    "No cross-purpose or cross-section fallback is allowed.",
+    "All monetary NQ28 source values below are stored in 1,000 VND/m2."
+  ],
+  "fixtures": [
+    {
+      "id": "NQ28-APP-III-TAM-HIEP-TT316",
+      "dataset": "NQ28",
+      "appendix": "III",
+      "admin_unit": "Phường Tam Hiệp",
+      "tt": 316,
+      "road": "Đường Đồng Khởi",
+      "start": "Xa lộ Hà Nội",
+      "end": "Đường Phạm Văn Khoai",
+      "expected": {
+        "DAT_O": 44400,
+        "TMDV": 31100,
+        "CS_SX_PNN_KHOANG_SAN": 26600
+      },
+      "source_evidence": "Bang gia.doc / split PDF 2: row 316 prints 44.400 | 31.100 | 26.600"
+    },
+    {
+      "id": "NQ28-APP-I-TAM-HIEP-TT316",
+      "dataset": "NQ28",
+      "appendix": "I",
+      "admin_unit": "Phường Tam Hiệp",
+      "tt": 316,
+      "road": "Đường Đồng Khởi",
+      "start": "Xa lộ Hà Nội",
+      "end": "Đường Phạm Văn Khoai",
+      "expected": {
+        "CLN_HNK": 1500,
+        "RSX_NTS": 970
+      },
+      "source_evidence": "Bang gia.doc: agricultural row 316 prints 1.500 | 970"
+    },
+    {
+      "id": "QD03-PNN-TAM-HIEP-TT316",
+      "dataset": "QD03",
+      "section": "NON_AGRICULTURAL",
+      "admin_unit": "Phường Tam Hiệp",
+      "tt": 316,
+      "road": "Đường Đồng Khởi",
+      "start": "Xa lộ Hà Nội",
+      "end": "Đường Phạm Văn Khoai",
+      "expected": {
+        "DAT_O": 1.25,
+        "TMDV": 1.25,
+        "SXKD_PNN": 1.25
+      },
+      "source_evidence": "QD 03.2026 part 1: row 316 prints 1,25 | 1,25 | 1,25"
+    },
+    {
+      "id": "QD03-NN-TAM-HIEP-TT316",
+      "dataset": "QD03",
+      "section": "AGRICULTURAL",
+      "admin_unit": "Phường Tam Hiệp",
+      "tt": 316,
+      "road": "Đường Đồng Khởi",
+      "start": "Xa lộ Hà Nội",
+      "end": "Đường Phạm Văn Khoai",
+      "expected": {
+        "AGRICULTURAL_MARKET_FACTOR": 1.40
+      },
+      "source_evidence": "QD 03.2026 part 2: agricultural row 316 prints 1,40"
+    }
+  ]
+}
