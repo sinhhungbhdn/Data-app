@@ -1,0 +1,553 @@
+TABLES=109 | MISSING=['II', 'IV', 'V', 'VI', 'VII', 'VIII'] | UNRESOLVED=[]
+APPENDIX_COUNTS={'I': 101, 'III': 8}
+TABLE=0001 | APP=I | ROWS=201 | COLS=2
+  HEADER R197: PHỤ LỤC IV: BẢNG GIÁ ĐẤT CÁC KHU CÔNG NGHIỆP, CỤM CÔNG NGHIỆP | 
+  HEADER R198: PHỤ LỤC V: BẢNG GIÁ ĐẤT TRONG KHU CÔNG NGHỆ CAO CÔNG NGHỆ SINH HỌC ĐỒNG NAI | 
+  HEADER R199: PHỤ LỤC VI: BẢNG GIÁ ĐẤT CÁC KHU TÁI ĐỊNH CƯ | 
+  FIRST: HỘI ĐỒNG NHÂN DÂN TỈNH ĐỒNG NAI
+  FIRST: MỤC LỤC
+  LAST: PHỤ LỤC VIII: GIÁ ĐẤT NÔNG NGHIỆP TỐI THIỂU VÀ TỐI ĐA | 
+TABLE=0002 | APP=I | ROWS=108 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất trồng rừng sản xuất và nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất trồng rừng sản xuất và nuôi trồng thủy sản
+  FIRST: 1 | Đường Bùi Hữu Nghĩa | Giáp ranh giới thành phố Hồ Chí Minh | Đường Nguyễn Tri Phương | 1.500 | 970
+  LAST: 107 | Các tuyến đường tại Cù Lao Tân Vạn (các đường còn lại) | 1.500 | 970
+TABLE=0003 | APP=I | ROWS=579 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm đề xuất | Giá đất trồng rừng sản xuất và nuôi trồng thủy sản đề xuất
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm đề xuất | Giá đất trồng rừng sản xuất và nuôi trồng thủy sản đề xuất
+  FIRST: 1 | Đường Nguyễn Tri Phương | Cầu Rạch Cát | Cầu Ghềnh | 1.500 | 970
+  LAST: 578 | Đường Nguyễn Thị Giang | Đường Cách Mạng tháng 8 | Đường Nguyễn Thị Hiền | 1.500 | 967
+TABLE=0004 | APP=I | ROWS=337 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm , đất trồng cây hằng năm | Giá đất rừng sản xuất , đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm , đất trồng cây hằng năm | Giá đất rừng sản xuất , đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Lê A | Đường Nguyễn Ái Quốc | Đường Phạm Văn Thuận | 1.500 | 970
+  LAST: 336 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Lê Quý Đôn đoạn từ Đường Đồng Khởi đến Đường vành đai sân vận động có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 670 | 450
+TABLE=0005 | APP=I | ROWS=183 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Nguyễn Trường Tộ | Quốc lộ 1 | Đường Hoàng Văn Bổn | 1.500 | 970
+  LAST: 175 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường vào nhà máy nước Thiện Tân đoạn từ Đường vào khu tái định cư Tân Biên (nối từ đường Hoàng Văn Bổn đi vào hết ranh khu tái định cư Tân Biên) đến Hết ranh thửa đất số 52, tờ BĐĐC số 215 về bên phải và hết ranh thửa đất số 4, tờ BĐĐC số 215 về bên trái có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 670 | 450
+TABLE=0006 | APP=I | ROWS=269 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Nguyễn Ái Quốc | Ng ã tư Tân Phong | Hết ranh phường Trảng Dài | 1.200 | 770
+  LAST: 266 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường ranh phường Tân Triều - phường Trảng Dài đoạn từ Ngã ba (hết ranh thửa đất số 121, tờ bản đồ số 19) đến Giáp ranh xã Thạnh Phú (cũ) có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 250 | 160
+TABLE=0007 | APP=I | ROWS=295 | COLS=6
+  FIRST: TT | T ê n đ ườ ng giao thông | Điểm đ ầ u | Điểm cuối | Gi á đất trồng cây lâu năm, đất trồng cây hằng năm | Gi á đất rừng s ả n xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Điểu Xiển | Ranh phường Hố Nai | Đường Bắc Sơn - Long Thành | 1.200 | 770
+  LAST: 287 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Bắc Sơn - Long Thành đoạn từ Quốc lộ 1 đến Đường sắt có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 250 | 230
+TABLE=0008 | APP=I | ROWS=148 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây h ằ ng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây h ằ ng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Xa l ộ Hà Nội | Vòng Xoay Tam Hiệp | Hết ranh giới tỉnh Đồng Nai | 1.050 | 680
+  LAST: 147 | Các tuy ế n đường giao thông không đấu n ố i trực tiếp và thông ra Đường Phước Tân - Long Hưng đoạn từ Ranh phường Long Hưng đến Hương lộ 2 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 460 | 310
+TABLE=0009 | APP=I | ROWS=386 | COLS=6
+  HEADER R1: TT | T ê n đường giao th ô ng | Điểm đầu | Điểm cuối | Giá đất tr ồ ng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | T ê n đường giao th ô ng | Điểm đầu | Điểm cuối | Giá đất tr ồ ng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Nguyễn Ái Quốc | Giáp ranh phường Trấn Biên | Đường Đồng Khởi | 1.200 | 770
+  LAST: 385 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường ranh phường Tân Triều - phường Trảng Dài đoạn từ Ngã ba (hết ranh thửa đất số 121, tờ bản đồ số 19) đến Giáp ranh xã Thạnh Phú (c ũ ) có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 250 | 160
+TABLE=0010 | APP=I | ROWS=141 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Võ Nguyên Giáp | Giáp ranh phường Long Hưng | Đầu cầu số 3 | 1.000 | 630
+  LAST: 140 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra đường Phan Đăng Lưu đoạn từ Hết ranh phường Long Bình đến Giáp suối có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 460 | 310
+TABLE=0011 | APP=I | ROWS=106 | COLS=6
+  HEADER R1: TT | T ê n đườn g giao thông | Điểm đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | T ê n đườn g giao thông | Điểm đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Dương Diên Nghệ | Quốc lộ 51 | Hết ranh Phường Tam Phước | 1.000 | 630
+  LAST: 105 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Phùng Hưng đoạn từ Quốc lộ 51 đến Hết ranh phường Tam Phước có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 460 | 310
+TABLE=0012 | APP=I | ROWS=470 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Lê Duẩn | Ranh giới xã Long Thành | Đường Trần Ph ú | 800 | 710
+  LAST: 469 | Các tuyến đường giao thông không đ ấ u nối trực tiếp và thông ra Đường Nguyễn Hải đoạn từ Thửa đất số 585, tờ BĐĐC số 15 đến h ết thửa đất số 4, tờ BĐĐC số 17 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 320 | 270
+TABLE=0013 | APP=I | ROWS=176 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đ ầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đ ầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 51 | Trung tâm huấn luyện chó nghiệp vụ Quân Khuyển | Mũi tàu | 730 | 600
+  LAST: 175 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Bàu Lùng đoạn từ Tỉnh lộ 769 đến Hết ranh thửa đất số 4 tờ BĐĐC số 53 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 230 | 230
+TABLE=0014 | APP=I | ROWS=93 | COLS=6
+  HEADER R1: TT | Tên đ ư ờng giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đ ư ờng giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Hương lộ 2 | Hương lộ 21 | Hết ranh giới xã An Phước | 700 | 570
+  LAST: 92 | Đường Bùi Thị Xuân đoạn đã đầu tư hạ tầng | Giáp ranh xã Long Th à nh | Ranh khu công nghệ cao Long Thành đoạn đã đầu tư hạ tầng | 670 | 530
+TABLE=0015 | APP=I | ROWS=92 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 51 | Giáp ranh xã Long Thành | Cầu Suối Cả | 730 | 600
+  LAST: 91 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường ấp 2 Suối Trầu đoạn từ Đường Bàu Cạn - Suối Trầu - Cẩm Đường (thửa đất số 68, tờ BĐĐC số 85) đến Đường Bàu Cạn - Suối Trầu - Cẩm Đường thửa đất số 457, tờ BĐĐC số 88) có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông > 1.000m. - Có bề rộng <3m, cách đường giao thông >200m | 230 | 230
+TABLE=0016 | APP=I | ROWS=64 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đ ấ t trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đ ấ t trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 51 | Giáp ranh xã Long Phước | Cầu Thái Thiện | 730 | 600
+  LAST: 63 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường nhựa xã Phước Bình cũ đoạn từ Quốc lộ 51 đến Giáp ranh Thành phố Hồ Chí Minh có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông > 1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 230 | 230
+TABLE=0017 | APP=I | ROWS=479 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Đ i ể m đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng n ă m | Giá đất rừ ng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đ i ể m đầu | Đi ể m cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng n ă m | Giá đất rừ ng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Lê Hồng Phong | Đường Nguyễn Hữu Cảnh | Đường D15 khu dân cư H U D Nhơn Trạch | 730 | 670
+  LAST: 477 | Nh á nh của Đường giáp ranh xã Phước Thiền - thị trấn Hiệp Phước c ũ | Đường giáp ranh xã Phước Thiền - thị tr ấ n Hiệp Phước cũ | Hết ranh thửa đất số 641, tờ BĐĐC số 86 về bên phải và hết ranh thửa đ ấ t số 102, tờ BĐĐC số 222 về bên trái | 600 | 530
+TABLE=0018 | APP=I | ROWS=225 | COLS=6
+  HEADER R1: TT | Tên đư ờ ng giao thông | Điểm đ ầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nu ô i trồng t hủy s ả n
+  FIRST: TT | Tên đư ờ ng giao thông | Điểm đ ầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nu ô i trồng t hủy s ả n
+  FIRST: 1 | Đường Lý Thái Tổ (Đường tỉnh 769 cũ) | Giáp ranh xã Nhơn Trạch | Ngã ba đường Trần Văn Trà và đường Lý Thái Tổ | 730 | 670
+  LAST: 224 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường từ đường Hùng Vương đến đường Lý Thái Tổ có hiện tr ạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 180
+TABLE=0019 | APP=I | ROWS=190 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất r ừ ng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất r ừ ng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Quách Thị Trang | Đường Hà Huy Tập | Giáp ranh xã Đại Phước | 730 | 670
+  LAST: 189 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Nguyễn Ái Quốc đoạn từ Đường Hùng Vương (ấp Thanh Minh) đến Khu công nghiệp 3 giai đoạn 2 xã Phước An có hiện trạng là đường nhựa, bê tông xi m ă ng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 250 | 220
+TABLE=0020 | APP=I | ROWS=708 | COLS=6
+  HEADER R1: TT | Tên đ ư ờng giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đ ư ờng giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Hồng Thập Tự | Ngã ba Đường Võ Duy Dương và Đường Lương Đình Của | Đường 21 tháng 4 | 800 | 540
+  LAST: 707 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Thổ Lùn đoạn từ Đường Điểu Xiển đến Đường Ngô Quyền có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông > 1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 140 | 130
+TABLE=0021 | APP=I | ROWS=197 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Suối Chồn - Bàu Cối | Đường Nguyễn Trung Trực | Ngã ba Suối Chồn | 700 | 580
+  LAST: 196 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Hồ Thị Hương đoạn từ Đường Lê A đến Mương thoát lũ Suối Cải có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 310 | 210
+TABLE=0022 | APP=I | ROWS=127 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Lương Đình Của | Đường Hồng Thập Tự | Giáp ranh phường Long Khánh | 600 | 490
+  LAST: 126 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường cầu Bến Ngựa đoạn từ Đường Xuân Lập - Bàu Sao đến Đường Bàu Sen có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 240 | 210
+TABLE=0023 | APP=I | ROWS=99 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường 21 tháng 4 | Đầu Cầu Gia Liêu | Giáp ngã ba Tân Phong | 600 | 490
+  LAST: 98 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Tuyến đường qua khu đô thị mới đoạn từ Ranh phường Long Khánh đến Đường Lê Hồng Phong có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 240 | 210
+TABLE=0024 | APP=I | ROWS=197 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 1 | Giáp ranh xã Dầu Giây | Giáp ranh phường Bình Lộc | 600 | 490
+  LAST: 196 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Vành đai 1 đoạn qua phường Bình Lộc có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 140 | 130
+TABLE=0025 | APP=I | ROWS=1221 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Xuân Thành đi Trảng Táo | Đường tỉnh 766 | Hết ranh thửa đất số 199, tờ BĐĐC số 177 (xã Xuân Lộc) về bên phải và hết ranh thửa đất số 1759, tờ BĐĐC số 50 về bên trái (xã Xuân Thành) | 530 | 330
+  LAST: 1220 | Đường XH3 | Thửa đất số 242, 289 tờ bản đồ số 276 | Hết ranh thửa đất số 202 và 257, tờ bản đồ 278 | 530 | 330
+TABLE=0026 | APP=I | ROWS=169 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Huỳnh Văn Nghệ đoạn thuộc xã Xuân Hòa | Đường hồ Núi Le | Hết ranh xã Xuân Hòa | 470 | 330
+  LAST: 168 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Xuân Hòa 3 đoạn từ Ngã ba (thửa đất số 1624, tờ BĐĐC số 307, xã Xuân Hòa) đến Hết ranh thửa đất số 320, tờ BĐĐC số 301 về bên phải và hết ranh thửa đất số 1009, tờ BĐĐC số 300 về bên trái, xã Xuân Hòa có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 110
+TABLE=0027 | APP=I | ROWS=169 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 766 | Giáp ranh xã Xuân Lộc | Cây xăng số 9 | 530 | 400
+  LAST: 168 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Xuân Lộc - Long Khánh đoạn từ Cầu gió bay đến Hết ranh xã Xuân Thành có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 110
+TABLE=0028 | APP=I | ROWS=183 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 763 | Giáp ranh xã Thống Nhất | Giáp Trường Tiểu học Võ Thị Sáu | 270 | 230
+  LAST: 182 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường NaGoa đoạn từ Ngã ba đường 101 đến Đường vào Thác Trời có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 70 | 40
+TABLE=0029 | APP=I | ROWS=260 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 1 | Giáp ranh xã Xuân Định | Đường Xuân Phú 16 | 570 | 400
+  LAST: 259 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Lang Minh - Xuân Hiệp (xã Lang Minh cũ) đoạn từ Ngã ba đường Lang Minh - Xuân Đông đến Cầu Sông Ray giáp xã Xuân Lộc. có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 110
+TABLE=0030 | APP=I | ROWS=239 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 1 | Giáp ranh phường Hàng Gòn | Hết công ty Intimex | 570 | 400
+  LAST: 238 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường đồi đá Bảo Hòa đi Long Khánh đoạn từ Quốc lộ 1+500m đến Ranh giới phường Long Khánh có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 200 | 130
+TABLE=0031 | APP=I | ROWS=197 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 765B (đường Xuân Định - Lâm San) | Giáp ranh xã Xuân Định | Cầu Bảo Bình | 530 | 400
+  LAST: 196 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Hùng Vương (Đường tỉnh 773 cũ) đoạn từ Trung tâm hành chính huyện cũ đến Giáp ranh giới xã Xuân Đường có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 290 | 220
+TABLE=0032 | APP=I | ROWS=106 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Sông Nhạn - Dầu Giây | Ranh giới xã Xuân Quế | Cầu Quân Y | 530 | 400
+  LAST: 105 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Nhân Nghĩa - Sông Nhạn đoạn từ Đường Cầu Đỏ - Suối Sâu đến Đường Sông Nhạn - Dầu Giây có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông > 1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 200 | 130
+TABLE=0033 | APP=I | ROWS=85 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 773 (Hương lộ 10 cũ) | Giáp ranh xã Long Thành | Đường Sông Nhạn - Dầu Giây | 730 | 600
+  LAST: 84 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Cầu Mên đoạn từ Đường Bàu Cạn - Suối Trầu - Cẩm Đường đến Giáp ranh xã Long Thành có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 230 | 230
+TABLE=0034 | APP=I | ROWS=148 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 764 | Giáp ranh xã Cẩm Mỹ | Hết Trại giam Xuyên Mộc | 530 | 400
+  LAST: 147 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường tỉnh 765 đi Làng Dân tộc đoạn từ Đường tỉnh 765 đến Hết ranh thửa đất số 297, tờ BĐĐC số 89 về bên trái và hết ranh thửa đất số 117, tờ BĐĐC số 89 về bên phải, xã Sông Ray có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 200 | 130
+TABLE=0035 | APP=I | ROWS=246 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 765 | Giáp ranh xã Xuân Phú | Giáp trạm xăng dầu Đồng Nai | 530 | 400
+  LAST: 245 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường tỉnh 764 đoạn từ Đường tỉnh 764 đi Suối Lức đến Giáp ranh thành phố Hồ Chí Minh có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 220 | 140
+TABLE=0036 | APP=I | ROWS=720 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường từ 29 tháng 4 (đoạn từ Đường Trần Phú đến Đường 30 tháng 4 và đoạn từ Đường Trường Chinh đến Đường tỉnh 777) | 780 | 710
+  LAST: 719 | Đường Hoàng Hoa Thám | Đường Phan Bội Châu | Đường Nguyễn Du | 780 | 710
+TABLE=0037 | APP=I | ROWS=113 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 777 (đường Trảng Bom - Long Thành) | Đường Vườn Ngô | Đường sắt | 730 | 670
+  LAST: 112 | Đường nối từ đường tỉnh 777 đến đường liên ấp 2-3-4 | Đường tỉnh 777 (đường Trảng Bom - Long Thành), thửa đất số 3, tờ BĐĐC số 6 | Thửa đất số 4318 Tờ BĐĐC số 5 | 670 | 600
+TABLE=0038 | APP=I | ROWS=141 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Trảng Bom - Thanh Bình | Giáp ranh xã Trảng Bom | Đường vào Công ty Đông Nhi | 570 | 500
+  LAST: 140 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Sông Trầu - Cây Gáo - Sông Thao đoạn từ Đường Trảng Bom - Thanh Bình đến Đường 19 tháng 5 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 160
+TABLE=0039 | APP=I | ROWS=232 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 1 | Ngã ba Trị An | Nhà thờ Bùi Chu | 730 | 650
+  LAST: 231 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Bắc Hòa - Phú Sơn đoạn từ Ngã ba đối diện nhà thờ Bắc Hòa đến Qua đường tàu - hết ranh xã có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 230 | 210
+TABLE=0040 | APP=I | ROWS=211 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường ấp Lộc Hòa (nhánh Nam Quốc lộ 1) | Quốc lộ 1 đi qua Công ty Cổ phần TOGET Việt Nam - Chi nhánh Đồng Nai | Đường sắt | 530 | 450
+  LAST: 210 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Dốc Độc đoạn từ Đường 20 đến Đường Đông Hòa 7km có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 160
+TABLE=0041 | APP=I | ROWS=113 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 777 (đường Trảng Bom - Long Thành) | Đường Vườn Ngô | Đường sắt | 730 | 670
+  LAST: 112 | Đường nối từ đường tỉnh 777 đến đường liên ấp 2-3-4 | Đường tỉnh 777 (đường Trảng Bom - Long Thành), thửa đất số 3, tờ BĐĐC số 6 | Thửa đất số 4318 Tờ BĐĐC số 5 | 670 | 600
+TABLE=0042 | APP=I | ROWS=141 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Trảng Bom - Thanh Bình | Giáp ranh xã Trảng Bom | Đường vào Công ty Đông Nhi | 570 | 500
+  LAST: 140 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Sông Trầu - Cây Gáo - Sông Thao đoạn từ Đường Trảng Bom - Thanh Bình đến Đường 19 tháng 5 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 160
+TABLE=0043 | APP=I | ROWS=232 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 1 | Ngã ba Trị An | Nhà thờ Bùi Chu | 730 | 650
+  LAST: 231 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Bắc Hòa - Phú Sơn đoạn từ Ngã ba đối diện nhà thờ Bắc Hòa đến Qua đường tàu - hết ranh xã có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 230 | 210
+TABLE=0044 | APP=I | ROWS=211 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường ấp Lộc Hòa (nhánh Nam Quốc lộ 1) | Quốc lộ 1 đi qua Công ty Cổ phần TOGET Việt Nam - Chi nhánh Đồng Nai | Đường sắt | 530 | 450
+  LAST: 210 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Dốc Độc đoạn từ Đường 20 đến Đường Đông Hòa 7km có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 160
+TABLE=0045 | APP=I | ROWS=274 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường chợ Lê Lợi - Bàu Hàm | Quốc lộ 20 | Vào hết mét thứ 500 | 550 | 470
+  LAST: 273 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường ranh Hưng Thịnh - Hưng Lộc đoạn từ Hết mét thứ 500 đến Giáp ranh xã Bàu Hàm có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 180 | 160
+TABLE=0046 | APP=I | ROWS=197 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường song hành phía Đông Quốc lộ 20 | Giáp ranh xã Gia Kiệm | Đường Lạc Sơn - Xuân Thiện | 700 | 600
+  LAST: 196 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Tân Yên đoạn từ Ranh suối reo đến Ranh xã Thống Nhất có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 250 | 230
+TABLE=0047 | APP=I | ROWS=155 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 20 | Giáp ranh xã Gia Kiệm | Đường Vườn Xoài | 730 | 670
+  LAST: 154 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường song hành phía Đông Quốc lộ 20 đoạn từ Quốc lộ 20 đến Giáp ranh xã Gia Kiệm có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 230 | 210
+TABLE=0048 | APP=I | ROWS=477 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đ ầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đ ầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường G ia Canh | Quốc lộ 20 | Quốc lộ 20+290m(đến giáp suối) | 570 | 500
+  LAST: 476 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Lương Thế Vinh đoạn từ Bên trái, hết ranh thửa đất số 243, tờ BĐĐC số 6, xã Định Quán; Bên phải, đến hết ranh thửa đất số 216, tờ BĐĐC số 7 đến Đường Lê Lợi có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông >200m. | 220 | 220
+TABLE=0049 | APP=I | ROWS=141 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 20 | Giáp ranh xã Định Quán | Đường Ngã ba Phú Lợi - Phú Hòa cũ | 270 | 230
+  LAST: 140 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường liên ấp 6-7 đoạn từ Đường 120 đến Đường ven sông Đồng Nai có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 70 | 40
+TABLE=0050 | APP=I | ROWS=136 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Quốc lộ 20 | Giáp ranh xã Thống Nhất | Hết chợ Túc Trưng | 270 | 230
+  LAST: 135 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường suối Dzui đoạn từ Quốc lộ 20 đến Đường 101 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 70 | 40
+TABLE=0051 | APP=I | ROWS=113 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm dầu | Điềm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm dầu | Điềm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Trà Cổ | Giáp ranh xã Tân Phú | Cầu đập | 250 | 220
+  LAST: 112 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Phú Lợi - Gia Canh đoạn từ Đường Phú Lợi - Phú Hòa đến hết ranh xã Phú Hòa có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 70 | 40
+TABLE=0052 | APP=I | ROWS=50 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Thanh Sơn (Phía rẽ phải từ ngã ba Bến phà) | Ngã ba Bến phà | Ngã ba Lô Năm | 130 | 120
+  LAST: 49 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Thanh Sơn (Phía rẽ trái từ ngã ba Bến phà) đoạn từ Ngã ba Cây Sao đến hết ranh thửa đất số 17, tờ BĐĐC số 146 về bên trái và đến hết ranh thửa đất số 15, tờ BĐĐC số 146 về bên phải, xã Thanh Sơn có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 40 | 40
+TABLE=0053 | APP=I | ROWS=562 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu n ă m, đất trồng cây h ằ ng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu n ă m, đất trồng cây h ằ ng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Tà Lài | Quốc lộ 20 | Đường Nguyễn Hữu Cảnh | 570 | 430
+  LAST: 561 | Đường vào Khu du lịch Suối Mơ | đường Trà Cổ | cổng Khu du lịch Suối Mơ | 220 | 170
+TABLE=0054 | APP=I | ROWS=106 | COLS=6
+  HEADER R1: TT | Tên đ ườn g giao thông | Điểm đầu | Điểm cuối | Giá đất trồng c â y lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng th ủ y sản
+  FIRST: TT | Tên đ ườn g giao thông | Điểm đầu | Điểm cuối | Giá đất trồng c â y lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng th ủ y sản
+  FIRST: 1 | Đường Phú Lập đi xã Nam Cát Tiên | Ngã ba Phú lập đi xã Núi Tượng (cũ) | Đường ấ p 2-4 | 200 | 170
+  LAST: 105 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường liên ấ p ( ấ p Phú Lập 6 - Phú Lập 7) đoạn từ Ngã ba đường Đường ấp 2 (ấp Phú Lập 7) đến Hết ranh thửa đất số 488, tờ BĐĐC số 31 (bên phải) có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 50 | 40
+TABLE=0055 | APP=I | ROWS=85 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường 600A | Quốc lộ 20 | Hết ranh Ban Quản lý rừng | 200 | 170
+  LAST: 84 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường nhà thờ Kim Lân đoạn từ Đường 600A đến Hết ranh xã Nam Cát Tiên có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 50 | 40
+TABLE=0056 | APP=I | ROWS=239 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Phú Xuân - Thanh Sơn | Giáp ranh xã Tân Phú | Đường Phú Lâm - Thanh Sơn | 270 | 220
+  LAST: 238 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Bến Thuyền đoạn từ đường 30/4 đến Hết ranh thửa đất số 163 tờ BĐĐC số 40 về bên phải và hết ranh thửa đất số 164, tờ BĐĐC số 40 về bên trái có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 55 | 50
+TABLE=0057 | APP=I | ROWS=36 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường ấp 7 Đabongkua | Ranh giới xã Phước Sơn (Trường Tiểu học Nguyễn Bá Học) | Ranh giới xã Phước Sơn (bên phải hết ranh thửa đất số 7, tờ BĐ số 40, BĐ ĐC xã Đắk Lua. Bên trái hết ranh thửa đất số 14, tờ BĐ số 40, BĐ ĐC xã Đắk Lua) | 120 | 100
+  LAST: 35 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Đắc Lua đoạn từ Bến phà đến Giáp ranh Vườn Quốc Gia Nam Cát Tiên có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 40 | 40
+TABLE=0058 | APP=I | ROWS=428 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường Xóm Huế | Đường tỉnh 768 | Đường Hóc Lai | 470 | 370
+  LAST: 427 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Hương lộ 24 đoạn từ Đường tỉnh 762 đến Giáp ranh xã Bàu Hàm có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 310 | 200
+TABLE=0059 | APP=I | ROWS=183 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 768 | Giáp ranh phường Trảng Dài | Cầu Thủ Biên | 730 | 530
+  LAST: 182 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Trị An-Vĩnh Tân đoạn từ đường tỉnh 767 đến đường Tân An - Vĩnh Tân có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 250 | 160
+TABLE=0060 | APP=I | ROWS=134 | COLS=6
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất trồng cây lâu năm, đất trồng cây hằng năm | Giá đất rừng sản xuất, đất nuôi trồng thủy sản
+  FIRST: 1 | Đường tỉnh 761 | Giáp ranh xã Trị An | Cầu suối Kóp | 230 | 200
+  LAST: 133 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Tổ 8, N2, ấp bàu Phụng, xã Phú Lý đoạn từ Đường ĐT 761 (giáp ranh xã Trị An đến cầu suối Kóp) đến Hết ranh thửa đất số 72, tờ BĐĐC số 58 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 60 | 50
+TABLE=0061 | APP=I | ROWS=696 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đ ườ ng | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đ ườ ng | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 692 | Các tuyến đường giao thông còn lại trên địa bàn phường chưa được đầu tư mặt đường nhựa, bê tông xi măng có bề rộng mặt đường dưới 4m | Toàn tuyến |  | 370 | 295 | 175
+TABLE=0062 | APP=I | ROWS=96 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng c â y hằng năm | Giá đất nuôi trồng thủy s ả n | Giá đất rừng sản xuất
+  HEADER R34: 32 | Đường trục chính khu công nghiệp Đồng Xoài I, các tuyến đường trong khu công nghiệp đã được đầu tư mặt đường nhựa, bê tông xi măng chưa được quy định trong phụ lục Bảng giá đất các khu công nghiệp, cụm công nghiệp | Toàn tuyến |  | 330 | 260 | 155 | 39
+  HEADER R35: 33 | Các tuyến đường trong Khu công nghiệp Đồng Xoài 1 chưa đầu tư mặt đường nhựa, bê tông xi măng chưa được quy định trong phụ lục Bảng giá đất các khu công nghiệp, cụm công nghiệp | Toàn tuyến |  | 330 | 260 | 155 | 39
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng c â y hằng năm | Giá đất nuôi trồng thủy s ả n | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cu ối
+  LAST: 84 | Các tuyến đường giao thông còn lại trên địa bàn phường chưa được đầu tư mặt đường nhựa, bê tông xi măng có bề rộng mặt đường dưới 4m | Toàn tuyến |  | 280 | 220 | 130 | 39
+TABLE=0063 | APP=I | ROWS=228 | COLS=7
+  HEADER R1: TT | T ên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | T ên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 226 | Các tuyến đường đất còn lại | Toàn tuyến |  | 250 | 200 | 120
+TABLE=0064 | APP=I | ROWS=193 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 191 | Các tuyến đường đất còn lại | Toàn tuyến |  | 250 | 200 | 120
+TABLE=0065 | APP=I | ROWS=43 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 41 | Các đường còn lại |  |  | 151 | 121 | 72
+TABLE=0066 | APP=I | ROWS=192 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 189 | Các tuyến đường thuộc các tờ bản đồ số: 79, 89 đến 106, 120 đến 128, 149 đến 155 còn lại | Toàn tuyến |  | 112 | 90 | 63
+TABLE=0067 | APP=I | ROWS=192 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 190 | Các tuyến đường còn lại | 210 | 168 | 118
+TABLE=0068 | APP=I | ROWS=188 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 186 | Các tuyến đường còn lại | Toàn tuyến |  | 196 | 157 | 125
+TABLE=0069 | APP=I | ROWS=126 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 124 | Các tuyến đường giao thông còn lại | Toàn tuyến |  | 210 | 168 | 134 | 37
+TABLE=0070 | APP=I | ROWS=32 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 30 | Các tuyến đường giao thông còn lại trên địa bàn xã | Toàn tuyến |  | 98 | 78 | 63 | 63
+TABLE=0071 | APP=I | ROWS=18 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 16 | Các tuyến đường còn lại chưa được đầu tư mặt nhựa, bê tông chỉ đấu nối 1 điểm | Toàn tuyến |  | 110 | 88 | 70 | 54
+TABLE=0072 | APP=I | ROWS=30 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 28 | Các tuyến đường giao thông còn lại trên địa bàn xã | Toàn tuyến |  | 113 | 90 | 72 | 47
+TABLE=0073 | APP=I | ROWS=122 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 120 | Các tuyến đường giao thông còn lại trên địa bàn xã Tân Tiến và Tân Lập cũ | Toàn tuyến |  | 90 | 72 | 58 | 54
+TABLE=0074 | APP=I | ROWS=115 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 113 | Các tuyến đường còn lại | 60 | 48 | 38 | 38
+TABLE=0075 | APP=I | ROWS=34 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 32 | Các tuyến đường còn lại | 60 | 48 | 38 | 38
+TABLE=0076 | APP=I | ROWS=32 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 30 | Các tuyến đường còn lại | 70 | 56 | 45 | 44
+TABLE=0077 | APP=I | ROWS=38 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 36 | Các tuyến đường còn lại | 70 | 56 | 45 | 44
+TABLE=0078 | APP=I | ROWS=18 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 16 | Các tuyến đường còn lại | 60 | 48 | 38 | 38
+TABLE=0079 | APP=I | ROWS=43 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 41 | Các tuyến đường còn lại | 60 | 48 | 60 | 48
+TABLE=0080 | APP=I | ROWS=112 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 110 | Các tuyến đường còn lại tại các thôn: Đồng Nơ 1, Đồng Nơ 2, Đồng Nơ 3, Đồng Nợ 4, Đồng Nơ 5, Đồng Tân, Tân Hiệp 1, Tân Hiệp 2, Tân Hiệp 3, Tân Hiệp 4, Tân Hiệp 5, Bàu Lùng, Tân lập và Sóc 5 | Toàn tuyến |  | 96 | 77 | 61 | 42
+TABLE=0081 | APP=I | ROWS=37 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 35 | Các tuyến đường còn lại trên địa bàn xã An Khương (cũ) | Toàn tuyến |  | 60 | 48 | 38
+TABLE=0082 | APP=I | ROWS=45 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 43 | Các tuyến đường còn lại | Toàn tuyến |  | 50 | 40 | 32
+TABLE=0083 | APP=I | ROWS=51 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 49 | Các tuyến đường còn lại | Toàn tuyến |  | 50 | 40 | 32 | 32
+TABLE=0084 | APP=I | ROWS=72 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 71 | Các tuyến đường còn lại | Toàn tuyến |  | 75 | 60 | 48 | 32
+TABLE=0085 | APP=I | ROWS=40 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 38 | Các tuyến đường còn lại | Toàn tuyến |  | 75 | 60 | 48 | 32
+TABLE=0086 | APP=I | ROWS=111 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 109 | Các tuyến đường đã được đầu tư bê tông, nhựa hoặc đường đất chưa được quy định ở trên | Toàn tuyến |  | 100 | 80 | 64 | 32
+TABLE=0087 | APP=I | ROWS=40 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 38 | Các tuyến đường đất còn tại | Toàn tuyến |  | 70 | 56 | 45 | 32
+TABLE=0088 | APP=I | ROWS=41 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 39 | Tuyến đường số 7 và 7A thuộc Khu TTHC xã Đường 10 cũ | Toàn tuyến |  | 98 | 78 | 62 | 32
+TABLE=0089 | APP=I | ROWS=45 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 43 | Các tuyến đường đất còn lại | Toàn tuyến |  | 70 | 56 | 45 | 32
+TABLE=0090 | APP=I | ROWS=133 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  HEADER R53: 51 | Đường giao thông đấu nối từ đường Lê Duẩn và đường Nguyễn Huệ vào 200m (trừ các đoạn đã quy định giá đất cụ thể trong phụ lục này) | Toàn tuyến |  | 168 | 134 | 108 | 
+  HEADER R105: 103 | Đường giao thông đấu nối từ đường ĐT 759B vào 200m (trừ các đoạn đã quy định giá đất cụ thể trong phụ lục này) | Toàn tuyến |  | 105 | 84 | 67 | 49
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 131 | Các tuyến đường còn lại | Toàn tuyến |  | 50 | 40 | 32 | 32
+TABLE=0091 | APP=I | ROWS=77 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  HEADER R14: 12 | Đường giao thông đấu nối từ đường ĐT 759B vào 200m (trừ các đoạn đã quy định giá đất cụ thể trong phụ lục này) | Toàn tuyến |  | 112 | 90 | 72 | 49
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 75 | Các tuyến đường còn lại | Toàn tuyến |  | 50 | 40 | 32 | 32
+TABLE=0092 | APP=I | ROWS=25 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  HEADER R7: 5 | Đường giao thông đấu nối từ đường ĐT 75913 vào 200m (trừ các đoạn đã quy định giá đất cụ thể trong phụ lục này) | Toàn tuyến |  | 105 | 84 | 67 | 49
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 23 | Các tuyến đường đất còn lại | Toàn tuyến |  | 50 | 40 | 32 | 32
+TABLE=0093 | APP=I | ROWS=23 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 21 | Các tuyến đường còn lại | Toàn tuyến |  | 60 | 48 | 38 | 38
+TABLE=0094 | APP=I | ROWS=117 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 115 | Các tuyến đường còn lại | Toàn tuyến |  | 60 | 48 | 38 | 38
+TABLE=0095 | APP=I | ROWS=52 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 50 | Các tuyến đường còn lại | Toàn tuyến |  | 60 | 48 | 38
+TABLE=0096 | APP=I | ROWS=16 | COLS=8
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản | Giá Đất rừng sản xuất
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 14 | Các tuyến đường còn lại | Toàn tuyến |  | 50 | 40 | 32 | 32
+TABLE=0097 | APP=I | ROWS=86 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 84 | Các tuyến đường giao thông còn lại trên địa bàn xã | Toàn tuyến |  | 81 | 65 | 52
+TABLE=0098 | APP=I | ROWS=37 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 35 | Các tuyến đường giao thông còn lại trên địa bàn xã | Toàn tuyến |  | 77 | 62 | 49
+TABLE=0099 | APP=I | ROWS=28 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hằng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 26 | Các tuyến đường giao thông còn lại trên địa bàn xã | Toàn tuyến |  | 55 | 39 | 15
+TABLE=0100 | APP=I | ROWS=38 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản
+  FIRST: TT | Tên đường giao thông | Đoạn đường | Giá đất trồng cây lâu năm | Giá đất trồng cây hàng năm | Giá đất nuôi trồng thủy sản
+  FIRST: Điểm đầu | Điểm cuối
+  LAST: 36 | Các tuyến đường giao thông còn lại trên địa bàn xã | Toàn tuyến |  | 77 | 62 | 49
+TABLE=0101 | APP=I | ROWS=9 | COLS=7
+  FIRST: TT | Tên các đ ảo, c ù lao | Đ ịa điểm | Giá đ ất
+  FIRST: Giá đ ất n ông nghi ệp | Giá đ ất ở | Giá đ ất thương mại , dịch vụ | Giá đ ất sản xuất , kinh doanh phi nông nghiệp kh ông ph ải đ ất thương mại , dịch vụ
+  LAST: 3 | Cù lao C ỏ | Phư ờng Trấn Bi ên | 370 | 3.500 | 2.450 | 2.100
+TABLE=0102 | APP=III | ROWS=108 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại dịch vụ | Giá đất cơ sở s ả n xuất phi nông nghiệp và đất s ử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại dịch vụ | Giá đất cơ sở s ả n xuất phi nông nghiệp và đất s ử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Đường Bùi Hữu Nghĩa | Giáp ranh giới thành phố Hồ Chí Minh | Đường Nguyễn Tri Phương | 26.100 | 18.300 | 15.700
+  LAST: 107 | Các tuyến đường tại Cù Lao Tân Vạn (các đường còn lại) | 21.300 | 14.900 | 12.800
+TABLE=0103 | APP=III | ROWS=579 | COLS=7
+  HEADER R1: TT | Tên đ ườ ng giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở s ả n xuất phi nông nghiệp và đất s ử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đ ườ ng giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở s ả n xuất phi nông nghiệp và đất s ử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Đường Nguyễn Tri Phương | Cầu Rạch Cát | Cầu Ghềnh | 20.300 | 14.200 | 12.200
+  LAST: 578 | Đường Nguyễn Hiền Vương | Đường Nguyễn Văn Trị | Đường Nguyễn Thị Hiền | 36.800 | 25.800 | 22.100
+TABLE=0104 | APP=III | ROWS=337 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại dịch vụ | Giá đất sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại dịch vụ | Giá đất sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Đường Lê A | Đường Nguyễn Ái Quốc | Đường Phạm Văn Thuận | 24.900 | 17.400 | 14.900
+  LAST: 336 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Lê Quý Đôn đoạn từ Đường Đồng Khởi đến Đường vành đai sân vận động có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 4.400 | 3.100 | 2.600
+TABLE=0105 | APP=III | ROWS=183 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Đường Nguyễn Trường Tộ | Quốc lộ 1 | Đường Hoàng Văn Bổn | 17.300 | 12.100 | 10.400
+  LAST: 175 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường vào nhà máy nước Thiện Tân đoạn từ Đường vào khu tái định cư Tân Biên (nối từ đường Hoàng Văn Bổn đi vào hết ranh khu tái định cư Tân Biên) đến Hết ranh thửa đất số 52, tờ BĐĐC số 215 về bên phải và hết ranh thửa đất số 4, tờ BĐĐC số 215 về bên trái có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >600m. - Có bề rộng <3m, cách đường giao thông > 200m. | 2.400 | 1.700 | 1.400
+TABLE=0106 | APP=III | ROWS=267 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Đường Nguyễn Ái Quốc | Ngã tư Tân Phong | Hết ranh phường Trảng Dài | 36.500 | 25.600 | 21.900
+  LAST: 266 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường ranh phường Tân Triều - phường Trảng Dài đoạn từ Ngã ba (hết ranh thửa đất số 121, tờ bản đồ số 19) đến Giáp ranh xã Thạnh Phú (cũ) có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 1.100 | 770 | 660
+TABLE=0107 | APP=III | ROWS=295 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Đường Điểu Xiển | Ranh phường Hố Nai | Đường Bắc Sơn - Long Thành | 22.300 | 15.600 | 13.400
+  LAST: 287 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Bắc Sơn - Long Thành đoạn từ Quốc lộ 1 đến Đường sắt có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 2.000 | 1.400 | 1.200
+TABLE=0108 | APP=III | ROWS=148 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Xa lộ Hà Nội | Vòng Xoay Tam Hiệp | Hết ranh giới tỉnh Đồng Nai | 28.600 | 20.000 | 17.200
+  LAST: 147 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường Phước Tân - Long Hưng đoạn từ Ranh phường Long Hưng đến Hương Lộ 2 có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông >200m. | 1.800 | 1.300 | 1.100
+TABLE=0109 | APP=III | ROWS=386 | COLS=7
+  HEADER R1: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: TT | Tên đường giao thông | Điểm đầu | Điểm cuối | Giá đất ở | Giá đất thương mại, dịch vụ | Giá đất cơ sở sản xuất phi nông nghiệp và đất sử dụng cho hoạt động khoáng sản
+  FIRST: 1 | Đường Nguyễn Ái Quốc | Giáp ranh phường Trấn Biên | Đường Đồng Khởi | 40.600 | 28.400 | 24.400
+  LAST: 385 | Các tuyến đường giao thông không đấu nối trực tiếp và thông ra Đường ranh phường Tân Triều - phường Trảng Dài đoạn từ Ngã ba (hết ranh thửa đất số 121, tờ bản đồ số 19) đến Giáp ranh xã Thạnh Phú (cũ) có hiện trạng là đường nhựa, bê tông xi măng: - Có bề rộng từ ≥3m đến <5m, cách đường giao thông >1.000m. - Có bề rộng <3m, cách đường giao thông > 200m. | 1.100 | 770 | 660
