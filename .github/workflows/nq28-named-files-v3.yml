@@ -67,6 +67,13 @@ jobs:
             --output generated/named-v3/nonagri/parsed \
             --area-start 1 --area-end 95
 
+      - name: Parse fixed named files 3 through 6
+        run: |
+          rm -rf generated/named-v3/small-groups
+          python3 data-pipeline-v3/parse_named_small_groups.py \
+            --source-dir source-data/nq28-pdf \
+            --output generated/named-v3/small-groups
+
       - name: Build compact audit summary
         shell: bash
         run: |
@@ -76,6 +83,7 @@ jobs:
           out = Path('generated/named-v3/audit-summary.json')
           a = json.loads(Path('generated/named-v3/agri/parsed/parse-summary.json').read_text(encoding='utf-8'))
           n = json.loads(Path('generated/named-v3/nonagri/parsed/parse-summary.json').read_text(encoding='utf-8'))
+          s = json.loads(Path('generated/named-v3/small-groups/summary.json').read_text(encoding='utf-8'))
           checks = []
           tam = Path('generated/named-v3/nonagri/parsed/areas/area-003.parsed.json.gz')
           if tam.exists():
@@ -101,6 +109,7 @@ jobs:
                   'areaCount': n.get('areaCount'), 'recordCount': n.get('recordCount'),
                   'reviewCount': n.get('reviewCount'), 'missingAreas': n.get('missingAreas')
               },
+              'smallGroups': s,
               'tamHiepDongKhoiChecks': checks,
               'ttIsLookupKey': False,
               'runtimeOrD1Modified': False
