@@ -51,6 +51,13 @@ jobs:
             --output generated/named-v3/agri/parsed \
             --area-start 1 --area-end 95
 
+      - name: Parse file 2 island/cù lao rows
+        run: |
+          mkdir -p generated/named-v3/file2
+          python3 data-pipeline-v3/parse_file2_islands.py \
+            --source "source-data/nq28-pdf/2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf" \
+            --output generated/named-v3/file2/islands.json
+
       - name: Build file 2 non-agricultural area sources
         run: |
           rm -rf .pipeline-work/named-v3/nonagri generated/named-v3/nonagri
@@ -83,6 +90,7 @@ jobs:
           out = Path('generated/named-v3/audit-summary.json')
           a = json.loads(Path('generated/named-v3/agri/parsed/parse-summary.json').read_text(encoding='utf-8'))
           n = json.loads(Path('generated/named-v3/nonagri/parsed/parse-summary.json').read_text(encoding='utf-8'))
+          i = json.loads(Path('generated/named-v3/file2/islands.json').read_text(encoding='utf-8'))
           s = json.loads(Path('generated/named-v3/small-groups/summary.json').read_text(encoding='utf-8'))
           checks = []
           tam = Path('generated/named-v3/nonagri/parsed/areas/area-003.parsed.json.gz')
@@ -105,6 +113,7 @@ jobs:
                   'areaCount': a.get('areaCount'), 'recordCount': a.get('recordCount'),
                   'reviewCount': a.get('reviewCount'), 'missingAreas': a.get('missingAreas')
               },
+              'file2Islands': {'recordCount': i.get('count')},
               'nonAgricultural': {
                   'areaCount': n.get('areaCount'), 'recordCount': n.get('recordCount'),
                   'reviewCount': n.get('reviewCount'), 'missingAreas': n.get('missingAreas')
