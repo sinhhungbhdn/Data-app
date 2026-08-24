@@ -1,0 +1,125 @@
+TABLE=064 | AREA=Phường Phước Long | RECORDS=124 | GROUPS=123 | REVIEW=0
+ID=NQ28-064-S01-TT0001-01 | SEC=agricultural | TT=1 | REL=main | PRICES=336,269 | ROAD=64. Phường Phước Long Tên đường giao TT thông Đường Đinh Tiên Giáp đường Hoàng | START=Đoạn đường Giáp 6/1 Văn | END=Giá đất trồng cây lâu năm đường Lê 420 Duyệt | FLAGS=
+ID=NQ28-064-S01-TT0002-01 | SEC=agricultural | TT=2 | REL=main | PRICES=336,269 | ROAD=Đường Đinh Tiên Ngã ba Văn Duyệt Hoàng | START=Ngã giao đường Lê đường Quang | END=tư giao Trần 420 Khải | FLAGS=
+ID=NQ28-064-S01-TT0003-01 | SEC=agricultural | TT=3 | REL=main | PRICES=336,269 | ROAD=Đường Đinh Tiên Ngã tư giao Hoàng Trần Quang | START=đường Trụ phường Khải | END=sở UBND 420 (cũ) | FLAGS=
+ID=NQ28-064-S01-TT0004-01 | SEC=agricultural | TT=4 | REL=main | PRICES=336,269 | ROAD=Đường Đinh Tiên Giáp đường Hoàng Tất Thành | START=Nguyễn Giáp | END=dường 6/1 420 | FLAGS=
+ID=NQ28-064-S01-TT0005-01 | SEC=agricultural | TT=5 | REL=main | PRICES=336,269 | ROAD=Ngã ba Đường 6/1 Thành (giao | START=Đường Nguyễn Tất đường 6/1) Hoàng | END=Đinh Tiên 420 | FLAGS=
+ID=NQ28-064-S01-TT0006-01 | SEC=agricultural | TT=6 | REL=main | PRICES=235,188 | ROAD=Ngã ba Đường 6/1 Hoàng | START=giáp Đinh Tiên Tượng thắng | END=đài Chiến 294 | FLAGS=
+ID=NQ28-064-S01-TT0007-01 | SEC=agricultural | TT=7 | REL=main | PRICES=235,188 | ROAD=Đường 6/1 Tượng đài | START=chiến thắng Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0008-01 | SEC=agricultural | TT=8 | REL=main | PRICES=235,188 | ROAD=Đường Trần Giao đường Hưng Đạo Tất Thành | START=Nguyễn Giao 6/1 | END=với đường 294 | FLAGS=
+ID=NQ28-064-S01-TT0009-01 | SEC=agricultural | TT=9 | REL=main | PRICES=235,188 | ROAD=Đường Trần Giao đường Hưng Đạo | START=Giao 6/1 Lê Văn | END=với đường 294 A | FLAGS=
+ID=NQ28-064-S01-TT0010-01 | SEC=agricultural | TT=10 | REL=main | PRICES=235,188 | ROAD=Đường Trần Ngã Tư Hưng Đạo đường Lê | START=Hết Giao với nhựa Văn A Long | END=tuyến đường Khu phố 294 Thủy 4 | FLAGS=
+ID=NQ28-064-S01-TT0011-01 | SEC=agricultural | TT=11 | REL=main | PRICES=235,188 | ROAD=Đường Lê Hồng Đường Phong | START=Đường Hùng Vương Tổ | END=Lý Thái 294 | FLAGS=
+ID=NQ28-064-S01-TT0012-01 | SEC=agricultural | TT=12 | REL=main | PRICES=235,188 | ROAD=Đường Lê Hồng Đường Phong (nối dài) | START=Thửa Lý Thái Tổ tờ bản | END=đất số 184, 294 đồ số 03 | FLAGS=
+ID=NQ28-064-S01-TT0013-01 | SEC=agricultural | TT=13 | REL=main | PRICES=235,188 | ROAD=Đường Lê Hồng Đường Thành (Đường Phong | START=Nguyễn Tất Ngã ĐT 741) đường | END=ba giao 294 Tàu Ô | FLAGS=
+ID=NQ28-064-S01-TT0014-01 | SEC=agricultural | TT=14 | REL=main | PRICES=235,188 | ROAD=Đường Lê Hồng Ngã ba Phong ô | START=giao đường Tàu Cầu | END=số 3 294 | FLAGS=
+ID=NQ28-064-S01-TT0015-01 | SEC=agricultural | TT=15 | REL=main | PRICES=235,188 | ROAD=Đường Lê Hồng Cầu số Phong | START=Ngã đường 3 Tất | END=ba giao Nguyễn 294 Thành | FLAGS=
+ID=NQ28-064-S01-TT0016-01 | SEC=agricultural | TT=16 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Tượng đài Huệ | START=Giáp chiến thắng Văn | END=đường Lê 294 Duyệt | FLAGS=
+ID=NQ28-064-S01-TT0017-01 | SEC=agricultural | TT=17 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Giao đường Huệ Duyệt | START=Lê Văn Giao Hồng | END=đường Lê 294 Phong | FLAGS=
+ID=NQ28-064-S01-TT0018-01 | SEC=agricultural | TT=18 | REL=main | PRICES=235,188 | ROAD=Đường Lê Văn A Hết tuyến | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0019-01 | SEC=agricultural | TT=19 | REL=main | PRICES=235,188 | ROAD=Đường Trần Ngã ba Quang Khải | START=Đường đường 6/1 Duyệt | END=Lê Văn 294 | FLAGS=
+ID=NQ28-064-S01-TT0020-01 | SEC=agricultural | TT=20 | REL=main | PRICES=235,188 | ROAD=Đường Trần Ngã tư giáp Văn Duyệt Quang Khải | START=đường Lê Ngã Hồ Long | END=ba đường 294 Thủy | FLAGS=
+ID=NQ28-064-S01-TT0021-01 | SEC=agricultural | TT=21 | REL=main | PRICES=235,188 | ROAD=Đường Cách Tượng đài mạng tháng 8 | START=Ngã chiến thắng đường Hạnh | END=ba giáp Sư Vạn 294 | FLAGS=
+ID=NQ28-064-S01-TT0022-01 | SEC=agricultural | TT=22 | REL=main | PRICES=235,188 | ROAD=Đường Cách Ngã ba mạng tháng 8 Vạn Hạnh | START=giáp đường Sư Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0023-01 | SEC=agricultural | TT=23 | REL=main | PRICES=235,188 | ROAD=Đường Hai Bà Toàn tuyến Trưng | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0024-01 | SEC=agricultural | TT=24 | REL=main | PRICES=235,188 | ROAD=Đường Tự Do Toàn tuyến | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0025-01 | SEC=agricultural | TT=25 | REL=main | PRICES=235,188 | ROAD=Đường Hồ Long Ngã tư giáp Thủy | START=Đường đường 6/1 Vương | END=Hùng 294 | FLAGS=
+ID=NQ28-064-S01-TT0026-01 | SEC=agricultural | TT=26 | REL=main | PRICES=235,188 | ROAD=Đường Hồ Long Đường Thủy | START=Ngã Hùng Vương đường Tổ | END=ba giáp Lý Thái 294 | FLAGS=
+ID=NQ28-064-S01-TT0027-01 | SEC=agricultural | TT=27 | REL=main | PRICES=235,188 | ROAD=Đường Trần Ngã tư giáp Quốc Toản Trần Quang | START=Ngã đường đường Khải Tổ | END=tư giáp Lý Thái 294 | FLAGS=
+ID=NQ28-064-S01-TT0028-01 | SEC=agricultural | TT=28 | REL=main | PRICES=235,188 | ROAD=Đường Trần Giao lộ Quốc Toản Duyệt | START=đường Lê Văn Giao Trần | END=lộ đường 294 Quang Khải | FLAGS=
+ID=NQ28-064-S01-TT0029-01 | SEC=agricultural | TT=29 | REL=main | PRICES=235,188 | ROAD=Đường Sư Vạn Toàn tuyến Hạnh | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0030-01 | SEC=agricultural | TT=30 | REL=main | PRICES=235,188 | ROAD=Đường Lý Thái Đường Tổ Hoàng | START=Đinh Tiên Đường Phong | END=Lê Hồng 294 | FLAGS=
+ID=NQ28-064-S01-TT0031-01 | SEC=agricultural | TT=31 | REL=main | PRICES=235,188 | ROAD=Đường Lý Thái Đường Tổ | START=Lê Hồng Phong Cầu | END=An Lương 294 | FLAGS=
+ID=NQ28-064-S01-TT0032-01 | SEC=agricultural | TT=32 | REL=main | PRICES=235,188 | ROAD=Đường Lê Văn Giao đường Duyệt Hoàng | START=Đinh Tiên Giao Thái | END=đường Lý 294 Tổ | FLAGS=
+ID=NQ28-064-S01-TT0033-01 | SEC=agricultural | TT=33 | REL=main | PRICES=235,188 | ROAD=Đường Lê Văn Giao đường Duyệt | START=Lý Thái Tổ Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0034-01 | SEC=agricultural | TT=34 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Giao đường Văn Trỗi Hoàng | START=Đinh Tiên Giao Quốc | END=đường Trần 294 Toản | FLAGS=
+ID=NQ28-064-S01-TT0035-01 | SEC=agricultural | TT=35 | REL=main | PRICES=235,188 | ROAD=Đường Hàm Đường Nghi | START=Ngã Lý Thái Tổ Trần Văn | END=ba đường Phú và Lê 294 Duyệt | FLAGS=
+ID=NQ28-064-S01-TT0036-01 | SEC=agricultural | TT=36 | REL=main | PRICES=235,188 | ROAD=Đường Xô Viết Từ thửa Nghệ Tĩnh bản đồ số | START=Ngã đất số 56, tờ đường 9 Hồng | END=ba giao Phạm 294 Thái | FLAGS=
+ID=NQ28-064-S01-TT0037-01 | SEC=agricultural | TT=37 | REL=main | PRICES=235,188 | ROAD=Đường Xô Viết Ngã ba Nghệ Tĩnh Hồng Thái | START=đường Phạm Thửa tờ bản | END=đất số 13, 294 đồ số 01 | FLAGS=
+ID=NQ28-064-S01-TT0038-01 | SEC=agricultural | TT=38 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Từ Thửa Văn Cừ bản đồ số | START=đất số 371, tờ Đường 04 Nghệ | END=Xô Viết 294 Tĩnh | FLAGS=
+ID=NQ28-064-S01-TT0039-01 | SEC=agricultural | TT=39 | REL=main | PRICES=235,188 | ROAD=Ngã ba Đường Trần Phú Nghi | START=đường Hàm Đường Hưng | END=Trần 294 Đạo | FLAGS=
+ID=NQ28-064-S01-TT0040-01 | SEC=agricultural | TT=40 | REL=main | PRICES=235,188 | ROAD=Đường Thanh Toàn tuyến Niên | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0041-01 | SEC=agricultural | TT=41 | REL=main | PRICES=235,188 | ROAD=Ngã ba Đường Phan Bội và đường Châu Thành | START=giáp đường 6/1 Đường Nguyễn Tất Xí | END=Nguyễn 294 | FLAGS=
+ID=NQ28-064-S01-TT0042-01 | SEC=agricultural | TT=42 | REL=main | PRICES=235,188 | ROAD=Đường Kim Đường Đồng | START=Đường Hồ Long Thủy Văn | END=Nguyễn 294 Giáp | FLAGS=
+ID=NQ28-064-S01-TT0043-01 | SEC=agricultural | TT=43 | REL=main | PRICES=235,188 | ROAD=Đường Bà Triệu Toàn tuyến | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0044-01 | SEC=agricultural | TT=44 | REL=main | PRICES=235,188 | ROAD=Đường Cao Bá Toàn tuyến Quát | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0045-01 | SEC=agricultural | TT=45 | REL=main | PRICES=235,188 | ROAD=Đường Phan Toàn tuyến Đình Giót | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0046-01 | SEC=agricultural | TT=46 | REL=main | PRICES=235,188 | ROAD=Đường Hoàng Toàn tuyến Diệu | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0047-01 | SEC=agricultural | TT=47 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Ngã ba Văn Giáp Long Thủy | START=giáp đường Hồ Đường Xí | END=Nguyễn 294 | FLAGS=
+ID=NQ28-064-S01-TT0048-01 | SEC=agricultural | TT=48 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Đường Văn Giáp | START=Hết Nguyễn Xí nhựa | END=tuyến đường 294 | FLAGS=
+ID=NQ28-064-S01-TT0049-01 | SEC=agricultural | TT=49 | REL=main | PRICES=235,188 | ROAD=Đường nối Trần Ngã ba Quang Khải và Trần Quang Nguyễn Văn Trỗi | START=Ngã giáp đường đường Khải Văn | END=ba giáp Nguyễn 294 Trỗi | FLAGS=
+ID=NQ28-064-S01-TT0050-01 | SEC=agricultural | TT=50 | REL=main | PRICES=235,188 | ROAD=Đường hẻm Lê Văn Duyệt (Cách Ngã ba ngã ba Lý Thái Văn Duyệt Tổ và Lê Văn Duyệt 50m) | START=giáp đường Lê Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0051-01 | SEC=agricultural | TT=51 | REL=main | PRICES=235,188 | ROAD=Đường vào sân Ngã ba vận động Văn Duyệt | START=giáp đường Lê Ranh động | END=sân vận 294 | FLAGS=
+ID=NQ28-064-S01-TT0052-01 | SEC=agricultural | TT=52 | REL=main | PRICES=235,188 | ROAD=Đường Hùng Từ đường Vương Thủy | START=Hồ Long Cầu Long | END=giáp ranh xã 294 Giang (cũ) | FLAGS=
+ID=NQ28-064-S01-TT0053-01 | SEC=agricultural | TT=53 | REL=main | PRICES=235,188 | ROAD=Đường hẻm ra đường Trần Toàn tuyến Hưng Đạo và | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0054-01 | SEC=agricultural | TT=54 | REL=main | PRICES=235,188 | ROAD=đường Tự Do Đường Trần Quang Khải (nối Đường dài) | START=Đường Hồ Long Thủy Phong | END=Lê Hồng 294 | FLAGS=
+ID=NQ28-064-S01-TT0055-01 | SEC=agricultural | TT=55 | REL=main | PRICES=235,188 | ROAD=Đường Phạm Đường Tĩnh Hồng Thái | START=Hết Xô Viết Nghệ đất đồ số | END=tuyến (thửa số 44, tờ bản 294 05) | FLAGS=
+ID=NQ28-064-S01-TT0056-01 | SEC=agricultural | TT=56 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Đường Xí Giáp | START=Đến Nguyễn Văn nhựa bến | END=hết đường (giáp ranh 294 xe) | FLAGS=
+ID=NQ28-064-S01-TT0057-01 | SEC=agricultural | TT=57 | REL=main | PRICES=235,188 | ROAD=Đường Cù Chính Đường Lan Tháng Tám | START=Cách Mạng Đến | END=hết tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0058-01 | SEC=agricultural | TT=58 | REL=main | PRICES=235,188 | ROAD=Đường Hồ Huân Đường Nghiệp | START=6/1 Đến | END=hết tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0059-01 | SEC=agricultural | TT=59 | REL=main | PRICES=235,188 | ROAD=Đường nhựa bên Đường hông sân vận động | START=Đường Lê Văn Duyệt Thủy | END=Hồ Long 294 | FLAGS=
+ID=NQ28-064-S01-TT0060-01 | SEC=agricultural | TT=60 | REL=main | PRICES=235,188 | ROAD=Đường nhựa đầu nối ra đường bên Toàn tuyến hông sân vận động | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0061-01 | SEC=agricultural | TT=61 | REL=main | PRICES=235,188 | ROAD=Đường bên hông Đường công an PCCC | START=Thửa Lý Thái Tổ tờ bản | END=đất số 193, 294 đồ số 03 | FLAGS=
+ID=NQ28-064-S01-TT0062-01 | SEC=agricultural | TT=62 | REL=main | PRICES=235,188 | ROAD=Đường Lê Quý Giáp đường Đôn | START=Giáp 6/1 Hưng | END=đường Trần 294 Đạo | FLAGS=
+ID=NQ28-064-S01-TT0063-01 | SEC=agricultural | TT=63 | REL=main | PRICES=235,188 | ROAD=Đường Lê Quý Giáp đường Đôn Đạo | START=Hết Tuổi Trần Hưng đất đất đồ số | END=ranh nhà trẻ Thơ (thửa số 12 và thửa 294 số 64, tờ bản 125) | FLAGS=
+ID=NQ28-064-S01-TT0064-01 | SEC=agricultural | TT=64 | REL=main | PRICES=235,188 | ROAD=Hết ranh Đường Lê Quý Thơ (thửa Đôn thửa đất đồ số 125) | START=nhà trẻ Tuổi đất số 12 và Giáp số 64, tờ bản Công | END=đường Đinh 294 Trứ | FLAGS=
+ID=NQ28-064-S01-TT0065-01 | SEC=agricultural | TT=65 | REL=main | PRICES=235,188 | ROAD=Đường nội ô chợ Giáp đường Phước Long Hoàng | START=Đinh Tiên Giáp | END=đường 6/1 294 | FLAGS=
+ID=NQ28-064-S01-TT0066-01 | SEC=agricultural | TT=66 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Ngã ba Văn Kiệt Tất Thành | START=Ngã giao đường Võ đường Thắng | END=ba giao Tôn Đức 294 | FLAGS=
+ID=NQ28-064-S01-TT0067-01 | SEC=agricultural | TT=67 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Ngã ba Đức Thắng Tất Thành | START=giao đường Tôn Cầu | END=Suối Dung 294 | FLAGS=
+ID=NQ28-064-S01-TT0068-01 | SEC=agricultural | TT=68 | REL=main | PRICES=235,188 | ROAD=Cầu Suối Đường Nguyễn đất số 2, Tất Thành 116) | START=Dung (thửa Ngã tờ bản đồ số Trần | END=ba đường 294 Hưng Đạo | FLAGS=
+ID=NQ28-064-S01-TT0069-01 | SEC=agricultural | TT=69 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Giáp đường Đạo Tất Thành | START=Tượng Trần Hưng (thửa tờ bản | END=Đức Mẹ đất số 78, 294 đồ số 62) | FLAGS=
+ID=NQ28-064-S01-TT0070-01 | SEC=agricultural | TT=70 | REL=main | PRICES=235,188 | ROAD=Tượng Đức Đường Nguyễn đất số 78, Tất Thành 62) | START=Mẹ (thửa tờ bản đồ số Cầu | END=Thác Mẹ 294 | FLAGS=
+ID=NQ28-064-S01-TT0071-01 | SEC=agricultural | TT=71 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Cầu Thác Tất Thành | START=Giáp Mẹ Nghĩa | END=ranh xã Phú 294 | FLAGS=
+ID=NQ28-064-S01-TT0072-01 | SEC=agricultural | TT=72 | REL=main | PRICES=235,188 | ROAD=Đường Ngô Giáp đường Quyền Tất Thành | START=Nguyễn Giáp Quý | END=đường Lê 294 Đôn | FLAGS=
+ID=NQ28-064-S01-TT0073-01 | SEC=agricultural | TT=73 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Giáp đường Chí Thanh Hoàng | START=Đinh Tiên Giáp Hưng Hết | END=đường Trần 294 Đạo tuyến nhựa | FLAGS=
+ID=NQ28-064-S01-TT0074-01 | SEC=agricultural | TT=74 | REL=main | PRICES=235,188 | ROAD=Đường Đinh Giáp đường Công Trứ Tất Thành | START=hiện Nguyễn đất đồ số thửa | END=hữu (thửa số 03, tờ bản 294 122 và đất số 25, | FLAGS=
+ID=NQ28-064-S01-TT0075-01 | SEC=agricultural | TT=75 | REL=main | PRICES=235,188 | ROAD=Đường Yên Thế Toàn tuyến | START=tờ bản | END=đồ số 54) 294 | FLAGS=
+ID=NQ28-064-S01-TT0076-01 | SEC=agricultural | TT=76 | REL=main | PRICES=235,188 | ROAD=Giáp đường Đường Lê Lợi Tất Thành | START=Nguyễn Đập điện | END=tràn Thủy 294 Thác Mơ | FLAGS=
+ID=NQ28-064-S01-TT0077-01 | SEC=agricultural | TT=77 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Giáp đường Văn Huyên Chí Thanh Các tuyến đường | START=Nguyễn Giáp Hưng | END=đường Trần 294 Đạo | FLAGS=
+ID=NQ28-064-S01-TT0078-01 | SEC=agricultural | TT=78 | REL=direct | PRICES=235,188 | FLAGS=
+ID=NQ28-064-S01-TT0079-01 | SEC=agricultural | TT=79 | REL=main | PRICES=235,188 | ROAD=Đường nhựa mới mở (đoạn nắn Cầu Thác luyến) | START=Đường Tất Mẹ (hướng Nghĩa) | END=Nguyễn Thành 294 đi xã Phú | FLAGS=
+ID=NQ28-064-S01-TT0080-01 | SEC=agricultural | TT=80 | REL=main | PRICES=235,188 | ROAD=Đường nhựa Đường (hẻm 178 Nguyễn Tất Thành Thành) | START=Nguyễn Tất Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0081-01 | SEC=agricultural | TT=81 | REL=main | PRICES=235,188 | ROAD=Đường nhựa cạnh nhà 1552 Đường (đối diện đường Thành Đinh Công Trứ) | START=Nguyễn Tất Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0082-01 | SEC=agricultural | TT=82 | REL=main | PRICES=235,188 | ROAD=Đường Huỳnh Giáp đường Khương An Đạo | START=Trần Hưng Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0083-01 | SEC=agricultural | TT=83 | REL=main | PRICES=235,188 | ROAD=Ngã ba Đường Độc Lập Nguyễn | START=Ngã giao đường đường Tất Thành Tấn | END=ba giao Lê Trọng 294 | FLAGS=
+ID=NQ28-064-S01-TT0084-01 | SEC=agricultural | TT=84 | REL=main | PRICES=235,188 | ROAD=Đường Võ Văn Ngã ba Kiệt Nguyễn | START=Hết giao đường tái định đất Tất Thành đồ số | END=ranh QH khu cư (thửa 294 số 73, tờ bản 57) | FLAGS=
+ID=NQ28-064-S01-TT0085-01 | SEC=agricultural | TT=85 | REL=main | PRICES=235,188 | ROAD=Đường Võ Văn Hết ranh | START=QH khu tái Giáp | END=ranh 294 | FLAGS=
+ID=NQ28-064-S01-TT0086-01 | SEC=agricultural | TT=86 | REL=main | PRICES=235,188 | ROAD=định cư Kiệt tờ bản đồ Đường Lê Trọng Ngã ba Độc Lập Tấn | START=(thửa đất số 73, phường số 57) Bình 16, 57) Ngã đường giao đường ranh 569, 65) | END=Phước (thửa đất số tờ bản đồ số ba giao hẻm (hết thửa đất số 294 tờ bản đồ số | FLAGS=
+ID=NQ28-064-S01-TT0087-01 | SEC=agricultural | TT=87 | REL=main | PRICES=235,188 | ROAD=Ngã ba Đường Lê Trọng hẻm (hết số 569, Tấn | START=giao đường ranh thửa đất Ngã tờ bản đồ số đường | END=ba giao 294 Âu Cơ | FLAGS=
+ID=NQ28-064-S01-TT0088-01 | SEC=agricultural | TT=88 | REL=main | PRICES=235,188 | ROAD=65) Đường Bà Rá Toàn tuyến | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0089-01 | SEC=agricultural | TT=89 | REL=main | PRICES=235,188 | ROAD=Đường Tôn Đức Ngã ba Thắng Nguyễn | START=Giáp giao đường phường Tất Thành Bình | END=ranh Phước 294 | FLAGS=
+ID=NQ28-064-S01-TT0090-01 | SEC=agricultural | TT=90 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Ngã ba Trãi Nguyễn | START=Giáp giao đường phường Tất Thành Bình Ngã | END=ranh Phước 294 ba giao | FLAGS=
+ID=NQ28-064-S01-TT0091-01 | SEC=agricultural | TT=91 | REL=main | PRICES=235,188 | ROAD=Đường Hoàng Ngã ba Văn Thái Độc Lập | START=đường (hết giao đường đất thửa cùng bản | END=Sản Xuất ranh thửa số 317 và 294 đất số 386, thuộc tờ đồ số 65) | FLAGS=
+ID=NQ28-064-S01-TT0092-01 | SEC=agricultural | TT=92 | REL=main | PRICES=235,188 | ROAD=Ngã ba Sản Xuất Đường Hoàng thửa đất Văn Thái đất số 386, tờ bản đồ | START=giao đường (hết ranh Ngã số 317 và thửa đường cùng thuộc số 65) | END=ba giao 294 Âu Cơ | FLAGS=
+ID=NQ28-064-S01-TT0093-01 | SEC=agricultural | TT=93 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Ngã ba Thị Định Nguyễn | START=giao đường Ngã Tất Thành nhựa | END=ba đường 294 | FLAGS=
+ID=NQ28-064-S01-TT0094-01 | SEC=agricultural | TT=94 | REL=main | PRICES=235,188 | ROAD=Đường Nguyễn Ngã ba Thị Định | START=Hết đường nhựa đường | END=02 nhánh 294 nhựa | FLAGS=
+ID=NQ28-064-S01-TT0095-01 | SEC=agricultural | TT=95 | REL=main | PRICES=235,188 | ROAD=Đường Hà Huy Ngã ba Tập Nguyễn | START=Giáp giao đường phường Tất Thành Bình | END=ranh Phước 294 | FLAGS=
+ID=NQ28-064-S01-TT0096-01 | SEC=agricultural | TT=96 | REL=main | PRICES=235,188 | ROAD=Đường Phan Ngã ba Đăng Lưu Nguyễn | START=Ngã giao đường đường Tất Thành Phong | END=ba giao Lê Hồng 294 | FLAGS=
+ID=NQ28-064-S01-TT0097-01 | SEC=agricultural | TT=97 | REL=main | PRICES=235,188 | ROAD=Ngã ba Đường Âu Cơ Nguyễn | START=Ngã giao đường đường Tất Thành Phong | END=tư giao Lê Hồng 294 | FLAGS=
+ID=NQ28-064-S01-TT0098-01 | SEC=agricultural | TT=98 | REL=main | PRICES=235,188 | ROAD=Ngã ba Đường Âu Cơ Hồng Phong | START=Giáp giao đường Lê phường Bình | END=ranh Phước 294 | FLAGS=
+ID=NQ28-064-S01-TT0099-01 | SEC=agricultural | TT=99 | REL=main | PRICES=235,188 | ROAD=Đường Lạc Long Ngã ba Quân Hồng Phong | START=Suối giao đường Lê thửa (Cầu Số 3) tờ bản | END=(Hết ranh đất số 610, 294 đồ số 66) | FLAGS=
+ID=NQ28-064-S01-TT0100-01 | SEC=agricultural | TT=100 | REL=main | PRICES=235,188 | ROAD=Đường Bùi Viện Đường | START=Đường Hà Huy Tập Đạm | END=Tôn Thất 294 | FLAGS=
+ID=NQ28-064-S01-TT0101-01 | SEC=agricultural | TT=101 | REL=main | PRICES=235,188 | ROAD=Đường Tôn Thất Đường Đạm | START=Đường Bùi Viện khu | END=QH liên 294 vực IV | FLAGS=
+ID=NQ28-064-S01-TT0102-01 | SEC=agricultural | TT=102 | REL=main | PRICES=235,188 | ROAD=Đường Triệu Đường Quang Phục | START=Đường Âu Cơ Phong | END=Lê Hồng 294 | FLAGS=
+ID=NQ28-064-S01-TT0103-01 | SEC=agricultural | TT=103 | REL=main | PRICES=235,188 | ROAD=Đường Lương Đường Văn Can Thành | START=Nguyễn Tất Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0104-01 | SEC=agricultural | TT=104 | REL=main | PRICES=235,188 | ROAD=Đường Đường Tàu Ô Thành | START=Nguyễn Tất Đường | END=Bà Rá 294 | FLAGS=
+ID=NQ28-064-S01-TT0105-01 | SEC=agricultural | TT=105 | REL=main | PRICES=235,188 | ROAD=Đường Huỳnh Đường Mẫn Đạt Thành | START=Nguyễn Tất Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0106-01 | SEC=agricultural | TT=106 | REL=main | PRICES=235,188 | ROAD=Đường Cao Đường Xuân Huy Thành | START=Nguyễn Tất Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0107-01 | SEC=agricultural | TT=107 | REL=main | PRICES=235,188 | ROAD=Đường Phạm Đường Phú Thứ Các tuyến đường | START=Nguyễn Trãi Hết | END=tuyến 294 | FLAGS=
+ID=NQ28-064-S01-TT0108-01 | SEC=agricultural | TT=108 | REL=main | PRICES=235,988 | ROAD=nhựa hẻm đường Hoàng Toàn tuyến Văn Thái và hẻm đường Lê Trọng Tấn | START= | END=294 | FLAGS=
+ID=NQ28-064-S01-TT0109-01 | SEC=agricultural | TT=109 | REL=main | PRICES=291,233,37 | ROAD=Giáp ranh Đường Thống Phước Bình Nhất về ngã ba | START=Đường (thửa phường tờ bản (cũ) hướng và thửa Phước Quả 104, 93) | END=bê tông đất số 92, đồ số 107 364 đất số tờ bản đồ số | FLAGS=
+ID=NQ28-064-S01-TT0110-01 | SEC=agricultural | TT=110 | REL=main | PRICES=291,233,37 | ROAD=Đường Đường Thống đất số 93, 107 và thửa Nhất tờ bản đồ | START=Hết bê tông (thửa 27, tờ bản đồ số 108 đất số 103, số 78, số 93) số 109 | END=thửa đất số tờ bản đồ số và thửa đất 364 tờ bản đồ | FLAGS=
+ID=NQ28-064-S01-TT0111-01 | SEC=agricultural | TT=111 | REL=main | PRICES=291,233,37 | ROAD=Thửa đất Đường Thống đất số 67, Nhất tờ bản đồ | START=Hết số 56 và thửa và hết cùng thuộc số 21, số 109 số 114 | END=ranh chợ tạm thửa đất 364 tờ bản đồ | FLAGS=
+ID=NQ28-064-S01-TT0112-01 | SEC=agricultural | TT=112 | REL=main | PRICES=291,233,37 | ROAD=Thửa đất Đường Thống đất số 64, Nhất tờ bản đồ | START=Hết số 23 và thửa 05, cùng thuộc 40 và số 114 305, 94 | END=thửa đất số tờ bản đồ số thửa đất số 364 tờ bản đồ số | FLAGS=
+ID=NQ28-064-S01-TT0113-01 | SEC=agricultural | TT=113 | REL=main | PRICES=291,233,37 | ROAD=Đường Thống Thửa đất bản đồ số nhất | START=số 306, tờ Giáp 94 và thửa Trung | END=ranh xã Phú 364 | FLAGS=
+ID=NQ28-064-S01-TT0114-01 | SEC=agricultural | TT=114 | REL=main | PRICES=202,161,37 | ROAD=đất số 6, 115 Ngã ba Đường Điện Biên (ngã ba Phủ Điện Biên | START=tờ bản đồ số Ngã bê tông Phước Quả (hết 172 Thống Nhất - Phủ) số 250, thuộc số 86) | END=ba đường xi măng thửa đất số và thửa đất 252 cùng tờ bản đồ | FLAGS=
+ID=NQ28-064-S01-TT0115-01 | SEC=agricultural | TT=115 | REL=main | PRICES=202,161,37 | ROAD=Ngã ba xi măng Đường Điện Biên 171 và thửa Phủ cùng thuộc số 86) | START=đường bê tông (thửa đất số Ngã đất số 218, Biên tờ bản đồ Thế | END=ba Điện Phủ - Yên 252 | FLAGS=
+ID=NQ28-064-S01-TT0116-01 | SEC=agricultural | TT=116 | REL=main | PRICES=202,161,37 | ROAD=Đường Điện Biên Ngã ba Phủ Yên Thế | START=Điện Biên Phủ - Lòng Mơ Ngã | END=Hồ Thác 252 ba đường | FLAGS=
+ID=NQ28-064-S01-TT0117-01 | SEC=agricultural | TT=117 | REL=main | PRICES=202,161,37 | ROAD=Đường Mạc Giao Ngã Đăng Dung đường Thống | START=bê tông, (hết ba giáp 7, tờ nhất 111 số 239, số 92) | END=xi măng thửa đất số bản đồ số 252 và thửa đất tờ bản đồ | FLAGS=
+ID=NQ28-064-S01-TT0118-01 | SEC=agricultural | TT=118 | REL=main | PRICES=202,161,37 | ROAD=Ngã ba xi măng Đường Mạc 262 và thửa Đăng Dung cùng thuộc số 92) | START=đường bê tông, (thửa đất số Giáp đất số 231, Trung tờ bản đồ | END=ranh xã Phú 252 | FLAGS=
+ID=NQ28-064-S01-TT0119-01 | SEC=agricultural | TT=119 | REL=main | PRICES=202,161,37 | ROAD=Đường Bạch Ngã ba Đằng Điện Biên | START=giáp đường Giáp Phủ Thác Ngã | END=lòng hồ 252 Mơ ba đường | FLAGS=
+ID=NQ28-064-S01-TT0120-01 | SEC=agricultural | TT=120 | REL=main | PRICES=168,134,37 | ROAD=Đường bê tông, xi măng giữa thôn Phước Đường Thiện - Phước Quả | START=đất số 235 Thống Nhất đất thuộc | END=(hết thửa đất và thửa 210 số 163, cùng tờ bản đồ | FLAGS=
+ID=NQ28-064-S01-TT0121-01 | SEC=agricultural | TT=121 | REL=main | PRICES=168,134,37 | ROAD=Đường Lam Sơn Cầu số Các tuyến đường | START=số 85) Ngã 4 đường | END=ba giao 210 Ba Rá | FLAGS=
+ID=NQ28-064-S01-TT0122-01 | SEC=agricultural | TT=122 | REL=main | PRICES=168,134,37 | ROAD=nhựa, bê tông chưa có ở trên Toàn tuyến có chiều rộng mặt đường từ 3,5m trở lên | START= | END=210 | FLAGS=
+ID=NQ28-064-S01-TT0123-01 | SEC=agricultural | TT=123 | REL=main | PRICES=168,134,37 | ROAD=Các tuyến đường nhựa, bê tông chưa có ở trên Toàn tuyến có chiều rộng mặt đường dưới 3,5m | START= | END=210 | FLAGS=
+ID=NQ28-064-S01-TT0124-01 | SEC=agricultural | TT=124 | REL=main | PRICES=168,134,37 | ROAD=Các tuyến đường giao thông còn Toàn tuyến lại | START= | END=210 | FLAGS=

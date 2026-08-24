@@ -1,0 +1,87 @@
+TABLE=092 | AREA=Xã Phú Riềng | RECORDS=86 | GROUPS=86 | REVIEW=2
+ID=NQ28-092-S01-TT0001-01 | SEC=agricultural | TT=1 | REL=main | PRICES=210,168,134 | ROAD=92. Xã Phú Riềng Tên đường giao thông TT Đường ĐT 741 | START=Đoạn Giáp ranh xã Thuận Lợi | END=đường Giá cây Đường vào chùa Pháp Tịnh | FLAGS=
+ID=NQ28-092-S01-TT0002-01 | SEC=agricultural | TT=2 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Đường vào chùa Pháp Tịnh | END=Trường THCS Nguyễn Du + 200m đi về hướng xã Bình Tân | FLAGS=
+ID=NQ28-092-S01-TT0003-01 | SEC=agricultural | TT=3 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Trường THCS Nguyễn Du + 200m đi về | END=Ngã ba Đường vào Nhà máy chế biến mũ cao | FLAGS=
+ID=NQ28-092-S01-TT0004-01 | SEC=agricultural | TT=4 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=hướng xã Bình Tân Ngã ba Đường vào Nhà máy chế biến mủ cao su | END=su Cầu suối Rạt | FLAGS=
+ID=NQ28-092-S01-TT0005-01 | SEC=agricultural | TT=5 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Cầu suối Rạt | END=Giáp khu quy hoạch chi tiết TTHC huyện Phú Riềng cũ | FLAGS=
+ID=NQ28-092-S01-TT0006-01 | SEC=agricultural | TT=6 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Giáp khu quy hoạch chi tiết TTHC huyện Phú Riềng cũ | END=Hết khu quy hoạch chi tiết TTHC huyện Phú Riềng cũ | FLAGS=
+ID=NQ28-092-S01-TT0007-01 | SEC=agricultural | TT=7 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Hết Khu quy hoạch chi tiết TTHC huyện Phú Riềng cũ | END=Ngã ba giao Đường ĐT 741 (Thửa đất số 35, tờ bản đồ số 93) | FLAGS=
+ID=NQ28-092-S01-TT0008-01 | SEC=agricultural | TT=8 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Ngã ba giao Đường ĐT 741 (thửa đất số 35, tờ bản đồ số 93) | END=Hết ranh đất trạm thu phí | FLAGS=
+ID=NQ28-092-S01-TT0009-01 | SEC=agricultural | TT=9 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Giáp đất trạm thu phí | END=Ngã ba đi Long Tân cũ | FLAGS=
+ID=NQ28-092-S01-TT0010-01 | SEC=agricultural | TT=10 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Ngã ba đi Long Tân cũ | END=Ngã ba Bù Nho cũ đi Long Hà + 300m đi về hướng phường Phước Bình | FLAGS=
+ID=NQ28-092-S01-TT0011-01 | SEC=agricultural | TT=11 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Ngã ba Bù Nho cũ đi Lọng Hà + 300m đi về hướng phường Phước Bình | END=Đường vào suối Tân + 200m hướng đi phường Phước Bình | FLAGS=
+ID=NQ28-092-S01-TT0012-01 | SEC=agricultural | TT=12 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 741 | START=Đường vào suối Tân + 200m hướng đi phường Phước Bình | END=Giáp ranh xã Bình Tân | FLAGS=
+ID=NQ28-092-S01-TT0013-01 | SEC=agricultural | TT=13 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT753B (ĐH 312 cũ) | START=Ngã tư giáp Đường DT741 | END=Hết ranh trụ sở UBND xã Phú Riềng | FLAGS=
+ID=NQ28-092-S01-TT0014-01 | SEC=agricultural | TT=14 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 753B (ĐH 312 cũ) | START=Hết ranh trụ sở UBND xã Phú Riềng | END=Ngã tư Cầu đường | FLAGS=
+ID=NQ28-092-S01-TT0015-01 | SEC=agricultural | TT=15 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 753B (ĐH 312 cũ) | START=Ngã tư Cầu đường | END=Ngã tư cầu đường + 500m đi về hướng xã Phú Trung | FLAGS=
+ID=NQ28-092-S01-TT0016-01 | SEC=agricultural | TT=16 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 753B (ĐH 312 cũ) | START=Ngã tư Cầu đường + 500m về hướng xã Phú Trung | END=Ranh giữa 2 đi thôn Phú Vinh và Phú Hòa | FLAGS=
+ID=NQ28-092-S01-TT0017-01 | SEC=agricultural | TT=17 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 753B (ĐH 312 cũ) | START=Ranh giữa 2 thôn Phú Vinh và Phú Hòa | END=Giáp ranh giới xã Phú Trung | FLAGS=
+ID=NQ28-092-S01-TT0018-01 | SEC=agricultural | TT=18 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 757 | START=Ngã ba Bù Nho | END=Hết đất Trường THPT Nguyễn Khuyến + 100m về hướng Long Hà | FLAGS=
+ID=NQ28-092-S01-TT0019-01 | SEC=agricultural | TT=19 | REL=main | PRICES=210,168,134 | ROAD=Đường ĐT 757 | START=Hết đất Trường THPT Nguyễn Khuyến + 100m về hướng Long | END=Giáp ranh xã Long Hà | FLAGS=
+ID=NQ28-092-S01-TT0020-01 | SEC=agricultural | TT=20 | REL=main | PRICES=140,112,90 | ROAD=Đường số 2 TTTM Bù Nho | START=Hà Lô đất LA2-1 | END=Lô đất LC1-9 | FLAGS=
+ID=NQ28-092-S01-TT0021-01 | SEC=agricultural | TT=21 | REL=main | PRICES=140,112,90 | ROAD=Đường số 4 TTTM Bù Nho | START=Lô đất LF1-1 | END=Lô đất LC2-6 | FLAGS=
+ID=NQ28-092-S01-TT0022-01 | SEC=agricultural | TT=22 | REL=main | PRICES=140,112,90 | ROAD=Đường số 6 TTTM Bù Nho | START=Lô đất LF1-2 | END=Lô đất LC2-15 | FLAGS=
+ID=NQ28-092-S01-TT0023-01 | SEC=agricultural | TT=23 | REL=main | PRICES=140,112,90 | ROAD=Khu đô thị Phú Cường | START=Các tuyến đường trong khu dân cư | END= | FLAGS=
+ID=NQ28-092-S01-TT0024-01 | SEC=agricultural | TT=24 | REL=main | PRICES=140,112,90 | ROAD=Đường số 1 TTTM Phú Riềng | START=Tiếp giáp đường ĐT 753B (ĐH 312 cũ) | END=Tiếp giáp đường số 3 TTTM | FLAGS=
+ID=NQ28-092-S01-TT0025-01 | SEC=agricultural | TT=25 | REL=main | PRICES=140,112,90 | ROAD=Đường số 2 TTTM Phú Riềng | START=Tiếp giáp đường ĐT 753B (ĐH 312 cũ) | END=Tiếp giáp đường số 3 TTTM | FLAGS=
+ID=NQ28-092-S01-TT0026-01 | SEC=agricultural | TT=26 | REL=main | PRICES=140,112,90 | ROAD=Đường số 3 TTTM Phú Riềng | START=Lô phố chợ LG 24 | END=Hết ranh đất chợ cũ | FLAGS=
+ID=NQ28-092-S01-TT0027-01 | SEC=agricultural | TT=27 | REL=main | PRICES=140,112,90 | ROAD=Đường liên xã Bù Nho đi Long Tân (cũ) | START=Ngã ba Đường ĐT 741 Đường vào Long Tân cũ | END=Giáp ranh xã Long Tân (cũ) | FLAGS=
+ID=NQ28-092-S01-TT0028-01 | SEC=agricultural | TT=28 | REL=main | PRICES=140,112,90 | ROAD=Đường Tân Phước - Tân Hiệp | START=Đường liên xã Bù Nho - Long | END=Đường ĐT 757 | FLAGS=
+ID=NQ28-092-S01-TT0002-02 | SEC=agricultural | TT=2 | REL=main | PRICES= | ROAD= | START=Tân (cũ) | END= | FLAGS=MAIN_ROAD_EMPTY,PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-092-S01-TT0029-01 | SEC=agricultural | TT=29 | REL=main | PRICES=140,112,90 | ROAD=Đường D1 | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0030-01 | SEC=agricultural | TT=30 | REL=main | PRICES=140,112,90 | ROAD=Đường D2 | START=Toàn tuyến | END=Đường ĐT 741 + | FLAGS=
+ID=NQ28-092-S01-TT0031-01 | SEC=agricultural | TT=31 | REL=main | PRICES=140,112,90 | ROAD=Đường liên xã Bù Nho đi xã Phước Tân (cũ) | START=Đường ĐT 741 | END=500m về hường xã Phước Tân (cũ) | FLAGS=
+ID=NQ28-092-S01-TT0032-01 | SEC=agricultural | TT=32 | REL=main | PRICES=140,112,90 | ROAD=Đường liên xã Bù Nho đi xã Phước Tân (cũ) | START=Đường ĐT 741 500m về hướng xã Phước Tân (cũ) | END=+ Ranh xã Phước Tân (cũ) | FLAGS=
+ID=NQ28-092-S01-TT0033-01 | SEC=agricultural | TT=33 | REL=main | PRICES=140,112,90 | ROAD=Đường ĐH. Bù Nho - Long - Tân Hưng, Hớn Quản (cũ) | START=Tân Đường N3a | END=Giáp ranh xã Long Tân (cũ) | FLAGS=
+ID=NQ28-092-S01-TT0034-01 | SEC=agricultural | TT=34 | REL=main | PRICES=140,112,90 | ROAD=Đường N9 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0035-01 | SEC=agricultural | TT=35 | REL=main | PRICES=140,112,90 | ROAD=Đường D6 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0036-01 | SEC=agricultural | TT=36 | REL=main | PRICES=140,112,90 | ROAD=Đường D6A (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0037-01 | SEC=agricultural | TT=37 | REL=main | PRICES=140,112,90 | ROAD=Đường D6B (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0038-01 | SEC=agricultural | TT=38 | REL=main | PRICES=140,112,90 | ROAD=Đường D6C (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0039-01 | SEC=agricultural | TT=39 | REL=main | PRICES=140,112,90 | ROAD=Đường D6D (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0040-01 | SEC=agricultural | TT=40 | REL=main | PRICES=140,112,90 | ROAD=Đường D6E (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0041-01 | SEC=agricultural | TT=41 | REL=main | PRICES=140,112,90 | ROAD=Đường D7 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0042-01 | SEC=agricultural | TT=42 | REL=main | PRICES=140,112,90 | ROAD=Đường N2a(TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0043-01 | SEC=agricultural | TT=43 | REL=main | PRICES=140,112,90 | ROAD=Đường D9 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0044-01 | SEC=agricultural | TT=44 | REL=main | PRICES=140,112,90 | ROAD=Đường N3 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0045-01 | SEC=agricultural | TT=45 | REL=main | PRICES=140,112,90 | ROAD=Đường N3a (TTHC huyện) | START=Đường N9 | END=Đường ĐT 741 | FLAGS=
+ID=NQ28-092-S01-TT0046-01 | SEC=agricultural | TT=46 | REL=main | PRICES=140,112,90 | ROAD=Đường N3a (TTHC huyện) | START=Đường ĐT 741 | END=Đường D7 | FLAGS=
+ID=NQ28-092-S01-TT0047-01 | SEC=agricultural | TT=47 | REL=main | PRICES=140,112,90 | ROAD=Đường N4 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0048-01 | SEC=agricultural | TT=48 | REL=main | PRICES=140,112,90 | ROAD=Đường N4A (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0049-01 | SEC=agricultural | TT=49 | REL=main | PRICES=140,112,90 | ROAD=Đường N4B (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0050-01 | SEC=agricultural | TT=50 | REL=main | PRICES=140,112,90 | ROAD=Đường N4d (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0051-01 | SEC=agricultural | TT=51 | REL=main | PRICES=140,112,90 | ROAD=Đường N7 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0052-01 | SEC=agricultural | TT=52 | REL=main | PRICES=140,112,90 | ROAD=Đường N7a (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0053-01 | SEC=agricultural | TT=53 | REL=main | PRICES=140,112,90 | ROAD=Đường N7b (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0054-01 | SEC=agricultural | TT=54 | REL=main | PRICES=140,112,90 | ROAD=Đường nội bộ khu TMDV (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0055-01 | SEC=agricultural | TT=55 | REL=main | PRICES=140,112,90 | ROAD=Đường D3 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0056-01 | SEC=agricultural | TT=56 | REL=main | PRICES=140,112,90 | ROAD=Đường D3A (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0057-01 | SEC=agricultural | TT=57 | REL=main | PRICES=140,112,90 | ROAD=Đường D3B (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0058-01 | SEC=agricultural | TT=58 | REL=main | PRICES=140,112,90 | ROAD=Đường D3C (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0059-01 | SEC=agricultural | TT=59 | REL=main | PRICES=140,112,90 | ROAD=Đương D3D(TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0060-01 | SEC=agricultural | TT=60 | REL=main | PRICES=140,112,90 | ROAD=Đường D3E (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0061-01 | SEC=agricultural | TT=61 | REL=main | PRICES=140,112,90 | ROAD=Đường D4 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0062-01 | SEC=agricultural | TT=62 | REL=main | PRICES=140,112,90 | ROAD=Đường N4C (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0063-01 | SEC=agricultural | TT=63 | REL=main | PRICES=140,112,90 | ROAD=Đường D5 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0064-01 | SEC=agricultural | TT=64 | REL=main | PRICES=140,112,90 | ROAD=Đường D5A (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0065-01 | SEC=agricultural | TT=65 | REL=main | PRICES=140,112,90 | ROAD=Đương N5 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0066-01 | SEC=agricultural | TT=66 | REL=main | PRICES=140,112,90 | ROAD=Đường N6 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0067-01 | SEC=agricultural | TT=67 | REL=main | PRICES=140,112,90 | ROAD=Đường Tân Phú 1 (TTHC huyện) | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0068-01 | SEC=agricultural | TT=68 | REL=main | PRICES=140,112,90 | ROAD=Đường N8 | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0069-01 | SEC=agricultural | TT=69 | REL=main | PRICES=140,112,90 | ROAD=Đường số 1 TTTM Bù Nho | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0070-01 | SEC=agricultural | TT=70 | REL=main | PRICES=140,112,90 | ROAD=Đường số 3 TTTM Bù Nho | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0071-01 | SEC=agricultural | TT=71 | REL=main | PRICES=140,112,90 | ROAD=Đường số 5 TTTM Bù Nho | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0072-01 | SEC=agricultural | TT=72 | REL=main | PRICES=140,112,90 | ROAD=Đường vòng nồi đường ĐT 741 với đường ĐT 753 B (ĐH | START=Ngã ba tiếp giáp | END=Ngã ba tiếp giáp đường ĐT 753B | FLAGS=
+ID=NQ28-092-S01-TT0312-01 | SEC=agricultural | TT=312 | REL=main | PRICES= | ROAD=cũ) | START=Đường ĐT741 | END=(ĐH 312 cũ) | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING
+ID=NQ28-092-S01-TT0073-01 | SEC=agricultural | TT=73 | REL=main | PRICES=140,112,90 | ROAD=Đường giao thông đấu nối đường ĐT741 và ĐT 757 phạm vi 200m | START=trực Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0074-01 | SEC=agricultural | TT=74 | REL=main | PRICES=140,112,90 | ROAD=Đường giao thông đấu nối đường ĐT 741 và đường ĐT 753B (ĐH 312 cũ) phạm vi 200m | START=trục Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0075-01 | SEC=agricultural | TT=75 | REL=main | PRICES=140,112,90 | ROAD=Đường vào nông trường 10 | START=Ngã tư Phú cũ Riềng | END=Giáp lô cao su nông trường 10 | FLAGS=
+ID=NQ28-092-S01-TT0076-01 | SEC=agricultural | TT=76 | REL=main | PRICES=140,112,90 | ROAD=Đường Khu dân cư Xuân Anh | START=Đường ĐT 753B (ĐH 312 cũ) | END=Giáp đất bà Trần Thị Lanh (Thửa đất số 22, tờ bản đồ số 41) | FLAGS=
+ID=NQ28-092-S01-TT0077-01 | SEC=agricultural | TT=77 | REL=main | PRICES=140,112,90 | ROAD=Đường Phú Tân - Phú Lợi | START=Đường ĐT 753B (ĐH 312 cũ) | END=Đường ĐT 753B (ĐH 312 cũ) + 200m về phía ngã ba nhà ông Vỵ | FLAGS=
+ID=NQ28-092-S01-TT0078-01 | SEC=agricultural | TT=78 | REL=main | PRICES=140,112,90 | ROAD=Đường Phú Tân - Phú Lợi | START=Đường ĐT753B (ĐH 312 cũ) + 200m về phía ngã ba nhà ông | END=Ngã ba nhà ông Vỵ | FLAGS=
+ID=NQ28-092-S01-TT0079-01 | SEC=agricultural | TT=79 | REL=main | PRICES=140,112,90 | ROAD=Đường Phú Riềng - Phú Trung (ĐT 795 đi ĐT741) | START=Vỵ Đường 312 cũ (thôn Phú Bình) | END=Giáp ranh xã Phú Trung | FLAGS=
+ID=NQ28-092-S01-TT0080-01 | SEC=agricultural | TT=80 | REL=main | PRICES=140,112,90 | ROAD=Đường thôn Phú Vinh Đường Bù Nho đi Phước Tân | START=Đường ĐT 753B (ĐH 312 cũ) | END=Ngã tư (hết thửa đất số 1 tờ bản đồ số 43) | FLAGS=
+ID=NQ28-092-S01-TT0081-01 | SEC=agricultural | TT=81 | REL=main | PRICES=140,112,90 | ROAD=qua TTHC huyện Phú Riềng (cũ) hưởng về cầu Long Tân Tân Hưng, Hớn Quản (cũ) (Đường Tân Bình - Tân Hòa (cũ)) | START=- Đường N9 | END=Đường Tân Phú 1 | FLAGS=
+ID=NQ28-092-S01-TT0082-01 | SEC=agricultural | TT=82 | REL=main | PRICES=140,112,90 | ROAD=Đường Bù Nho đi Phước Tân qua TTHC huyện Phú Riềng (cũ) hướng về cầu Long Tân Tân Hưng, Hớn Quản (cũ) | START=Đường Tân Phú - 1 | END=Đường N3a | FLAGS=
+ID=NQ28-092-S01-TT0083-01 | SEC=agricultural | TT=83 | REL=main | PRICES=140,112,90 | ROAD=(Đường Tân Bình - Tân Hòa (cũ)) Đường giao thông liên xã | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-092-S01-TT0084-01 | SEC=agricultural | TT=84 | REL=main | PRICES=81,65,52 | ROAD=Các tuyến đường giao thông còn lại trên địa bàn xã | START=Toàn tuyến | END= | FLAGS=

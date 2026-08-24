@@ -1,0 +1,1 @@
+TABLE=075 | AREA=Phường Tân Khai | SECTION=non-agricultural | SEGMENTS=0

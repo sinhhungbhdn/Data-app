@@ -1,0 +1,191 @@
+TABLE=061 | AREA=Phường Bình Long | RECORDS=190 | GROUPS=190 | REVIEW=2
+ID=NQ28-061-S01-TT0001-01 | SEC=agricultural | TT=1 | REL=main | PRICES=308,246,172 | ROAD=61. Phường Bình Long Đường Lý Tự Trọng | START=Đoạn Đường Lê Lợi | END=đường Đường Hùng Vương | FLAGS=
+ID=NQ28-061-S01-TT0002-01 | SEC=agricultural | TT=2 | REL=main | PRICES=308,246,172 | ROAD=Đường Trần Hưng Đạo | START=Đường Nguyễn | END=Đường Trần Phú | FLAGS=
+ID=NQ28-061-S01-TT0003-01 | SEC=agricultural | TT=3 | REL=main | PRICES=280,224,157 | ROAD=Đường Trần Hưng Đạo | START=Huệ Đường Nguyễn Huệ | END=Đường Lý Thường Kiệt | FLAGS=
+ID=NQ28-061-S01-TT0004-01 | SEC=agricultural | TT=4 | REL=main | PRICES=280,224,157 | ROAD=Đường Trần Hưng Đạo | START=Đường Lý Thường Kiệt | END=Thửa đất số 34, tờ bản đồ số 82 | FLAGS=
+ID=NQ28-061-S01-TT0005-01 | SEC=agricultural | TT=5 | REL=main | PRICES=308,246,172 | ROAD=Đường Lê Lợi | START=Đường Đinh Tiên Hoàng | END=Đường Ngô Quyền | FLAGS=
+ID=NQ28-061-S01-TT0006-01 | SEC=agricultural | TT=6 | REL=main | PRICES=308,246,172 | ROAD=Đường Phạm Ngọc Thạch | START=Đường Lê Lợi | END=Đường Trần Hưng Đạo | FLAGS=
+ID=NQ28-061-S01-TT0007-01 | SEC=agricultural | TT=7 | REL=main | PRICES=308,246,172 | ROAD=Đường Phạm Ngọc Thạch | START=Đường Trần Hưng Đạo | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0008-01 | SEC=agricultural | TT=8 | REL=main | PRICES=280,224,157 | ROAD=Đường Phạm Ngọc Thạch | START=Đường Phan Bội Châu | END=Đường Lê Hồng Phong | FLAGS=
+ID=NQ28-061-S01-TT0009-01 | SEC=agricultural | TT=9 | REL=main | PRICES=308,246,172 | ROAD=Đường Lê Quý Đôn | START=Đường Trần Hưng Đạo | END=Đường Nguyễn Huệ | FLAGS=
+ID=NQ28-061-S01-TT0010-01 | SEC=agricultural | TT=10 | REL=main | PRICES=308,246,172 | ROAD=Đường Lê Quý Đôn | START=Đường Trần Hưng Đạo | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0011-01 | SEC=agricultural | TT=11 | REL=main | PRICES=280,224,157 | ROAD=Đường Lê Quý Đôn | START=Đường Nguyễn Huệ | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0012-01 | SEC=agricultural | TT=12 | REL=main | PRICES=560,448,314 | ROAD=Đường Nguyễn Huệ | START=Đường Lê Đại Hành | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0013-01 | SEC=agricultural | TT=13 | REL=main | PRICES=560,448,314 | ROAD=Đường Nguyễn Huệ | START=Đường Phan Bội Châu | END=Đường Hùng Vương | FLAGS=
+ID=NQ28-061-S01-TT0014-01 | SEC=agricultural | TT=14 | REL=main | PRICES=560,448,314 | ROAD=Đường Nguyễn Huệ | START=Đường Hùng Vương | END=Đường Bùi Thị Xuân | FLAGS=
+ID=NQ28-061-S01-TT0015-01 | SEC=agricultural | TT=15 | REL=main | PRICES=560,448,314 | ROAD=Đường Nguyễn Huệ | START=Đường Bùi Thị Xuân | END=Đường Ngô Quyền (cũ) | FLAGS=
+ID=NQ28-061-S01-TT0016-01 | SEC=agricultural | TT=16 | REL=main | PRICES=560,448,314 | ROAD=Đường Nguyễn Huệ | START=Đường Ngô Quyền (cũ) | END=Đường Nguyễn Thái Học | FLAGS=
+ID=NQ28-061-S01-TT0017-01 | SEC=agricultural | TT=17 | REL=main | PRICES=308,246,172 | ROAD=Đường Võ Thị Sáu | START=Đường Lê Lợi | END=Đường Hùng Vương | FLAGS=
+ID=NQ28-061-S01-TT0018-01 | SEC=agricultural | TT=18 | REL=main | PRICES=308,246,172 | ROAD=Đường Hùng Vương | START=Đường Nguyễn Huệ | END=Đường Ngô Quyền | FLAGS=
+ID=NQ28-061-S01-TT0019-01 | SEC=agricultural | TT=19 | REL=main | PRICES=308,246,172 | ROAD=Đường Hùng Vương | START=Đường Ngô Quyền | END=Đường Trần Phú | FLAGS=
+ID=NQ28-061-S01-TT0020-01 | SEC=agricultural | TT=20 | REL=main | PRICES=308,246,172 | ROAD=Đường Hùng Vương | START=Đường Trần Phú | END=Đường Đoàn Thị Điểm | FLAGS=
+ID=NQ28-061-S01-TT0021-01 | SEC=agricultural | TT=21 | REL=main | PRICES=308,246,172 | ROAD=Đường Phan Bội Châu | START=Đường Nguyễn Du | END=Đường Ngô Quyền | FLAGS=
+ID=NQ28-061-S01-TT0022-01 | SEC=agricultural | TT=22 | REL=main | PRICES=308,246,172 | ROAD=Đường Phan Bội Châu | START=Đường Ngô Quyền | END=Đường Đoàn Thị Điểm Đường Trần Quang | FLAGS=
+ID=NQ28-061-S01-TT0023-01 | SEC=agricultural | TT=23 | REL=main | PRICES=308,246,172 | ROAD=Đường Phan Bội Châu | START=Đường Đoàn Thị Điểm | END=Khải và Ngã ba đường bê tông vào Tịnh xá Ngọc Long (hết thửa đất số 205, tờ bản đồ số | FLAGS=
+ID=NQ28-061-S01-TT0024-01 | SEC=agricultural | TT=24 | REL=main | PRICES=308,246,172 | ROAD=Đường ĐT 752 | START=Đường Trần Quang Khải và Ngã ba đường bê tông vào Tịnh xá Ngọc Long (hết thửa đất số 205, tờ bản đồ số 118) | END=118) Đường HCT 1 và Đến hết thửa đất số 30, tờ bản đồ số 129 (giáp ranh khu dân cư Cát Tường) | FLAGS=
+ID=NQ28-061-S01-TT0025-01 | SEC=agricultural | TT=25 | REL=main | PRICES=308,246,172 | ROAD=Đường ĐT 752 | START=Đường HCT1 và Đến hết thửa đất số 30, tờ bản đồ số 129 (giáp ranh khu | END=Ngã Ba Xe Tăng | FLAGS=
+ID=NQ28-061-S01-TT0026-01 | SEC=agricultural | TT=26 | REL=main | PRICES=308,246,172 | ROAD=Đường ĐT 752 | START=dân cư Cát Tường) Ngã Ba Xe Tăng | END=Đường HCT 3 | FLAGS=
+ID=NQ28-061-S01-TT0027-01 | SEC=agricultural | TT=27 | REL=main | PRICES=252,202,141 | ROAD=Đường ĐT 752C | START=Ngã ba Xa Cát (giáp đường Quốc lộ 13) | END=Giáp ranh xã Minh Đức | FLAGS=
+ID=NQ28-061-S01-TT0028-01 | SEC=agricultural | TT=28 | REL=main | PRICES=308,246,172 | ROAD=Đường Ngô Quyền | START=Đường Nguyễn Huệ | END=Ngã ba đường ALT 1 | FLAGS=
+ID=NQ28-061-S01-TT0029-01 | SEC=agricultural | TT=29 | REL=main | PRICES=308,246,172 | ROAD=Đường Ngô Quyền | START=Ngã ba đường ALT 1 | END=Đường Trừ Văn Thố | FLAGS=
+ID=NQ28-061-S01-TT0030-01 | SEC=agricultural | TT=30 | REL=main | PRICES=308,246,172 | ROAD=Đường Ngô Quyền | START=Đường Trừ Văn Thố | END=Đường Hàm Nghi | FLAGS=
+ID=NQ28-061-S01-TT0031-01 | SEC=agricultural | TT=31 | REL=main | PRICES=308,246,172 | ROAD=Đường Ngô Quyền | START=Đường Hàm Nghi | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0032-01 | SEC=agricultural | TT=32 | REL=main | PRICES=280,224,157 | ROAD=Đường Ngô Quyền | START=Đường Phan Bội Châu | END=Hết thửa đất số 47, tờ bản đồ số 45 | FLAGS=
+ID=NQ28-061-S01-TT0033-01 | SEC=agricultural | TT=33 | REL=main | PRICES=280,224,157 | ROAD=Đường Ngô Quyền | START=Thửa đất số 69, tờ bản đồ số 45 | END=Đường Phạm Ngọc Thạch | FLAGS=
+ID=NQ28-061-S01-TT0034-01 | SEC=agricultural | TT=34 | REL=main | PRICES=308,246,172 | ROAD=Đường Trừ Văn Thố | START=Đường Nguyễn Huệ | END=Đường Ngô Quyền | FLAGS=
+ID=NQ28-061-S01-TT0035-01 | SEC=agricultural | TT=35 | REL=main | PRICES=308,246,172 | ROAD=Đường Trừ Văn Thố | START=Đường Ngô Quyền | END=Đường Trần Phú | FLAGS=
+ID=NQ28-061-S01-TT0036-01 | SEC=agricultural | TT=36 | REL=main | PRICES=308,246,172 | ROAD=Đường Trần Phú | START=Đường Phan Bội Châu | END=Đường Bùi Thị Xuân | FLAGS=
+ID=NQ28-061-S01-TT0037-01 | SEC=agricultural | TT=37 | REL=main | PRICES=308,246,172 | ROAD=Đường Trần Phú | START=Đường Bùi Thị Xuân | END=Đường Ngô Quyền | FLAGS=
+ID=NQ28-061-S01-TT0038-01 | SEC=agricultural | TT=38 | REL=main | PRICES=308,246,172 | ROAD=Đường Hàm Nghi | START=Đường Đoàn Thị Điểm | END=Đường Trần Phú | FLAGS=
+ID=NQ28-061-S01-TT0039-01 | SEC=agricultural | TT=39 | REL=main | PRICES=308,246,172 | ROAD=Đường Hàm Nghi | START=Đường Trần Phú | END=Đường Lê Quý Đôn | FLAGS=
+ID=NQ28-061-S01-TT0040-01 | SEC=agricultural | TT=40 | REL=main | PRICES=308,246,172 | ROAD=Đường Đinh Tiên Hoàng | START=Đường Thủ Khoa Huân | END=Đường Trừ Văn Thố | FLAGS=
+ID=NQ28-061-S01-TT0041-01 | SEC=agricultural | TT=41 | REL=main | PRICES=308,246,172 | ROAD=Đường Đinh Tiên Hoàng | START=Đường Trừ Văn Thố | END=Đường Trần Hưng Đạo | FLAGS=
+ID=NQ28-061-S01-TT0042-01 | SEC=agricultural | TT=42 | REL=main | PRICES=308,246,172 | ROAD=Đường Đinh Tiên Hoàng | START=Đường Trần Hưng Đạo | END=Đường Hàm Nghi | FLAGS=
+ID=NQ28-061-S01-TT0043-01 | SEC=agricultural | TT=43 | REL=main | PRICES=308,246,172 | ROAD=Đường Bùi Thị Xuân | START=Đường Nguyễn Huệ | END=Đường Ngô Quyền | FLAGS=
+ID=NQ28-061-S01-TT0044-01 | SEC=agricultural | TT=44 | REL=main | PRICES=308,246,172 | ROAD=Đường Bùi Thị Xuân | START=Đường Ngô Quyền | END=Cuối đường (giáp suối) | FLAGS=
+ID=NQ28-061-S01-TT0045-01 | SEC=agricultural | TT=45 | REL=main | PRICES=308,246,172 | ROAD=Đường Thủ Khoa Huân | START=Đường Nguyễn Huệ | END=Đường Ngô Quyền | FLAGS=
+ID=NQ28-061-S01-TT0046-01 | SEC=agricultural | TT=46 | REL=main | PRICES=308,246,172 | ROAD=Đường Thủ Khoa Huân | START=Đường Ngô Quyền | END=Đường Đoàn Thị Điểm | FLAGS=
+ID=NQ28-061-S01-TT0047-01 | SEC=agricultural | TT=47 | REL=main | PRICES=308,246,172 | ROAD=Đường Đoàn Thị Điểm | START=Đường Phan Bội Châu | END=Đường Hùng Vương | FLAGS=
+ID=NQ28-061-S01-TT0048-01 | SEC=agricultural | TT=48 | REL=main | PRICES=308,246,172 | ROAD=Đường Đoàn Thị Điểm | START=Đường Hùng Vương | END=Đường Nguyễn Thái Học | FLAGS=
+ID=NQ28-061-S01-TT0049-01 | SEC=agricultural | TT=49 | REL=main | PRICES=280,224,157 | ROAD=Đường Đoàn Thị Điểm | START=Đường Phan Bội Châu | END=Đường Nguyễn Văn Trỗi | FLAGS=
+ID=NQ28-061-S01-TT0050-01 | SEC=agricultural | TT=50 | REL=main | PRICES=308,246,172 | ROAD=Đường Nguyễn Thái Học | START=Đường Nguyễn Huệ | END=Đường Đoàn Thị Điểm | FLAGS=
+ID=NQ28-061-S01-TT0051-01 | SEC=agricultural | TT=51 | REL=main | PRICES=308,246,172 | ROAD=Đường Tú Xương | START=Đường Trần Phú | END=Đường Đoàn Thị Điểm | FLAGS=
+ID=NQ28-061-S01-TT0052-01 | SEC=agricultural | TT=52 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 1 | START=Đường Ngô Quyền | END=Đường ALT 3 | FLAGS=
+ID=NQ28-061-S01-TT0053-01 | SEC=agricultural | TT=53 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 1 | START=Đường ALT 3 | END=Đầu thửa đất số 281, cuối thửa đất số 279; tờ bản đồ số 111 | FLAGS=
+ID=NQ28-061-S01-TT0054-01 | SEC=agricultural | TT=54 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 1 | START=Cuối thửa đất số 279; tờ bản đồ số 111 | END=Cầu cây Sung | FLAGS=
+ID=NQ28-061-S01-TT0055-01 | SEC=agricultural | TT=55 | REL=main | PRICES=308,246,172 | ROAD=Dường ALT 2 | START=Đường ĐT 752 | END=Đường ALT1 (Ngã ba Cây Xoài đôi) | FLAGS=
+ID=NQ28-061-S01-TT0056-01 | SEC=agricultural | TT=56 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 3 | START=Đường ĐT 752 | END=Đường ALT 1 | FLAGS=
+ID=NQ28-061-S01-TT0057-01 | SEC=agricultural | TT=57 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 4 | START=Ngã Ba Xe Tăng | END=Giáp ranh xã Minh Đức | FLAGS=
+ID=NQ28-061-S01-TT0058-01 | SEC=agricultural | TT=58 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 5 | START=Đường Đoàn Thị Điểm | END=Giáp ranh phường An Lộc | FLAGS=
+ID=NQ28-061-S01-TT0059-01 | SEC=agricultural | TT=59 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 5 | START=Đường ALT 5 (đầu thửa đất số 21 và thửa đất số 57, tờ bản đồ số 112) | END=Cuối đường nhựa (hết thửa đất số 10 và thửa đất số 68, tờ bản đồ số 111) | FLAGS=
+ID=NQ28-061-S01-TT0060-01 | SEC=agricultural | TT=60 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 5 | START=Cuối đường nhựa (hết thửa đất số 10 và thửa đất số 68, tờ bản đồ số 111) | END=Đường ALT 1 (đầu thửa đất số 540, tờ bản đồ số 111) | FLAGS=
+ID=NQ28-061-S01-TT0061-01 | SEC=agricultural | TT=61 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 6 | START=Đường ALT 1 | END=Đường ALT 5 | FLAGS=
+ID=NQ28-061-S01-TT0062-01 | SEC=agricultural | TT=62 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 7 | START=thửa đất số 280 và thửa đất số 281, tờ | END=số 174 và thửa đất số 182, tờ bản đồ số | FLAGS=
+ID=NQ28-061-S01-TT0063-01 | SEC=agricultural | TT=63 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 7 | START=bản đồ số 111) số 174 và thửa đất số 182, tờ bản đồ | END=109 Đường ALT 3 | FLAGS=
+ID=NQ28-061-S01-TT0064-01 | SEC=agricultural | TT=64 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 8 | START=số 109 Đường ALT 3 | END=Đường ALT 7 | FLAGS=
+ID=NQ28-061-S01-TT0065-01 | SEC=agricultural | TT=65 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 9 | START=Đường ALT 7 | END=Đường ALT 7 | FLAGS=
+ID=NQ28-061-S01-TT0066-01 | SEC=agricultural | TT=66 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 10 | START=Đường ALT 11 | END=Đường ALT 3 | FLAGS=
+ID=NQ28-061-S01-TT0067-01 | SEC=agricultural | TT=67 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 11 | START=Đường ALT 15 | END=Đường ALT 1 | FLAGS=
+ID=NQ28-061-S01-TT0068-01 | SEC=agricultural | TT=68 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 12 | START=Đường ALT 1 | END=Đường ALT 14 | FLAGS=
+ID=NQ28-061-S01-TT0069-01 | SEC=agricultural | TT=69 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 12 | START=Đường Đoàn Thị Điểm | END=Đường ALT 13 | FLAGS=
+ID=NQ28-061-S01-TT0070-01 | SEC=agricultural | TT=70 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 13 | START=Đường ALT 2 | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0071-01 | SEC=agricultural | TT=71 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 14 | START=Đường Đoàn Thị Điểm | END=Đường ALT 1 | FLAGS=
+ID=NQ28-061-S01-TT0072-01 | SEC=agricultural | TT=72 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 15 | START=Đường ALT2 | END=Đường ĐT 752 | FLAGS=
+ID=NQ28-061-S01-TT0073-01 | SEC=agricultural | TT=73 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 16 | START=Đường ALT 3 | END=Đường ALT 2 | FLAGS=
+ID=NQ28-061-S01-TT0074-01 | SEC=agricultural | TT=74 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 16 | START=Dường ALT 3 | END=ALT 19 | FLAGS=
+ID=NQ28-061-S01-TT0075-01 | SEC=agricultural | TT=75 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 17 | START=Đường ĐT 752 | END=Đường ALT 16 | FLAGS=
+ID=NQ28-061-S01-TT0076-01 | SEC=agricultural | TT=76 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 18 | START=Đường ĐT 752 | END=Đường ALT 16 Ngã ba cuối ranh | FLAGS=
+ID=NQ28-061-S01-TT0077-01 | SEC=agricultural | TT=77 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 19 | START=Ngã ba đường ALT 4 | END=thửa đất số 151 và cuối ranh thửa đất số 206, tờ bản đồ số 109 | FLAGS=
+ID=NQ28-061-S01-TT0078-01 | SEC=agricultural | TT=78 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 19 | START=Đầu ranh thửa đất số 297 và thửa đất số 149, tờ bản đồ | END=Hết ranh thửa đất số 53, tờ bản đồ 108 và thửa đất số 12, tờ bản đồ số 108 | FLAGS=
+ID=NQ28-061-S01-TT0079-01 | SEC=agricultural | TT=79 | REL=main | PRICES=308,246,172 | ROAD=Đường ALT 20 | START=số 109 Đường ALT 4 | END=Đường ALT 19 | FLAGS=
+ID=NQ28-061-S01-TT0080-01 | SEC=agricultural | TT=80 | REL=main | PRICES=280,224,157 | ROAD=Đường Quốc lộ 13 | START=Đường Nguyễn Thị Minh Khai | END=Đường Lê Đại Hành | FLAGS=
+ID=NQ28-061-S01-TT0081-01 | SEC=agricultural | TT=81 | REL=main | PRICES=280,224,157 | ROAD=Đường Quốc lộ 13 | START=Đường Lê Đại Hành | END=Đường Lương Thế Vinh | FLAGS=
+ID=NQ28-061-S01-TT0082-01 | SEC=agricultural | TT=82 | REL=main | PRICES=280,224,157 | ROAD=Đường Quốc lộ 13 | START=Đường Lương Thế Vinh | END=Đường HCT 5 | FLAGS=
+ID=NQ28-061-S01-TT0083-01 | SEC=agricultural | TT=83 | REL=main | PRICES=280,224,157 | ROAD=Đường Quốc lộ 13 | START=Đường HCT 5 | END=Cống ba miệng (thửa đất số 103, tờ bản đồ số 16) | FLAGS=
+ID=NQ28-061-S01-TT0084-01 | SEC=agricultural | TT=84 | REL=main | PRICES=280,224,157 | ROAD=Đường Quốc lộ 13 | START=Cống ba miệng (thửa đất số 103, tờ bản đồ số 16) | END=Ranh giới phường Bình Long - xã Tân Khai | FLAGS=
+ID=NQ28-061-S01-TT0085-01 | SEC=agricultural | TT=85 | REL=main | PRICES=280,224,157 | ROAD=Đường Lê Hồng Phong | START=Đường Nguyễn Huệ | END=Đường Phạm Ngọc Thạch | FLAGS=
+ID=NQ28-061-S01-TT0086-01 | SEC=agricultural | TT=86 | REL=main | PRICES=280,224,157 | ROAD=Đường Lê Hồng Phong | START=Đường Phạm Ngọc Thạch | END=Đường Trần Quang Khải | FLAGS=
+ID=NQ28-061-S01-TT0087-01 | SEC=agricultural | TT=87 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Văn Trỗi | START=Đường Nguyễn Huệ | END=Hết đất Kho vật tư cũ | FLAGS=
+ID=NQ28-061-S01-TT0088-01 | SEC=agricultural | TT=88 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Chí Thanh | START=Đường Nguyễn Huệ | END=Đường Phạm Ngọc Thạch | FLAGS=
+ID=NQ28-061-S01-TT0089-01 | SEC=agricultural | TT=89 | REL=main | PRICES=280,224,157 | ROAD=Đường Trần Quang Khải | START=Đường ĐT 752 | END=Đường HCT 7 | FLAGS=
+ID=NQ28-061-S01-TT0090-01 | SEC=agricultural | TT=90 | REL=main | PRICES=280,224,157 | ROAD=Đường Trần Quang Khải | START=Đường HCT 7 | END=Ngã ba (đường HCT 1 đoạn trường chuyên Bình Long) | FLAGS=
+ID=NQ28-061-S01-TT0091-01 | SEC=agricultural | TT=91 | REL=main | PRICES=280,224,157 | ROAD=Đường Lê Đại Hành | START=Đường Quốc lộ 13 (Ngã ba Phở Duy) | END=Ngã ba đường Lê Đại Hành là đường HCT 26 (đối diện nhà văn hóa Xa Cam 2) | FLAGS=
+ID=NQ28-061-S01-TT0092-01 | SEC=agricultural | TT=92 | REL=main | PRICES=280,224,157 | ROAD=Đường Lê Đại Hành | START=Ngã ba đường Lê Đại Hành à dường HCT 26 (đối diện nhà văn hóa Xa | END=Cuối đường | FLAGS=
+ID=NQ28-061-S01-TT0093-01 | SEC=agricultural | TT=93 | REL=main | PRICES=280,224,157 | ROAD=Đường Lê Đại Hành | START=Cam 2) Đường Quốc lộ 13 | END=Đường Nguyễn Trung Trực | FLAGS=
+ID=NQ28-061-S01-TT0094-01 | SEC=agricultural | TT=94 | REL=main | PRICES=280,224,157 | ROAD=Đường Lương Thế Vinh (Đường HCT 19 cũ) | START=Đường Quốc lộ 13 (Ngã ba Xa Cam) | END=Đường Cao Bá Quát | FLAGS=
+ID=NQ28-061-S01-TT0095-01 | SEC=agricultural | TT=95 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Trãi | START=Đường Nguyễn Huệ | END=Đường Đoàn Thị Điểm | FLAGS=
+ID=NQ28-061-S01-TT0096-01 | SEC=agricultural | TT=96 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Trãi | START=Đường Nguyễn Huệ | END=Đường Nguyễn Du | FLAGS=
+ID=NQ28-061-S01-TT0097-01 | SEC=agricultural | TT=97 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 1 | START=Đường ĐT 752 | END=Ngã ba đường HCT 7 (thửa đất số 414, tờ bản đồ số 13 mới) | FLAGS=
+ID=NQ28-061-S01-TT0098-01 | SEC=agricultural | TT=98 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 1 | START=Ngã ba đường HCT 7 (thửa đất số 414, tờ bản đồ số 13 mới) | END=Đường Trần Quang Khải | FLAGS=
+ID=NQ28-061-S01-TT0099-01 | SEC=agricultural | TT=99 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 3 (Đường giáp ranh xã Minh Đức) | START=Đường ĐT 752 | END=Đường HCT 4 | FLAGS=
+ID=NQ28-061-S01-TT0100-01 | SEC=agricultural | TT=100 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 3 (Đường giáp ranh xã Minh Đức) | START=Đường HCT 4 | END=Giáp ranh xã Minh Đức | FLAGS=
+ID=NQ28-061-S01-TT0101-01 | SEC=agricultural | TT=101 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 4 | START=Đường Cao Bá Quát | END=Ngã tư đội I Nông trường Bình Minh | FLAGS=
+ID=NQ28-061-S01-TT0102-01 | SEC=agricultural | TT=102 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 4 | START=Ngã tư đội I Nông trường Bình Minh | END=Đường HCT 3 | FLAGS=
+ID=NQ28-061-S01-TT0103-01 | SEC=agricultural | TT=103 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 5 | START=Đường Quốc lộ 13 | END=Hết tuyến | FLAGS=
+ID=NQ28-061-S01-TT0104-01 | SEC=agricultural | TT=104 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 6 | START=Đường Đoàn Thị Điểm | END=Ngã ba đường HCT 28 và đường HCT 29 | FLAGS=
+ID=NQ28-061-S01-TT0105-01 | SEC=agricultural | TT=105 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 7 (Nhánh) | START=Đường Phan Bội Châu | END=Đường Trần Quang Khải | FLAGS=
+ID=NQ28-061-S01-TT0106-01 | SEC=agricultural | TT=106 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 7 | START=Đường Trần Quang Khải | END=Đường HCT 1 (thửa đất số 342, tờ bản đồ số 13 mới) | FLAGS=
+ID=NQ28-061-S01-TT0107-01 | SEC=agricultural | TT=107 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 8 | START=Ngã tư Bình Ninh II (Nhà văn hóa Bình Ninh 2) | END=Đường HCT 3 | FLAGS=
+ID=NQ28-061-S01-TT0108-01 | SEC=agricultural | TT=108 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 8 | START=Đường ĐT 752 | END=Ngã tư Bình Ninh II (Nhà văn hóa Bình Ninh 2) | FLAGS=
+ID=NQ28-061-S01-TT0109-01 | SEC=agricultural | TT=109 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 9 | START=Đường ĐT 752 | END=Đường HCT 13 | FLAGS=
+ID=NQ28-061-S01-TT0110-01 | SEC=agricultural | TT=110 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 10 | START=Đường ĐT 752 | END=Đường HCT 12 | FLAGS=
+ID=NQ28-061-S01-TT0111-01 | SEC=agricultural | TT=111 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 11 | START=Đường HCT 9 | END=Đường HCT 10 | FLAGS=
+ID=NQ28-061-S01-TT0112-01 | SEC=agricultural | TT=112 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 12 | START=Đường ĐT 752 | END=Đường HCT 13 | FLAGS=
+ID=NQ28-061-S01-TT0113-01 | SEC=agricultural | TT=113 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 13 | START=Đường HCT 1 | END=Đường HCT 15 | FLAGS=
+ID=NQ28-061-S01-TT0114-01 | SEC=agricultural | TT=114 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 14 | START=Đường HCT 13 | END=Hết tuyến | FLAGS=
+ID=NQ28-061-S01-TT0115-01 | SEC=agricultural | TT=115 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 15 | START=Hường HCT 1 | END=Đường HCT 8 | FLAGS=
+ID=NQ28-061-S01-TT0116-01 | SEC=agricultural | TT=116 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 16 | START=Đường HCT 1 | END=Hết tuyến | FLAGS=
+ID=NQ28-061-S01-TT0117-01 | SEC=agricultural | TT=117 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 17 | START=Đường HCT 1 | END=Hết tuyến | FLAGS=
+ID=NQ28-061-S01-TT0118-01 | SEC=agricultural | TT=118 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 18 | START=Đường ĐT 752 | END=Đường HCT 19 | FLAGS=
+ID=NQ28-061-S01-TT0119-01 | SEC=agricultural | TT=119 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 19 | START=Đường ĐT 752 (Trụ sở UBND phường Hưng Chiến) | END=Suối (thửa đất số 159, tờ bản đồ số 3) | FLAGS=
+ID=NQ28-061-S01-TT0012-02 | SEC=agricultural | TT=12 | REL=main | PRICES=280,224,157 | ROAD=0 Đường HCT 19 nối dài | START=Suối (thửa đất số 159, tờ bản đồ số 3) | END=Thửa đất số 31, tờ bản đồ số 3 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-061-S01-TT0121-01 | SEC=agricultural | TT=121 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 20 | START=Đường HCT 19 | END=Hết tuyến (giáp ranh xã Minh Đức) | FLAGS=
+ID=NQ28-061-S01-TT0122-01 | SEC=agricultural | TT=122 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 21 | START=Đường HCT 27 (kho vật tư Công ty Cao su) | END=Đường HCT 27 (trường PTTH Bình Long) | FLAGS=
+ID=NQ28-061-S01-TT0123-01 | SEC=agricultural | TT=123 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 21 | START=Đường HCT 27 (trường PTTH Bình Long) | END=Đường HCT 22 | FLAGS=
+ID=NQ28-061-S01-TT0124-01 | SEC=agricultural | TT=124 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 22 | START=Đường HCT 1 | END=Đường HCT 3 (ranh xã Minh Đức) | FLAGS=
+ID=NQ28-061-S01-TT0125-01 | SEC=agricultural | TT=125 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 23 | START=Đường HCT 21 | END=Đường HCT 25 | FLAGS=
+ID=NQ28-061-S01-TT0126-01 | SEC=agricultural | TT=126 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 24 | START=Đường HCT 21 | END=Đường HCT 4 | FLAGS=
+ID=NQ28-061-S01-TT0127-01 | SEC=agricultural | TT=127 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 25 | START=Kênh hậu đường Cao Bá Quát (Hồ Sa Cát) | END=Cuối đường | FLAGS=
+ID=NQ28-061-S01-TT0128-01 | SEC=agricultural | TT=128 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 26 | START=HCT 23 | END=HCT 27 | FLAGS=
+ID=NQ28-061-S01-TT0129-01 | SEC=agricultural | TT=129 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 27 | START=Đường Nguyễn Văn Trỗi | END=Đường HCT 21 | FLAGS=
+ID=NQ28-061-S01-TT0130-01 | SEC=agricultural | TT=130 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 27 | START=Đường HCT 21 | END=Cuối đường Lê Đại Hành | FLAGS=
+ID=NQ28-061-S01-TT0131-01 | SEC=agricultural | TT=131 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 28 | START=Đường HCT 6 (thửa đất số 22, tờ bản đồ số 15) | END=Đường HCT 7 (thửa đất số 06, tờ bản đồ số 14) | FLAGS=
+ID=NQ28-061-S01-TT0132-01 | SEC=agricultural | TT=132 | REL=main | PRICES=280,224,157 | ROAD=Đường HCT 29 | START=Đường Đoàn Thị Điểm | END=Đường HCT 6 (thửa đất số 50, tờ bản đồ số 15) | FLAGS=
+ID=NQ28-061-S01-TT0133-01 | SEC=agricultural | TT=133 | REL=main | PRICES=280,224,157 | ROAD=Đường ALT 4 | START=Ngã ba xe tăng | END=Cột mốc 2 mặt (ranh phường An Lộc và phường Hưng Chiến) | FLAGS=
+ID=NQ28-061-S01-TT0134-01 | SEC=agricultural | TT=134 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 9 | START=Đường Quốc lộ 13 | END=Đường PĐT 7 (thửa đất số 18, tờ bản đồ số 20 mới) | FLAGS=
+ID=NQ28-061-S01-TT0135-01 | SEC=agricultural | TT=135 | REL=main | PRICES=280,224,157 | ROAD=Đường ALT 22 | START=Ngã ba đường HCT 19 | END=Hết tuyến | FLAGS=
+ID=NQ28-061-S01-TT0136-01 | SEC=agricultural | TT=136 | REL=main | PRICES=280,224,157 | ROAD=Đường ALT 23 | START=Đường ALT 4 | END=Đường ALT 22 | FLAGS=
+ID=NQ28-061-S01-TT0137-01 | SEC=agricultural | TT=137 | REL=main | PRICES=280,224,157 | ROAD=Đường nhựa | START=Đường HCT 1 | END=Đường HCT 21 | FLAGS=
+ID=NQ28-061-S01-TT0138-01 | SEC=agricultural | TT=138 | REL=main | PRICES=280,224,157 | ROAD=Đường ĐT 758 | START=Thửa đất số 35, tờ bản đồ số 3 | END=Giáp ranh xã Tân Lợi | FLAGS=
+ID=NQ28-061-S01-TT0139-01 | SEC=agricultural | TT=139 | REL=main | PRICES=280,224,157 | ROAD=Đường Lý Thường Kiệt | START=Đường Trần Hưng Đạo | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0140-01 | SEC=agricultural | TT=140 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Du | START=Đường Nguyễn Trí | END=Đường Trần Hưng Đạo | FLAGS=
+ID=NQ28-061-S01-TT0141-01 | SEC=agricultural | TT=141 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Du (Tây đường) | START=Đường Nguyễn Huệ | END=Đường Nguyễn Trãi | FLAGS=
+ID=NQ28-061-S01-TT0142-01 | SEC=agricultural | TT=142 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Du (Đông đường) | START=Đường Nguyễn Huệ | END=Đường Nguyễn Trãi | FLAGS=
+ID=NQ28-061-S01-TT0143-01 | SEC=agricultural | TT=143 | REL=main | PRICES=280,224,157 | ROAD=Đường Huỳnh Văn Nghệ | START=Đường Phan Bội Châu | END=Cuối đường | FLAGS=
+ID=NQ28-061-S01-TT0144-01 | SEC=agricultural | TT=144 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Trung Trực | START=Đường Nguyễn Du | END=Đường Lê Đại Hành | FLAGS=
+ID=NQ28-061-S01-TT0145-01 | SEC=agricultural | TT=145 | REL=main | PRICES=280,224,157 | ROAD=Đường bê tông (dọc theo đường rày xe lửa) | START=Đường Nguyễn Trung Trực | END=Đường Lê Đại Hành | FLAGS=
+ID=NQ28-061-S01-TT0146-01 | SEC=agricultural | TT=146 | REL=main | PRICES=280,224,157 | ROAD=Đường bê tông (dọc theo đường ray xe lửa) | START=Đường Lê Đại Hành | END=Đường PĐT 9 | FLAGS=
+ID=NQ28-061-S01-TT0147-01 | SEC=agricultural | TT=147 | REL=main | PRICES=280,224,157 | ROAD=Đường Huỳnh Thúc Kháng | START=Đường Trần Hưng Đạo | END=Đường PĐT 2 | FLAGS=
+ID=NQ28-061-S01-TT0148-01 | SEC=agricultural | TT=148 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 1 | START=Đường Nguyễn Trung Trực | END=Cầu Ba Kiềm | FLAGS=
+ID=NQ28-061-S01-TT0149-01 | SEC=agricultural | TT=149 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 2 | START=Đường Huỳnh Thúc Kháng | END=Giáp ranh xã Tân Quan | FLAGS=
+ID=NQ28-061-S01-TT0150-01 | SEC=agricultural | TT=150 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 3 | START=Đường Huỳnh Thúc Kháng | END=Suối Cầu đỏ (Thửa đất số 88, tờ bản đồ số 83) | FLAGS=
+ID=NQ28-061-S01-TT0151-01 | SEC=agricultural | TT=151 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 4 | START=Đường Trần Hưng Đạo | END=Đường Nguyễn Trung Trực | FLAGS=
+ID=NQ28-061-S01-TT0152-01 | SEC=agricultural | TT=152 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 5 | START=Đường Huỳnh Thúc Kháng | END=Đường PĐT 4 | FLAGS=
+ID=NQ28-061-S01-TT0153-01 | SEC=agricultural | TT=153 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 6 | START=Đường PĐT 5 | END=Giáp suối Cầu Đỏ | FLAGS=
+ID=NQ28-061-S01-TT0154-01 | SEC=agricultural | TT=154 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 7 | START=Đường PĐT 2 | END=Cuối đường | FLAGS=
+ID=NQ28-061-S01-TT0155-01 | SEC=agricultural | TT=155 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 8 | START=Đường PĐT 9 | END=Đường PĐT 7 (Giáp ranh xã Tân Quan) | FLAGS=
+ID=NQ28-061-S01-TT0156-01 | SEC=agricultural | TT=156 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 9 | START=Đường PĐT 2 | END=Cuối đường - Giáp ranh đất lô cao su | FLAGS=
+ID=NQ28-061-S01-TT0157-01 | SEC=agricultural | TT=157 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 10 | START=Đường PĐT 1 | END=Cuối đường (Mương) | FLAGS=
+ID=NQ28-061-S01-TT0158-01 | SEC=agricultural | TT=158 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 11 | START=Đường Nguyễn Du | END=Đường Lê Đại Hành | FLAGS=
+ID=NQ28-061-S01-TT0159-01 | SEC=agricultural | TT=159 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 11 | START=Đường Lê Đại Hành | END=Đường PĐT 12 | FLAGS=
+ID=NQ28-061-S01-TT0160-01 | SEC=agricultural | TT=160 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 12 | START=Đường Quốc lộ 13 | END=Đường PĐT 9 | FLAGS=
+ID=NQ28-061-S01-TT0161-01 | SEC=agricultural | TT=161 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 13 | START=Đường Trần Hưng Đạo | END=PĐT 1 (Cầu Ba Kiềm) | FLAGS=
+ID=NQ28-061-S01-TT0162-01 | SEC=agricultural | TT=162 | REL=main | PRICES=280,224,157 | ROAD=Đường PĐT 14 | START=Đường Trần Hưng Đạo | END=PĐT 1 (Cầu Ba Kiềm) | FLAGS=
+ID=NQ28-061-S01-TT0163-01 | SEC=agricultural | TT=163 | REL=main | PRICES=280,224,157 | ROAD=Dường PĐT 13, 14 nối dài | START=Cầu Ba Kiềm | END=Đường PĐT 9 | FLAGS=
+ID=NQ28-061-S01-TT0164-01 | SEC=agricultural | TT=164 | REL=main | PRICES=280,224,157 | ROAD=Đường Lê Thị Hồng Gấm | START=Đường Phan Bội Châu | END=Đường Trần Hưng Đạo | FLAGS=
+ID=NQ28-061-S01-TT0165-01 | SEC=agricultural | TT=165 | REL=main | PRICES=280,224,157 | ROAD=Đường Đinh Công Tráng | START=Đường Nguyễn Trãi | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0166-01 | SEC=agricultural | TT=166 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Đức Cảnh | START=Đường Nguyễn Trãi | END=Đường Phan Bội Châu | FLAGS=
+ID=NQ28-061-S01-TT0167-01 | SEC=agricultural | TT=167 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Thị Minh Khai | START=Đường Quốc lộ 13 | END=Đường PĐT 12 | FLAGS=
+ID=NQ28-061-S01-TT0168-01 | SEC=agricultural | TT=168 | REL=main | PRICES=252,202,141 | ROAD=Đường bê tông | START=Đường Trần Hưng Đạo | END=Thửa đất số 103, Tờ bản đồ 134 | FLAGS=
+ID=NQ28-061-S01-TT0169-01 | SEC=agricultural | TT=169 | REL=main | PRICES=252,202,141 | ROAD=Đường liên xã | START=Ngã ba Xa Trạch | END=Cầu Xa Trạch 1 giáp | FLAGS=
+ID=NQ28-061-S01-TT0170-01 | SEC=agricultural | TT=170 | REL=main | PRICES=252,202,141 | ROAD=Đường nhựa khu phố Chà Là - khu phố Sở Nhì | START=Đường Quốc lộ 13 | END=xã Tân Quan HCT 5 | FLAGS=
+ID=NQ28-061-S01-TT0171-01 | SEC=agricultural | TT=171 | REL=main | PRICES=252,202,141 | ROAD=Đường nhựa khu phố Xa Cát (Đường vào chùa Thiện Tâm) | START=Đường Quốc 10 13 (Trừ hành lang lộ giới) | END=Cống thoát nước (thửa đất số 31, tờ bản đồ số 105) | FLAGS=
+ID=NQ28-061-S01-TT0172-01 | SEC=agricultural | TT=172 | REL=main | PRICES=252,202,141 | ROAD=Đường bê tông không có bản đồ địa chính số: 4, 9, 41, 42, 43, 44, 45, 48, 49, đường hiện tại rộng từ 3m | START=tên trong nội bộ các 10, 14, 18, 19, 34, 35, 50, 51, 52, 53, 54, 55, - 6m | END=khu phố thuộc các tờ 36, 37, 38, 39, 40, 56, 57 có có mặt | FLAGS=
+ID=NQ28-061-S01-TT0173-01 | SEC=agricultural | TT=173 | REL=main | PRICES=252,202,141 | ROAD=Đường bê tông không có bản đồ địa chính số: 2, 3, đồ 20 -> đến tờ bản đồ 33; rộng từ 3m - 6m | START=tên trong nội bộ các 5, 6, 7, 8, 11, 12, 13, tờ 46, 47 có có mặt | END=khu phố thuộc các tờ 15, 16, 17; tờ bản đường hiện hữu | FLAGS=
+ID=NQ28-061-S01-TT0174-01 | SEC=agricultural | TT=174 | REL=main | PRICES=252,202,141 | ROAD=Đường bê tông không có bản đồ địa chính số: 4, 9, 41, 42, 43, 44, 45, 48, 49, đường hiện hữu rộng trên | START=tên trong nội bộ các 10, 14, 18, 19, 34, 35, 50, 51, 52, 53, 54, 55, 6m- 10m | END=khu phố thuộc các tờ 36, 37, 38, 39, 40, 56, 57 có có mặt | FLAGS=
+ID=NQ28-061-S01-TT0175-01 | SEC=agricultural | TT=175 | REL=main | PRICES=252,202,141 | ROAD=Đường bê tông không có thuộc các tờ bản đồ địa chính 17; tờ bản đồ 20 -> đến tờ hiện hữu rộng trên 6m - 10m | START=tên trong nội bộ các số: 2, 3, 5, 6, 7, bản đồ 33; tờ 46, 47) | END=khu phố khu phố 8, 11, 12, 13, 15, 16, có mặt đường | FLAGS=
+ID=NQ28-061-S01-TT0176-01 | SEC=agricultural | TT=176 | REL=main | PRICES=280,224,157 | ROAD=Các đường nội bộ trong khu Phú Trung, Phú An thuộc 157, 158, 160, 161, 162, 163, 176, 177, 178, 179, 180, 181, đến dưới 6m và đường mới đường đã xác định giá | START=phố: Phú Sơn, Phú bản đồ chính quy tờ 167, 168, 169, 172, 182, 117 có mặt mở từ 7m - 10m | END=Bình, Phú Cường, bản đồ số 113, 156, 173, 174, 175, đường rộng từ 03m nếu không tiếp giáp | FLAGS=
+ID=NQ28-061-S01-TT0177-01 | SEC=agricultural | TT=177 | REL=main | PRICES=280,224,157 | ROAD=Các đường nội bộ trong khu Du thuộc bản đồ chính quy 114, 115, 116, 118, 119, 129, 171, 117 có mặt đường rộng mở từ 7m - 10m nếu không | START=phố: Bình Tân, Bình số: 80, 107, 108, 109, 130, 131, 159, 164, từ 03m đến dưới tiếp giáp đường đã | END=An, An Bình, Sóc 110, 111, 112, 165, 166, 170, 6m và đường mới xác định giá. | FLAGS=
+ID=NQ28-061-S01-TT0178-01 | SEC=agricultural | TT=178 | REL=main | PRICES=280,224,157 | ROAD=Các thửa đất tiếp giáp đường bản đồ chính quy tờ bản đồ 163, 168, 169, 172 đến 182 Bình, Phú Cường, Phú Trung, | START=có mặt đường rộng số 113, 117, 156, thuộc các khu phố; Phú An. | END=dưới 3m theo 157, 158, 160 đến Phú Sơn, Phú | FLAGS=
+ID=NQ28-061-S01-TT0179-01 | SEC=agricultural | TT=179 | REL=main | PRICES=280,224,157 | ROAD=Các thửa đất tiếp giáp đường rộng dưới 3m và các thửa giáp đường đi dọc theo các đồ chính quy trong khu phố: thuộc các tờ bản đồ số: 80, | START=theo bản do chính đất không tiếp giáp lô cao su mà không Bình Tân, Bình An, 107 đến 112, 114 | END=quy có mặt đường đường đi hoặc tiếp thể hiện trên bản An Bình, Sóc Du đến 119, 129, 130, | FLAGS=
+ID=NQ28-061-S01-TT0180-01 | SEC=agricultural | TT=180 | REL=main | PRICES=252,202,141 | ROAD=131, 159, 164, 165, 166, 170, Các đường giao thông thuộc đến 148 chưa có tên đường 07m đến 10m | START=171. các tờ bản đồ số: và có mặt đường | END=78, 81 đến 88, 132 hiện hữu rộng từ | FLAGS=
+ID=NQ28-061-S01-TT0181-01 | SEC=agricultural | TT=181 | REL=main | PRICES=252,202,141 | ROAD=Các đường giao thông thuộc đến 148 chưa có tên đường đồ chính quy) rộng từ 03m | START=các tờ bản đồ số và có mặt đường đến dưới 07m | END=78, 81 đến 88, 132 hiện hữu (theo bản | FLAGS=
+ID=NQ28-061-S01-TT0182-01 | SEC=agricultural | TT=182 | REL=main | PRICES=252,202,141 | ROAD=Các đường giao thông thuộc đến 148 không có tên đường đồ chính quy) rộng dưới 03m; chung; các thửa đất có đường | START=các tờ bản đồ số: và có mặt đường các thửa đất không đi tự phát theo | END=78, 81 đến 88, 132 hiện hữu (theo bản giáp đường đi các lô cao su | FLAGS=
+ID=NQ28-061-S01-TT0183-01 | SEC=agricultural | TT=183 | REL=main | PRICES=252,202,141 | ROAD=Đường nhựa không có tên đồ địa chính số: từ 1 đến - 10m | START=trong nội bộ khu phố 77 có có mặt đường | END=thuộc các tờ bản hiện hữu rộng từ 6m | FLAGS=
+ID=NQ28-061-S01-TT0184-01 | SEC=agricultural | TT=184 | REL=main | PRICES=252,202,141 | ROAD=Đường nhựa không có tên đồ địa chính số: từ 1 đến - 6m | START=trong nội bộ khu phố 77 có có mặt đường | END=thuộc các tờ bản hiện hữu rộng từ 3m | FLAGS=
+ID=NQ28-061-S01-TT0185-01 | SEC=agricultural | TT=185 | REL=main | PRICES=252,202,141 | ROAD=Đường đất không có tên trong địa chính số: từ 1 đến 7 có | START=nội bộ khu phố mặt đường hiện hữu | END=thuộc các tờ bản đồ rộng từ 3m - tìm | FLAGS=
+ID=NQ28-061-S01-TT0186-01 | SEC=agricultural | TT=186 | REL=main | PRICES=252,202,141 | ROAD=Đường đất không có tên trong địa chính số: từ 1 đến 77 | START=nội bộ Khu phố có mặt đường hiện hữu | END=thuộc các tờ bản đồ dưới 3m | FLAGS=
+ID=NQ28-061-S01-TT0187-01 | SEC=agricultural | TT=187 | REL=main | PRICES=252,202,141 | ROAD=Các tuyến đường còn lại đến 77 | START=thuộc các tờ bản đồ | END=địa chính số: từ 1 | FLAGS=
+ID=NQ28-061-S01-TT0188-01 | SEC=agricultural | TT=188 | REL=main | PRICES=112,90,63 | ROAD=Đường giao thông thuộc các tờ bản đồ số: 79, 89 đến 106, 120 đến 128, 149 đến 155 chưa có tên đường và có mặt đường hiện hữu (theo bản đồ | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-061-S01-TT0189-01 | SEC=agricultural | TT=189 | REL=main | PRICES=112,90,63 | ROAD=chính quy) từ 3m trở lên Các tuyến đường thuộc các tờ bản đồ số: 79, 89 đến 106, 120 đến 128, | START=Toàn tuyến | END= | FLAGS=
+ID=NQ28-061-S01-TT0149-02 | SEC=agricultural | TT=149 | REL=main | PRICES= | ROAD=đến 155 còn lại | START= | END= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT

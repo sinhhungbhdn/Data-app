@@ -1,0 +1,34 @@
+TABLE=070 | AREA=Xã Lộc Thành | RECORDS=33 | GROUPS=33 | REVIEW=1
+ID=NQ28-070-S01-TT0001-01 | SEC=agricultural | TT=1 | REL=main | PRICES=134,108,44 | ROAD=70. Xã Lộc Thành Tên đường giao TT thông Giáp xã Bình Đường Quốc lộ 13 (cũ) Lê) | START=Đoạn đường ranh thị Long Ngã tư Đồng (Cầu Cần Tâm | END=Giá đất Giá trồng trồng cây lâu hằng năm 168 | FLAGS=
+ID=NQ28-070-S01-TT0002-01 | SEC=agricultural | TT=2 | REL=main | PRICES=134,108,44 | ROAD=Ngã Đường ĐT 754 Tâm | START=tư Đồng Cầu số 1 | END=168 | FLAGS=
+ID=NQ28-070-S01-TT0003-01 | SEC=agricultural | TT=3 | REL=main | PRICES=134,108,44 | ROAD=Đường ĐT 754 Cầu | START=Giáp đường nhựa khu số 1 cư Phước | END=tái định 168 Hòa | FLAGS=
+ID=NQ28-070-S01-TT0004-01 | SEC=agricultural | TT=4 | REL=main | PRICES=134,108,44 | ROAD=Giáp nhựa Đường ĐT 754 định Phước | START=đường khu tái Giáp ranh cư Campuchia Hòa | END=168 | FLAGS=
+ID=NQ28-070-S01-TT0005-01 | SEC=agricultural | TT=5 | REL=main | PRICES=134,108,44 | ROAD=Ngã Đường ĐT 754 Khu Thiết | START=ba cổng Giáp ranh di tích Tà Tây Ninh | END=tỉnh 168 | FLAGS=
+ID=NQ28-070-S01-TT0006-01 | SEC=agricultural | TT=6 | REL=main | PRICES=134,108,44 | ROAD=Thuộc Đường Quốc lộ 14C xã Lộc (đường Xuyên Á) (cũ) | START=địa bàn Thịnh | END=168 | FLAGS=
+ID=NQ28-070-S01-TT0007-01 | SEC=agricultural | TT=7 | REL=main | PRICES=112,90,44 | ROAD=Đường Quốc lộ 14C Giáp (đường Xuyên Á) Lộc | START=Thửa đất ranh xã 17; tờ bản Thịnh (cũ) 43 | END=số 16, đồ số 140 | FLAGS=
+ID=NQ28-070-S01-TT0008-01 | SEC=agricultural | TT=8 | REL=main | PRICES=112,90,44 | ROAD=Thửa Đường Quốc lộ 14C 16, (đường Xuyên Á) đồ số | START=đất số Thửa đất 17; tờ bản 104; tờ bản 43 16 | END=số 90, đồ số 140 | FLAGS=
+ID=NQ28-070-S01-TT0009-01 | SEC=agricultural | TT=9 | REL=main | PRICES=112,90,44 | ROAD=Thửa Đường Quốc lộ 14C 90, (đường Xuyên Á) bản | START=đất số Giáp ranh 104; tờ Thiện (cũ) đồ số 16 | END=xã Lộc 140 | FLAGS=
+ID=NQ28-070-S01-TT0010-01 | SEC=agricultural | TT=10 | REL=main | PRICES=90,72,44 | ROAD=Đường liên xã Lộc Ngã Thịnh - Lộc Khánh (cũ) Tâm | START=tư Đồng Giáp ranh Khánh (cũ) | END=xã Lộc 112 | FLAGS=
+ID=NQ28-070-S01-TT0011-01 | SEC=agricultural | TT=11 | REL=main | PRICES=90,72,44 | ROAD=Ngã Đường liên xã Lộc Thành Thịnh - Lộc Thành (cũ) Thịnh | START=ba Lộc Giáp ranh - Lộc Thành | END=xã Lộc 112 | FLAGS=
+ID=NQ28-070-S01-TT0012-01 | SEC=agricultural | TT=12 | REL=main | PRICES=90,72,44 | ROAD=Các tuyến đường đấu Giáp nối trực tiếp ra đường xã Bình Quốc lộ 13 trong phạm (cũ) vi 200m (tính từ Lê) HLLG) | START=ranh thị Long Ngã tư Đồng (Cầu Cần Tâm | END=112 | FLAGS=
+ID=NQ28-070-S01-TT0013-01 | SEC=agricultural | TT=13 | REL=main | PRICES=90,72,44 | ROAD=Các tuyến đường đấu Ngã nối trực tiếp ra đường Tâm ĐT 754 trong phạm vi | START=tư Đồng Cầu số 1 | END=112 | FLAGS=
+ID=NQ28-070-S01-TT0014-01 | SEC=agricultural | TT=14 | REL=main | PRICES=90,72,44 | ROAD=200m (tính từ HLLG) Các tuyến đường đấu nối trực tiếp ra đường Cầu ĐT 754 trong phạm vi 200m (tính từ HLLG) | START=Giáp đường nhựa khu số 1 cư Phước | END=tái định 112 Hòa | FLAGS=
+ID=NQ28-070-S01-TT0015-01 | SEC=agricultural | TT=15 | REL=main | PRICES=90,72,44 | ROAD=Các tuyến đường đấu Giáp nối trực tiếp ra đường nhựa ĐT 754 trong phạm vi định 200m (tính từ HLLG) Phước | START=đường khu tái Giáp ranh cư quốc Campuchia Hòa | END=Vương 112 | FLAGS=
+ID=NQ28-070-S01-TT0016-01 | SEC=agricultural | TT=16 | REL=main | PRICES=90,72,44 | ROAD=Các tuyến đường đấu Ngã nối trực tiếp ra đường Khu ĐT 754 trong phạm vi Thiết 200m (tính từ HLLG) | START=ba cổng Giáp ranh di tích Tà Tây Ninh | END=tỉnh 112 | FLAGS=
+ID=NQ28-070-S01-TT0017-01 | SEC=agricultural | TT=17 | REL=main | PRICES=84,67,44 | ROAD=Đường Đường liên xã Lộc lộ 14C Thành - Lộc Hưng (đường Á) | START=Quốc Thửa đất 151; tờ bản Xuyên 34 | END=số 45, đồ số 105 | FLAGS=
+ID=NQ28-070-S01-TT0018-01 | SEC=agricultural | TT=18 | REL=main | PRICES=84,67,44 | ROAD=Thửa Đường liên xã Lộc 45, Thành - Lộc Hưng bản | START=đất số Ngã ba cây 151; tờ Lộc Thành đồ số 34 | END=xăng 105 | FLAGS=
+ID=NQ28-070-S01-TT0019-01 | SEC=agricultural | TT=19 | REL=main | PRICES=84,67,44 | ROAD=Ngã Đường liên xã Lộc xăng Thành - Lộc Hưng Thành | START=ba cây Giáp ranh Lộc Hưng | END=xã Lộc 105 | FLAGS=
+ID=NQ28-070-S01-TT0020-01 | SEC=agricultural | TT=20 | REL=main | PRICES=84,67,44 | ROAD=Ngã Đường liên xã Lộc xăng Thành - Lộc Thiện (cũ) Thành | START=ba cây Giáp ranh Lộc Thiện (cũ) | END=xã Lộc 105 | FLAGS=
+ID=NQ28-070-S01-TT0021-01 | SEC=agricultural | TT=21 | REL=main | PRICES=84,67,44 | ROAD=Đường liên xã Lộc Ngã Thành - Lộc Thái (cũ) Bình | START=ba Lộc Giáp ranh Thái (cũ) | END=xã Lộc 105 | FLAGS=
+ID=NQ28-070-S01-TT0022-01 | SEC=agricultural | TT=22 | REL=main | PRICES=84,67,44 | ROAD=Đường qua trung tâm Nhà ấp Tà xã Lộc Thành | START=văn hóa Nhà văn hóa Tê 1 Kliêu | END=ấp 105 | FLAGS=
+ID=NQ28-070-S01-TT0023-01 | SEC=agricultural | TT=23 | REL=main | PRICES=84,67,44 | ROAD=Nhà Đường liên ấp ấp KLiêu | START=văn hóa Ngã ba nhà Lâm Kh Lao | END=ông 105 | FLAGS=
+ID=NQ28-070-S01-TT0024-01 | SEC=agricultural | TT=24 | REL=main | PRICES=48,38,38 | ROAD=Ngã Đường liên ấp ông Lao | START=ba nhà Trại heo Huy Lâm Kh (Lộc Ninh | END=Anh 60 5) | FLAGS=
+ID=NQ28-070-S01-TT0025-01 | SEC=agricultural | TT=25 | REL=main | PRICES=48,38,38 | ROAD=Nhà Đường liên ấp ấp Tà | START=văn hóa Đập nước Tê 1 | END=Tà Tê 60 | FLAGS=
+ID=NQ28-070-S01-TT0026-01 | SEC=agricultural | TT=26 | REL=main | PRICES=48,38,38 | ROAD=Ngã Đường liên ấp ông Kỳ | START=ba nhà Thửa đất Mã Hữu 65 tờ bản 37 | END=số 63, đồ số 60 | FLAGS=
+ID=NQ28-070-S01-TT0027-01 | SEC=agricultural | TT=27 | REL=main | PRICES=48,38,38 | ROAD=Xưởng Đường liên ấp Lộc | START=Giáp đường đũa ấp Tà Tê Hà Tê 2 | END=liên 1 - Tà 60 | FLAGS=
+ID=NQ28-070-S01-TT0028-01 | SEC=agricultural | TT=28 | REL=main | PRICES=48,38,38 | ROAD=Đập Đường liên ấp Tà Tê 2 Tê 2 | START=Đường Quốc nước Tà 14C (đường Xuyên Á) | END=lộ 60 | FLAGS=
+ID=NQ28-070-S01-TT0029-01 | SEC=agricultural | TT=29 | REL=main | PRICES=48,38,38 | ROAD=Đường liên ấp (đường Cổng | START=chào ấp Đội 4 nông | END=60 | FLAGS=
+ID=NQ28-070-S01-TT0030-01 | SEC=agricultural | TT=30 | REL=main | PRICES=48,38,38 | ROAD=cổng chào ấp Tân Tân Bình 1) Thửa Đường nhựa Tân Bình tờ bản | START=trường cao Bình 1 Lộc Ninh số 05, Thửa số 24, đồ số | END=su tờ 60 | FLAGS=
+ID=NQ28-070-S01-TT0001-02 | SEC=agricultural | TT=1 | REL=main | PRICES= | ROAD=10 | START=bản đồ số | END=10 | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-070-S01-TT0031-01 | SEC=agricultural | TT=31 | REL=main | PRICES=48,38,38 | ROAD=Các tuyến đường giao thông đường theo bản đồ địa chính | START=nông thôn có bề rộng từ 3,5m trở lên | END=60 | FLAGS=
+ID=NQ28-070-S01-TT0032-01 | SEC=agricultural | TT=32 | REL=main | PRICES=48,38,38 | ROAD=Các tuyến đường còn lại | START= | END=60 | FLAGS=

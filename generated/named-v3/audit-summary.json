@@ -3,113 +3,135 @@
   "classificationAuthority": "user-assigned split filename",
   "pageSuffixRole": "bookmark_only",
   "agriculturalSource": {
-    "areaHeadingCount": null,
-    "areasWithSource": null,
-    "missingAreas": null,
-    "review": null,
-    "error": "generated/named-v3/agri/source/source-manifest.json"
-  },
-  "agriculturalParsed": {
-    "areaCount": 0,
-    "recordCount": 0,
-    "reviewCount": 0,
+    "areaHeadingCount": 89,
+    "areasWithSource": 85,
     "missingAreas": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
       11,
-      12,
-      13,
-      14,
-      15,
       16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
       24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
       35,
-      36,
-      37,
-      38,
-      39,
       40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
       48,
-      49,
-      50,
-      51,
-      52,
       53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
       68,
       69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95
+      75
     ],
+    "review": [
+      {
+        "code": "AREA_HEADING_SEQUENCE_NOT_EXACT_1_95",
+        "observed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50,
+          51,
+          52,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "missing": [
+          11,
+          16,
+          24,
+          35,
+          40,
+          48,
+          53,
+          68,
+          69,
+          75
+        ]
+      }
+    ],
+    "error": null
+  },
+  "agriculturalParsed": {
+    "areaCount": 95,
+    "recordCount": 18090,
+    "reviewCount": 1626,
+    "missingAreas": [],
     "error": null
   },
   "file2Islands": {
@@ -117,113 +139,131 @@
     "error": null
   },
   "nonAgriculturalSource": {
-    "areaHeadingCount": null,
-    "areasWithSource": null,
-    "missingAreas": null,
-    "review": null,
-    "error": "generated/named-v3/nonagri/source/source-manifest.json"
-  },
-  "nonAgriculturalParsed": {
-    "areaCount": 0,
-    "recordCount": 0,
-    "reviewCount": 0,
+    "areaHeadingCount": 85,
+    "areasWithSource": 85,
     "missingAreas": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
       11,
-      12,
-      13,
-      14,
-      15,
       16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
       24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
       35,
-      36,
-      37,
-      38,
-      39,
       40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
       48,
-      49,
-      50,
-      51,
-      52,
       53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
       68,
       69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95
+      75
     ],
+    "review": [
+      {
+        "code": "AREA_HEADING_SEQUENCE_NOT_EXACT_1_95",
+        "observed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50,
+          51,
+          52,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "missing": [
+          11,
+          16,
+          24,
+          35,
+          40,
+          48,
+          53,
+          68,
+          69,
+          75
+        ]
+      }
+    ],
+    "error": null
+  },
+  "nonAgriculturalParsed": {
+    "areaCount": 95,
+    "recordCount": 17559,
+    "reviewCount": 6052,
+    "missingAreas": [],
     "error": null
   },
   "smallGroups": {
@@ -245,7 +285,503 @@
     },
     "runtimeOrD1Modified": false
   },
-  "tamHiepDongKhoiChecks": [],
+  "tamHiepDongKhoiChecks": [
+    {
+      "id": "NQ28-003-S01-TT0066-01",
+      "tt": 66,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 5300,
+        "productionNonAgricultural": 4500,
+        "residential": 7500,
+        "sourceColumns": [
+          {
+            "page": 109,
+            "printed": "7.500",
+            "sourceValueThousandVndPerM2": 7500,
+            "x": 410.06
+          },
+          {
+            "page": 109,
+            "printed": "5.300",
+            "sourceValueThousandVndPerM2": 5300,
+            "x": 452.81
+          },
+          {
+            "page": 109,
+            "printed": "4.500",
+            "sourceValueThousandVndPerM2": 4500,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0067-01",
+      "tt": 67,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 3400,
+        "productionNonAgricultural": 2900,
+        "residential": 4900,
+        "sourceColumns": [
+          {
+            "page": 109,
+            "printed": "4.900",
+            "sourceValueThousandVndPerM2": 4900,
+            "x": 410.06
+          },
+          {
+            "page": 109,
+            "printed": "3.400",
+            "sourceValueThousandVndPerM2": 3400,
+            "x": 452.81
+          },
+          {
+            "page": 109,
+            "printed": "2.900",
+            "sourceValueThousandVndPerM2": 2900,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0068-01",
+      "tt": 68,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 8800,
+        "productionNonAgricultural": 7600,
+        "residential": 12600,
+        "sourceColumns": [
+          {
+            "page": 109,
+            "printed": "12.600",
+            "sourceValueThousandVndPerM2": 12600,
+            "x": 404.54
+          },
+          {
+            "page": 109,
+            "printed": "8.800",
+            "sourceValueThousandVndPerM2": 8800,
+            "x": 452.81
+          },
+          {
+            "page": 109,
+            "printed": "7.600",
+            "sourceValueThousandVndPerM2": 7600,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0069-01",
+      "tt": 69,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 4800,
+        "productionNonAgricultural": 4100,
+        "residential": 6800,
+        "sourceColumns": [
+          {
+            "page": 109,
+            "printed": "6.800",
+            "sourceValueThousandVndPerM2": 6800,
+            "x": 410.06
+          },
+          {
+            "page": 109,
+            "printed": "4.800",
+            "sourceValueThousandVndPerM2": 4800,
+            "x": 452.81
+          },
+          {
+            "page": 109,
+            "printed": "4.100",
+            "sourceValueThousandVndPerM2": 4100,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0070-01",
+      "tt": 70,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 3100,
+        "productionNonAgricultural": 2600,
+        "residential": 4400,
+        "sourceColumns": [
+          {
+            "page": 109,
+            "printed": "4.400",
+            "sourceValueThousandVndPerM2": 4400,
+            "x": 410.06
+          },
+          {
+            "page": 109,
+            "printed": "3.100",
+            "sourceValueThousandVndPerM2": 3100,
+            "x": 452.81
+          },
+          {
+            "page": 109,
+            "printed": "2.600",
+            "sourceValueThousandVndPerM2": 2600,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0318-01",
+      "tt": 318,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 8000,
+        "productionNonAgricultural": 6800,
+        "residential": 11400,
+        "sourceColumns": [
+          {
+            "page": 142,
+            "printed": "11.400",
+            "sourceValueThousandVndPerM2": 11400,
+            "x": 404.54
+          },
+          {
+            "page": 142,
+            "printed": "8.000",
+            "sourceValueThousandVndPerM2": 8000,
+            "x": 452.81
+          },
+          {
+            "page": 142,
+            "printed": "6.800",
+            "sourceValueThousandVndPerM2": 6800,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0319-01",
+      "tt": 319,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 5300,
+        "productionNonAgricultural": 4600,
+        "residential": 7600,
+        "sourceColumns": [
+          {
+            "page": 143,
+            "printed": "7.600",
+            "sourceValueThousandVndPerM2": 7600,
+            "x": 410.06
+          },
+          {
+            "page": 143,
+            "printed": "5.300",
+            "sourceValueThousandVndPerM2": 5300,
+            "x": 452.81
+          },
+          {
+            "page": 143,
+            "printed": "4.600",
+            "sourceValueThousandVndPerM2": 4600,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0320-01",
+      "tt": 320,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 12800,
+        "productionNonAgricultural": 11000,
+        "residential": 18300,
+        "sourceColumns": [
+          {
+            "page": 143,
+            "printed": "18.300",
+            "sourceValueThousandVndPerM2": 18300,
+            "x": 404.54
+          },
+          {
+            "page": 143,
+            "printed": "12.800",
+            "sourceValueThousandVndPerM2": 12800,
+            "x": 447.29
+          },
+          {
+            "page": 143,
+            "printed": "11.000",
+            "sourceValueThousandVndPerM2": 11000,
+            "x": 491.71
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0321-01",
+      "tt": 321,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 7200,
+        "productionNonAgricultural": 6200,
+        "residential": 10300,
+        "sourceColumns": [
+          {
+            "page": 143,
+            "printed": "10.300",
+            "sourceValueThousandVndPerM2": 10300,
+            "x": 404.54
+          },
+          {
+            "page": 143,
+            "printed": "7.200",
+            "sourceValueThousandVndPerM2": 7200,
+            "x": 452.81
+          },
+          {
+            "page": 143,
+            "printed": "6.200",
+            "sourceValueThousandVndPerM2": 6200,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0322-01",
+      "tt": 322,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 4800,
+        "productionNonAgricultural": 4100,
+        "residential": 6800,
+        "sourceColumns": [
+          {
+            "page": 143,
+            "printed": "6.800",
+            "sourceValueThousandVndPerM2": 6800,
+            "x": 410.06
+          },
+          {
+            "page": 143,
+            "printed": "4.800",
+            "sourceValueThousandVndPerM2": 4800,
+            "x": 452.81
+          },
+          {
+            "page": 143,
+            "printed": "4.100",
+            "sourceValueThousandVndPerM2": 4100,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0325-01",
+      "tt": 325,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 8000,
+        "productionNonAgricultural": 6800,
+        "residential": 11400,
+        "sourceColumns": [
+          {
+            "page": 143,
+            "printed": "11.400",
+            "sourceValueThousandVndPerM2": 11400,
+            "x": 404.54
+          },
+          {
+            "page": 143,
+            "printed": "8.000",
+            "sourceValueThousandVndPerM2": 8000,
+            "x": 452.81
+          },
+          {
+            "page": 143,
+            "printed": "6.800",
+            "sourceValueThousandVndPerM2": 6800,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0326-01",
+      "tt": 326,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 4900,
+        "productionNonAgricultural": 4200,
+        "residential": 7000,
+        "sourceColumns": [
+          {
+            "page": 143,
+            "printed": "7.000",
+            "sourceValueThousandVndPerM2": 7000,
+            "x": 410.06
+          },
+          {
+            "page": 143,
+            "printed": "4.900",
+            "sourceValueThousandVndPerM2": 4900,
+            "x": 452.81
+          },
+          {
+            "page": 143,
+            "printed": "4.200",
+            "sourceValueThousandVndPerM2": 4200,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0327-01",
+      "tt": 327,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 10400,
+        "productionNonAgricultural": 8900,
+        "residential": 14900,
+        "sourceColumns": [
+          {
+            "page": 144,
+            "printed": "14.900",
+            "sourceValueThousandVndPerM2": 14900,
+            "x": 404.54
+          },
+          {
+            "page": 144,
+            "printed": "10.400",
+            "sourceValueThousandVndPerM2": 10400,
+            "x": 447.29
+          },
+          {
+            "page": 144,
+            "printed": "8.900",
+            "sourceValueThousandVndPerM2": 8900,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0328-01",
+      "tt": 328,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 7200,
+        "productionNonAgricultural": 6200,
+        "residential": 10300,
+        "sourceColumns": [
+          {
+            "page": 144,
+            "printed": "10.300",
+            "sourceValueThousandVndPerM2": 10300,
+            "x": 404.54
+          },
+          {
+            "page": 144,
+            "printed": "7.200",
+            "sourceValueThousandVndPerM2": 7200,
+            "x": 452.81
+          },
+          {
+            "page": 144,
+            "printed": "6.200",
+            "sourceValueThousandVndPerM2": 6200,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    },
+    {
+      "id": "NQ28-003-S01-TT0329-01",
+      "tt": 329,
+      "road": null,
+      "start": null,
+      "end": null,
+      "prices": {
+        "commercialService": 4400,
+        "productionNonAgricultural": 3800,
+        "residential": 6300,
+        "sourceColumns": [
+          {
+            "page": 144,
+            "printed": "6.300",
+            "sourceValueThousandVndPerM2": 6300,
+            "x": 410.06
+          },
+          {
+            "page": 144,
+            "printed": "4.400",
+            "sourceValueThousandVndPerM2": 4400,
+            "x": 452.81
+          },
+          {
+            "page": 144,
+            "printed": "3.800",
+            "sourceValueThousandVndPerM2": 3800,
+            "x": 497.23
+          }
+        ]
+      },
+      "review": []
+    }
+  ],
   "ttIsLookupKey": false,
   "runtimeOrD1Modified": false
 }

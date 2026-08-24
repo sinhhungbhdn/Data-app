@@ -1,0 +1,201 @@
+TABLE=062 | AREA=Phường An Lộc | RECORDS=200 | GROUPS=200 | REVIEW=10
+ID=NQ28-062-S01-TT0001-01 | SEC=agricultural | TT=1 | REL=main | PRICES=490,392,274 | ROAD=62. Phường An Lộc Tên đường giao TT thông Đường Nguyễn Đường Trần Huệ | START=Đoạn đường Đường Hưng Đạo Vương | END=Giá cây Hùng | FLAGS=
+ID=NQ28-062-S01-TT0002-01 | SEC=agricultural | TT=2 | REL=main | PRICES=490,392,274 | ROAD=Đường Nguyễn Đường Hùng Huệ | START=Đường Vương Hương | END=Hồ Xuân | FLAGS=
+ID=NQ28-062-S01-TT0003-01 | SEC=agricultural | TT=3 | REL=main | PRICES=490,392,274 | ROAD=Đường Nguyễn Đường Hồ Huệ | START=Đường Xuân Hương (mũi | END=Nguyễn Du dùi) | FLAGS=
+ID=NQ28-062-S01-TT0004-01 | SEC=agricultural | TT=4 | REL=main | PRICES=490,392,274 | ROAD=Đường Nguyễn Đường Nguyễn Huệ dùi) | START=Du (mũi Đường Học | END=Nguyễn Thái | FLAGS=
+ID=NQ28-062-S01-TT0005-01 | SEC=agricultural | TT=5 | REL=main | PRICES=280,224,157 | ROAD=Đường Trần Đường Nguyễn Hưng Đạo | START=Đường Huệ Kiệt | END=Lý Thường | FLAGS=
+ID=NQ28-062-S01-TT0006-01 | SEC=agricultural | TT=6 | REL=main | PRICES=280,224,157 | ROAD=Đường Trần Đường Lý Hưng Đạo | START=Đường Thường Kiệt Trưng | END=Hai Bà | FLAGS=
+ID=NQ28-062-S01-TT0007-01 | SEC=agricultural | TT=7 | REL=main | PRICES=490,392,274 | ROAD=Đường ĐT 758 Đường Hai | START=Ranh Bà Trưng Lợi | END=giới xã Tân | FLAGS=
+ID=NQ28-062-S01-TT0008-01 | SEC=agricultural | TT=8 | REL=main | PRICES=280,224,157 | ROAD=Đường Hùng Đường Nguyễn Vương | START=Huệ Đường | END=Nguyễn Du | FLAGS=
+ID=NQ28-062-S01-TT0009-01 | SEC=agricultural | TT=9 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Đường Trần Du | START=Đường Hưng Đạo Long | END=Nơ Trang | FLAGS=
+ID=NQ28-062-S01-TT0010-01 | SEC=agricultural | TT=10 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Đường Nơ Du | START=Trang Long Đường | END=Nguyễn Huệ | FLAGS=
+ID=NQ28-062-S01-TT0011-01 | SEC=agricultural | TT=11 | REL=main | PRICES=280,224,157 | ROAD=Đường Hồ Xuân Đường Nguyễn Hương | START=Huệ Đường | END=Nguyễn Du | FLAGS=
+ID=NQ28-062-S01-TT0012-01 | SEC=agricultural | TT=12 | REL=main | PRICES=280,224,157 | ROAD=Đường Chu Văn Đường Nguyễn An | START=Đường Huệ Đạo | END=Trần Hưng | FLAGS=
+ID=NQ28-062-S01-TT0013-01 | SEC=agricultural | TT=13 | REL=main | PRICES=280,224,157 | ROAD=Đường Lý Đường Trần Thường Kiệt | START=Hưng Đạo Đường | END=Chu Văn An | FLAGS=
+ID=NQ28-062-S01-TT0014-01 | SEC=agricultural | TT=14 | REL=main | PRICES=280,224,157 | ROAD=Đường Nơ Trang Đường ray Long | START=Đường xe lửa Học | END=Nguyễn Thái | FLAGS=
+ID=NQ28-062-S01-TT0015-01 | SEC=agricultural | TT=15 | REL=main | PRICES=280,224,157 | ROAD=Đường Nơ Trang Đường Nguyễn Long | START=Huệ Đường | END=Nguyễn Du | FLAGS=
+ID=NQ28-062-S01-TT0016-01 | SEC=agricultural | TT=16 | REL=main | PRICES=280,224,157 | ROAD=Đường Nơ Trang Đường Nguyễn Long | START=Du Đường | END=ray xe lửa | FLAGS=
+ID=NQ28-062-S01-TT0017-01 | SEC=agricultural | TT=17 | REL=main | PRICES=280,224,157 | ROAD=Đường Bà Triệu Đường Hai | START=Bà Trưng Đường | END=Nguyễn Du | FLAGS=
+ID=NQ28-062-S01-TT0018-01 | SEC=agricultural | TT=18 | REL=main | PRICES=280,224,157 | ROAD=Đường Hai Bà Đường Trần Trưng | START=Hưng Đạo Đường | END=Bà Triệu | FLAGS=
+ID=NQ28-062-S01-TT0019-01 | SEC=agricultural | TT=19 | REL=main | PRICES=280,224,157 | ROAD=Đường Hai Bà Đường Bà Trưng | START=Triệu Cầu | END=Ba Tặng | FLAGS=
+ID=NQ28-062-S01-TT0020-01 | SEC=agricultural | TT=20 | REL=main | PRICES=280,224,157 | ROAD=Đường Hai Bà Cầu Ba Trưng | START=Đường Tặng Học | END=Nguyễn Thái | FLAGS=
+ID=NQ28-062-S01-TT0021-01 | SEC=agricultural | TT=21 | REL=main | PRICES=280,224,157 | ROAD=Đường Hồ Tùng Mậu (Đường PTT Đường Trần | START=Hưng Đạo Đường | END=Bà Triệu | FLAGS=
+ID=NQ28-062-S01-TT0006-02 | SEC=agricultural | TT=6 | REL=main | PRICES= | ROAD=cũ) | START= | END= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0022-01 | SEC=agricultural | TT=22 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Đường Nguyễn Thái Học | START=Huệ Đường | END=TPT 18 | FLAGS=
+ID=NQ28-062-S01-TT0023-01 | SEC=agricultural | TT=23 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Đường TPT Thái Học | START=Đường 18 Trưng | END=Hai Bà | FLAGS=
+ID=NQ28-062-S01-TT0024-01 | SEC=agricultural | TT=24 | REL=main | PRICES=280,224,157 | ROAD=Đường Nguyễn Đường Hai Thái Học | START=Bà Trưng Ranh | END=xã Tân Quan | FLAGS=
+ID=NQ28-062-S01-TT0025-01 | SEC=agricultural | TT=25 | REL=main | PRICES=280,224,157 | ROAD=Thửa đất Đường PTT 5 đồ số 6 | START=số 168, tờ bản Suối | END= | FLAGS=
+ID=NQ28-062-S01-TT0026-01 | SEC=agricultural | TT=26 | REL=main | PRICES=280,224,157 | ROAD=Đường PTT 7 Giáp lô cao | START=Hết su Nhà nước tờ | END=thửa đất số 36, bản đồ số 07 | FLAGS=
+ID=NQ28-062-S01-TT0027-01 | SEC=agricultural | TT=27 | REL=main | PRICES=280,224,157 | ROAD=Đường PTT 8 Đường ĐT | START=758 Đường | END=PTT 7 | FLAGS=
+ID=NQ28-062-S01-TT0028-01 | SEC=agricultural | TT=28 | REL=main | PRICES=280,224,157 | ROAD=Đường PTT 9 Đường ĐT | START=758 Cuối | END=đường | FLAGS=
+ID=NQ28-062-S01-TT0029-01 | SEC=agricultural | TT=29 | REL=main | PRICES=280,224,157 | ROAD=Đường PTT 10 Đường Trần | START=Hưng Đạo Cuối | END=đường | FLAGS=
+ID=NQ28-062-S01-TT0030-01 | SEC=agricultural | TT=30 | REL=main | PRICES=280,224,157 | ROAD=Đường PTT 11 Đường Nơ | START=Trang Long Nguyễn | END=Du | FLAGS=
+ID=NQ28-062-S01-TT0031-01 | SEC=agricultural | TT=31 | REL=main | PRICES=280,224,157 | ROAD=Đường PTT 22 Thửa đất (Nguyễn Thái số 2 (Ngã Học nối dài) | START=số 02, tờ bản đồ Ngã ba ông Dân) bà | END=ba cuối đất nhà Long | FLAGS=
+ID=NQ28-062-S01-TT0032-01 | SEC=agricultural | TT=32 | REL=main | PRICES=252,202,141 | ROAD=Đường tổ 2 KP Đường Nơ Phú Xuân | START=Trang Long Đường | END=Nguyễn Du | FLAGS=
+ID=NQ28-062-S01-TT0033-01 | SEC=agricultural | TT=33 | REL=main | PRICES=252,202,141 | ROAD=Đường bê tông nằm trên ray xe Đường Trần lửa | START=Hưng Đạo Đường | END=PTT 4 | FLAGS=
+ID=NQ28-062-S01-TT0034-01 | SEC=agricultural | TT=34 | REL=main | PRICES=252,202,141 | ROAD=Đường Nguyễn Đường bê Tông đất số 66, | START=Du (thửa Đường tờ bản đồ số 5) | END=ray xe lửa | FLAGS=
+ID=NQ28-062-S01-TT0035-01 | SEC=agricultural | TT=35 | REL=main | PRICES=420,336,235 | ROAD=Đường Quốc lộ Đường TLT | START=Hết 3 | END=ranh đất nhà | FLAGS=
+ID=NQ28-062-S01-TT0013-02 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD= | START=ông | END=Tuyến Nhật | FLAGS=MAIN_ROAD_EMPTY,PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0036-01 | SEC=agricultural | TT=36 | REL=main | PRICES=490,392,274 | ROAD=Đường Quốc lộ Giáp ranh | START=đất nhà ông Đường | END=TLT 18 | FLAGS=
+ID=NQ28-062-S01-TT0013-03 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD=Tuyến Nhật | START= | END= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0037-01 | SEC=agricultural | TT=37 | REL=main | PRICES=490,392,274 | ROAD=Đường Quốc lộ Đường TLT | START=18 Đường | END=TLT 15 | FLAGS=
+ID=NQ28-062-S01-TT0013-04 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD= | START= | END= | FLAGS=MAIN_ROAD_EMPTY,PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0038-01 | SEC=agricultural | TT=38 | REL=main | PRICES=490,392,274 | ROAD=Đường Quốc lộ Đường TLT | START=Đường 15 | END=vào nhà máy | FLAGS=
+ID=NQ28-062-S01-TT0013-05 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD= | START=xi | END=măng | FLAGS=MAIN_ROAD_EMPTY,PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0039-01 | SEC=agricultural | TT=39 | REL=main | PRICES=490,392,274 | ROAD=Đường Quốc lộ Đường vào | START=nhà máy xi Giáp | END=ranh xã Lộc | FLAGS=
+ID=NQ28-062-S01-TT0013-06 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD=măng | START=Thành | END= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0040-01 | SEC=agricultural | TT=40 | REL=main | PRICES=420,336,235 | ROAD=Đường Quốc lộ Đường Nguyễn | START=Ngã Thái Học | END=ba Sóc Bế | FLAGS=
+ID=NQ28-062-S01-TT0013-07 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD= | START=(đường | END=TP T1) | FLAGS=MAIN_ROAD_EMPTY,PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0041-01 | SEC=agricultural | TT=41 | REL=main | PRICES=420,336,235 | ROAD=Đường Quốc lộ Ngã ba | START=Sóc Bế (đường Hết | END=ranh đất Cây | FLAGS=
+ID=NQ28-062-S01-TT0013-08 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD=TPT1) | START=Xăng | END=Thạnh Phú | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0042-01 | SEC=agricultural | TT=42 | REL=main | PRICES=420,336,235 | ROAD=Đường Quốc lộ Giáp ranh | START=đất Cây xăng Hết | END=ranh đất Nông | FLAGS=
+ID=NQ28-062-S01-TT0013-09 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD=Thạnh Phú | START=Trường | END=Xa Cam | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0043-01 | SEC=agricultural | TT=43 | REL=main | PRICES=420,336,235 | ROAD=Đường Quốc lộ Giáp ranh | START=đất Nông Đường | END=TLT 3 | FLAGS=
+ID=NQ28-062-S01-TT0013-10 | SEC=agricultural | TT=13 | REL=main | PRICES= | ROAD=Trường Đường bao | START=Xa Cam | END= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-062-S01-TT0044-01 | SEC=agricultural | TT=44 | REL=main | PRICES=420,336,235 | ROAD=quanh khu dân Toàn tuyến cư chợ xã Thanh Phú | START= | END= | FLAGS=
+ID=NQ28-062-S01-TT0045-01 | SEC=agricultural | TT=45 | REL=main | PRICES=420,336,235 | ROAD=Đường ĐT 757 Đường Quốc | START=Giáp lộ 13 Hưng | END=ranh xã Tân | FLAGS=
+ID=NQ28-062-S01-TT0046-01 | SEC=agricultural | TT=46 | REL=main | PRICES=420,336,235 | ROAD=Đường bao Toàn tuyến quanh chợ | START= | END= | FLAGS=
+ID=NQ28-062-S01-TT0047-01 | SEC=agricultural | TT=47 | REL=main | PRICES=252,202,141 | ROAD=Đường vào nhà Đường Quốc máy xi măng | START=lộ 13 Suối | END= | FLAGS=
+ID=NQ28-062-S01-TT0048-01 | SEC=agricultural | TT=48 | REL=main | PRICES=252,202,141 | ROAD=Đường vào nhà Suối máy xi măng | START=Cuối thảm | END=đường đã nhựa | FLAGS=
+ID=NQ28-062-S01-TT0049-01 | SEC=agricultural | TT=49 | REL=main | PRICES=330,264,185 | ROAD=Các tuyến Khu dân cư khu dân Khang Minh chính trừ Quân nhà máy | START=đường trong cư (Đường trục tuyến Đường vào xi măng) | END= | FLAGS=
+ID=NQ28-062-S01-TT0050-01 | SEC=agricultural | TT=50 | REL=main | PRICES=330,264,185 | ROAD=Khu dân cư Các tuyến khu dân Khang Minh Quân (đường Quân | START=đường trong cư Khang Minh còn lại) | END= | FLAGS=
+ID=NQ28-062-S01-TT0051-01 | SEC=agricultural | TT=51 | REL=main | PRICES=330,264,185 | ROAD=Các tuyến Khu dân cư Ngọc khu dân Điền Phát Phát (đường | START=đường trong cư Ngọc Điền trục chính) | END= | FLAGS=
+ID=NQ28-062-S01-TT0052-01 | SEC=agricultural | TT=52 | REL=main | PRICES=330,264,185 | ROAD=Các tuyến Khu dân cư Ngọc khu dân Điền Phát Phát (đường | START=đường trong cư Ngọc Điền còn lại) | END= | FLAGS=
+ID=NQ28-062-S01-TT0053-01 | SEC=agricultural | TT=53 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 1 Đường Quốc | START=lộ 13 Đường | END=TPT 4 | FLAGS=
+ID=NQ28-062-S01-TT0054-01 | SEC=agricultural | TT=54 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 1 Đường TPT | START=4 TLT | END=21 | FLAGS=
+ID=NQ28-062-S01-TT0055-01 | SEC=agricultural | TT=55 | REL=main | PRICES=252,202,141 | ROAD=Đường bao Đường TPT 2 cư chợ xã | START=quanh khu dân Cuối Thanh Phú cấp | END=đường nâng mở rộng | FLAGS=
+ID=NQ28-062-S01-TT0056-01 | SEC=agricultural | TT=56 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 3 Cầu cây | START=Đường Sung | END=TPT 27 | FLAGS=
+ID=NQ28-062-S01-TT0057-01 | SEC=agricultural | TT=57 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 4 Đường TPT | START=1 Đường | END=TPT 12 | FLAGS=
+ID=NQ28-062-S01-TT0058-01 | SEC=agricultural | TT=58 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 4 Đường TPT | START=12 Hết | END=tuyến | FLAGS=
+ID=NQ28-062-S01-TT0059-01 | SEC=agricultural | TT=59 | REL=main | PRICES=252,202,141 | ROAD=Thửa đất Đường TPT 5 số 14 thuộc Thanh Hà | START=Thửa số 28, tờ bản đồ bản tổ 4, khu phố tổ Bưng | END=đất số 126, tờ đồ số 03 thuộc 6, Khu phố Sóc | FLAGS=
+ID=NQ28-062-S01-TT0060-01 | SEC=agricultural | TT=60 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 6 Đường TPT | START=7 Đường | END=TPT 4 | FLAGS=
+ID=NQ28-062-S01-TT0061-01 | SEC=agricultural | TT=61 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 7 Đường TPT | START=8 Đường | END=TPT 4 | FLAGS=
+ID=NQ28-062-S01-TT0062-01 | SEC=agricultural | TT=62 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 8 Đường TPT | START=5 Đường | END=TPT 12 | FLAGS=
+ID=NQ28-062-S01-TT0063-01 | SEC=agricultural | TT=63 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 9 Đường ray | START=xe lửa Đường | END=TPT 5 | FLAGS=
+ID=NQ28-062-S01-TT0064-01 | SEC=agricultural | TT=64 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 10 Đường TPT | START=5 Đường | END=TPT 8 | FLAGS=
+ID=NQ28-062-S01-TT0065-01 | SEC=agricultural | TT=65 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 11 Đường TPT | START=Lô 4 Huỳnh TPT | END=cao su (nhà ông Thái), đường 22 | FLAGS=
+ID=NQ28-062-S01-TT0066-01 | SEC=agricultural | TT=66 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 12 Đường TPT | START=Xóm 1 Sáu), | END=(nhà ông phạm đến nghĩa địa | FLAGS=
+ID=NQ28-062-S01-TT0067-01 | SEC=agricultural | TT=67 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 13 Đường TPT | START=4 Đường | END=TPT 11 | FLAGS=
+ID=NQ28-062-S01-TT0068-01 | SEC=agricultural | TT=68 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 14 Đường TPT | START=1 Đường | END=TPT 15 | FLAGS=
+ID=NQ28-062-S01-TT0069-01 | SEC=agricultural | TT=69 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 15 Đường Quốc | START=lộ 13 Đường | END=TPT 1 | FLAGS=
+ID=NQ28-062-S01-TT0070-01 | SEC=agricultural | TT=70 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT Đường TPT 16 Chưởng | START=Lô 18 (chùa Vũ Phước) TPT | END=cao su (nhà bà Thị Ngọ), đường 20 | FLAGS=
+ID=NQ28-062-S01-TT0071-01 | SEC=agricultural | TT=71 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 17 Đường TPT | START=15 Đường | END=Quốc lộ 13 | FLAGS=
+ID=NQ28-062-S01-TT0072-01 | SEC=agricultural | TT=72 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 18 Đường TPT | START=Đường 1 Học | END=Nguyễn Thái | FLAGS=
+ID=NQ28-062-S01-TT0073-01 | SEC=agricultural | TT=73 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 19 Đường TPT | START=16 Đường | END=TPT 20 | FLAGS=
+ID=NQ28-062-S01-TT0074-01 | SEC=agricultural | TT=74 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 20 Đường TPT | START=18 Đường | END=TPT 22 | FLAGS=
+ID=NQ28-062-S01-TT0075-01 | SEC=agricultural | TT=75 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 21 Đường Quốc | START=lộ 13 Đường | END=TPT 18 | FLAGS=
+ID=NQ28-062-S01-TT0076-01 | SEC=agricultural | TT=76 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 23 Đường Quốc | START=lộ 13 Đường | END=TPT 1 | FLAGS=
+ID=NQ28-062-S01-TT0077-01 | SEC=agricultural | TT=77 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 24 Đường Quốc | START=lộ 13 Đường | END=TPT 23 | FLAGS=
+ID=NQ28-062-S01-TT0078-01 | SEC=agricultural | TT=78 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 25 Đường TPT | START=50 Đường | END=TPT 26 | FLAGS=
+ID=NQ28-062-S01-TT0079-01 | SEC=agricultural | TT=79 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 26 Đường Quốc | START=Hết lộ 13 (ngã Tâm) | END=đường nhựa ba nhà bà | FLAGS=
+ID=NQ28-062-S01-TT0080-01 | SEC=agricultural | TT=80 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 27 Đường Quốc | START=lộ 13 Đường | END=TPT 3 | FLAGS=
+ID=NQ28-062-S01-TT0081-01 | SEC=agricultural | TT=81 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 28 Đường Quốc | START=lộ 13 Đường | END=TPT 27 | FLAGS=
+ID=NQ28-062-S01-TT0082-01 | SEC=agricultural | TT=82 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 29 Đường Quốc | START=Xóm lộ 13 Xuân phường | END=(nhà ông Lê Đạo), ranh An Lộc | FLAGS=
+ID=NQ28-062-S01-TT0083-01 | SEC=agricultural | TT=83 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 30 Đường Quốc | START=lộ 13 Đường | END=TPT 29 | FLAGS=
+ID=NQ28-062-S01-TT0084-01 | SEC=agricultural | TT=84 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 31 Đường TPT | START=Đường 32 (Suối) | END=TPT 30 | FLAGS=
+ID=NQ28-062-S01-TT0085-01 | SEC=agricultural | TT=85 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 32 Đường Quốc | START=lộ 13 Đường | END=TPT 31 | FLAGS=
+ID=NQ28-062-S01-TT0086-01 | SEC=agricultural | TT=86 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 32 Đường TPT | START=31 Đường | END=TPT 30 | FLAGS=
+ID=NQ28-062-S01-TT0087-01 | SEC=agricultural | TT=87 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 33 Đường Quốc | START=lộ 13 Đường | END=TPT 32 | FLAGS=
+ID=NQ28-062-S01-TT0088-01 | SEC=agricultural | TT=88 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 34 Đường TPT | START=27 Đường | END=TPT 35 | FLAGS=
+ID=NQ28-062-S01-TT0089-01 | SEC=agricultural | TT=89 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 35 Đường TPT | START=Đường 34 (Suối) | END=TPT 39 | FLAGS=
+ID=NQ28-062-S01-TT0090-01 | SEC=agricultural | TT=90 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 36 Đường TPT | START=3 Đường | END=TPT 35 | FLAGS=
+ID=NQ28-062-S01-TT0091-01 | SEC=agricultural | TT=91 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 37 Đường TPT | START=1 Đường | END=TPT 12 | FLAGS=
+ID=NQ28-062-S01-TT0092-01 | SEC=agricultural | TT=92 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 38 Đường TPT | START=26 Đường | END=TPT 48 | FLAGS=
+ID=NQ28-062-S01-TT0093-01 | SEC=agricultural | TT=93 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 39 Đường TPT | START=35 Đường | END=TPT 49 | FLAGS=
+ID=NQ28-062-S01-TT0094-01 | SEC=agricultural | TT=94 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 40 Đường TPT | START=35 Đường | END=TPT 2 | FLAGS=
+ID=NQ28-062-S01-TT0095-01 | SEC=agricultural | TT=95 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 41 Đường Quốc | START=lộ 13 Đường | END=TPT 42 | FLAGS=
+ID=NQ28-062-S01-TT0096-01 | SEC=agricultural | TT=96 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 42 Trường | START=cấp 2 Lô | END=cao su | FLAGS=
+ID=NQ28-062-S01-TT0097-01 | SEC=agricultural | TT=97 | REL=main | PRICES=252,202,141 | ROAD=Dường TPT 43 Đường Quốc | START=lộ 13 Đường | END=TPT 1 | FLAGS=
+ID=NQ28-062-S01-TT0098-01 | SEC=agricultural | TT=98 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 44 Đường TPT | START=20 Đường | END=TPT 19 | FLAGS=
+ID=NQ28-062-S01-TT0099-01 | SEC=agricultural | TT=99 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 46 Đường TLT | START=Đường 34 đường | END=TPT 4 (dọc ray) | FLAGS=
+ID=NQ28-062-S01-TT0100-01 | SEC=agricultural | TT=100 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 47 Đường TLT | START=Đường 34 đường | END=TPT 4 (dọc ray) | FLAGS=
+ID=NQ28-062-S01-TT0101-01 | SEC=agricultural | TT=101 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 48 Đường TL | START=T30 Đường | END=TLT 30 | FLAGS=
+ID=NQ28-062-S01-TT0102-01 | SEC=agricultural | TT=102 | REL=main | PRICES=252,202,141 | ROAD=Đập Suối Đường TPT 49 phường | START=Trâu (ranh Đường An Lộc (cũ)) | END=TPT 2 | FLAGS=
+ID=NQ28-062-S01-TT0103-01 | SEC=agricultural | TT=103 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 50 Đường TPT | START=48 Đường | END=Quốc lộ 13 | FLAGS=
+ID=NQ28-062-S01-TT0104-01 | SEC=agricultural | TT=104 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 51 Đường TPT | START=49 Đường | END=TPT 39 | FLAGS=
+ID=NQ28-062-S01-TT0105-01 | SEC=agricultural | TT=105 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 52 Đường TPT | START=40 Đường | END=TPT 51 | FLAGS=
+ID=NQ28-062-S01-TT0106-01 | SEC=agricultural | TT=106 | REL=main | PRICES=252,202,141 | ROAD=Đường TPT 53 Đường TPT | START=33 Đường | END=TPT 29 | FLAGS=
+ID=NQ28-062-S01-TT0107-01 | SEC=agricultural | TT=107 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 1 Đường TLT | START=2 Đường | END=ĐT 757 | FLAGS=
+ID=NQ28-062-S01-TT0108-01 | SEC=agricultural | TT=108 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 2 Đường Quốc | START=lộ 13 Đường | END=ray xe lửa | FLAGS=
+ID=NQ28-062-S01-TT0109-01 | SEC=agricultural | TT=109 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 2 Đường ray | START=xe lửa Đường | END=TLT 34 | FLAGS=
+ID=NQ28-062-S01-TT0110-01 | SEC=agricultural | TT=110 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 2 Đường TLT | START=34 Đường | END=ĐT 757 | FLAGS=
+ID=NQ28-062-S01-TT0111-01 | SEC=agricultural | TT=111 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 3 Đường Quốc | START=lộ 13 Đường | END=TLT 20 | FLAGS=
+ID=NQ28-062-S01-TT0112-01 | SEC=agricultural | TT=112 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 3 Đường TLT | START=20 Đường | END=TLT 21 | FLAGS=
+ID=NQ28-062-S01-TT0113-01 | SEC=agricultural | TT=113 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 3 Đường TLT | START=21 Xóm | END=(đường TPT 1) | FLAGS=
+ID=NQ28-062-S01-TT0114-01 | SEC=agricultural | TT=114 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 4 (Vòng quanh Đài Đường Quốc liệt sĩ) | START=lộ 13 Đường | END=Quốc lộ 13 | FLAGS=
+ID=NQ28-062-S01-TT0115-01 | SEC=agricultural | TT=115 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 5 Đường Quốc | START=lộ 13 Đường | END=TLT 29 | FLAGS=
+ID=NQ28-062-S01-TT0116-01 | SEC=agricultural | TT=116 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 5 Đường TLT | START=Ranh 29 (đường máy | END=vùng đệm vào nhà xi măng) | FLAGS=
+ID=NQ28-062-S01-TT0117-01 | SEC=agricultural | TT=117 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 6 Đường Quốc | START=lộ 13 Đường | END=ĐT 757 | FLAGS=
+ID=NQ28-062-S01-TT0118-01 | SEC=agricultural | TT=118 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 7 Suối Cần | START=Đường Lê | END=TLT 6 | FLAGS=
+ID=NQ28-062-S01-TT0119-01 | SEC=agricultural | TT=119 | REL=main | PRICES=252,202,141 | ROAD=Thửa đất Đường TLT 8 số 10 | START=số 18, tờ bản đồ Đường | END=TLT 6 | FLAGS=
+ID=NQ28-062-S01-TT0120-01 | SEC=agricultural | TT=120 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 9 Đường TLT | START=6 Đường | END=TLT 10 | FLAGS=
+ID=NQ28-062-S01-TT0121-01 | SEC=agricultural | TT=121 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 10 Đường TLT | START=6 Đường | END=TLT 11 | FLAGS=
+ID=NQ28-062-S01-TT0122-01 | SEC=agricultural | TT=122 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 11 Đường TLT | START=1 Đường | END=ray xe lửa | FLAGS=
+ID=NQ28-062-S01-TT0123-01 | SEC=agricultural | TT=123 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 12 Đường ĐT | START=757 Đường | END=TLT 13 | FLAGS=
+ID=NQ28-062-S01-TT0124-01 | SEC=agricultural | TT=124 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 13 Đường TLT | START=15 Đường | END=TLT 1 | FLAGS=
+ID=NQ28-062-S01-TT0125-01 | SEC=agricultural | TT=125 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 14 Đường Quốc | START=lộ 13 Đường | END=TLT 12 | FLAGS=
+ID=NQ28-062-S01-TT0126-01 | SEC=agricultural | TT=126 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 15 Đường Quốc | START=lộ 13 Đường | END=TLT 13 | FLAGS=
+ID=NQ28-062-S01-TT0127-01 | SEC=agricultural | TT=127 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 15 Đường TLT | START=13 Đường | END=TLT 2 | FLAGS=
+ID=NQ28-062-S01-TT0128-01 | SEC=agricultural | TT=128 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 16 Đường Quốc | START=lộ 13 Đường | END=TLT 17 | FLAGS=
+ID=NQ28-062-S01-TT0129-01 | SEC=agricultural | TT=129 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 16 Đường TLT | START=17 Đường | END=TLT 40 | FLAGS=
+ID=NQ28-062-S01-TT0130-01 | SEC=agricultural | TT=130 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 17 Đường TLT | START=16 Đường | END=TLT 18 | FLAGS=
+ID=NQ28-062-S01-TT0131-01 | SEC=agricultural | TT=131 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 18 Đường Quốc | START=lộ 13 Đường | END=TLT 17 | FLAGS=
+ID=NQ28-062-S01-TT0132-01 | SEC=agricultural | TT=132 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 19 Đường Quốc | START=lộ 13 (chợ) Đường | END=TLT 2 | FLAGS=
+ID=NQ28-062-S01-TT0133-01 | SEC=agricultural | TT=133 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 20 Đường TLT | START=2 Đường | END=TLT 3 | FLAGS=
+ID=NQ28-062-S01-TT0134-01 | SEC=agricultural | TT=134 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 21 Đường TLT | START=20 Đường | END=TLT 3 | FLAGS=
+ID=NQ28-062-S01-TT0135-01 | SEC=agricultural | TT=135 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 22 Đường Quốc | START=lộ 13 Đường | END=TLT 23 | FLAGS=
+ID=NQ28-062-S01-TT0136-01 | SEC=agricultural | TT=136 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 22 Đường TLT | START=Cuối 23 số | END=tuyến (thửa đất 35, tờ bản đồ số | FLAGS=
+ID=NQ28-062-S01-TT0137-01 | SEC=agricultural | TT=137 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 23 Đường Nhà | START=47) máy xi măng Đường | END=TLT 22 | FLAGS=
+ID=NQ28-062-S01-TT0138-01 | SEC=agricultural | TT=138 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 24 Đường TLT | START=23 Đường | END=TLT 22 | FLAGS=
+ID=NQ28-062-S01-TT0139-01 | SEC=agricultural | TT=139 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 25 Đường TLT | START=22 Đường | END=TLT 24 | FLAGS=
+ID=NQ28-062-S01-TT0140-01 | SEC=agricultural | TT=140 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT Đường TLT 26 Đài liệt sĩ) | START=4 (Vòng quanh Đường | END=TLT 5 | FLAGS=
+ID=NQ28-062-S01-TT0141-01 | SEC=agricultural | TT=141 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 27 Đường Quốc | START=lộ 13 Đường | END=TLT 28 | FLAGS=
+ID=NQ28-062-S01-TT0142-01 | SEC=agricultural | TT=142 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 27 Đường TLT | START=28 Đường | END=TLT 43 | FLAGS=
+ID=NQ28-062-S01-TT0143-01 | SEC=agricultural | TT=143 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 27 Đường TLT | START=43 Đường | END=TLT 5 | FLAGS=
+ID=NQ28-062-S01-TT0144-01 | SEC=agricultural | TT=144 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 28 Đường TLT | START=27 Đường | END=TLT 5 | FLAGS=
+ID=NQ28-062-S01-TT0145-01 | SEC=agricultural | TT=145 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 29 Đường TLT | START=5 Đường | END=TLT 31 | FLAGS=
+ID=NQ28-062-S01-TT0146-01 | SEC=agricultural | TT=146 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 30 Đường TLT | START=5 Đường | END=TLT 5 | FLAGS=
+ID=NQ28-062-S01-TT0147-01 | SEC=agricultural | TT=147 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 31 Đường TLT | START=5 Đường | END=TLT 29 | FLAGS=
+ID=NQ28-062-S01-TT0148-01 | SEC=agricultural | TT=148 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 32 Đường TLT | START=31 Đường | END=TLT 31 | FLAGS=
+ID=NQ28-062-S01-TT0149-01 | SEC=agricultural | TT=149 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 33 Đường TLT | START=2 Đường | END=TLT 2 | FLAGS=
+ID=NQ28-062-S01-TT0150-01 | SEC=agricultural | TT=150 | REL=main | PRICES=252,202 | ROAD=Đường TLT 34 Đường TLT | START=2 Đường | END=TPT 5 | FLAGS=
+ID=NQ28-062-S01-TT0151-01 | SEC=agricultural | TT=151 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 35 Đường TLT | START=34 Đường | END=TLT 39 | FLAGS=
+ID=NQ28-062-S01-TT0152-01 | SEC=agricultural | TT=152 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 36 Đường TLT | START=2 Đường | END=TPT 4 | FLAGS=
+ID=NQ28-062-S01-TT0153-01 | SEC=agricultural | TT=153 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 37 Đường TLT | START=2 Đường | END=TPT 5 | FLAGS=
+ID=NQ28-062-S01-TT0154-01 | SEC=agricultural | TT=154 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 38 Đường TLT | START=37 Cuối | END=tuyến | FLAGS=
+ID=NQ28-062-S01-TT0155-01 | SEC=agricultural | TT=155 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 39 Đường TLT | START=2 Đường | END=TLT 37 | FLAGS=
+ID=NQ28-062-S01-TT0156-01 | SEC=agricultural | TT=156 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 40 Đường TLT | START=2 Đường | END=TLT 16 | FLAGS=
+ID=NQ28-062-S01-TT0157-01 | SEC=agricultural | TT=157 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 41 Đường ĐT | START=757 Đường | END=TLT 6 | FLAGS=
+ID=NQ28-062-S01-TT0158-01 | SEC=agricultural | TT=158 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 42 Đường TLT | START=22 Đường | END=TLT 29 | FLAGS=
+ID=NQ28-062-S01-TT0159-01 | SEC=agricultural | TT=159 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 43 Đường Nhà | START=máy xi măng Đường | END=TLT 27 | FLAGS=
+ID=NQ28-062-S01-TT0160-01 | SEC=agricultural | TT=160 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 45 Đường TLT | START=46 Đường | END=TPT 2 | FLAGS=
+ID=NQ28-062-S01-TT0161-01 | SEC=agricultural | TT=161 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 46 Đường TLT | START=Khu 29 (đường | END=bãi rác QH TLT 64) | FLAGS=
+ID=NQ28-062-S01-TT0162-01 | SEC=agricultural | TT=162 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 47 Đường TLT | START=5 Đường | END=TLT 46 | FLAGS=
+ID=NQ28-062-S01-TT0163-01 | SEC=agricultural | TT=163 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 49 Đường TLT | START=73 Đường | END=TLT 51 | FLAGS=
+ID=NQ28-062-S01-TT0164-01 | SEC=agricultural | TT=164 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 50 Đường TLT | START=Đường 46 xã | END=TLT 32, ranh Thanh Phú | FLAGS=
+ID=NQ28-062-S01-TT0165-01 | SEC=agricultural | TT=165 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 51 Đường TLT | START=Đường 31 (nông su) | END=TLT 49 trường cao | FLAGS=
+ID=NQ28-062-S01-TT0166-01 | SEC=agricultural | TT=166 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 52 Đường TLT | START=36 Suối | END=Tà Nùng | FLAGS=
+ID=NQ28-062-S01-TT0167-01 | SEC=agricultural | TT=167 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 53 Đường TLT | START=Thửa 2 bản | END=đất số 526, tờ đồ số 04 | FLAGS=
+ID=NQ28-062-S01-TT0168-01 | SEC=agricultural | TT=168 | REL=main | PRICES=252,202,141 | ROAD=Đường sắt Đường TLT 54 67) | START=Suối (tờ BĐ 60, thửa đất số | END=cạn (hết thửa số 57, tờ bản đồ 60) | FLAGS=
+ID=NQ28-062-S01-TT0169-01 | SEC=agricultural | TT=169 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 55 Đường TLT | START=46 Ranh | END=xã Minh Đức | FLAGS=
+ID=NQ28-062-S01-TT0170-01 | SEC=agricultural | TT=170 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 56 Đường TLT | START=55 Đường | END=TLT 57 | FLAGS=
+ID=NQ28-062-S01-TT0171-01 | SEC=agricultural | TT=171 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 57 Đường TLT | START=55 Ranh | END=xã Lộc Thành | FLAGS=
+ID=NQ28-062-S01-TT0172-01 | SEC=agricultural | TT=172 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 58 Đường TLT | START=55 lô cao su Đường | END=TLT 59 | FLAGS=
+ID=NQ28-062-S01-TT0173-01 | SEC=agricultural | TT=173 | REL=main | PRICES=252,202,141 | ROAD=Lô cao su Đường TLT 59 207, tờ bản | START=Lô (hết thửa đất số đồ đồ số 41) số | END=cao su (hết thửa số 51, tờ bản đồ 41) | FLAGS=
+ID=NQ28-062-S01-TT0174-01 | SEC=agricultural | TT=174 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 60 Đường TLT | START=55 Đường | END=TLT 57 | FLAGS=
+ID=NQ28-062-S01-TT0175-01 | SEC=agricultural | TT=175 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 64 Đường Nhà | START=Hết máy xi măng số 57) | END=tuyến (thửa đất 73, tờ bản đồ số | FLAGS=
+ID=NQ28-062-S01-TT0176-01 | SEC=agricultural | TT=176 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 65 Đường TLT | START=55 Ranh | END=xã Lộc Thành | FLAGS=
+ID=NQ28-062-S01-TT0177-01 | SEC=agricultural | TT=177 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 66 Đường băng | START=Hết tải số 72) | END=tuyến (thửa đất 22, tờ bản đồ số | FLAGS=
+ID=NQ28-062-S01-TT0178-01 | SEC=agricultural | TT=178 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 67 Đường TLT | START=Ranh 55 (cũ), 77, | END=xã Thanh Phủ (thửa đất số tờ bản đồ số 38) | FLAGS=
+ID=NQ28-062-S01-TT0179-01 | SEC=agricultural | TT=179 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 68 Đường TLT | START=67 Đường | END=TLT 45 | FLAGS=
+ID=NQ28-062-S01-TT0180-01 | SEC=agricultural | TT=180 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 69 Đường TLT | START=5 Đường | END=TLT 27 | FLAGS=
+ID=NQ28-062-S01-TT0181-01 | SEC=agricultural | TT=181 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 70 Đường Nhà | START=máy xi măng Đường | END=TLT 44 | FLAGS=
+ID=NQ28-062-S01-TT0182-01 | SEC=agricultural | TT=182 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 71 Đường TLT | START=Hết 24 tờ | END=thửa đất số 154, bản đồ số 48 | FLAGS=
+ID=NQ28-062-S01-TT0183-01 | SEC=agricultural | TT=183 | REL=main | PRICES=252,202,141 | ROAD=Đường TLT 73 Đường TLT | START=32 Đường | END=TPT 2 | FLAGS=
+ID=NQ28-062-S01-TT0184-01 | SEC=agricultural | TT=184 | REL=main | PRICES=252,202,141 | ROAD=Các tuyến đường rộng từ Các đường nội bộ trong khu | START=07m trở lên phố, Khu phố thuộc | END=phường Phú | FLAGS=
+ID=NQ28-062-S01-TT0185-01 | SEC=agricultural | TT=185 | REL=main | PRICES=252,202,141 | ROAD=Thịnh (cũ) (nay là Khu phố: Xuân) chưa có tên đường đồ chính quy) rộng từ 03m 10m | START=Phú Hòa, Phú Thuận, và có mặt đường hiện đến dưới 07m, Đường | END=Phú Hưng, Phú hữu (theo bản mới mở 07m - | FLAGS=
+ID=NQ28-062-S01-TT0186-01 | SEC=agricultural | TT=186 | REL=main | PRICES=252,202,141 | ROAD=Các đường nội bộ trong khu Thịnh (cũ) (nay là khu phố: Xuân) không có tên đường đồ chính quy) rộng dưới 03m; chung; các thửa đất có đường | START=phố, khu phố thuộc Phú Hòa, Phú Thuận, và có mặt đường hiện các thửa đất không đi mới theo các | END=phường Phú Phú Hưng, Phú hữu (theo bản giáp đường đi lô cao su | FLAGS=
+ID=NQ28-062-S01-TT0187-01 | SEC=agricultural | TT=187 | REL=main | PRICES=210,168,118 | ROAD=Các tuyến đường bê tông chính quy) | START=từ 3,5m đến dưới 07m | END=(theo bản đồ | FLAGS=
+ID=NQ28-062-S01-TT0188-01 | SEC=agricultural | TT=188 | REL=main | PRICES=210,168,118 | ROAD=Các tuyến đường, tuyến hẻm bản đồ chính quy nhỏ hơn 13, 19, 26, 27, 33 | START=còn lại có bề rộng 3,5m thuộc các tờ bản | END=mặt đường theo đồ số 6, 7, 12, | FLAGS=
+ID=NQ28-062-S01-TT0189-01 | SEC=agricultural | TT=189 | REL=main | PRICES=210,168,118 | ROAD=Các tuyến đường, tuyến hẻm bản đồ chính quy nhỏ hơn | START=còn lại có bề rộng 3,5m thuộc các tờ bản | END=mặt đường theo đồ còn lại | FLAGS=
+ID=NQ28-062-S01-TT0190-01 | SEC=agricultural | TT=190 | REL=main | PRICES=210,168,118 | ROAD=Các tuyến đường còn lại | START= | END= | FLAGS=

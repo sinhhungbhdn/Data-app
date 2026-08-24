@@ -1,0 +1,630 @@
+TABLE=047 | AREA=Xã Thanh Sơn | RECORDS=629 | GROUPS=107 | REVIEW=68
+ID=NQ28-047-S01-TT0001-01 | SEC=agricultural | TT=1 | REL=main | PRICES=130,120 | ROAD=47. Xã Thanh Sơn Tên đường giao Điểm TT đầu thông Đường Thanh Sơn (Phía rẽ phải Ngã ba từ ngã ba Bến Bến phà phà) | START=Ngã ba Lô Năm | END= | FLAGS=
+ID=NQ28-047-S01-TT0002-01 | SEC=agricultural | TT=2 | REL=direct | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0003-01 | SEC=agricultural | TT=3 | REL=direct | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0004-01 | SEC=agricultural | TT=4 | REL=direct | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0005-01 | SEC=agricultural | TT=5 | REL=indirect | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0006-01 | SEC=agricultural | TT=6 | REL=indirect | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0007-01 | SEC=agricultural | TT=7 | REL=indirect | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0008-01 | SEC=agricultural | TT=8 | REL=direct | PRICES=130,120 | FLAGS=
+ID=NQ28-047-S01-TT0009-01 | SEC=agricultural | TT=9 | REL=main | PRICES=80,80 | ROAD=(Phía rẽ phải từ ngã ba Bến đường mới (đến Trường Mầm là đường nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=phà) đoạn từ Ngã ba non Hướng Dương+60m) giao thông ≤1.000m. cách đường giao | END=Lô Năm đến Ngã ba có hiện trạng thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0010-01 | SEC=agricultural | TT=10 | REL=direct | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0011-01 | SEC=agricultural | TT=11 | REL=direct | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0012-01 | SEC=agricultural | TT=12 | REL=indirect | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0013-01 | SEC=agricultural | TT=13 | REL=indirect | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0014-01 | SEC=agricultural | TT=14 | REL=indirect | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0015-01 | SEC=agricultural | TT=15 | REL=direct | PRICES=130,120 | FLAGS=
+ID=NQ28-047-S01-TT0016-01 | SEC=agricultural | TT=16 | REL=main | PRICES=80,80 | ROAD=(Phía rẽ phải từ ngã ba Bến trái, đến hết ranh thửa đất số phải, đến hết ranh thửa đất hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=phà) đoạn từ Ngã ba 1, tờ BĐĐC số 52, số 56, tờ BĐĐC số bê tông xi măng; giao thông ≤1.000m. cách đường giao | END=đường mới đến Bên xã Thanh Sơn; Bên 124, xã Thanh Sơn có thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0017-01 | SEC=agricultural | TT=17 | REL=direct | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0018-01 | SEC=agricultural | TT=18 | REL=direct | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0019-01 | SEC=agricultural | TT=19 | REL=indirect | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0020-01 | SEC=agricultural | TT=20 | REL=indirect | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0021-01 | SEC=agricultural | TT=21 | REL=indirect | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0022-01 | SEC=agricultural | TT=22 | REL=direct | PRICES=130,120 | FLAGS=
+ID=NQ28-047-S01-TT0023-01 | SEC=agricultural | TT=23 | REL=main | PRICES=80,80 | ROAD=(Phía rẽ phải từ ngã ba Bến Trường Tiểu học Liên Sơn trạng là đường nhựa, bê tông - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=phà) đoạn từ Ngã ba (chỉ áp dụng đối với xi măng: giao thông ≤1.000m. cách đường giao | END=đường mới đến đường nhựa) có hiện thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0024-01 | SEC=agricultural | TT=24 | REL=direct | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0025-01 | SEC=agricultural | TT=25 | REL=direct | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0026-01 | SEC=agricultural | TT=26 | REL=indirect | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0027-01 | SEC=agricultural | TT=27 | REL=indirect | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0028-01 | SEC=agricultural | TT=28 | REL=indirect | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0029-01 | SEC=agricultural | TT=29 | REL=main | PRICES=130,120 | ROAD=Đường Thanh Sơn (Phía rẽ trái Ngã ba từ ngã ba Bến bến phà phà) | START=Cầu Thiết Kế | END= | FLAGS=
+ID=NQ28-047-S01-TT0030-01 | SEC=agricultural | TT=30 | REL=direct | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0031-01 | SEC=agricultural | TT=31 | REL=direct | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0032-01 | SEC=agricultural | TT=32 | REL=direct | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0033-01 | SEC=agricultural | TT=33 | REL=indirect | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0034-01 | SEC=agricultural | TT=34 | REL=indirect | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0035-01 | SEC=agricultural | TT=35 | REL=indirect | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0036-01 | SEC=agricultural | TT=36 | REL=main | PRICES=130,120 | ROAD=Đường Thanh Sơn (Phía rẽ trái Cầu Thiết từ ngã ba Bến Kế phà) | START=Ngã ba Cây Sao | END= | FLAGS=
+ID=NQ28-047-S01-TT0037-01 | SEC=agricultural | TT=37 | REL=direct | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0038-01 | SEC=agricultural | TT=38 | REL=direct | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0039-01 | SEC=agricultural | TT=39 | REL=direct | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0040-01 | SEC=agricultural | TT=40 | REL=indirect | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0041-01 | SEC=agricultural | TT=41 | REL=indirect | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0042-01 | SEC=agricultural | TT=42 | REL=indirect | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0043-01 | SEC=agricultural | TT=43 | REL=direct | PRICES=146,130,120 | FLAGS=
+ID=NQ28-047-S01-TT0044-01 | SEC=agricultural | TT=44 | REL=main | PRICES=80,80 | ROAD=(Phía rẽ trái từ ngã ba Bến thửa đất số 17, tờ BĐĐC số số 15, tờ BĐĐC số 146 về đường nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách đường - Có bề rộng từ ≥3m đến <5m, | START=phà) đoạn từ Ngã ba 146 về bên trái và bên phải, xã Thanh Sơn giao thông ≤1.000m. cách đường giao | END=Cây Sao đến hết ranh đến hết ranh thửa đất có hiện trạng là thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0045-01 | SEC=agricultural | TT=45 | REL=direct | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0046-01 | SEC=agricultural | TT=46 | REL=direct | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0047-01 | SEC=agricultural | TT=47 | REL=indirect | PRICES=80,80 | FLAGS=
+ID=NQ28-047-S01-TT0048-01 | SEC=agricultural | TT=48 | REL=indirect | PRICES=60,60 | FLAGS=
+ID=NQ28-047-S01-TT0049-01 | SEC=agricultural | TT=49 | REL=indirect | PRICES=40,40 | FLAGS=
+ID=NQ28-047-S01-TT0001-02 | SEC=agricultural | TT=1 | REL=direct | PRICES=570,430 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0002-02 | SEC=agricultural | TT=2 | REL=main | PRICES=380,300 | ROAD=từ Quốc lộ 20 đến Đường nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Nguyễn Hữu Cảnh đường giao thông ≤600m. <5m, cách đường giao | END=có hiện trạng là đường thông ≤400m. | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0003-02 | SEC=agricultural | TT=3 | REL=direct | PRICES=300,220 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0004-02 | SEC=agricultural | TT=4 | REL=direct | PRICES=220,160 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0005-02 | SEC=agricultural | TT=5 | REL=indirect | PRICES=380,300 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0006-02 | SEC=agricultural | TT=6 | REL=indirect | PRICES=300,220 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0007-02 | SEC=agricultural | TT=7 | REL=indirect | PRICES=220,160 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0008-02 | SEC=agricultural | TT=8 | REL=direct | PRICES=570,430 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0009-02 | SEC=agricultural | TT=9 | REL=main | PRICES=380,300 | ROAD=từ Đường Nguyễn Hữu Cảnh Phú có hiện trạng là đường - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Đường vào nhựa, bê tông xi đường giao thông ≤600m. <5m, cách đường giao | END=Khu công nghiệp Tân măng: thông ≤400m. | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0010-02 | SEC=agricultural | TT=10 | REL=direct | PRICES=300,220 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0011-02 | SEC=agricultural | TT=11 | REL=direct | PRICES=220,160 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0012-02 | SEC=agricultural | TT=12 | REL=indirect | PRICES=380,300 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0013-02 | SEC=agricultural | TT=13 | REL=indirect | PRICES=300,220 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0014-02 | SEC=agricultural | TT=14 | REL=indirect | PRICES=220,160 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0015-02 | SEC=agricultural | TT=15 | REL=direct | PRICES=570,430 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0016-02 | SEC=agricultural | TT=16 | REL=main | PRICES=380,300 | ROAD=từ Đường vào Khu công Phạm Văn Đồng có hiện - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=nghiệp Tân Phú đến trạng là đường nhựa, đường giao thông ≤600m. <5m, cách đường giao | END=Hết trường tiểu học bê tông xi măng: thông ≤400m. | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0017-02 | SEC=agricultural | TT=17 | REL=direct | PRICES=300,220 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0018-02 | SEC=agricultural | TT=18 | REL=direct | PRICES=220,160 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0019-02 | SEC=agricultural | TT=19 | REL=indirect | PRICES=380,300 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0020-02 | SEC=agricultural | TT=20 | REL=indirect | PRICES=300,220 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0021-02 | SEC=agricultural | TT=21 | REL=indirect | PRICES=220,160 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0022-02 | SEC=agricultural | TT=22 | REL=direct | PRICES=230,180 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0023-02 | SEC=agricultural | TT=23 | REL=main | PRICES=150,110 | ROAD=từ Hết trường tiểu học Phạm hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Văn Đồng đến bê tông xi măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Giáp ranh xã Tà Lài có thông ≤500m. | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0024-02 | SEC=agricultural | TT=24 | REL=direct | PRICES=110,90 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0025-02 | SEC=agricultural | TT=25 | REL=direct | PRICES=60,55 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0026-02 | SEC=agricultural | TT=26 | REL=indirect | PRICES=150,110 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0027-02 | SEC=agricultural | TT=27 | REL=indirect | PRICES=110,90 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0028-02 | SEC=agricultural | TT=28 | REL=indirect | PRICES=60,55 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0029-02 | SEC=agricultural | TT=29 | REL=direct | PRICES=220,170 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0030-02 | SEC=agricultural | TT=30 | REL=main | PRICES=130,100 | ROAD=đi bến đò Phú Tân đến ngã đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=ba giáp ranh xã Tà măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Lài có hiện trạng là thông ≤500m. | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0031-02 | SEC=agricultural | TT=31 | REL=direct | PRICES=90,80 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0032-02 | SEC=agricultural | TT=32 | REL=direct | PRICES=55,50 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0033-02 | SEC=agricultural | TT=33 | REL=indirect | PRICES=130,100 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0034-02 | SEC=agricultural | TT=34 | REL=indirect | PRICES=90,80 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0035-02 | SEC=agricultural | TT=35 | REL=indirect | PRICES=55,50 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0036-02 | SEC=agricultural | TT=36 | REL=main | PRICES=220,170 | ROAD=Đường chợ Phú Lộc đi xã Phú Tân huyện Ngã Định Quán cũ | START=ba | END=Bến đò Phú Tân đến giáp ranh xã Phú Vinh | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0037-02 | SEC=agricultural | TT=37 | REL=direct | PRICES=130,100 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0038-02 | SEC=agricultural | TT=38 | REL=direct | PRICES=90,80 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0039-02 | SEC=agricultural | TT=39 | REL=direct | PRICES=55,50 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0040-02 | SEC=agricultural | TT=40 | REL=indirect | PRICES=130,100 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0041-02 | SEC=agricultural | TT=41 | REL=indirect | PRICES=90,80 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0042-02 | SEC=agricultural | TT=42 | REL=indirect | PRICES=55,50 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0043-02 | SEC=agricultural | TT=43 | REL=direct | PRICES=220,170 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0044-02 | SEC=agricultural | TT=44 | REL=main | PRICES=130,100 | ROAD=đường Tà Lài đến Ngã ba nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách | START=đi bến đò Phú Tân đường giao thông ≤1.000m. | END=có hiện trạng là đường | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0045-02 | SEC=agricultural | TT=45 | REL=direct | PRICES=90,80 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0046-02 | SEC=agricultural | TT=46 | REL=direct | PRICES=55,50 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0047-02 | SEC=agricultural | TT=47 | REL=indirect | PRICES=130,100 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0048-02 | SEC=agricultural | TT=48 | REL=indirect | PRICES=90,80 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0049-02 | SEC=agricultural | TT=49 | REL=indirect | PRICES=55,50 | FLAGS=DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0050-01 | SEC=agricultural | TT=50 | REL=direct | PRICES=230,180 | FLAGS=
+ID=NQ28-047-S01-TT0051-01 | SEC=agricultural | TT=51 | REL=main | PRICES=150,110 | ROAD=Phú Xuân đoạn từ Đường có hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Tà Lài đến Đường bê tông xi măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Phú Xuân - Núi Tượng thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0052-01 | SEC=agricultural | TT=52 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0053-01 | SEC=agricultural | TT=53 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0054-01 | SEC=agricultural | TT=54 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0055-01 | SEC=agricultural | TT=55 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0056-01 | SEC=agricultural | TT=56 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0057-01 | SEC=agricultural | TT=57 | REL=direct | PRICES=230,180 | FLAGS=
+ID=NQ28-047-S01-TT0058-01 | SEC=agricultural | TT=58 | REL=main | PRICES=150,110 | ROAD=Núi Tượng đoạn từ Đường Phú Lâm có hiện trạng là - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Phú Lộc - Phú Xuân đường nhựa, bê tông đường giao thông ≤1.000m. <5m, cách đường giao | END=đến Ngã ba đi xã xi măng: thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0059-01 | SEC=agricultural | TT=59 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0060-01 | SEC=agricultural | TT=60 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0061-01 | SEC=agricultural | TT=61 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0062-01 | SEC=agricultural | TT=62 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0063-01 | SEC=agricultural | TT=63 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0064-01 | SEC=agricultural | TT=64 | REL=main | PRICES=230,180 | ROAD=Đường Phú Xuân - Đường Núi Tượng Xuân | START=Phú Lộc - Phú | END=Hết ranh thửa đất số 1, tờ BĐĐC số 103 bên phải và hết ranh thửa đất số 5, tờ BĐĐC số 103 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0065-01 | SEC=agricultural | TT=65 | REL=direct | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0066-01 | SEC=agricultural | TT=66 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0067-01 | SEC=agricultural | TT=67 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0068-01 | SEC=agricultural | TT=68 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0069-01 | SEC=agricultural | TT=69 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0070-01 | SEC=agricultural | TT=70 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0071-01 | SEC=agricultural | TT=71 | REL=main | PRICES=230,180 | ROAD=Đường Phú Xuân - Đường Núi Tượng Xuân | START=Phú Lộc - Phú | END=Hết ranh thửa đất số 2, tờ BĐĐC số 101 bên phải và hết ranh thửa đất số 69, tờ BĐĐC số 112 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0072-01 | SEC=agricultural | TT=72 | REL=direct | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0073-01 | SEC=agricultural | TT=73 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0074-01 | SEC=agricultural | TT=74 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0075-01 | SEC=agricultural | TT=75 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0076-01 | SEC=agricultural | TT=76 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0077-01 | SEC=agricultural | TT=77 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0078-01 | SEC=agricultural | TT=78 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0079-01 | SEC=agricultural | TT=79 | REL=main | PRICES=130,100 | ROAD=Thanh Sơn đoạn từ Chợ hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Ngọc Lâm đến Giáp bê tông xi măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=ranh xã Phú Lâm có thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0080-01 | SEC=agricultural | TT=80 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0081-01 | SEC=agricultural | TT=81 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0082-01 | SEC=agricultural | TT=82 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0083-01 | SEC=agricultural | TT=83 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0084-01 | SEC=agricultural | TT=84 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0085-01 | SEC=agricultural | TT=85 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0086-01 | SEC=agricultural | TT=86 | REL=main | PRICES=130,100 | ROAD=Lâm đoạn từ Quốc lộ 20 trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Đường Phú Xuân tông xi măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=- Núi Tượng có hiện thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0087-01 | SEC=agricultural | TT=87 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0088-01 | SEC=agricultural | TT=88 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0089-01 | SEC=agricultural | TT=89 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0090-01 | SEC=agricultural | TT=90 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0091-01 | SEC=agricultural | TT=91 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0092-01 | SEC=agricultural | TT=92 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0093-01 | SEC=agricultural | TT=93 | REL=main | PRICES=130,100 | ROAD=Lâm đoạn từ Quốc lộ 20 đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Đường chợ Ngọc măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Lâm có hiện trạng thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0094-01 | SEC=agricultural | TT=94 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0095-01 | SEC=agricultural | TT=95 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0096-01 | SEC=agricultural | TT=96 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0097-01 | SEC=agricultural | TT=97 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0098-01 | SEC=agricultural | TT=98 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0099-01 | SEC=agricultural | TT=99 | REL=main | PRICES=178,220,170 | ROAD=Đường Thọ Lâm 3 Quốc | START=lộ 20 | END=Hết ranh thửa đất số 203, tờ BĐĐC số 178 về bên phải và hết ranh thửa đất số 204, tờ BĐĐC số 178 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0100-01 | SEC=agricultural | TT=100 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0101-01 | SEC=agricultural | TT=101 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0102-01 | SEC=agricultural | TT=102 | REL=direct | PRICES=178,55,50 | FLAGS=
+ID=NQ28-047-S01-TT0103-01 | SEC=agricultural | TT=103 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0104-01 | SEC=agricultural | TT=104 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0105-01 | SEC=agricultural | TT=105 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0106-01 | SEC=agricultural | TT=106 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0107-01 | SEC=agricultural | TT=107 | REL=main | PRICES=380,300 | ROAD=Giáp ranh xã Phú Vinh và Nguyễn Thị Định cơ sở 2 măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=xã Phú Hòa đến Hết có hiện trạng là đường đường giao thông ≤600m. <5m, cách đường giao | END=Trường Tiểu học nhựa, bê tông xi thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0108-01 | SEC=agricultural | TT=108 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0109-01 | SEC=agricultural | TT=109 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0110-01 | SEC=agricultural | TT=110 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0111-01 | SEC=agricultural | TT=111 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0112-01 | SEC=agricultural | TT=112 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0113-01 | SEC=agricultural | TT=113 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0114-01 | SEC=agricultural | TT=114 | REL=main | PRICES=380,300 | ROAD=Hết Trường Tiểu học Nguyễn (thuộc khu 2) có hiện trạng - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Thị Định cơ sở là đường nhựa, bê đường giao thông ≤600m. <5m, cách đường giao | END=2 đến Hết cây xăng tông xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0115-01 | SEC=agricultural | TT=115 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0116-01 | SEC=agricultural | TT=116 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0117-01 | SEC=agricultural | TT=117 | REL=indirect | PRICES=2,380,300 | FLAGS=
+ID=NQ28-047-S01-TT0118-01 | SEC=agricultural | TT=118 | REL=indirect | PRICES=2,300,220 | FLAGS=
+ID=NQ28-047-S01-TT0119-01 | SEC=agricultural | TT=119 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0120-01 | SEC=agricultural | TT=120 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0121-01 | SEC=agricultural | TT=121 | REL=main | PRICES=380,300 | ROAD=Cây xăng (thuộc khu 2) đến là đường nhựa, bê tông - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Đường Nguyễn xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=Văn Linh có hiện trạng thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0122-01 | SEC=agricultural | TT=122 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0123-01 | SEC=agricultural | TT=123 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0124-01 | SEC=agricultural | TT=124 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0125-01 | SEC=agricultural | TT=125 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0126-01 | SEC=agricultural | TT=126 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0127-01 | SEC=agricultural | TT=127 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0128-01 | SEC=agricultural | TT=128 | REL=main | PRICES=380,300 | ROAD=Đường Nguyễn Văn Linh nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Đường Tà Lài đường giao thông ≤600m. <5m, cách đường giao | END=có hiện trạng là đường thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0129-01 | SEC=agricultural | TT=129 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0130-01 | SEC=agricultural | TT=130 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0131-01 | SEC=agricultural | TT=131 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0132-01 | SEC=agricultural | TT=132 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0133-01 | SEC=agricultural | TT=133 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0134-01 | SEC=agricultural | TT=134 | REL=main | PRICES=570,430 | ROAD=- Có bề rộng <3m, cách Đường Quốc lộ 20 | START=đường giao thông >200m. Tà Lài | END=Đường Phạm Ngọc Thạch | FLAGS=
+ID=NQ28-047-S01-TT0135-01 | SEC=agricultural | TT=135 | REL=direct | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0136-01 | SEC=agricultural | TT=136 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0137-01 | SEC=agricultural | TT=137 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0138-01 | SEC=agricultural | TT=138 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0139-01 | SEC=agricultural | TT=139 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0140-01 | SEC=agricultural | TT=140 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0141-01 | SEC=agricultural | TT=141 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0142-01 | SEC=agricultural | TT=142 | REL=main | PRICES=380,300 | ROAD=Đường Phạm Ngọc Thạch trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Đầu cây xăng tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=Đoan Dung có hiện thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0143-01 | SEC=agricultural | TT=143 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0144-01 | SEC=agricultural | TT=144 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0145-01 | SEC=agricultural | TT=145 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0146-01 | SEC=agricultural | TT=146 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0147-01 | SEC=agricultural | TT=147 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0148-01 | SEC=agricultural | TT=148 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0149-01 | SEC=agricultural | TT=149 | REL=main | PRICES=380,300 | ROAD=Đầu cây xăng Doan Dung trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Đường Phú Thanh tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=- Trà Cổ có hiện thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0150-01 | SEC=agricultural | TT=150 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0151-01 | SEC=agricultural | TT=151 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0152-01 | SEC=agricultural | TT=152 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0153-01 | SEC=agricultural | TT=153 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0154-01 | SEC=agricultural | TT=154 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0155-01 | SEC=agricultural | TT=155 | REL=direct | PRICES=270,200 | FLAGS=
+ID=NQ28-047-S01-TT0156-01 | SEC=agricultural | TT=156 | REL=main | PRICES=160,130 | ROAD=Đường Phú Thanh - Trà đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Cổ đến Đường Cầu măng: đường giao thông ≤1.000m. <5rn, cách đường giao | END=Suối có hiện trạng là thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0157-01 | SEC=agricultural | TT=157 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0158-01 | SEC=agricultural | TT=158 | REL=direct | PRICES=70,60 | FLAGS=
+ID=NQ28-047-S01-TT0159-01 | SEC=agricultural | TT=159 | REL=indirect | PRICES=160,130 | FLAGS=
+ID=NQ28-047-S01-TT0160-01 | SEC=agricultural | TT=160 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0161-01 | SEC=agricultural | TT=161 | REL=indirect | PRICES=70,60 | FLAGS=
+ID=NQ28-047-S01-TT0162-01 | SEC=agricultural | TT=162 | REL=direct | PRICES=270,200 | FLAGS=
+ID=NQ28-047-S01-TT0163-01 | SEC=agricultural | TT=163 | REL=main | PRICES=160,130 | ROAD=Đường Cầu Suối đến Giáp nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=ranh xã Phú Lâm đường giao thông ≤1.000m. <5m, cách đường giao | END=có hiện trạng là đường thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0164-01 | SEC=agricultural | TT=164 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0165-01 | SEC=agricultural | TT=165 | REL=direct | PRICES=70,60 | FLAGS=
+ID=NQ28-047-S01-TT0166-01 | SEC=agricultural | TT=166 | REL=indirect | PRICES=160,130 | FLAGS=
+ID=NQ28-047-S01-TT0167-01 | SEC=agricultural | TT=167 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0168-01 | SEC=agricultural | TT=168 | REL=indirect | PRICES=70,60 | FLAGS=
+ID=NQ28-047-S01-TT0169-01 | SEC=agricultural | TT=169 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0170-01 | SEC=agricultural | TT=170 | REL=main | PRICES=380,300 | ROAD=đoạn từ Quốc lộ 20 đến đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Đường vào chợ Trà măng: đường giao thông ≤600m. <5m, cách đường giao | END=Cổ có hiện trạng là thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0171-01 | SEC=agricultural | TT=171 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0172-01 | SEC=agricultural | TT=172 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0173-01 | SEC=agricultural | TT=173 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0174-01 | SEC=agricultural | TT=174 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0175-01 | SEC=agricultural | TT=175 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0176-01 | SEC=agricultural | TT=176 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0177-01 | SEC=agricultural | TT=177 | REL=main | PRICES=380,300 | ROAD=đoạn từ Đường vào chợ trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Trà Cổ đến Giáp ranh tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=xã Trà Cổ cũ có hiện thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0178-01 | SEC=agricultural | TT=178 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0179-01 | SEC=agricultural | TT=179 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0180-01 | SEC=agricultural | TT=180 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0181-01 | SEC=agricultural | TT=181 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0182-01 | SEC=agricultural | TT=182 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0183-01 | SEC=agricultural | TT=183 | REL=main | PRICES=230,180 | ROAD=- Có bề rộng <3m, cách Giáp Đường Trà Cổ cũ | START=đường giao thông >200m. ranh xã Trà Cổ | END=Đường số 1 (ấp 2-4B xã Trà Cổ cũ) | FLAGS=
+ID=NQ28-047-S01-TT0184-01 | SEC=agricultural | TT=184 | REL=direct | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0185-01 | SEC=agricultural | TT=185 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0186-01 | SEC=agricultural | TT=186 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0002-03 | SEC=agricultural | TT=2 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0187-01 | SEC=agricultural | TT=187 | REL=main | PRICES=150,110 | ROAD=- Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đường giao thông ≤1.000m. <5m, cách đường giao | END=thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0188-01 | SEC=agricultural | TT=188 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0002-04 | SEC=agricultural | TT=2 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0189-01 | SEC=agricultural | TT=189 | REL=main | PRICES=60,55 | ROAD=- Có bề rộng từ ≥3m đến | START=<5m, cách đường giao | END=thông >1.000m. | FLAGS=
+ID=NQ28-047-S01-TT0190-01 | SEC=agricultural | TT=190 | REL=direct | PRICES=230,180 | FLAGS=
+ID=NQ28-047-S01-TT0191-01 | SEC=agricultural | TT=191 | REL=main | PRICES=150,110 | ROAD=đoạn từ Đường số 1 (ấp Trà Cổ cũ) có hiện trạng - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=2-4B xã Trà Cổ cũ) là đường nhựa, bê đường giao thông ≤1.000m. <5m, cách đường | END=đến Đường ấp 5-6 (xã tông xi măng: giao thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0192-01 | SEC=agricultural | TT=192 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0193-01 | SEC=agricultural | TT=193 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0194-01 | SEC=agricultural | TT=194 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0195-01 | SEC=agricultural | TT=195 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0196-01 | SEC=agricultural | TT=196 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0197-01 | SEC=agricultural | TT=197 | REL=direct | PRICES=230,180 | FLAGS=
+ID=NQ28-047-S01-TT0198-01 | SEC=agricultural | TT=198 | REL=main | PRICES=150,110 | ROAD=đoạn từ Đường ấp 5-6 (xã hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Trà Cổ cũ) đến Giáp bê tông xi măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=ranh xã Phú Hòa thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0199-01 | SEC=agricultural | TT=199 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0200-01 | SEC=agricultural | TT=200 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0201-01 | SEC=agricultural | TT=201 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0202-01 | SEC=agricultural | TT=202 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0203-01 | SEC=agricultural | TT=203 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0204-01 | SEC=agricultural | TT=204 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0205-01 | SEC=agricultural | TT=205 | REL=main | PRICES=380,300 | ROAD=Công Định đoạn từ Quốc hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=lộ 20 đến hết ranh bê tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=thị trấn Tân Phú cũ có thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0206-01 | SEC=agricultural | TT=206 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0207-01 | SEC=agricultural | TT=207 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0208-01 | SEC=agricultural | TT=208 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0209-01 | SEC=agricultural | TT=209 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0210-01 | SEC=agricultural | TT=210 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0211-01 | SEC=agricultural | TT=211 | REL=direct | PRICES=140,220,170 | FLAGS=
+ID=NQ28-047-S01-TT0212-01 | SEC=agricultural | TT=212 | REL=main | PRICES=130,100 | ROAD=Trương Công Định đến hết đoạn từ Đường Trương BĐĐC số 140 (xã Tân Phú) măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=ranh thửa đất số Công Định đến Hết có hiện trạng là đường đường giao thông ≤1.000m. <5m, cách đường giao | END=394, tờ BĐĐC số 142 ranh thửa đất số 450, nhựa, bê tông thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0213-01 | SEC=agricultural | TT=213 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0214-01 | SEC=agricultural | TT=214 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0215-01 | SEC=agricultural | TT=215 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0216-01 | SEC=agricultural | TT=216 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0217-01 | SEC=agricultural | TT=217 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0218-01 | SEC=agricultural | TT=218 | REL=direct | PRICES=142,220,170 | FLAGS=
+ID=NQ28-047-S01-TT0219-01 | SEC=agricultural | TT=219 | REL=main | PRICES=130,100 | ROAD=Trương Công Định đến hết đoạn từ Hết ranh thửa đất Hết ranh thửa đất số 394 trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=ranh thửa đất số số 450, tờ BĐĐC tờ bản đồ số 142 (xã tông xi măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=394, tờ BĐĐC số 142 số 142 xã Tân Phú đến Tân Phú) có hiện thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0220-01 | SEC=agricultural | TT=220 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0221-01 | SEC=agricultural | TT=221 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0222-01 | SEC=agricultural | TT=222 | REL=indirect | PRICES=142,130,100 | FLAGS=
+ID=NQ28-047-S01-TT0223-01 | SEC=agricultural | TT=223 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0224-01 | SEC=agricultural | TT=224 | REL=indirect | PRICES=142,55,50 | FLAGS=
+ID=NQ28-047-S01-TT0225-01 | SEC=agricultural | TT=225 | REL=main | PRICES=570,430 | ROAD=Đường Lê Quý Đôn Quốc | START=lộ 20 | END=Bên phải, đến Hết ranh thửa đất số 13 BĐĐC số 35; Bên trái, đến hết ranh thửa đất số 14, tờ BĐĐC số | FLAGS=
+ID=NQ28-047-S01-TT0226-01 | SEC=agricultural | TT=226 | REL=direct | PRICES=35,380 | FLAGS=
+ID=NQ28-047-S01-TT0227-01 | SEC=agricultural | TT=227 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0228-01 | SEC=agricultural | TT=228 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0229-01 | SEC=agricultural | TT=229 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0230-01 | SEC=agricultural | TT=230 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0231-01 | SEC=agricultural | TT=231 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0232-01 | SEC=agricultural | TT=232 | REL=main | PRICES=220,170 | ROAD=Đường Phú Thanh - Quốc Trà Cổ | START=lộ 20 | END=Hết ranh thửa đất số 27 tờ BĐĐC số 7 về bên phải và hết ranh thửa đất số 7, tờ BĐĐC số 142 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0233-01 | SEC=agricultural | TT=233 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0234-01 | SEC=agricultural | TT=234 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0235-01 | SEC=agricultural | TT=235 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0236-01 | SEC=agricultural | TT=236 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0237-01 | SEC=agricultural | TT=237 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0238-01 | SEC=agricultural | TT=238 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0239-01 | SEC=agricultural | TT=239 | REL=main | PRICES=220,170 | ROAD=- Có bề rộng <3m, cách Đường số 7 Ngọc Quốc Lâm | START=đường giao thông >200m. lộ 20 | END=Ranh thửa đất số 140, tờ BĐĐC số 164 xã Tân Phú | FLAGS=
+ID=NQ28-047-S01-TT0164-02 | SEC=agricultural | TT=164 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0240-01 | SEC=agricultural | TT=240 | REL=main | PRICES=130,100 | ROAD=- Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đường giao thông ≤1.000m. <5m, cách đường giao | END=thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0241-01 | SEC=agricultural | TT=241 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0164-03 | SEC=agricultural | TT=164 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0242-01 | SEC=agricultural | TT=242 | REL=main | PRICES=55,50 | ROAD=- Có bề rộng từ ≥3m đến - Có bề rộng <3m, cách | START=<5m, cách đường giao đường giao thông >200m. | END=thông >1.000m. | FLAGS=
+ID=NQ28-047-S01-TT0243-01 | SEC=agricultural | TT=243 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0244-01 | SEC=agricultural | TT=244 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0245-01 | SEC=agricultural | TT=245 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0246-01 | SEC=agricultural | TT=246 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0247-01 | SEC=agricultural | TT=247 | REL=main | PRICES=130,100 | ROAD=đoạn từ Quốc lộ 20 đến đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Nhà thờ giáo xứ Vĩnh măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Lâm có hiện trạng là thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0248-01 | SEC=agricultural | TT=248 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0249-01 | SEC=agricultural | TT=249 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0250-01 | SEC=agricultural | TT=250 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0251-01 | SEC=agricultural | TT=251 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0252-01 | SEC=agricultural | TT=252 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0253-01 | SEC=agricultural | TT=253 | REL=main | PRICES=220,170 | ROAD=Đường số 5 Ngọc Quốc Lâm | START=lộ 20 | END=Hết ranh thửa đất số 200 tờ BĐĐC số 166 về bên phải và hết ranh thửa đất số 348, tờ BĐĐC số 166 về bên trái xã Tân Phú | FLAGS=
+ID=NQ28-047-S01-TT0166-02 | SEC=agricultural | TT=166 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0254-01 | SEC=agricultural | TT=254 | REL=main | PRICES=130,100 | ROAD=bên trái xã Tân Phú có hiện - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=trạng là đường nhựa, đường giao thông ≤1.000m. <5m, cách đường giao | END=bê tông xi măng: thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0255-01 | SEC=agricultural | TT=255 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0166-03 | SEC=agricultural | TT=166 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0256-01 | SEC=agricultural | TT=256 | REL=main | PRICES=55,50 | ROAD=bên trái xã Tân Phú có hiện - Có bề rộng từ ≥3m đến - Có bề rộng <3m, cách | START=trạng là đường nhựa, <5m, cách đường giao đường giao thông >200m. | END=bê tông xi măng: thông >1.000m. | FLAGS=
+ID=NQ28-047-S01-TT0200-02 | SEC=agricultural | TT=200 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0257-01 | SEC=agricultural | TT=257 | REL=main | PRICES=130,100 | ROAD=BĐĐC số 166 về bên trái bê tông xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=xã Tân Phú có hiện đường giao thông ≤1.000m. <5m, cách đường giao | END=trạng là đường nhựa, thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0258-01 | SEC=agricultural | TT=258 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0200-03 | SEC=agricultural | TT=200 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0259-01 | SEC=agricultural | TT=259 | REL=main | PRICES=55,50 | ROAD=BĐĐC số 166 về bên trái bê tông xi măng: - Có bề rộng từ ≥3m đến | START=xã Tân Phú có hiện <5m, cách đường giao | END=trạng là đường nhựa, thông >1.000m. | FLAGS=
+ID=NQ28-047-S01-TT0260-01 | SEC=agricultural | TT=260 | REL=direct | PRICES=230,180 | FLAGS=
+ID=NQ28-047-S01-TT0261-01 | SEC=agricultural | TT=261 | REL=main | PRICES=150,110 | ROAD=Quốc lộ 20 đến Đường rẽ đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=vào tượng đài Đức măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Mẹ có hiện trạng là thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0262-01 | SEC=agricultural | TT=262 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0263-01 | SEC=agricultural | TT=263 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0264-01 | SEC=agricultural | TT=264 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0265-01 | SEC=agricultural | TT=265 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0266-01 | SEC=agricultural | TT=266 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0267-01 | SEC=agricultural | TT=267 | REL=direct | PRICES=230,180 | FLAGS=
+ID=NQ28-047-S01-TT0268-01 | SEC=agricultural | TT=268 | REL=main | PRICES=150,110 | ROAD=Đường rẽ vào tượng đài trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Đức Mẹ đến Đường tông xi măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Giang Điền có hiện thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0269-01 | SEC=agricultural | TT=269 | REL=direct | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0270-01 | SEC=agricultural | TT=270 | REL=direct | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0271-01 | SEC=agricultural | TT=271 | REL=indirect | PRICES=150,110 | FLAGS=
+ID=NQ28-047-S01-TT0272-01 | SEC=agricultural | TT=272 | REL=indirect | PRICES=110,90 | FLAGS=
+ID=NQ28-047-S01-TT0273-01 | SEC=agricultural | TT=273 | REL=indirect | PRICES=60,55 | FLAGS=
+ID=NQ28-047-S01-TT0274-01 | SEC=agricultural | TT=274 | REL=main | PRICES=220,170 | ROAD=Đường Giang Điền Đường | START=129 | END=Hết ranh thửa đất số 107 tờ BĐĐC số 198 về bên phải và đến ranh thửa đất số 100, tờ BĐĐC số 198 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0275-01 | SEC=agricultural | TT=275 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0276-01 | SEC=agricultural | TT=276 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0277-01 | SEC=agricultural | TT=277 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0107-02 | SEC=agricultural | TT=107 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0278-01 | SEC=agricultural | TT=278 | REL=main | PRICES=130,100 | ROAD=tờ BĐĐC số 198 về bên măng: - Có bề rộng ≥5m, cách | START=trái có hiện trạng là đường giao thông ≤1.000m. | END=đường nhựa, bê tông | FLAGS=
+ID=NQ28-047-S01-TT0279-01 | SEC=agricultural | TT=279 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0107-03 | SEC=agricultural | TT=107 | REL=main | PRICES= | ROAD=tờ BĐĐC số 198 về | START=bên phải và đến hết | END=ranh thửa đất số 100, | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0107-04 | SEC=agricultural | TT=107 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0280-01 | SEC=agricultural | TT=280 | REL=main | PRICES=55,50 | ROAD=tờ BĐĐC số 198 về bên măng: - Có bề rộng từ ≥3m đến - Có bề rộng <3m, cách | START=trái có hiện trạng là <5m, cách đường giao đường giao thông >200m. | END=đường nhựa, bê tông thông >1.000m. | FLAGS=
+ID=NQ28-047-S01-TT0281-01 | SEC=agricultural | TT=281 | REL=main | PRICES=220,170 | ROAD=Đường Suối Cọp Đường | START=129 | END=Hết ranh thửa đất số 184 tờ BĐĐC số 186 về bên phải và đến ranh thửa đất số 137, tờ BĐĐC số 186 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0282-01 | SEC=agricultural | TT=282 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0283-01 | SEC=agricultural | TT=283 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0284-01 | SEC=agricultural | TT=284 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0285-01 | SEC=agricultural | TT=285 | REL=indirect | PRICES=184,130,100 | FLAGS=
+ID=NQ28-047-S01-TT0286-01 | SEC=agricultural | TT=286 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0287-01 | SEC=agricultural | TT=287 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0288-01 | SEC=agricultural | TT=288 | REL=main | PRICES=220,170 | ROAD=Đường Bàu Rừng Đường | START=129 | END=Hết ranh thửa đất số 237 tờ BĐĐC số 181 về bên phải và hết ranh thửa đất số 207, tờ BĐĐC số 181 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0289-01 | SEC=agricultural | TT=289 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0290-01 | SEC=agricultural | TT=290 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0291-01 | SEC=agricultural | TT=291 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0292-01 | SEC=agricultural | TT=292 | REL=indirect | PRICES=237,130,100 | FLAGS=
+ID=NQ28-047-S01-TT0293-01 | SEC=agricultural | TT=293 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0294-01 | SEC=agricultural | TT=294 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0295-01 | SEC=agricultural | TT=295 | REL=main | PRICES=220,170 | ROAD=Đường số 2 Ngọc Quốc Lâm | START=lộ 20 | END=Hết ranh thửa đất số 125 tờ BĐĐC số 168 về bên phải và Hết ranh thửa đất số 519, tờ BĐĐC số 168 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0168-02 | SEC=agricultural | TT=168 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0296-01 | SEC=agricultural | TT=296 | REL=main | PRICES=130,100 | ROAD=bên trái có hiện trạng là - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đường nhựa, bê tông đường giao thông ≤1.000m. <5m, cách đường giao | END=xi măng: thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0297-01 | SEC=agricultural | TT=297 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0168-03 | SEC=agricultural | TT=168 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0298-01 | SEC=agricultural | TT=298 | REL=main | PRICES=55,50 | ROAD=bên trái có hiện trạng là - Có bề rộng từ ≥3m đến | START=đường nhựa, bê tông <5m, cách đường giao | END=xi măng: thông >1.000m. | FLAGS=
+ID=NQ28-047-S01-TT0299-01 | SEC=agricultural | TT=299 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0300-01 | SEC=agricultural | TT=300 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0125-02 | SEC=agricultural | TT=125 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0301-01 | SEC=agricultural | TT=301 | REL=main | PRICES=55,50 | ROAD=BĐĐC số 168 về bên trái măng: - Có bề rộng từ ≥3m đến - Có bề rộng <3m, cách | START=có hiện trạng là đường <5m, cách đường giao đường giao thông >200m. | END=nhựa, bê tông xi thông >1.000m. | FLAGS=
+ID=NQ28-047-S01-TT0302-01 | SEC=agricultural | TT=302 | REL=main | PRICES=220,170 | ROAD=Đường Km 130 Quốc | START=lộ 20 | END=Hết ranh thửa đất số 62 tờ BĐĐC số 177 bên phải và hết ranh thửa đất số 19, tờ BĐĐC số 177 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0303-01 | SEC=agricultural | TT=303 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0304-01 | SEC=agricultural | TT=304 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0305-01 | SEC=agricultural | TT=305 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0306-01 | SEC=agricultural | TT=306 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0177-02 | SEC=agricultural | TT=177 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0307-01 | SEC=agricultural | TT=307 | REL=main | PRICES=90,80 | ROAD=Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến đến ≤1.000m. - Có bề rộng <3m, cách | START=đường giao thông >1.000m. <5m, cách đường giao đường giao thông ≤200m. | END=thông từ >500m | FLAGS=
+ID=NQ28-047-S01-TT0308-01 | SEC=agricultural | TT=308 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0309-01 | SEC=agricultural | TT=309 | REL=main | PRICES=220,170 | ROAD=Đường Cắt Kiếng Quốc | START=lộ 20 | END=Hết ranh thửa đất số 116 tờ BĐĐC số 161 về bên phải và hết ranh thửa đất số 117, tờ BĐĐC số 161 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0310-01 | SEC=agricultural | TT=310 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0311-01 | SEC=agricultural | TT=311 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0312-01 | SEC=agricultural | TT=312 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0313-01 | SEC=agricultural | TT=313 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0314-01 | SEC=agricultural | TT=314 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0315-01 | SEC=agricultural | TT=315 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0316-01 | SEC=agricultural | TT=316 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0317-01 | SEC=agricultural | TT=317 | REL=main | PRICES=130,100 | ROAD=đoạn từ Quốc lộ 20 đến đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Đường số 3 ấp Thọ măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Lâm có hiện trạng là thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0318-01 | SEC=agricultural | TT=318 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0319-01 | SEC=agricultural | TT=319 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0320-01 | SEC=agricultural | TT=320 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0321-01 | SEC=agricultural | TT=321 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0322-01 | SEC=agricultural | TT=322 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0323-01 | SEC=agricultural | TT=323 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0324-01 | SEC=agricultural | TT=324 | REL=main | PRICES=130,100 | ROAD=đoạn từ Quốc lộ 20 đến nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Hết nghĩa trang có hiện đường giao thông ≤1.000m. <5m, cách đường giao | END=trạng là đường thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0325-01 | SEC=agricultural | TT=325 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0326-01 | SEC=agricultural | TT=326 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0327-01 | SEC=agricultural | TT=327 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0328-01 | SEC=agricultural | TT=328 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0329-01 | SEC=agricultural | TT=329 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0330-01 | SEC=agricultural | TT=330 | REL=main | PRICES=220,170 | ROAD=Đường Đồng Dâu Nghĩa | START=trang | END=Hết ranh thửa đất số 29 tờ BĐĐC số 179 bên phải và hết ranh thửa đất số 23, tờ BĐĐC số 179 về bên trái | FLAGS=
+ID=NQ28-047-S01-TT0331-01 | SEC=agricultural | TT=331 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0332-01 | SEC=agricultural | TT=332 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0333-01 | SEC=agricultural | TT=333 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0334-01 | SEC=agricultural | TT=334 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0335-01 | SEC=agricultural | TT=335 | REL=indirect | PRICES=29,90,80 | FLAGS=
+ID=NQ28-047-S01-TT0336-01 | SEC=agricultural | TT=336 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0337-01 | SEC=agricultural | TT=337 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0338-01 | SEC=agricultural | TT=338 | REL=main | PRICES=130,100 | ROAD=Lâm đoạn từ Đường Đồng đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Dâu đến Đường Km măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=130 có hiện trạng thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0339-01 | SEC=agricultural | TT=339 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0340-01 | SEC=agricultural | TT=340 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0130-02 | SEC=agricultural | TT=130 | REL=indirect | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0341-01 | SEC=agricultural | TT=341 | REL=main | PRICES=130,100 | ROAD=- Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đường giao thông ≤1.000m. <5m, cách đường giao | END=thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0342-01 | SEC=agricultural | TT=342 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0343-01 | SEC=agricultural | TT=343 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0344-01 | SEC=agricultural | TT=344 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0345-01 | SEC=agricultural | TT=345 | REL=main | PRICES=130,100 | ROAD=Lâm đoạn từ Quốc lộ 20 đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Ranh nhà thờ Thọ măng: đường giao thông ≤1.000m. <5m, cách đường giao | END=Lâm có hiện trạng thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0346-01 | SEC=agricultural | TT=346 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0347-01 | SEC=agricultural | TT=347 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0348-01 | SEC=agricultural | TT=348 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0349-01 | SEC=agricultural | TT=349 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0350-01 | SEC=agricultural | TT=350 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0351-01 | SEC=agricultural | TT=351 | REL=main | PRICES=220,170 | ROAD=- Có bề rộng <3m, cách Đường Thanh Thọ Quốc | START=đường giao thông >200m. lộ 20 | END=Giáp ranh xã Phú Lâm | FLAGS=
+ID=NQ28-047-S01-TT0352-01 | SEC=agricultural | TT=352 | REL=direct | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0353-01 | SEC=agricultural | TT=353 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0354-01 | SEC=agricultural | TT=354 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0355-01 | SEC=agricultural | TT=355 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0356-01 | SEC=agricultural | TT=356 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0357-01 | SEC=agricultural | TT=357 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0358-01 | SEC=agricultural | TT=358 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0359-01 | SEC=agricultural | TT=359 | REL=main | PRICES=380,300 | ROAD=Vinh có hiện trạng là đường - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=nhựa, bê tông xi đường giao thông ≤600m. <5m, cách đường giao | END=măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0360-01 | SEC=agricultural | TT=360 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0361-01 | SEC=agricultural | TT=361 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0362-01 | SEC=agricultural | TT=362 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0363-01 | SEC=agricultural | TT=363 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0364-01 | SEC=agricultural | TT=364 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0365-01 | SEC=agricultural | TT=365 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0366-01 | SEC=agricultural | TT=366 | REL=main | PRICES=380,300 | ROAD=Đình Chiểu có hiện trạng - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=là đường nhựa, bê đường giao thông ≤600m. <5m, cách đường giao | END=tông xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0367-01 | SEC=agricultural | TT=367 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0368-01 | SEC=agricultural | TT=368 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0369-01 | SEC=agricultural | TT=369 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0370-01 | SEC=agricultural | TT=370 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0371-01 | SEC=agricultural | TT=371 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0372-01 | SEC=agricultural | TT=372 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0373-01 | SEC=agricultural | TT=373 | REL=main | PRICES=380,300 | ROAD=Hữu Cảnh đoạn từ Ranh THCS Quang Trung có hiện - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=giới xã Phú Xuân (cũ) trạng là đường nhựa, đường giao thông ≤600m. <5m, cách đường giao | END=đến Giáp Trường bê tông xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0374-01 | SEC=agricultural | TT=374 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0375-01 | SEC=agricultural | TT=375 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0376-01 | SEC=agricultural | TT=376 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0377-01 | SEC=agricultural | TT=377 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0378-01 | SEC=agricultural | TT=378 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0379-01 | SEC=agricultural | TT=379 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0380-01 | SEC=agricultural | TT=380 | REL=main | PRICES=380,300 | ROAD=Hữu Cảnh đoạn từ Giáp Trường Dân tộc nội trú có măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Trường THCS Quang hiện trạng là đường đường giao thông ≤600m. <5m, cách đường giao | END=Trung đến Hết ranh nhựa, bê tông xi thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0381-01 | SEC=agricultural | TT=381 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0382-01 | SEC=agricultural | TT=382 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0383-01 | SEC=agricultural | TT=383 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0384-01 | SEC=agricultural | TT=384 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0385-01 | SEC=agricultural | TT=385 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0386-01 | SEC=agricultural | TT=386 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0387-01 | SEC=agricultural | TT=387 | REL=main | PRICES=380,300 | ROAD=Hữu Cảnh đoạn từ Hết ranh Nguyễn Thị Định mở rộng măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Trường Dân tộc có hiện trạng là đường đường giao thông ≤600m. <5m, cách đường giao | END=nội trú đến Giáp đường nhựa, bê tông xi thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0388-01 | SEC=agricultural | TT=388 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0389-01 | SEC=agricultural | TT=389 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0390-01 | SEC=agricultural | TT=390 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0391-01 | SEC=agricultural | TT=391 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0392-01 | SEC=agricultural | TT=392 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0393-01 | SEC=agricultural | TT=393 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0394-01 | SEC=agricultural | TT=394 | REL=main | PRICES=380,300 | ROAD=Hữu Cảnh đoạn từ Giáp Đường Tà Lài có hiện trạng - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đường Nguyễn Thị là đường nhựa, đường giao thông ≤600m. <5m, cách đường giao | END=Định mở rộng đến bê tông xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0395-01 | SEC=agricultural | TT=395 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0396-01 | SEC=agricultural | TT=396 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0397-01 | SEC=agricultural | TT=397 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0398-01 | SEC=agricultural | TT=398 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0399-01 | SEC=agricultural | TT=399 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0400-01 | SEC=agricultural | TT=400 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0401-01 | SEC=agricultural | TT=401 | REL=main | PRICES=380,300 | ROAD=Thành đoạn từ Bệnh viện hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Đa khoa Tân Phú bê tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=đến Ngã tư Tà Lài có thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0402-01 | SEC=agricultural | TT=402 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0403-01 | SEC=agricultural | TT=403 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0404-01 | SEC=agricultural | TT=404 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0405-01 | SEC=agricultural | TT=405 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0406-01 | SEC=agricultural | TT=406 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0407-01 | SEC=agricultural | TT=407 | REL=main | PRICES=570,430 | ROAD=- Có bề rộng <3m, cách Đường Nguyễn Tất Ngã Thành | START=đường giao thông >200m. tư Tà Lài | END=Bến xe Tân Phú | FLAGS=
+ID=NQ28-047-S01-TT0408-01 | SEC=agricultural | TT=408 | REL=direct | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0409-01 | SEC=agricultural | TT=409 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0410-01 | SEC=agricultural | TT=410 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0411-01 | SEC=agricultural | TT=411 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0412-01 | SEC=agricultural | TT=412 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0413-01 | SEC=agricultural | TT=413 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0414-01 | SEC=agricultural | TT=414 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0415-01 | SEC=agricultural | TT=415 | REL=main | PRICES=380,300 | ROAD=Định đoạn từ Quốc lộ 20 chính sách xã hội xã Tân đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Ngã tư Phòng Phú (đoạn ban đầu) măng: đường giao thông ≤600m. <5m, cách đường giao | END=giao dịch Ngân hàng có hiện trạng là thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0416-01 | SEC=agricultural | TT=416 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0417-01 | SEC=agricultural | TT=417 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0418-01 | SEC=agricultural | TT=418 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0419-01 | SEC=agricultural | TT=419 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0420-01 | SEC=agricultural | TT=420 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0421-01 | SEC=agricultural | TT=421 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0422-01 | SEC=agricultural | TT=422 | REL=main | PRICES=380,300 | ROAD=Định đoạn từ Ngã tư Phòng xã Tân Phú (đoạn ban đầu) có hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=giao dịch Ngân hàng đến Giáp KCN Tân bê tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=chính sách xã hội Phú (đoạn nối dài) thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0423-01 | SEC=agricultural | TT=423 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0424-01 | SEC=agricultural | TT=424 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0425-01 | SEC=agricultural | TT=425 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0426-01 | SEC=agricultural | TT=426 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0427-01 | SEC=agricultural | TT=427 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0428-01 | SEC=agricultural | TT=428 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0429-01 | SEC=agricultural | TT=429 | REL=main | PRICES=380,300 | ROAD=Thượng Hiền đoạn từ Quốc trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=lộ 20 đến Đường tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=Hùng Vương có hiện thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0430-01 | SEC=agricultural | TT=430 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0431-01 | SEC=agricultural | TT=431 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0432-01 | SEC=agricultural | TT=432 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0433-01 | SEC=agricultural | TT=433 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0434-01 | SEC=agricultural | TT=434 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0435-01 | SEC=agricultural | TT=435 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0436-01 | SEC=agricultural | TT=436 | REL=main | PRICES=380,300 | ROAD=Văn Linh đoạn từ Quốc lộ là đường nhựa, bê tông - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=20 đến Chợ huyện xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=Tân Phú có hiện trạng thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0437-01 | SEC=agricultural | TT=437 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0438-01 | SEC=agricultural | TT=438 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0439-01 | SEC=agricultural | TT=439 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0440-01 | SEC=agricultural | TT=440 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0441-01 | SEC=agricultural | TT=441 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0442-01 | SEC=agricultural | TT=442 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0443-01 | SEC=agricultural | TT=443 | REL=main | PRICES=380,300 | ROAD=Văn Linh đoạn từ Chợ huyện trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Tân Phú đến Đường tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=Tà Lài có hiện thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0444-01 | SEC=agricultural | TT=444 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0445-01 | SEC=agricultural | TT=445 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0446-01 | SEC=agricultural | TT=446 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0447-01 | SEC=agricultural | TT=447 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0448-01 | SEC=agricultural | TT=448 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0449-01 | SEC=agricultural | TT=449 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0450-01 | SEC=agricultural | TT=450 | REL=main | PRICES=380,300 | ROAD=Văn Trỗi đoạn từ Đường Thành có hiện trạng là đường - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Nguyễn Hữu Cảnh nhựa, bê tông đường giao thông ≤600m. <5m, cách đường giao | END=đến Đường Nguyễn Tất xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0451-01 | SEC=agricultural | TT=451 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0452-01 | SEC=agricultural | TT=452 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0453-01 | SEC=agricultural | TT=453 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0454-01 | SEC=agricultural | TT=454 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0455-01 | SEC=agricultural | TT=455 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0456-01 | SEC=agricultural | TT=456 | REL=main | PRICES=570,430 | ROAD=Đường Phạm Ngọc Quốc Thạch | START=lộ 20 | END=Bên phải, đến hết ranh thửa đất số 83 tờ BĐĐC số 2; Bên trái, đến hết ranh thửa đất số 508, tờ BĐĐC số | FLAGS=
+ID=NQ28-047-S01-TT0083-02 | SEC=agricultural | TT=83 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0457-01 | SEC=agricultural | TT=457 | REL=main | PRICES=380,300 | ROAD=số 2 có hiện trạng là đường - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=nhựa, bê tông xi đường giao thông ≤600m. <5m, cách đường giao | END=măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0458-01 | SEC=agricultural | TT=458 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0083-03 | SEC=agricultural | TT=83 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0459-01 | SEC=agricultural | TT=459 | REL=main | PRICES=220,160 | ROAD=số 2 có hiện trạng là đường - Có bề rộng từ ≥3m đến - Có bề rộng <3m, cách | START=nhựa, bê tông xi <5m, cách đường giao đường giao thông >200m. | END=măng: thông >600m. | FLAGS=
+ID=NQ28-047-S01-TT0460-01 | SEC=agricultural | TT=460 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0461-01 | SEC=agricultural | TT=461 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0462-01 | SEC=agricultural | TT=462 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0463-01 | SEC=agricultural | TT=463 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0464-01 | SEC=agricultural | TT=464 | REL=main | PRICES=380,300 | ROAD=Đức đoạn từ Quốc lộ 20 trạng là đường nhựa, bê - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đến Đường Nguyễn tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=Tất Thành có hiện thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0465-01 | SEC=agricultural | TT=465 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0466-01 | SEC=agricultural | TT=466 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0467-01 | SEC=agricultural | TT=467 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0468-01 | SEC=agricultural | TT=468 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0469-01 | SEC=agricultural | TT=469 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0470-01 | SEC=agricultural | TT=470 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0471-01 | SEC=agricultural | TT=471 | REL=main | PRICES=380,300 | ROAD=đoạn từ Đường Nguyễn có hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Hữu Cảnh đến Đường bê tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=Nguyễn Tất Thành thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0472-01 | SEC=agricultural | TT=472 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0473-01 | SEC=agricultural | TT=473 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0474-01 | SEC=agricultural | TT=474 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0475-01 | SEC=agricultural | TT=475 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0476-01 | SEC=agricultural | TT=476 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0477-01 | SEC=agricultural | TT=477 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0478-01 | SEC=agricultural | TT=478 | REL=main | PRICES=380,300 | ROAD=công nghiệp Tân Phú đoạn ranh thửa đất số 118 tờ số 119, tờ BĐĐC số 3 có măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=từ Đường Tà Lài BĐĐC số 3; Bên trái, hiện trạng là đường đường giao thông ≤600m. <5m, cách đường giao | END=đến Bên phải, đến hết đến hết ranh thửa đất nhựa, bê tông xi thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0479-01 | SEC=agricultural | TT=479 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0480-01 | SEC=agricultural | TT=480 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0481-01 | SEC=agricultural | TT=481 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0482-01 | SEC=agricultural | TT=482 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0483-01 | SEC=agricultural | TT=483 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0484-01 | SEC=agricultural | TT=484 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0485-01 | SEC=agricultural | TT=485 | REL=main | PRICES=380,300 | ROAD=có hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=bê tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0486-01 | SEC=agricultural | TT=486 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0487-01 | SEC=agricultural | TT=487 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0488-01 | SEC=agricultural | TT=488 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0489-01 | SEC=agricultural | TT=489 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0490-01 | SEC=agricultural | TT=490 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0491-01 | SEC=agricultural | TT=491 | REL=main | PRICES=570,430 | ROAD=Đường Đường Hùng Vương Linh | START=Nguyễn Văn | END=Tà Lài | FLAGS=
+ID=NQ28-047-S01-TT0492-01 | SEC=agricultural | TT=492 | REL=direct | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0493-01 | SEC=agricultural | TT=493 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0494-01 | SEC=agricultural | TT=494 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0495-01 | SEC=agricultural | TT=495 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0496-01 | SEC=agricultural | TT=496 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0497-01 | SEC=agricultural | TT=497 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0498-01 | SEC=agricultural | TT=498 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0499-01 | SEC=agricultural | TT=499 | REL=main | PRICES=380,300 | ROAD=Vương đoạn từ Đường Tà đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Lài đến Nguyễn Du măng: đường giao thông ≤600m. <5m, cách đường giao | END=có hiện trạng là thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0500-01 | SEC=agricultural | TT=500 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0501-01 | SEC=agricultural | TT=501 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0502-01 | SEC=agricultural | TT=502 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0503-01 | SEC=agricultural | TT=503 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0504-01 | SEC=agricultural | TT=504 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0505-01 | SEC=agricultural | TT=505 | REL=direct | PRICES=2,570,430 | FLAGS=
+ID=NQ28-047-S01-TT0506-01 | SEC=agricultural | TT=506 | REL=main | PRICES=380,300 | ROAD=Vương đoạn từ Đường Nguyễn BĐĐC số 2 có hiện trạng - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Du đến Hết là đường nhựa, bê đường giao thông ≤600m. <5m, cách đường giao | END=ranh thửa đất số 458, tông xi măng: thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0507-01 | SEC=agricultural | TT=507 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0508-01 | SEC=agricultural | TT=508 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0509-01 | SEC=agricultural | TT=509 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0510-01 | SEC=agricultural | TT=510 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0511-01 | SEC=agricultural | TT=511 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0512-01 | SEC=agricultural | TT=512 | REL=direct | PRICES=3,570,430 | FLAGS=
+ID=NQ28-047-S01-TT0513-01 | SEC=agricultural | TT=513 | REL=main | PRICES=380,300 | ROAD=tái định cư 9,7 ha đoạn từ thửa đất số 550, tờ BĐĐC 574, tờ BĐĐC số 3 về bên xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Đường Phạm Ngọc số 3 về bên phải và trái có hiện trạng đường giao thông ≤600m. <5m, cách đường giao | END=Thạch đến Hết ranh hết ranh thửa đất số là đường nhựa, bê tông thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0514-01 | SEC=agricultural | TT=514 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0515-01 | SEC=agricultural | TT=515 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0516-01 | SEC=agricultural | TT=516 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0517-01 | SEC=agricultural | TT=517 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0518-01 | SEC=agricultural | TT=518 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0519-01 | SEC=agricultural | TT=519 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0520-01 | SEC=agricultural | TT=520 | REL=main | PRICES=380,300 | ROAD=đoạn từ Quốc lộ 20 đến đường nhựa, bê tông xi - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đường Nguyễn Tri Phương măng: đường giao thông ≤600m. <5m, cách đường giao | END=có hiện trạng thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0521-01 | SEC=agricultural | TT=521 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0522-01 | SEC=agricultural | TT=522 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0523-01 | SEC=agricultural | TT=523 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0524-01 | SEC=agricultural | TT=524 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0525-01 | SEC=agricultural | TT=525 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0526-01 | SEC=agricultural | TT=526 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0527-01 | SEC=agricultural | TT=527 | REL=main | PRICES=380,300 | ROAD=đoạn từ Quốc lộ 20 đến hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=hết ranh thửa đất số bê tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=52, tờ BĐĐC số 31 có thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0528-01 | SEC=agricultural | TT=528 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0529-01 | SEC=agricultural | TT=529 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0530-01 | SEC=agricultural | TT=530 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0531-01 | SEC=agricultural | TT=531 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0532-01 | SEC=agricultural | TT=532 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0533-01 | SEC=agricultural | TT=533 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0534-01 | SEC=agricultural | TT=534 | REL=main | PRICES=380,300 | ROAD=đoạn từ Quốc lộ 20 đến nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=đường Lê Đại Hành đường giao thông ≤600m. <5m, cách đường giao | END=có hiện trạng là đường thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0535-01 | SEC=agricultural | TT=535 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0536-01 | SEC=agricultural | TT=536 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0537-01 | SEC=agricultural | TT=537 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0538-01 | SEC=agricultural | TT=538 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0539-01 | SEC=agricultural | TT=539 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0540-01 | SEC=agricultural | TT=540 | REL=direct | PRICES=570,430 | FLAGS=
+ID=NQ28-047-S01-TT0541-01 | SEC=agricultural | TT=541 | REL=main | PRICES=380,300 | ROAD=Quốc lộ 20 đến đường Nguyễn nhựa, bê tông xi măng: - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Tất Thành có đường giao thông ≤600m. <5m, cách đường giao | END=hiện trạng là đường thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0542-01 | SEC=agricultural | TT=542 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0543-01 | SEC=agricultural | TT=543 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0544-01 | SEC=agricultural | TT=544 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0545-01 | SEC=agricultural | TT=545 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0546-01 | SEC=agricultural | TT=546 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0547-01 | SEC=agricultural | TT=547 | REL=main | PRICES=570,430 | ROAD=- Có bề rộng <3m, cách đường Nguyễn Du Thành | START=đường giao thông >200m. Nguyễn Tất | END=hết ranh thửa đất số 113 tờ BĐĐC số 3 về bên trái và hết ranh thửa đất số 785 tờ BĐĐC số 3 về bên phải | FLAGS=
+ID=NQ28-047-S01-TT0003-03 | SEC=agricultural | TT=3 | REL=direct | PRICES= | FLAGS=PRICE_MISSING,AGRICULTURAL_PRICE_COLUMN_MISSING,DUPLICATE_TT_IN_SEGMENT
+ID=NQ28-047-S01-TT0548-01 | SEC=agricultural | TT=548 | REL=main | PRICES=380,300 | ROAD=có hiện trạng là đường nhựa, - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=bê tông xi măng: đường giao thông ≤600m. <5m, cách đường giao | END=thông ≤400m. | FLAGS=
+ID=NQ28-047-S01-TT0549-01 | SEC=agricultural | TT=549 | REL=direct | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0550-01 | SEC=agricultural | TT=550 | REL=direct | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0551-01 | SEC=agricultural | TT=551 | REL=indirect | PRICES=380,300 | FLAGS=
+ID=NQ28-047-S01-TT0552-01 | SEC=agricultural | TT=552 | REL=indirect | PRICES=300,220 | FLAGS=
+ID=NQ28-047-S01-TT0553-01 | SEC=agricultural | TT=553 | REL=indirect | PRICES=220,160 | FLAGS=
+ID=NQ28-047-S01-TT0554-01 | SEC=agricultural | TT=554 | REL=direct | PRICES=220,170 | FLAGS=
+ID=NQ28-047-S01-TT0555-01 | SEC=agricultural | TT=555 | REL=main | PRICES=130,100 | ROAD=xã Trà Cổ Cũ đoạn từ đường số 154 có hiện trạng là đường - Có bề rộng ≥5m, cách - Có bề rộng từ ≥3m đến | START=Trà Cổ đến thửa nhựa, bê tông đường giao thông ≤1.000m. <5m, cách đường giao | END=đất số 154, tờ bản xi măng: thông ≤500m. | FLAGS=
+ID=NQ28-047-S01-TT0556-01 | SEC=agricultural | TT=556 | REL=direct | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0557-01 | SEC=agricultural | TT=557 | REL=direct | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0558-01 | SEC=agricultural | TT=558 | REL=indirect | PRICES=130,100 | FLAGS=
+ID=NQ28-047-S01-TT0559-01 | SEC=agricultural | TT=559 | REL=indirect | PRICES=90,80 | FLAGS=
+ID=NQ28-047-S01-TT0560-01 | SEC=agricultural | TT=560 | REL=indirect | PRICES=55,50 | FLAGS=
+ID=NQ28-047-S01-TT0561-01 | SEC=agricultural | TT=561 | REL=main | PRICES=220,170 | ROAD=- Có bề rộng <3m, cách Đường vào Khu du đường lịch Suối Mơ | START=đường giao thông >200m. Trà Cổ | END=cổng Khu du lịch Suối Mơ | FLAGS=
