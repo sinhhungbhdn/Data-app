@@ -1,0 +1,122 @@
+{
+  "schema": "bao-tin-online-land-canonical-v3",
+  "storage_target": "online API/D1 only; installer must not embed the full legal dataset",
+  "lookup_safety": {
+    "fail_closed": true,
+    "no_cross_dataset_fallback": true,
+    "no_cross_appendix_fallback": true,
+    "no_cross_section_fallback": true,
+    "no_cross_purpose_fallback": true,
+    "tt_is_not_unique_without_context": true,
+    "source_trace_required": true
+  },
+  "record_key_fields": [
+    "dataset",
+    "appendix_or_section",
+    "admin_unit",
+    "source_row_key",
+    "purpose_code"
+  ],
+  "common_fields": [
+    "record_id",
+    "dataset",
+    "dataset_version",
+    "legal_document",
+    "appendix_or_section",
+    "admin_unit",
+    "tt",
+    "road_or_object",
+    "start_point",
+    "end_point",
+    "condition_text",
+    "purpose_code",
+    "value",
+    "unit",
+    "source_file",
+    "source_page",
+    "source_line",
+    "source_row_key",
+    "source_hash",
+    "review_status"
+  ],
+  "nq28": {
+    "unit": "1000_VND_PER_M2",
+    "appendices": {
+      "I": {
+        "mode": "header_driven_agricultural",
+        "allowed_header_schemas": [
+          {
+            "schema_id": "AGRI_COMBINED_2",
+            "purpose_columns": ["CLN_HNK", "RSX_NTS"]
+          },
+          {
+            "schema_id": "AGRI_SEPARATE_4",
+            "purpose_columns": ["CLN", "HNK", "NTS", "RSX"]
+          }
+        ]
+      },
+      "II": {
+        "mode": "purpose_columns",
+        "purpose_columns": ["NN", "DAT_O", "TMDV", "SXKD_PNN_KHONG_TMDV"]
+      },
+      "III": {
+        "mode": "purpose_columns",
+        "purpose_columns": ["DAT_O", "TMDV", "CS_SX_PNN_KHOANG_SAN"]
+      },
+      "IV": {
+        "mode": "single_zone_price",
+        "purpose_columns": [],
+        "purpose_code": null,
+        "lookup_scope": "KCN_CCN"
+      },
+      "V": {
+        "mode": "purpose_columns",
+        "purpose_columns": ["NN_KHAC", "TMDV", "SXKD_PNN_KHONG_TMDV"]
+      },
+      "VI": {
+        "mode": "single_route_or_segment_price",
+        "purpose_columns": [],
+        "purpose_code": null,
+        "lookup_scope": "TAI_DINH_CU"
+      },
+      "VII": {
+        "mode": "reference_only",
+        "purpose_columns": [],
+        "has_price": false,
+        "lookup_scope": "MAIN_ROAD_REFERENCE"
+      },
+      "VIII": {
+        "mode": "bounds_only",
+        "purpose_columns": ["CLN", "HNK", "NTS", "RSX"],
+        "bound_types": ["MIN", "MAX"],
+        "lookup_scope": "AGRICULTURAL_VALIDATION_BOUND"
+      }
+    }
+  },
+  "qd03": {
+    "unit": "COEFFICIENT",
+    "sections": {
+      "NON_AGRICULTURAL": {
+        "mode": "purpose_columns",
+        "purpose_columns": ["DAT_O", "TMDV", "CS_SX_PNN_KHOANG_SAN"]
+      },
+      "AGRICULTURAL": {
+        "mode": "single_agricultural_market_factor",
+        "purpose_columns": ["NN_MARKET_FACTOR"]
+      }
+    }
+  },
+  "api_contract": {
+    "valid_key_required_before_legal_data_query": true,
+    "invalid_or_revoked_key_result": "NO_DATA_ACCESS",
+    "ambiguous_match_result": "REVIEW_REQUIRED",
+    "purpose_not_available_result": "NO_APPLICABLE_PRICE",
+    "response_must_include": [
+      "dataset_version",
+      "record_id",
+      "purpose_code",
+      "value",
+      "source_ref"
+    ]
+  }
+}
