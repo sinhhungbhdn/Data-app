@@ -7,7 +7,6 @@ on:
     paths:
       - ".github/workflows/nq28-named-files-v3.yml"
       - "data-pipeline-v3/**"
-      - "data-pipeline-v2/parse_nq28_area_rows.py"
       - "data-pipeline-v2/build_nq28_area_sources.py"
       - "source-data/nq28-pdf/**"
   workflow_dispatch:
@@ -47,7 +46,7 @@ jobs:
 
       - name: Parse file 1 agricultural rows
         run: |
-          python3 data-pipeline-v2/parse_nq28_area_rows.py \
+          python3 data-pipeline-v3/parse_named_area_rows.py \
             --source-dir generated/named-v3/agri/source \
             --output generated/named-v3/agri/parsed \
             --area-start 1 --area-end 95 || true
@@ -70,7 +69,7 @@ jobs:
 
       - name: Parse file 2 non-agricultural rows
         run: |
-          python3 data-pipeline-v2/parse_nq28_area_rows.py \
+          python3 data-pipeline-v3/parse_named_area_rows.py \
             --source-dir generated/named-v3/nonagri/source \
             --output generated/named-v3/nonagri/parsed \
             --area-start 1 --area-end 95 || true
@@ -111,19 +110,19 @@ jobs:
               with gzip.open(tam, 'rt', encoding='utf-8') as f:
                   data = json.load(f)
               for r in data.get('records', []):
-                  text = ' '.join([r.get('road',''), r.get('start',''), r.get('end',''), r.get('rawText','')]).lower()
-                  if 'đồng khởi' in text and 'phạm văn khoai' in text:
+                  if r.get('tt') == 316:
                       checks.append({
-                          'id': r.get('id'), 'tt': r.get('tt'), 'road': r.get('road'),
-                          'start': r.get('start'), 'end': r.get('end'), 'prices': r.get('prices'),
-                          'review': r.get('review')
+                          'id': r.get('id'), 'tt': r.get('tt'), 'relation': r.get('relation'),
+                          'road': r.get('road'), 'start': r.get('start'), 'end': r.get('end'),
+                          'prices': r.get('prices'), 'review': r.get('review')
                       })
           result = {
-              'schema': 'nq28-named-file-audit-v3',
+              'schema': 'nq28-named-file-audit-v4',
               'classificationAuthority': 'user-assigned split filename',
               'pageSuffixRole': 'bookmark_only',
               'agriculturalSource': {
-                  'areaHeadingCount': asrc.get('areaHeadingCount'),
+                  'areaHeadingOccurrenceCount': asrc.get('areaHeadingOccurrenceCount'),
+                  'areaHeadingUniqueCount': asrc.get('areaHeadingUniqueCount'),
                   'areasWithSource': asrc.get('areasWithSource'),
                   'missingAreas': asrc.get('missingAreas'),
                   'review': asrc.get('review'),
@@ -136,7 +135,8 @@ jobs:
               },
               'file2Islands': {'recordCount': i.get('count'), 'error': i.get('_error') or i.get('_missing')},
               'nonAgriculturalSource': {
-                  'areaHeadingCount': nsrc.get('areaHeadingCount'),
+                  'areaHeadingOccurrenceCount': nsrc.get('areaHeadingOccurrenceCount'),
+                  'areaHeadingUniqueCount': nsrc.get('areaHeadingUniqueCount'),
                   'areasWithSource': nsrc.get('areasWithSource'),
                   'missingAreas': nsrc.get('missingAreas'),
                   'review': nsrc.get('review'),
@@ -148,7 +148,7 @@ jobs:
                   'error': n.get('_error') or n.get('_missing')
               },
               'smallGroups': s,
-              'tamHiepDongKhoiChecks': checks,
+              'tamHiepTt316': checks,
               'ttIsLookupKey': False,
               'runtimeOrD1Modified': False
           }
