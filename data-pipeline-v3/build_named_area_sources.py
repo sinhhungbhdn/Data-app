@@ -2,14 +2,20 @@
 """Build NQ28 area bundles from the user-named split PDFs.
 
 Classification is fixed by the user's filenames. The page suffix is bookmark-only.
-For the two large files, adjacent-table headings are used only to trim the overlap
-at the cut boundary. Administrative areas are split only on explicit numbered
-headings such as ``3. Phường Tam Hiệp``; road/end-point text cannot change area.
+For the two large files, adjacent-table headings are used only to trim overlap at
+cut boundaries. Administrative areas are split only on explicit numbered source
+headings such as ``3. Phường Tam Hiệp``. The source-printed Xã/Phường label is
+authoritative; the legacy 95-area catalog is not allowed to override it.
+
+If the same numbered area is printed more than once, an occurrence is dropped only
+when its complete normalized source text is byte-for-byte semantically identical
+to an earlier occurrence. Non-identical repeats are preserved and flagged.
 """
 from __future__ import annotations
 
 import argparse
 import gzip
+import hashlib
 import importlib.util
 import json
 import re
@@ -36,6 +42,7 @@ def load_v2():
 
 v2 = load_v2()
 AREAS = v2.AREAS
+AREA_COUNT = 95
 
 
 def normalize(value: str) -> str:
@@ -55,7 +62,7 @@ def find_exact_heading(lines: list[Any], roman: str, *, start_at: int = 0) -> in
 
 
 def trim_named_group(lines: list[Any], mode: str) -> tuple[list[Any], dict[str, Any]]:
-    # These markers only remove cut-page bleed. They do not determine semantics.
+    # Markers only cut off bleed from adjacent named files. Filename defines meaning.
     if mode == "agricultural":
         start = find_exact_heading(lines, "I")
         end = find_exact_heading(lines, "II", start_at=start + 1)
@@ -78,68 +85,134 @@ def trim_named_group(lines: list[Any], mode: str) -> tuple[list[Any], dict[str, 
     }
 
 
-def detect_area_headings(lines: list[Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    expected = {i + 1: normalize(area) for i, area in enumerate(AREAS)}
+def source_area_label(text: str) -> str:
+    return re.sub(r"^\s*\d{1,3}\s*[.)-]?\s*", "", text or "", count=1).strip()
+
+
+def detect_area_headings(lines: list[Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[int, str]]:
     events: list[dict[str, Any]] = []
     review: list[dict[str, Any]] = []
+    labels: dict[int, str] = {}
+
     for idx, line in enumerate(lines):
         n = normalize(line.text)
-        m = re.fullmatch(r"(\d{1,3})\s+(.+)", n)
+        m = re.fullmatch(r"(\d{1,3})\s+((?:phuong|xa)\s+.+)", n)
         if not m:
             continue
         no = int(m.group(1))
-        if no not in expected:
+        if not 1 <= no <= AREA_COUNT:
             continue
-        if m.group(2) != expected[no]:
+        # A real area heading is a short left-side heading, not a table row/end point.
+        if float(line.x0) > 130 or float(line.x1) > 290:
             continue
+        printed = source_area_label(line.text)
+        if not re.match(r"^(?:Phường|Xã)\b", printed, flags=re.IGNORECASE):
+            continue
+
+        previous = labels.get(no)
+        if previous is None:
+            labels[no] = printed
+        elif normalize(previous) != normalize(printed):
+            review.append({
+                "code": "AREA_LABEL_CHANGED_WITHIN_SOURCE",
+                "tableNo": no,
+                "first": previous,
+                "later": printed,
+                "page": int(line.page),
+            })
+
         events.append({
             "index": idx,
             "tableNo": no,
-            "area": AREAS[no - 1],
+            "area": printed,
             "page": int(line.page),
             "top": float(line.top),
             "text": line.text,
         })
 
-    # Collapse duplicate identical headings if conversion repeats one at a page seam.
-    collapsed: list[dict[str, Any]] = []
-    for event in events:
-        if collapsed and event["tableNo"] == collapsed[-1]["tableNo"]:
-            review.append({"code": "REPEATED_AREA_HEADING", "area": event["area"], "page": event["page"]})
-            continue
-        collapsed.append(event)
-
-    observed = [e["tableNo"] for e in collapsed]
-    if observed != list(range(1, len(AREAS) + 1)):
+    observed_unique = sorted(set(e["tableNo"] for e in events))
+    missing = [i for i in range(1, AREA_COUNT + 1) if i not in observed_unique]
+    if missing:
         review.append({
-            "code": "AREA_HEADING_SEQUENCE_NOT_EXACT_1_95",
-            "observed": observed,
-            "missing": [i for i in range(1, len(AREAS) + 1) if i not in observed],
+            "code": "AREA_HEADING_NUMBERS_MISSING",
+            "observedUnique": observed_unique,
+            "missing": missing,
         })
-    return collapsed, review
+
+    # The source numbering should never go backward except where an exact duplicated
+    # source block is present. Detailed duplicate handling happens after segmentation.
+    return events, review, labels
 
 
-def write_bundles(lines: list[Any], events: list[dict[str, Any]], section: str, output: Path) -> list[dict[str, Any]]:
+def semantic_segment_hash(seg_lines: list[Any]) -> str:
+    payload = "\n".join(normalize(line.text) for line in seg_lines if normalize(line.text))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def write_bundles(
+    lines: list[Any],
+    events: list[dict[str, Any]],
+    labels: dict[int, str],
+    section: str,
+    output: Path,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     areas_dir = output / "areas"
     areas_dir.mkdir(parents=True, exist_ok=True)
-    by_area: dict[int, list[tuple[list[Any], dict[str, Any]]]] = defaultdict(list)
+    by_area: dict[int, list[tuple[list[Any], dict[str, Any], str]]] = defaultdict(list)
+    duplicate_review: list[dict[str, Any]] = []
 
+    # Segment strictly from one explicit area heading to the next explicit heading.
     for i, event in enumerate(events):
         start = int(event["index"])
         end = int(events[i + 1]["index"]) if i + 1 < len(events) else len(lines)
-        segment_lines = lines[start:end]
-        if segment_lines:
-            by_area[int(event["tableNo"])].append((segment_lines, event))
+        seg_lines = lines[start:end]
+        if not seg_lines:
+            continue
+        fingerprint = semantic_segment_hash(seg_lines)
+        by_area[int(event["tableNo"])].append((seg_lines, event, fingerprint))
 
     reports: list[dict[str, Any]] = []
-    for table_no in range(1, len(AREAS) + 1):
+    for table_no in range(1, AREA_COUNT + 1):
         compact: list[dict[str, Any]] = []
         segments: list[dict[str, Any]] = []
-        for seg_lines, event in by_area.get(table_no, []):
+        seen_hashes: dict[str, dict[str, Any]] = {}
+        exact_duplicates = 0
+        nonidentical_repeat_count = 0
+
+        candidates = by_area.get(table_no, [])
+        if len(candidates) > 1:
+            unique_hashes = {fp for _, _, fp in candidates}
+            if len(unique_hashes) > 1:
+                nonidentical_repeat_count = len(candidates)
+                duplicate_review.append({
+                    "code": "REPEATED_AREA_WITH_DIFFERENT_CONTENT",
+                    "tableNo": table_no,
+                    "area": labels.get(table_no, AREAS[table_no - 1]),
+                    "occurrences": [
+                        {"page": event["page"], "hash": fp}
+                        for _, event, fp in candidates
+                    ],
+                })
+
+        for seg_lines, event, fingerprint in candidates:
+            if fingerprint in seen_hashes:
+                exact_duplicates += 1
+                duplicate_review.append({
+                    "code": "EXACT_DUPLICATE_AREA_BLOCK_REMOVED",
+                    "tableNo": table_no,
+                    "area": labels.get(table_no, event["area"]),
+                    "duplicatePage": event["page"],
+                    "keptPage": seen_hashes[fingerprint]["page"],
+                    "hash": fingerprint,
+                })
+                continue
+            seen_hashes[fingerprint] = event
+
             offset = len(compact)
             compact.extend(v2.compact_line(line) for line in seg_lines)
+            sequence = len(segments) + 1
             segments.append({
-                "sequence": 1,
+                "sequence": sequence,
                 "section": section,
                 "pageStart": min(int(line.page) for line in seg_lines),
                 "pageEnd": max(int(line.page) for line in seg_lines),
@@ -148,13 +221,16 @@ def write_bundles(lines: list[Any], events: list[dict[str, Any]], section: str, 
                 "lineCount": len(seg_lines),
                 "headingPage": event["page"],
                 "headingText": event["text"],
+                "semanticHash": fingerprint,
             })
 
+        area_label = labels.get(table_no, AREAS[table_no - 1])
         bundle = {
-            "schema": "nq28-area-source-v3-named-file",
+            "schema": "nq28-area-source-v4-named-file",
             "tableNo": table_no,
-            "area": AREAS[table_no - 1],
+            "area": area_label,
             "classificationAuthority": "user-assigned split filename",
+            "areaLabelAuthority": "source-printed numbered heading",
             "section": section,
             "segments": segments,
             "lines": compact,
@@ -165,22 +241,30 @@ def write_bundles(lines: list[Any], events: list[dict[str, Any]], section: str, 
             f.write("\n")
         preview = areas_dir / f"area-{table_no:03d}.preview.txt"
         with preview.open("w", encoding="utf-8", newline="\n") as f:
-            f.write(f"TABLE={table_no:03d} | AREA={AREAS[table_no-1]} | SECTION={section} | SEGMENTS={len(segments)}\n")
+            f.write(f"TABLE={table_no:03d} | AREA={area_label} | SECTION={section} | SEGMENTS={len(segments)}\n")
             for seg in segments:
-                f.write(f"--- PAGES={seg['pageStart']}-{seg['pageEnd']} | LINES={seg['lineCount']} | HEADING={seg['headingText']} ---\n")
+                f.write(
+                    f"--- SEQUENCE={seg['sequence']} | PAGES={seg['pageStart']}-{seg['pageEnd']} | "
+                    f"LINES={seg['lineCount']} | HASH={seg['semanticHash']} | HEADING={seg['headingText']} ---\n"
+                )
                 a = int(seg["lineStart"]); b = a + int(seg["lineCount"])
                 for item in compact[a:b]:
-                    f.write(f"P={item['p']:04d} | X={item['x0']:08.3f}-{item['x1']:08.3f} | Y={item['y0']:08.3f}-{item['y1']:08.3f} | {item['t']}\n")
+                    f.write(
+                        f"P={item['p']:04d} | X={item['x0']:08.3f}-{item['x1']:08.3f} | "
+                        f"Y={item['y0']:08.3f}-{item['y1']:08.3f} | {item['t']}\n"
+                    )
         reports.append({
             "tableNo": table_no,
-            "area": AREAS[table_no - 1],
+            "area": area_label,
             "segmentCount": len(segments),
+            "exactDuplicateBlocksRemoved": exact_duplicates,
+            "nonidenticalRepeatCount": nonidentical_repeat_count,
             "lineCount": len(compact),
             "pageCount": len({item["p"] for item in compact}),
             "sourceFile": str(path.relative_to(output)),
             "sourceSha256": v2.sha256_file(path),
         })
-    return reports
+    return reports, duplicate_review
 
 
 def main() -> int:
@@ -198,26 +282,31 @@ def main() -> int:
 
     lines, page_count, tsv_path = v2.parse_words(source, work)
     selected, boundary = trim_named_group(lines, args.mode)
-    events, review = detect_area_headings(selected)
-    reports = write_bundles(selected, events, args.mode, output)
+    events, review, labels = detect_area_headings(selected)
+    reports, duplicate_review = write_bundles(selected, events, labels, args.mode, output)
+    review.extend(duplicate_review)
     missing = [r["tableNo"] for r in reports if r["segmentCount"] == 0]
 
     manifest = {
-        "schema": "nq28-named-area-source-v3",
+        "schema": "nq28-named-area-source-v4",
         "sourceFile": source.name,
         "sourcePageCount": page_count,
         "sourceTsvSha256": v2.sha256_file(tsv_path),
         "classificationAuthority": "user-assigned split filename",
         "pageSuffixRole": "bookmark_only",
+        "areaLabelAuthority": "source-printed numbered heading",
         "boundary": boundary,
-        "areaHeadingCount": len(events),
-        "areasWithSource": len(AREAS) - len(missing),
+        "areaHeadingOccurrenceCount": len(events),
+        "areaHeadingUniqueCount": len(set(e["tableNo"] for e in events)),
+        "areasWithSource": AREA_COUNT - len(missing),
         "missingAreas": missing,
+        "sourceAreaLabels": {str(k): v for k, v in sorted(labels.items())},
         "headingEvents": events,
         "review": review,
         "areas": reports,
         "safety": {
             "crossNamedFileFallback": False,
+            "legacyAreaPrefixCanOverrideSource": False,
             "incidentalAreaNameCanChangeArea": False,
             "ttUsedAsLookupKey": False,
             "runtimeModified": False,
@@ -227,13 +316,14 @@ def main() -> int:
     print(json.dumps({
         "mode": args.mode,
         "source": source.name,
-        "areaHeadingCount": len(events),
-        "areasWithSource": len(AREAS)-len(missing),
+        "areaHeadingOccurrences": len(events),
+        "areaHeadingUnique": len(set(e["tableNo"] for e in events)),
+        "areasWithSource": AREA_COUNT-len(missing),
         "missingAreas": missing,
         "reviewCount": len(review),
         "boundary": boundary,
     }, ensure_ascii=False, indent=2))
-    return 2 if missing or len(events) != len(AREAS) else 0
+    return 2 if missing else 0
 
 
 if __name__ == "__main__":
