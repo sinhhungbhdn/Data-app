@@ -1,0 +1,113 @@
+name: Extract legal source text
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/extract-legal-source.yml'
+      - '28_2025_NQ-HDND_687389.doc'
+      - 'QD 03.2026-1-1500_compressed.pdf'
+      - 'QD 03.2026-1501-3307_compressed.pdf'
+      - 'tools/**'
+      - 'prototype/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install extractors
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y antiword poppler-utils libreoffice-writer fonts-dejavu-core p7zip-full
+          python3 -m pip install --user olefile
+
+      - name: Extract source documents
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p extracted/ole-streams extracted/nq28-price converted embedded
+          antiword '28_2025_NQ-HDND_687389.doc' > extracted/nq28-antiword.txt
+          libreoffice --headless --convert-to pdf --outdir converted '28_2025_NQ-HDND_687389.doc'
+          pdftotext -layout converted/28_2025_NQ-HDND_687389.pdf extracted/nq28-libreoffice.txt
+          pdftotext -layout 'QD 03.2026-1-1500_compressed.pdf' extracted/qd03-pages-1-1500.txt
+          pdftotext -layout 'QD 03.2026-1501-3307_compressed.pdf' extracted/qd03-pages-1501-3307.txt
+          pdfinfo converted/28_2025_NQ-HDND_687389.pdf > extracted/nq28-pdfinfo.txt
+          7z l '28_2025_NQ-HDND_687389.doc' > extracted/nq28-7z-list.txt || true
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json, re, struct
+          import olefile
+
+          doc = Path('28_2025_NQ-HDND_687389.doc')
+          ole_report = {'file_bytes': doc.stat().st_size, 'is_ole': olefile.isOleFile(str(doc)), 'streams': []}
+          package_path = None
+          if ole_report['is_ole']:
+              with olefile.OleFileIO(str(doc)) as ole:
+                  for parts in ole.listdir(streams=True, storages=False):
+                      name = '/'.join(parts)
+                      data = ole.openstream(parts).read()
+                      safe = re.sub(r'[^A-Za-z0-9._-]+', '_', name).strip('_') or 'stream'
+                      out = Path('extracted/ole-streams') / safe
+                      out.write_bytes(data)
+                      ole_report['streams'].append({
+                          'name': name,
+                          'bytes': len(data),
+                          'sha256': hashlib.sha256(data).hexdigest(),
+                          'saved_as': str(out),
+                      })
+                      if name.endswith('Ole10Native'):
+                          offset = data.find(b'PK\x03\x04')
+                          if offset >= 0:
+                              package_path = Path('embedded/Bang-gia-embedded.zip')
+                              package_path.write_bytes(data[offset:])
+          ole_report['embedded_package'] = str(package_path) if package_path else None
+          Path('extracted/nq28-ole-report.json').write_text(json.dumps(ole_report, ensure_ascii=False, indent=2), encoding='utf-8')
+          PY
+
+          test -f embedded/Bang-gia-embedded.zip
+          unzip -q embedded/Bang-gia-embedded.zip -d embedded/full-price
+          ls -lh embedded/full-price
+          antiword 'embedded/full-price/Bang gia.doc' > extracted/nq28-price/bang-gia-antiword.txt || true
+
+          mkdir -p converted/full-price
+          libreoffice -env:UserInstallation=file:///tmp/lo-full-price --headless --convert-to pdf --outdir converted/full-price 'embedded/full-price/Bang gia.doc'
+          pdfinfo 'converted/full-price/Bang gia.pdf' > extracted/nq28-price/bang-gia-pdfinfo.txt
+          pdftotext -layout 'converted/full-price/Bang gia.pdf' extracted/nq28-price/bang-gia-libreoffice.txt
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+          report = {}
+          for p in sorted(Path('extracted').rglob('*')):
+              if not p.is_file():
+                  continue
+              raw = p.read_bytes()
+              text = raw.decode('utf-8', errors='replace')
+              lines = text.splitlines()
+              report[str(p.relative_to('extracted'))] = {
+                  'bytes': len(raw),
+                  'lines': len(lines),
+                  'sha256': hashlib.sha256(raw).hexdigest(),
+                  'first_lines': lines[:160],
+                  'last_lines': lines[-160:],
+              }
+          Path('extracted/extraction-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+          PY
+          ls -lh extracted extracted/nq28-price converted/full-price
+
+      - name: Upload extracted text
+        uses: actions/upload-artifact@v4
+        with:
+          name: legal-source-text
+          path: extracted/
+          retention-days: 7
+          compression-level: 6

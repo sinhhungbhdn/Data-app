@@ -1,0 +1,10 @@
+/* V0.2.1 – thuật toán vị trí theo Quyết định 03/2026/QĐ-UBND */
+.decision-warning{background:#fff0d8!important;border-left-color:#b66a00!important;color:#6f4300!important}
+.field-help{display:block;margin-top:5px;font-size:10px;line-height:1.35;color:var(--muted)}
+.auto-filled{background:#f4f8ff;border-color:#8aa7d4}
+.result-list dd{overflow-wrap:anywhere}
+#resultDecisionClass{color:var(--navy)}
+.advanced-card[open] .summary-action{color:#9b6b00}
+.search-message[data-type="error"]{color:#9b2c2c}
+.search-message[data-type="warning"]{color:#8a5a00}
+.search-message[data-type="success"]{color:#17633a}
