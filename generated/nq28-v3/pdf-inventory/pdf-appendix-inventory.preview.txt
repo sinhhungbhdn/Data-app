@@ -1,8 +1,10 @@
 COVERED=['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'] | MISSING=[] | PROBLEMS=0 | HEADING_COUNTS={'I': 1, 'II': 1, 'III': 2, 'IV': 2, 'V': 2, 'VI': 2, 'VII': 2, 'VIII': 2}
-FILE=1. Đất NN 1-2140.pdf | PAGES=2140 | INITIAL=I | LINES={'I': 107098, 'II': 39, 'III': 23}
+FILE=1. Đất NN 1-2140.pdf | PAGES=2140 | INITIAL=None | LINES={'FRONT_MATTER': 202, 'I': 106896, 'II': 39, 'III': 23}
+  LEGAL_HEADING FRONT_MATTER -> I @ P6:L25 | Phụ lục I | BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP | (Ban hành kèm theo Nghị quyết số 28/2025/NQ-HĐND) | Đơn vị tính: 1.000 đồng/m2 | 1. Phường Biên Hòa | Giá đất | Giá đất | trồng | trồng | cây lâu | rừng sản | năm, đất
   LEGAL_HEADING I -> II @ P2139:L62 | Phụ lục II | BẢNG GIÁ CÁC LOẠI ĐẤT TẠI CÁC ĐẢO, CÙ LAO | (Ban hành kèm theo Nghị quyết số 28/2025/NQ-HĐND) | Đơn vị tính: 1.000 đồng/m2 | Giá đất | Giá đất sản | xuất, kinh | Giá | TT Tên các đảo, cù lao Địa điểm Giá đất doanh phi | đất | Giá đất ở thương mại, nông nghiệp | nông
   LEGAL_HEADING II -> III @ P2140:L40 | Phụ lục III | BẢNG GIÁ CÁC LOẠI ĐẤT PHI NÔNG NGHIỆP | (Ban hành kèm theo Nghị quyết số 28/2025/NQ-HĐND) | Đơn vị tính: 1.000 đồng/m2 | 1. Phường Biên Hòa | Giá đất | cơ sở | sản xuất | phi nông | Giá đất | nghiệp | Giá thương
-  SEG APP=I | P1:L1 -> P2139:L59 | LINES=107098
+  SEG APP=FRONT_MATTER | P1:L1 -> P6:L22 | LINES=202
+  SEG APP=I | P6:L25 -> P2139:L59 | LINES=106896
   SEG APP=II | P2139:L62 -> P2140:L37 | LINES=39
   SEG APP=III | P2140:L40 -> P2140:L62 | LINES=23
 FILE=2 Đất Đảo, Phi Nông Nghiệp -2140-4285.pdf | PAGES=2146 | INITIAL=II | LINES={'II': 37, 'III': 108560, 'IV': 10}

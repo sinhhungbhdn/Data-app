@@ -1,10 +1,11 @@
 {
-  "schema": "nq28-pdf-appendix-line-inventory-v3",
+  "schema": "nq28-pdf-appendix-line-inventory-v4",
   "principles": [
     "split filename is not land-purpose semantics",
+    "front matter is excluded before the first real Appendix I heading",
     "TOC and prose cross-references cannot change appendix identity",
     "appendix boundaries are line-level, not page-level",
-    "overlap between split files remains explicit for later row deduplication"
+    "overlap between split files remains explicit for later global-page deduplication"
   ],
   "appendixTitles": {
     "I": "BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP",
@@ -28,7 +29,7 @@
   ],
   "missingAppendices": [],
   "nonemptyLineCountsByAppendix": {
-    "I": 107098,
+    "I": 106896,
     "II": 76,
     "III": 108626,
     "IV": 166,
@@ -51,15 +52,27 @@
   "files": [
     {
       "file": "1. Đất NN 1-2140.pdf",
-      "initialAppendix": "I",
+      "initialAppendix": null,
       "pageCount": 2140,
       "nonemptyLineCount": 107160,
       "lineCountsByAppendix": {
-        "I": 107098,
+        "FRONT_MATTER": 202,
+        "I": 106896,
         "II": 39,
         "III": 23
       },
       "headingEvents": [
+        {
+          "from": "FRONT_MATTER",
+          "to": "I",
+          "at": {
+            "page": 6,
+            "line": 25,
+            "text": "Phụ lục I"
+          },
+          "headingText": "Phụ lục I BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP (Ban hành kèm theo Nghị quyết số 28/2025/NQ-HĐND) Đơn vị tính: 1.000 đồng/m2 1. Phường Biên Hòa Giá đất Giá đất trồng",
+          "nearby": "Phụ lục I | BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP | (Ban hành kèm theo Nghị quyết số 28/2025/NQ-HĐND) | Đơn vị tính: 1.000 đồng/m2 | 1. Phường Biên Hòa | Giá đất | Giá đất | trồng | trồng | cây lâu | rừng sản | năm, đất"
+        },
         {
           "from": "I",
           "to": "II",
@@ -85,20 +98,36 @@
       ],
       "segments": [
         {
-          "appendix": "I",
+          "appendix": "FRONT_MATTER",
           "start": {
             "page": 1,
             "line": 1,
             "text": "HỘI ĐỒNG NHÂN DÂN TỈNH ĐỒNG NAI"
           },
           "end": {
+            "page": 6,
+            "line": 22,
+            "text": "PHỤ LỤC VIII: GIÁ ĐẤT NÔNG NGHIỆP TỐI THIỂU VÀ TỐI ĐA"
+          },
+          "nonemptyLineCount": 202,
+          "trigger": "before_legal_heading",
+          "excerpt": "HỘI ĐỒNG NHÂN DÂN TỈNH ĐỒNG NAI | MỤC LỤC | BẢNG GIÁ CÁC LOẠI ĐẤT TRÊN ĐỊA BÀN TỈNH ĐỒNG NAI NĂM 2026 | PHỤ LỤC I: BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP Từ trang | 1. Phường Biên Hòa | 2. Phường Trấn Biên | 3. Phường Tam Hiệp | 4. Phường Long Bình"
+        },
+        {
+          "appendix": "I",
+          "start": {
+            "page": 6,
+            "line": 25,
+            "text": "Phụ lục I"
+          },
+          "end": {
             "page": 2139,
             "line": 59,
             "text": "trên địa bàn xã"
           },
-          "nonemptyLineCount": 107098,
+          "nonemptyLineCount": 106896,
           "trigger": "before_legal_heading",
-          "excerpt": "HỘI ĐỒNG NHÂN DÂN TỈNH ĐỒNG NAI | MỤC LỤC | BẢNG GIÁ CÁC LOẠI ĐẤT TRÊN ĐỊA BÀN TỈNH ĐỒNG NAI NĂM 2026 | PHỤ LỤC I: BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP Từ trang | 1. Phường Biên Hòa | 2. Phường Trấn Biên | 3. Phường Tam Hiệp | 4. Phường Long Bình"
+          "excerpt": "Phụ lục I | BẢNG GIÁ CÁC LOẠI ĐẤT NÔNG NGHIỆP | (Ban hành kèm theo Nghị quyết số 28/2025/NQ-HĐND) | Đơn vị tính: 1.000 đồng/m2 | 1. Phường Biên Hòa | Giá đất | Giá đất | trồng"
         },
         {
           "appendix": "II",
